@@ -1,4 +1,4 @@
-# Introduction
+# The Rise of Decentralized Storage
 
 The world is becoming increasingly numeric, where data is its fuel. The emergence of the internet and subsequent services have enabled people to effortlessly communicate, share, and store their information and data with their families, friends, governments, and other entities.&#x20;
 
@@ -14,6 +14,6 @@ This new generation of data storage is dominating the data storage market segmen
 
 Centralizing and consolidating power among these major companies has led to many concerns regarding data privacy, legal compliance, and data governance, particularly in Europe. Furthermore, the escalating number of data breaches each year demonstrates the growing vulnerability in centralized solutions, reflecting increasing interest among hackers. Moreover, centralized solutions can potentially subject data to foreign censorship, compromise privacy by sharing foreign customers' data, or increase storage fees, which doubled from 2018 to 2023. You can visit this website (see [here](https://www.veritas.com/fr/fr/resources/dark-data#%7B%22sliderValue%22%3A0%2C%22companyName%22%3A%22%22%2C%22selectedCountry%22%3A%22USA%22%7D)) to visualize companies' expenses in data storage.
 
-###
+### The New Hope: Decentralized Storage
 
 These security and data privacy concerns have resulted in various projects developing decentralized networks, often known as Decentralized Cloud, Web3 Cloud, Web3 Storage, or DePIN-based Cloud Storage. Notable projects in this domain include Filecoin and Arweave. However, despite their recognition, the Web3 ecosystem has yet to embrace them fully, with even the most extensive network, Filecoin, being utilized at only 1% of its capacity by the end of 2022 (see [here](https://www.coingecko.com/research/publications/the-state-of-decentralized-storage)). This underutilization stems from fundamental issues explained in Section II, resulting in a poor application user experience.
