@@ -1,7 +1,3 @@
----
-description: This page introduces the different sections of the Nephele Documentation.
----
-
 # Welcome to Nephele
 
 ## Introduction
