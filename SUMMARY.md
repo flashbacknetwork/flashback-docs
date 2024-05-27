@@ -11,5 +11,5 @@
   * [Become a Service](build/become-a-service.md)
 * [Participate to the Nephele Testnet](participate-to-the-nephele-testnet.md)
 * [Yellowpaper](yellowpaper/README.md)
-  * [Introduction](yellowpaper/introduction.md)
+  * [50 Years of Evolution](yellowpaper/50-years-of-evolution.md)
 * [Glossary](glossary.md)
