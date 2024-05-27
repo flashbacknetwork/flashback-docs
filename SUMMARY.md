@@ -3,7 +3,7 @@
 * [Welcome to Nephele](README.md)
 * [Getting Started](getting-started/README.md)
   * [Page 2](getting-started/page-2.md)
-  * [Page 2](getting-started/introduction_to_Nephele.md)
+  * [Introduction to Nephele](getting-started/introduction\_to\_Nephele.md)
 * [Learn](<learn/README (1).md>)
   * [Let's see](learn/lets-see.md)
 * [Participate](participate/README.md)
