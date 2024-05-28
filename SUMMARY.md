@@ -26,6 +26,6 @@
   * [Join our Testnet](participate/participate-to-the-nephele-testnet.md)
   * [Become a Validator](participate/become-a-validator.md)
   * [Become a Service](build/become-a-service.md)
-* [Our Published Papers](yellowpaper.md)
+  * [Improve Our Documentation](participate/contributing.md)
+* [Our Published Papers](yellowpaper/README.md)
 * [Glossary](glossary.md)
-* [Partcipate to Our Documentation](contributing.md)
