@@ -26,7 +26,6 @@
   * [Join our Testnet](participate/participate-to-the-nephele-testnet.md)
   * [Become a Validator](participate/become-a-validator.md)
   * [Become a Service](build/become-a-service.md)
-* [Yellowpaper](yellowpaper/README.md)
-  * [The Rise of Decentralized Storage](yellowpaper/the-rise-of-decentralized-storage.md)
+* [Our Published Papers](yellowpaper.md)
 * [Glossary](glossary.md)
 * [Partcipate to Our Documentation](contributing.md)
