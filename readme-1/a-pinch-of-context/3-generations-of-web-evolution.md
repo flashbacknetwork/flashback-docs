@@ -1,0 +1,9 @@
+# 3 Generations of Web Evolution
+
+The Web is a system for managing and transferring information, and there are 3 identifiable generations:
+
+* **Web1 (1989)**: The globalization of information transfer in digital form, whereas it was previously mainly analog or physical. This marked the beginning of the Internet.
+* **Web2 (1997)**: The advent of the “social” web. Individuals can interact through the web to perform everyday actions. Exchange communities often represent the “social” web, called “social networks,” managed by giant centralized entities like Google or Amazon. Telecommuting and online shopping are also part of this social evolution.
+* **Web3 (2008)**: It all started with the Bitcoin project. In the wake of the financial crisis, individuals decided to transfer social trust (held by banks) to a blockchain-based network. This marked the beginning of decentralized governance architectures/networks, allowing individuals to completely control their assets and communication data through digital means (algorithmic) rather than human trust.
+
+The emergence of the Web3 ecosystem opens the door for the next generation of web solutions for users and businesses, leveraging the power of blockchain technologies. Central to this ecosystem is a public, decentralized peer-to-peer network, which builds a low-cost, secure, and efficient infrastructure secured by cryptographic proofs with servers worldwide. Although the Web3 ecosystem is still developing, real-world applications have emerged over recent years. For example, the [French Gendarmerie Nationale](https://journalducoin.com/actualites/une-premiere-la-gendarmerie-nationale-utilise-tezos/) has utilized the Tezos blockchain for financial transactions, Texan Factom uses blockchain to time-stamp transactions in an IoT network, and Walmart uses blockchain for [food traceability](https://www.lemondeinformatique.fr/actualites/lire-5-exemples-d-utilisation-de-la-blockchain-66771.html).
