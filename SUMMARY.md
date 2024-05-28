@@ -14,3 +14,4 @@
 * [Yellowpaper](yellowpaper/README.md)
   * [The Rise of Decentralized Storage](yellowpaper/the-rise-of-decentralized-storage.md)
 * [Glossary](glossary.md)
+* [Partcipate to Our Documentation](contributing.md)
