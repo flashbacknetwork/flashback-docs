@@ -1,4 +1,4 @@
-# The Data Storage in Web3
+# Cloud Storage in Web3
 
 The world is becoming increasingly numeric, where data is its fuel.  And as a fuel, it must be stored and distributed. The emergence of the internet and subsequent services have enabled people to effortlessly communicate, share, and store their information and data with their families, friends, governments, and other entities.&#x20;
 

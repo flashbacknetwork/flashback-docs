@@ -1,4 +1,4 @@
-# A pinch of Context
+# Introduction
 
 Cloud storage is an exponentially growing ecosystem, with companies proposing increasingly efficient, scalable, and user-friendly solutions. While centralized infrastructure remains undoubtedly the most prominent solution, the companies behind these infrastructures suffer from many challenges related to hacking, user privacy, and company sovereignty.&#x20;
 

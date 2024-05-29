@@ -1,4 +1,4 @@
-# 3 Generations of Web Evolution
+# From Web1 to Web3
 
 The Web is a system for managing and transferring information, and there are 3 identifiable generations:
 
