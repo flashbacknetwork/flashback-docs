@@ -1,2 +1,0 @@
-# Revoke a Smart Contract
-

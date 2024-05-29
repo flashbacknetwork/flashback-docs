@@ -1,10 +1,8 @@
 ---
-description: >-
-  It explains our documentation participation.
+description: It explains our documentation participation.
 ---
 
-
-# Contributing to Our Documentation
+# Improve Our Documentation
 
 ## Introduction
 
@@ -32,26 +30,26 @@ Select a blockchain project you are passionate about. Popular projects include B
 
 Most projects have contribution guidelines. Look for a `CONTRIBUTING.md` file in the repository. This document will provide information on:
 
-- How to fork and clone the repository
-- Branch naming conventions
-- Pull request (PR) procedures
-- Coding standards
+* How to fork and clone the repository
+* Branch naming conventions
+* Pull request (PR) procedures
+* Coding standards
 
 ### 3. Set Up Your Environment
 
 Ensure you have the necessary tools and dependencies installed. Common tools include:
 
-- Git: For version control
-- Markdown editors: For writing documentation (e.g., Visual Studio Code, Typora)
-- Blockchain-specific tools: Depending on the project (e.g., Ethereum's Truffle Suite)
+* Git: For version control
+* Markdown editors: For writing documentation (e.g., Visual Studio Code, Typora)
+* Blockchain-specific tools: Depending on the project (e.g., Ethereum's Truffle Suite)
 
 ### 4. Identify Areas for Improvement
 
 Start by reviewing the existing documentation to identify gaps or areas for improvement. Look for:
 
-- Outdated information
-- Missing tutorials
-- Ambiguous instructions
+* Outdated information
+* Missing tutorials
+* Ambiguous instructions
 
 ## Making Your Contribution
 
@@ -74,9 +72,9 @@ git checkout -b documentation-update
 
 ### 3. Write or Update Documentation
 
-- **Use Clear and Concise Language**: Ensure your writing is easy to understand.
-- **Include Examples**: Code snippets and screenshots can help illustrate your points.
-- **Follow the Project's Style Guide**: Maintain consistency with existing documentation.
+* **Use Clear and Concise Language**: Ensure your writing is easy to understand.
+* **Include Examples**: Code snippets and screenshots can help illustrate your points.
+* **Follow the Project's Style Guide**: Maintain consistency with existing documentation.
 
 ### 4. Commit Your Changes
 
@@ -134,10 +132,10 @@ Summarize what was covered and suggest further reading or next steps.
 
 ## Best Practices
 
-- **Keep it Simple**: Avoid jargon and overly technical language.
-- **Be Thorough**: Ensure no steps are skipped.
-- **Update Regularly**: Technology evolves, and so should your content.
-- **Engage with the Community**: Participate in forums and discussions to understand common pain points and topics of interest.
+* **Keep it Simple**: Avoid jargon and overly technical language.
+* **Be Thorough**: Ensure no steps are skipped.
+* **Update Regularly**: Technology evolves, and so should your content.
+* **Engage with the Community**: Participate in forums and discussions to understand common pain points and topics of interest.
 
 ## Conclusion
 

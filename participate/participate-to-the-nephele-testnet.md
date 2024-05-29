@@ -4,5 +4,5 @@ description: >-
   related to the testnet.
 ---
 
-# Participate to the Nephele Testnet
+# Join our Testnet
 
