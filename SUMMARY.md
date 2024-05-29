@@ -43,7 +43,7 @@
 * [How-To Guides](getting-started/how-to-guides/README.md)
   * [Use a Wallet](getting-started/how-to-guides/use-a-wallet.md)
   * [Get NEPH Tokens](getting-started/how-to-guides/get-neph-tokens.md)
-  * [Emit a File Storage Contract](getting-started/how-to-guides/store-a-file.md)
+  * [Publish a File Storage Contract](how-to-guides/publish-a-file-storage-contract.md)
   * [Revoke a File Storage Contract](how-to-guides/revoke-a-file-storage-contract.md)
   * [Build a Validator](getting-started/how-to-guides/revoke-a-smart-contract.md)
   * [Build a Service Gateway](how-to-guides/build-a-service-gateway.md)
