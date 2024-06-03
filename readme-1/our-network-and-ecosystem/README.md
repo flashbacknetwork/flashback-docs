@@ -10,9 +10,9 @@ How can we become the future backbone of cloud storage? This is Nephele's missio
 
 Let's discover the network and its ecosystem together. The following pages will give you all the understanding about our network.&#x20;
 
-#### Glossary <a href="#getting-started" id="getting-started"></a>
+#### [Blockchain Network](blockchain-network/) <a href="#getting-started" id="getting-started"></a>
 
-Our glossary provides an exhaustive list of definitions to understand the vocabulary associated with the Nephele technology and in this documentation.
+This section explains our Layer-1 blockchain, its validators, and its stack. Our technology has been derived from Ethereum and its virtual machine mixed with the proof library of Filecoin. It has been mdified and organized in a way that simplifies the complexity of blockchain.&#x20;
 
 #### Whitepaper <a href="#getting-started" id="getting-started"></a>
 
