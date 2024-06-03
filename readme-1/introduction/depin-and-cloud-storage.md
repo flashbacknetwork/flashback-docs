@@ -1,4 +1,4 @@
-# Evolution of Cloud Storage
+# DePIN and Cloud Storage
 
 The world is becoming increasingly numeric, where data is its fuel.  As fuel, it must be stored and distributed. The emergence of the internet and subsequent services have enabled people to effortlessly communicate, share, and store their information and data with their families, friends, governments, and other entities.&#x20;
 
@@ -16,7 +16,23 @@ Centralizing and consolidating power among these major companies has led to many
 
 ## A new hope with decentralized physical infrastructure networks
 
-These security and data privacy concerns have resulted in various projects developing decentralized networks, often known as Decentralized Cloud, Web3 Cloud, Web3 Storage, or decentralized physical infrastructure network (DePIN)-based Cloud Storage. Notable projects in this domain include Filecoin and Arweave.&#x20;
+### What is DePIN?
+
+Today, the web3 ecosystem is seeing the birth of dozens of projects whose aim is to contribute, in their way, to the building of a decentralized, user-governed web. To realize their ambitions, entrepreneurs and developers in this ecosystem are developing a range of protocols, services, and infrastructure networks to meet specific needs. In particular, blockchain technology and decentralized proofs of consensus have been significant features of the web3 paradigm. As a nascent universe, existing technologies are still in a priming phase, seeking to solve fundamental problems that words cannot resolve.
+
+In the plethora of Web3 infrastructure, the projects that embrace real-world use cases are called DePIN. DePIN connects an ensemble of physical infrastructure for a specific purpose. It can be a network for data storage, WiFi deployment, machine-to-machine communication, self-driving cars, and more. This network often combines multiple cutting-edge technologies, including blockchain and cryptography. A DePIN solution can have a granularity of its decentralization.
+
+### Decentralization Levels in DePIN
+
+While many consider this aspect sufficient, the decentralization in DePIN is not always the same, resulting in different governance or security concerns for their users. There are different levels of DePIN technologies that can be compared to self-driving levels:
+
+* **Level 1**: Service providers can freely deploy on top of the network. The service can freely interact and manage its business model according to the network parameters. Here, no single third party can censor a service's network use.
+* **Level 2**: The physical infrastructure providers can freely contribute to the network. The provider can create a blockchain node and provide its infrastructure to the network based on the open-access documentation. The provider receives its income from the network according to specified rules coded in the network. No third party controls the income provided to the provider or limits access to the network.
+* **Level 3**: The network uses a cryptography-proof-based permissionless consensus mechanism to certify and reward the honest workload related to its purpose (cloud storage, cloud computing, etc.). The proof consensus is entirely independent of human action or pseudo-automation and based on verifiable cryptographic evidence.&#x20;
+* **Level 4**: The network has a permissionless network economy model. The reward mechanism of infrastructure nodes is wholly independent of human action or pseudo-automation (software-defined reward scheme instead of network consensus validation). The block-based reward is irregular and dependent on the number of validators. The infrastructure provider itself entirely defines the contract-based reward (fees for using the network node). There is no liquidity pool to reward network nodes, and no entity (company or DAO) receives a network fee based on its use.
+* **Level 5**: No single third party controls the network's evolution. No third party can decide the network's features and how they should evolve. Most of the network’s participants can only make changes with pure on-chain proposals. The network consensus only improves the code(elimination of the git repository).&#x20;
+
+### DePIN-based cloud storage
 
 The concept of these solutions is based on a blockchain in a peer-to-peer network, which drives a decentralized economy model supported by consensus and an ensemble of rules. This philosophy comes from Satoshi with Bitcoin, but these DePIN solutions focus on cloud storage problems. It brings multiple advantages compared to centralized solutions:
 
@@ -24,7 +40,7 @@ The concept of these solutions is based on a blockchain in a peer-to-peer networ
 * **Permissionless and privacy:**  The decentralization guarantees that an organization can't censor the data storage itself. An individual or a company can interact with the network protocols without requiring the authorization of a central entity or a service provider. Anyone can decide to become a storage provider by offering its storage hardware to the network.
 * **Pricing competitiveness:** Individuals or service providers using the network can decide to manage their storage by selecting the protocols and nodes they want to interact with. It minimizes the risk of data losses, and users can play with the network node pricing to optimize their profitability. This stimulates the competitiveness between storage providers always to find the best hardware setup and installation.
 
-Nowadays, the leaders of the DePIN-based cloud storage are focusing on the archive segment because of technical limitations, but, as you will learn on the next page, it has severe consequences.
+The first development of DePIN-based cloud storage started in 2014 with the projects of STORJ and Filecoin. Today, we can count a dozen projects providing DePIN cloud storage. The solutions present numerous challenges that drastically restrain their usage (see future article). Many DePINs reached the level 2, but projects like Filecoin or Sia reached the level 3. However, a project like Filecoin decided to create an additional subsystem called Filecoin Plus, a level-1 DePIN, because the miners can’t integrate this subsystem without central permission.&#x20;
 
 
 

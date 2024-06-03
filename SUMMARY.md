@@ -5,7 +5,7 @@
   * [Yellowpaper](readme-1/yellowpaper.md)
   * [Introduction](readme-1/a-pinch-of-context/README.md)
     * [What is the Web?](readme-1/introduction/what-is-the-web.md)
-    * [Evolution of Cloud Storage](readme-1/introduction/evolution-of-cloud-storage.md)
+    * [DePIN and Cloud Storage](readme-1/introduction/depin-and-cloud-storage.md)
     * [The Problem](readme-1/introduction/the-problem.md)
   * [Nephele Ecosystem](readme-1/network-layers-of-nephele/README.md)
     * [Our Blockchain Network](readme-1/network-layers-of-nephele/blockchain-layer.md)
