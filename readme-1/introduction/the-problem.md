@@ -10,7 +10,7 @@ Hence, many Web3 companies (90% of them representing a loss of $1b in 2023 for t
 
 ### Profitability and file download speed
 
-The existing solutions do not offer a suitable economy model to support diverse infrastructure providers while ensuring the services have the best quality hardware provided to the network.&#x20;
+The existing solutions do not offer a suitable economy model to support diverse infrastructure providers while ensuring the services have the best quality hardware provided to the network.
 
 _Filecoin, Arweave, and Crust_ use the storage power principle, respectively. They encourage the storage providers to offer the network the most significant data storage capacity and large amounts of data to win block rewards. This leads to the impoverishment of network quality and decentralization of low-quality equipment that is massively connected in a few nodes. It decreases the file download speed. The protocols intend this because they focus on archives, but as we exposed earlier, they do not meet the world's needs.&#x20;
 
@@ -18,13 +18,22 @@ _Flux, AIOZ, or Storj (and_ deploying centralized systems (limited number of val
 
 Siacoin has storage fees explicitly set up by storage providers in an on-chain marketplace. This feature is the best scenario for diverse hardware quality in the network, as it ensures no unfair competition by design. Siacoin uses the proof-of-work (PoW) algorithm for the block validation consensus. This means a storage provider must spend considerable money to benefit directly from the network valuation. Additionally, there is no incentive mechanism to support faster file download speed by the storage providers.
 
-### Data compliance and sovereignty
+### Utilization and Adoption
 
+A 2022 Coingecko report highlighted that Filecoin was operating at just 1% of its capacity, with revenues from all decentralized solutions representing only 0.1% of AWS's revenues. At this time, the market capitalization of DePIN solutions was around $5b. Did it change?&#x20;
 
+In June 2024, the emergence of the DePIN trend and the development of blockchain solutions for Cloud storage improved the situation. The market capitalization of DePIN solutions reached the symbolic value of $20b. Filecoin is now used at 22% of its capacity, according to [Messari](https://messari.io/report/state-of-filecoin-q1-2024), but the available storage capacity dropped from 22,000 to 8,100 Petabytes (PB) because of the lack of utilization and profitability. Messari reports a [surge in usage ](https://messari.io/report/state-of-sia-q1-2024)of Siacoin, but the storage used is around 1,900 PB.&#x20;
 
+We are from the 500,000,000 PB supported by Google only.&#x20;
 
+The storage providers are fleeing from the DePIN solutions, forcing the new solution to imagine the best scenario, which was building private and centralized solutions. The Web3 companies would only trust the fully decentralized public blockchain, and less than 10% use a Web3 cloud solution sticking with this, citing complex networks, poor profitability, and inadequate user experience as primary barriers.
 
+Projects are pushing hard for lower costs, but the experience with these solutions is primarily criticized for the slow transfer speed because they rely on public IPFS. A solution is to develop a private IPFS, which leads to extensive infrastructure costs for the project or the service, create a centralized storage that no one wants, and force the developers to learn new frameworks. Then, developers face steep learning curves, and businesses struggle to integrate these solutions into existing processes.
 
+### Data Compliance and Sovereignty
 
-* **Compliance (sovereignty) and Integration**: Decentralized storage solutions struggle with meeting compliance standards for interoperability, traceability, security, and data confidentiality. Additionally, developers face steep learning curves, and businesses struggle to integrate these solutions into existing processes.
-* **Utilization and Adoption**: A 2022 Coingecko report highlighted that the most extensive Web3 data storage solution was operating at just 1% of its capacity, with revenues from all decentralized solutions combined representing only 0.1% of AWS's revenues. Moreover, a survey revealed that while 80% of Web3 companies need cloud data storage, only 6% use a Web3 cloud solution, citing complex networks, poor profitability, and inadequate user experience as primary barriers.
+The legal entities claim more privacy and respect for the companies' sovereignty in data management and accessibility. The DePIN-based cloud storage is the perfect fit for the current legal concerns of experts, companies, and individuals. &#x20;
+
+Unfortunately, all the DePIN projects ignore their network's data compliance and sovereignty. The major problem with the existing solutions is that they force the web3 services to use specific file transfer protocols like IPFS, Tardigrade, or Arweave protocol. While extremely secure and private, these protocols do not allow web3 services to manage their service performances, but the companies can't control where and how the data is stored in the different nodes of the network.&#x20;
+
+It is then necessary for the companies to be able to choose their protocols, the nodes they want to use, and what to pay, which is the standard frame of the Data Act in the United States, Europe, China, and other regions of the world. Indeed, certain applications like healthcare require rigorous traceability of data and localization of storage.&#x20;
