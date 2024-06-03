@@ -2,13 +2,13 @@
 
 Despite their extraordinary impact on cloud storage, the Web3 ecosystem has yet to embrace them fully, with even the most extensive network, Filecoin, being utilized at only 1% of its capacity by the end of 2022 (see [here](https://www.coingecko.com/research/publications/the-state-of-decentralized-storage)). This is mainly because of the technical limitations of the existing solutions focusing on archives.
 
-Despite the significant potential of DePIN solutions, they remain relatively scarce, and where they do exist, there’s much room for improvement in quality and user experience. Most data stored in centralized solutions are often non-permanent data or data for intensively demanding applications like Artificial Intelligence (AI), data-driven market analysis, or video games.
+Despite their significant potential, DePIN solutions remain relatively scarce, and where they do exist, there’s much room for improvement in quality and user experience. Most data stored in centralized solutions is often non-permanent or for intensively demanding applications like Artificial Intelligence (AI), data-driven market analysis, or video games.
 
-Hence, many Web3 companies (90% of them representing a loss of $1b in 2023 for the web3 ecosystem) still rely on centralized providers like Google or Amazon, primarily due to the inefficiency and high costs associated with decentralized options. This reliance presents substantial trust and security concerns, but the most significant part is the lack of competitiveness of web3 service providers against the web2 solutions in their market segment.
+Hence, many Web3 companies (90% of them representing a loss of $1b in 2023 for the web3 ecosystem) still rely on centralized providers like Google or Amazon, primarily due to the inefficiency and high costs associated with decentralized options. This reliance presents substantial trust and security concerns, but **the problem is the lack of competitiveness of web3 service providers against the web2 solutions in their market segment.**
 
 ## The unsolved key challenges of DePIN-based Cloud Storage
 
-### Profitability and file download speed
+### Profitability and file transfer speed
 
 The existing solutions do not offer a suitable economy model to support diverse infrastructure providers while ensuring the services have the best quality hardware provided to the network.
 
@@ -36,4 +36,4 @@ The legal entities claim more privacy and respect for the companies' sovereignty
 
 Unfortunately, all the DePIN projects ignore their network's data compliance and sovereignty. The major problem with the existing solutions is that they force the web3 services to use specific file transfer protocols like IPFS, Tardigrade, or Arweave protocol. While extremely secure and private, these protocols do not allow web3 services to manage their service performances, but the companies can't control where and how the data is stored in the different nodes of the network.&#x20;
 
-It is then necessary for the companies to be able to choose their protocols, the nodes they want to use, and what to pay, which is the standard frame of the Data Act in the United States, Europe, China, and other regions of the world. Indeed, certain applications like healthcare require rigorous traceability of data and localization of storage.&#x20;
+It is then necessary for the companies to be able to choose their protocols, the nodes they want to use, and what to pay, which is the standard frame of the Data Act in the United States, Europe, China, and other regions of the world. Indeed, certain applications like healthcare require rigorous data traceability and storage localization.&#x20;
