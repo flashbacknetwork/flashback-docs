@@ -7,6 +7,7 @@
     * [What is the Web?](readme-1/introduction/what-is-the-web.md)
     * [DePIN and Cloud Storage](readme-1/introduction/depin-and-cloud-storage.md)
     * [The Problem](readme-1/introduction/the-problem.md)
+    * [Why Nephele?](readme-1/introduction/why-nephele.md)
   * [Our Network and Ecosystem](readme-1/our-network-and-ecosystem/README.md)
     * [Blockchain Network](readme-1/our-network-and-ecosystem/blockchain-network/README.md)
       * [What is a Blockchain?](readme-1/our-network-and-ecosystem/blockchain-network/what-is-a-blockchain.md)
