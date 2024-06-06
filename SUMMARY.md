@@ -34,7 +34,6 @@
       * [Sealing](readme-1/our-network-and-ecosystem/storage-mechanisms/sealing.md)
       * [Quality-of-Network (QoN) Optimizer](readme-1/our-network-and-ecosystem/storage-mechanisms/quality-of-network-qon-optimizer.md)
       * [On-Chain Marketplace](readme-1/our-network-and-ecosystem/storage-mechanisms/on-chain-marketplace.md)
-    * [Content Delivery](readme-1/our-network-and-ecosystem/content-delivery.md)
   * [NEPH Token](learn/lets-see.md)
   * [Network Economy](readme-1/network-economy.md)
 * [Getting Started](getting-started/README.md)

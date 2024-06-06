@@ -8,15 +8,15 @@ How can we become the future backbone of cloud storage? This is Nephele's missio
 * The service providers must be efficient. The network must support an economy that pushes the token's utility to reward the best quality of services, which means a fast file download speed and lets the service providers be responsible for the design of its system in the network.&#x20;
 * The developers must be happy. The integration of the network must provide easy-to-use implementation frameworks. Deploying a dApp must use what they know the best, and integrating a network as a storage medium should not be time-consuming in learning.&#x20;
 
-Let's discover the network and its ecosystem together. The following pages will give you all the understanding about our network.&#x20;
+Let's discover the network and its ecosystem together. The following pages will give you an understanding of our network.&#x20;
 
-#### [Blockchain Network](blockchain-network/) <a href="#getting-started" id="getting-started"></a>
+#### Blockchain Network <a href="#getting-started" id="getting-started"></a>
 
-This section explains our Layer-1 blockchain, its validators, and its stack. Our technology has been derived from Ethereum and its virtual machine mixed with the proof library of Filecoin. It has been mdified and organized in a way that simplifies the complexity of blockchain.&#x20;
+This section explains our Layer-1 blockchain, its validators, and its stack. Our technology has been derived from Ethereum and its virtual machine mixed with the proof library of Filecoin. It has been modified to simplify the complexity of blockchain.&#x20;
 
-#### Whitepaper <a href="#getting-started" id="getting-started"></a>
+#### Storage Mechanisms <a href="#getting-started" id="getting-started"></a>
 
-Our whitepaper contains everything you need to understand the context, the market evolution of DePIN, the reason why we created Nephele, the technology behind the hood, our network economy model,&#x20;
+This section explains all the storage-related mechanisms in Nephele to help you understand how you can build efficient service gateways for your businesses and applications. You will learn the principles behind the storage management forked from Filecoin and adapted to our technology.&#x20;
 
 
 
