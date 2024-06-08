@@ -58,8 +58,6 @@ The implementation of PoS-ST fills the gap and establishes solid foundations for
 
 This section outlines the detailed technical changes to the network's architecture, including adjustments to block validation, consensus rules, and node requirements with the integration of the PoS-ST mechanism.
 
-Cryptographic Techniques Using zk-SNARKs
-
 ### Cryptographic Techniques using zk-SNARKS&#x20;
 
 The PoS-ST protocol incorporates Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge (zk-SNARKs) to enable validators to prove the integrity and ongoing availability of the data they store without revealing the actual data:
