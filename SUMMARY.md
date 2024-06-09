@@ -28,7 +28,7 @@
           * [Ethereum Virtual Machine](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/ethereum-virtual-machine.md)
           * [Nodes and Clients](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/nodes-and-clients.md)
         * [Advanced](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/advanced/README.md)
-          * [Account Abstraction](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/advanced/accounts.md)
+          * [Smart Contract Accounts](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/advanced/accounts.md)
           * [Staking Slashing](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/advanced/staking-slashing.md)
           * [Blockchain Bridges](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/advanced/blockchain-bridges.md)
           * [Layer-2](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/advanced/layer-2.md)
