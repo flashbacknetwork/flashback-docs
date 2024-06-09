@@ -18,7 +18,7 @@
       * [Blockchain](learn/our-network-and-ecosystem/blockchain-network/blockchain.md)
       * [Decentralized Ledger](learn/our-network-and-ecosystem/blockchain-network/decentralized-ledger.md)
       * [Consensus: Proof-of-Stake-Spacetime](learn/our-network-and-ecosystem/blockchain-network/consensus-proof-of-stake-spacetime.md)
-      * [EVM-Compatible Stack](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/README.md)
+      * [inherited Stacks from Ethereum](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/README.md)
         * [Basics](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/README.md)
           * [Accounts](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/accounts.md)
           * [Transactions](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/transactions.md)
