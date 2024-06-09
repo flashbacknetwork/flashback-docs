@@ -2,7 +2,7 @@
 
 Traditionally, Nephele users rely on EOA that use private keys for transactions and interactions. These accounts often face issues with security, user experience, and flexibility, especially for newcomers unfamiliar with the intricacies of blockchain technology.
 
-## ERC-4337 Standard <a href="#contract-accounts" id="contract-accounts"></a>
+## ERC-4337 - Account Abstraction <a href="#contract-accounts" id="contract-accounts"></a>
 
 ERC-4337 seeks to transform this by implementing accounts that operate more like smart contracts—these are called smart contract accounts or smart accounts. This shift enables several innovative features and benefits:
 
