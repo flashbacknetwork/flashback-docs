@@ -20,7 +20,7 @@
       * [Consensus: Proof-of-Stake-Spacetime](learn/our-network-and-ecosystem/blockchain-network/consensus-proof-of-stake-spacetime.md)
       * [inherited Stacks from Ethereum](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/README.md)
         * [Basics](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/README.md)
-          * [Keys](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/keys.md)
+          * [Proof-of-Stake](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/proof-of-stake.md)
           * [Transactions](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/transactions.md)
           * [Externally-Owned Accounts](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/accounts.md)
           * [Smart Contracts](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/smart-contracts.md)
