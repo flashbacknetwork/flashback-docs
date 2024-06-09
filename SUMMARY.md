@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome to Nephele](README.md)
-* [Learn](<learn/README.md>)
+* [Learn](learn/README.md)
   * [Yellowpaper](learn/yellowpaper.md)
   * [Introduction](learn/a-pinch-of-context/README.md)
     * [What is the Web?](learn/introduction/what-is-the-web.md)
@@ -21,6 +21,7 @@
           * [Gas Fees](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/gas-fees.md)
           * [Ethereum Virtual Machine](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/ethereum-virtual-machine.md)
           * [Smart Contracts](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/smart-contracts.md)
+          * [Nodes and Clients](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/nodes-and-clients.md)
         * [Advanced](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/advanced/README.md)
           * [Staking Slashing](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/advanced/staking-slashing.md)
           * [Blockchain Bridges](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/advanced/blockchain-bridges.md)
