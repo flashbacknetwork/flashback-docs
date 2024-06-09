@@ -13,7 +13,6 @@
       * [Blockchain](learn/our-network-and-ecosystem/blockchain-network/blockchain.md)
       * [Decentralized Ledger](learn/our-network-and-ecosystem/blockchain-network/decentralized-ledger.md)
       * [Consensus: Proof-of-Stake-Spacetime](learn/our-network-and-ecosystem/blockchain-network/consensus-proof-of-stake-spacetime.md)
-      * [The Validators](learn/our-network-and-ecosystem/blockchain-network/the-validators.md)
       * [Ethereum Stack in Nephele](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/README.md)
         * [Basics](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/README.md)
           * [Accounts](learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/accounts.md)
