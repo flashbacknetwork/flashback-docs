@@ -3,7 +3,7 @@
 * [Welcome to Nephele](README.md)
 * [Getting Started](getting-started/README.md)
   * [Get a Wallet](getting-started/get-wallets.md)
-  * [Discover Ethereum](getting-started/discover-ethereum.md)
+  * [Discover Ethereum and Filecoin](getting-started/discover-ethereum.md)
   * [File Storage Services](getting-started/file-storage-services.md)
   * [List of Validators](getting-started/list-of-validators.md)
 * [Learn](learn/README.md)
