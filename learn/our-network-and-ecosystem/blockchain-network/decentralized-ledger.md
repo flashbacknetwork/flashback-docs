@@ -1,3 +1,8 @@
+---
+author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
+---
+
+
 # Decentralized Ledger
 
 In 2008, the subprime crisis caused severe damage to the world, leading to years of depression. The trust in banks and centralized financial authorities led to the imagination of new approaches to supporting this trust by machines. \

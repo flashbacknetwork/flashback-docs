@@ -1,3 +1,7 @@
+---
+author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
+---
+
 # Welcome to Nephele
 
 ## Introduction

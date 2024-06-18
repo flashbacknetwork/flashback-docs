@@ -1,5 +1,6 @@
 ---
 description: It explains our documentation participation.
+author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 ---
 
 # Improve Our Documentation

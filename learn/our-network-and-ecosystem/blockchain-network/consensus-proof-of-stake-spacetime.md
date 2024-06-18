@@ -1,7 +1,7 @@
 ---
 IP: 2
 title: Upgrade to Proof-of-Stake-Spacetime (PoS-ST) Consensus Mechanism
-author: Giacomo Milligan (@giaki3003) <giacomo.milligan@thenephelecloud.com>
+author: Giacomo Milligan (@giaki3003) <giacomo.milligan@thenephelecloud.com> and Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 discussions-to: TBD
 status: Draft
 type: Standards Track

@@ -1,3 +1,7 @@
+---
+author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
+---
+
 # Externally-Owned Accounts
 
 <mark style="color:green;">Externally-owned account (EOA)</mark> can be controlled by anyone that owns the [private keys](https://www.investopedia.com/terms/p/private-key.asp), an elementary component of the blockchain technology. Its creation costs nothing, allows to do transactions only in NEPH tokens by the account owner only, and manage the pair private/public keys related to the account.&#x20;

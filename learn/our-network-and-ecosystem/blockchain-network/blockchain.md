@@ -1,3 +1,7 @@
+---
+author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
+---
+
 # Blockchain
 
 A blockchain is a ledger that lists different accountancy operations gathered per block. Every new block is linked to its predecessor, forming a continuous chain of blocks. Gathering the operations into blocks enables frequent updates without altering the ledger and its historical operations.

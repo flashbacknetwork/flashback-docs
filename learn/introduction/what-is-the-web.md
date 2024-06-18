@@ -1,3 +1,7 @@
+---
+author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
+---
+
 # What is the Web?
 
 The Internet, a product of the 70s and the rapid development of information technologies was still in its infancy when the concept of the Web emerged. In 1989, a pivotal moment in the history of the Internet, Tim Berners-Lee and his team at the European Organization for Nuclear Research (CERN) created a distributed hypertext system on the computer network. This system, designed to facilitate information sharing among collaborators, was the birth of the World Wide Web (WWW), or simply the Web, as we know it today.\

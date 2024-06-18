@@ -1,3 +1,7 @@
+---
+author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
+---
+
 # Validators: Stake and Store
 
 The proof-of-stake spacetime (PoS-ST) has different responsibilities as validators. The validators are primarily staking-based, equivalent to Ethereum's validators. A validator stores data processes transactions and adds new blocks to the blockchain. However, the storage duties are limited to on-chain data storage. &#x20;

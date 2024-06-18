@@ -1,3 +1,7 @@
+---
+author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
+---
+
 # Why Nephele?
 
 The problem with current DePIN-based cloud storage is the exact condition of the slow adoption of web3 technologies. If a web3 business or applications pay the costs of centralized giant companies, then they can't outperform the centralized competitors.&#x20;
