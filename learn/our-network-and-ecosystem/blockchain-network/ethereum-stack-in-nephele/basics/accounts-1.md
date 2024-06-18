@@ -2,9 +2,11 @@
 
 Traditionally, Nephele users rely on EOA that use private keys for transactions and interactions. These accounts often face issues with security, user experience, and flexibility, especially for newcomers unfamiliar with the intricacies of blockchain technology.
 
+Smart contract introduces the concept of delegating the ownership to the blockchain by deploying a certain amounts of rules and actions. This pushes the concepts of smart contract accounts even though the contract deployment was operated from a EOA. In 2024, the concept of account abstraction has been implemented given the opportunity to develop new use cases and to make the smart contract account, a reality.
+
 ## ERC-4337 - Account Abstraction <a href="#contract-accounts" id="contract-accounts"></a>
 
-ERC-4337 seeks to transform this by implementing accounts that operate more like smart contracts—these are called smart contract accounts or smart accounts. This shift enables several innovative features and benefits:
+ERC-4337 seeks to transform this by implementing accounts that operate more like smart contracts—these are called smart contract accounts. This shift enables several innovative features and benefits:
 
 1. <mark style="color:purple;">**Enhanced Security and Control:**</mark> Smart contract accounts can use various signature types beyond the traditional private key. They can incorporate biometrics, social logins, and multi-signature setups, offering more security and flexibility for transactions​.
 2. <mark style="color:purple;">**User-Friendly Features:**</mark> These accounts allow for more intuitive interactions similar to traditional online banking experiences. Users can manage transaction fees in different tokens, potentially even using ERC-20 tokens for gas payments, simplifying the process for those holding a variety of digital assets​.
