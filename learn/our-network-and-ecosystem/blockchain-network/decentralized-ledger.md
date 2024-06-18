@@ -2,10 +2,20 @@
 author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 ---
 
+# Layer-1 Blockchain
 
-# Decentralized Ledger
+A blockchain is a ledger that lists different accountancy operations gathered per block. Every new block is linked to its predecessor, forming a continuous chain of blocks. Gathering the operations into blocks enables frequent updates without altering the ledger and its historical operations.
 
-In 2008, the subprime crisis caused severe damage to the world, leading to years of depression. The trust in banks and centralized financial authorities led to the imagination of new approaches to supporting this trust by machines. \
+This concept was imagined by David Chaum in the 80s and the 90s by Haber and Stornetta by introducing cryptographic mechanisms to a system wherein document [timestamps](https://en.wikipedia.org/wiki/Timestamp) could not be tampered with. This concept introduced the concept of the Merkle Tree to securely verify the potential alteration of the ledger in the linkage of blocks.
+
+A Merkle tree organizes data that helps quickly and securely verify the content of large data sets. It summarizes all the data into a small piece called the root. If any piece of the data changes, the root will also change, making it easy to spot alterations.
+
+**Nephele** inherits these characteristics, but blockchain was not related to cryptocurrency until 2008.
+
+***
+
+\
+In 2008, the subprime crisis caused severe damage to the world, leading to years of depression. The trust in banks and centralized financial authorities led to the imagination of new approaches to supporting this trust by machines.\
 \
 A group of persons or an individual (who knows) called [Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf) decided to adopt the blockchain with a public and open-source peer-to-peer network of computers. The mission is to propose an alternative decentralized financial system where a machine-based consensus certifies the cryptographic mechanisms and the alteration of the blockchain without the need for a trusted third party.
 

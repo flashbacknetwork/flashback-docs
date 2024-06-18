@@ -1,6 +1,6 @@
 # Our Network and Ecosystem
 
-The web is constantly evolving, and we're here to solve [the problem ](../introduction/the-problem.md)that will support a brighter future for individuals and companies. The new generation of technologies saw mass adoption when the services and applications using them significantly improved user experience (UX). In DePIN-based cloud storage, the UX is not just a feature; it's the backbone of our core technologies. \
+The web is constantly evolving, and we're here to solve [the problem ](broken-reference)that will support a brighter future for individuals and companies. The new generation of technologies saw mass adoption when the services and applications using them significantly improved user experience (UX). In DePIN-based cloud storage, the UX is not just a feature; it's the backbone of our core technologies. \
 \
 How can we become the future backbone of cloud storage? This is Nephele's mission: to drive the innovations of tomorrow and its features to guarantee that:
 

@@ -4,36 +4,27 @@ author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 
 # Transactions
 
-Transactions are cryptographically signed instructions from accounts. An account will initiate a transaction to update the state of the Nephele network. The simplest transaction is transferring NEPH from one account to another.
+To help you better understand this page, we recommend you first read [externally-owned accounts (EOA)](accounts.md) and our [introduction](../../../../introduction/) about Nephele.
 
-## Prerequisites {#prerequisites}
+## What's a transaction? <a href="#whats-a-transaction" id="whats-a-transaction"></a>
 
-To help you better understand this page, we recommend you first read External-Owned Accounts and our introduction.
+A transaction refers to an action initiated by an EOA to transfer a value to another EOA. For example, if Bob sends Alice 1 NEPH, Bob's account must be debited, and Alice's must be credited. This state-changing action takes place within a transaction.&#x20;
 
-## What's a transaction? {#whats-a-transaction}
-
-A transaction refers to an action initiated by an externally-owned account, in other words an account managed by a human, not a contract. For example, if Bob sends Alice 1 NEPH, Bob's account must be debited and Alice's must be credited. This state-changing action takes place within a transaction.
-
-![Diagram showing a transaction cause state change](./tx.png)
-_Diagram adapted from [Nephele EVM illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
-
-Transactions, which change the state of the EVM, need to be broadcast to the whole network. Any node can broadcast a request for a transaction to be executed on the EVM; after this happens, a validator will execute the transaction and propagate the resulting state change to the rest of the network.
-
-Transactions require a fee and must be included in a validated block. To make this overview simpler we'll cover gas fees and validation elsewhere.
+Transactions need to be broadcast to the whole network. Any EOA can broadcast a request for a transaction to be executed on the decentralized ledger; after this happens, the network will validate and execute the transaction and propagate the resulting state change to the rest of the network. This process is done by including the transactions in a validated block of the decentralized ledger, the blockchain.
 
 A submitted transaction includes the following information:
 
-- `from` – the address of the sender, that will be signing the transaction. This will be an externally-owned account as contract accounts cannot send transactions.
-- `to` – the receiving address (if an externally-owned account, the transaction will transfer value. If a contract account, the transaction will execute the contract code)
-- `signature` – the identifier of the sender. This is generated when the sender's private key signs the transaction and confirms the sender has authorized this transaction
-- `nonce` - a sequentially incrementing counter which indicates the transaction number from the account
-- `value` – amount of NEPH to transfer from sender to recipient (denominated in WEI, where 1ETH equals 1e+18wei)
-- `input data` – optional field to include arbitrary data
-- `gasLimit` – the maximum amount of gas units that can be consumed by the transaction. The [EVM](/developers/docs/evm/opcodes) specifies the units of gas required by each computational step
-- `maxPriorityFeePerGas` - the maximum price of the consumed gas to be included as a tip to the validator
-- `maxFeePerGas` - the maximum fee per unit of gas willing to be paid for the transaction (inclusive of `baseFeePerGas` and `maxPriorityFeePerGas`)
+* `from` – the address of the sender, that will be signing the transaction. This will be an externally-owned account as contract accounts cannot send transactions.
+* `to` – the receiving address (if an externally-owned account, the transaction will transfer value. If a contract account, the transaction will execute the contract code)
+* `signature` – the identifier of the sender. This is generated when the sender's private key signs the transaction and confirms the sender has authorized this transaction
+* `nonce` - a sequentially incrementing counter which indicates the transaction number from the account
+* `value` – amount of NEPH to transfer from sender to recipient (denominated in WEI, where 1ETH equals 1e+18wei)
+* `input data` – optional field to include arbitrary data
+* `gasLimit` – the maximum amount of gas units that can be consumed by the transaction. The [EVM](../../../../../developers/docs/evm/opcodes/) specifies the units of gas required by each computational step
+* `maxPriorityFeePerGas` - the maximum price of the consumed gas to be included as a tip to the validator
+* `maxFeePerGas` - the maximum fee per unit of gas willing to be paid for the transaction (inclusive of `baseFeePerGas` and `maxPriorityFeePerGas`)
 
-Gas is a reference to the computation required to process the transaction by a validator. Users have to pay a fee for this computation. The `gasLimit`, and `maxPriorityFeePerGas` determine the maximum transaction fee paid to the validator. [More on Gas](/developers/docs/gas/).
+Gas is a reference to the computation required to process the transaction by a validator. Users have to pay a fee for this computation. The `gasLimit`, and `maxPriorityFeePerGas` determine the maximum transaction fee paid to the validator. [More on Gas](../../../../../developers/docs/gas/).
 
 The transaction object will look a little like this:
 
@@ -53,7 +44,7 @@ But a transaction object needs to be signed using the sender's private key. This
 
 An Nephele client like Geth will handle this signing process.
 
-Example [JSON-RPC](/developers/docs/apis/json-rpc) call:
+Example [JSON-RPC](../../../../../developers/docs/apis/json-rpc/) call:
 
 ```json
 {
@@ -100,26 +91,22 @@ Example response:
 }
 ```
 
-- the `raw` is the signed transaction in [Recursive Length Prefix (RLP)](/developers/docs/data-structures-and-encoding/rlp) encoded form
-- the `tx` is the signed transaction in JSON form
+* the `raw` is the signed transaction in [Recursive Length Prefix (RLP)](../../../../../developers/docs/data-structures-and-encoding/rlp/) encoded form
+* the `tx` is the signed transaction in JSON form
 
 With the signature hash, the transaction can be cryptographically proven that it came from the sender and submitted to the network.
 
-### The data field {#the-data-field}
+### The data field <a href="#the-data-field" id="the-data-field"></a>
 
-The vast majority of transactions access a contract from an externally-owned account.
-Most contracts are written in Solidity and interpret their data field in accordance with the [application binary interface (ABI)](/glossary/#abi).
+The vast majority of transactions access a contract from an externally-owned account. Most contracts are written in Solidity and interpret their data field in accordance with the [application binary interface (ABI)](../../../../../glossary/#abi).
 
-The first four bytes specify which function to call, using the hash of the function's name and arguments.
-You can sometimes identify the function from the selector using [this database](https://www.4byte.directory/signatures/).
+The first four bytes specify which function to call, using the hash of the function's name and arguments. You can sometimes identify the function from the selector using [this database](https://www.4byte.directory/signatures/).
 
 The rest of the calldata is the arguments, [encoded as specified in the ABI specs](https://docs.soliditylang.org/en/latest/abi-spec.html#formal-specification-of-the-encoding).
 
-For example, lets look at [this transaction](https://etherscan.io/tx/0xd0dcbe007569fcfa1902dae0ab8b4e078efe42e231786312289b1eee5590f6a1).
-Use **Click to see More** to see the calldata.
+For example, lets look at [this transaction](https://etherscan.io/tx/0xd0dcbe007569fcfa1902dae0ab8b4e078efe42e231786312289b1eee5590f6a1). Use **Click to see More** to see the calldata.
 
-The function selector is `0xa9059cbb`. There are several [known functions with this signature](https://www.4byte.directory/signatures/?bytes4_signature=0xa9059cbb).
-In this case [the contract source code](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48#code) has been uploaded to Etherscan, so we know the function is `transfer(address,uint256)`.
+The function selector is `0xa9059cbb`. There are several [known functions with this signature](https://www.4byte.directory/signatures/?bytes4\_signature=0xa9059cbb). In this case [the contract source code](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48#code) has been uploaded to Etherscan, so we know the function is `transfer(address,uint256)`.
 
 The rest of the data is:
 
@@ -128,21 +115,19 @@ The rest of the data is:
 000000000000000000000000000000000000000000000000000000003b0559f4
 ```
 
-According to the ABI specifications, integer values (such as addresses, which are 20-byte integers) appear in the ABI as 32-byte words, padded with zeros in the front.
-So we know that the `to` address is [`4f6742badb049791cd9a37ea913f2bac38d01279`](https://etherscan.io/address/0x4f6742badb049791cd9a37ea913f2bac38d01279).
-The `value` is 0x3b0559f4 = 990206452.
+According to the ABI specifications, integer values (such as addresses, which are 20-byte integers) appear in the ABI as 32-byte words, padded with zeros in the front. So we know that the `to` address is [`4f6742badb049791cd9a37ea913f2bac38d01279`](https://etherscan.io/address/0x4f6742badb049791cd9a37ea913f2bac38d01279). The `value` is 0x3b0559f4 = 990206452.
 
-## Types of transactions {#types-of-transactions}
+## Types of transactions <a href="#types-of-transactions" id="types-of-transactions"></a>
 
 On Nephele there are a few different types of transactions:
 
-- Regular transactions: a transaction from one account to another.
-- Contract deployment transactions: a transaction without a 'to' address, where the data field is used for the contract code.
-- Execution of a contract: a transaction that interacts with a deployed smart contract. In this case, 'to' address is the smart contract address.
+* Regular transactions: a transaction from one account to another.
+* Contract deployment transactions: a transaction without a 'to' address, where the data field is used for the contract code.
+* Execution of a contract: a transaction that interacts with a deployed smart contract. In this case, 'to' address is the smart contract address.
 
-### On gas {#on-gas}
+### On gas <a href="#on-gas" id="on-gas"></a>
 
-As mentioned, transactions cost [gas](/developers/docs/gas/) to execute. Simple transfer transactions require 21000 units of Gas.
+As mentioned, transactions cost [gas](../../../../../developers/docs/gas/) to execute. Simple transfer transactions require 21000 units of Gas.
 
 So for Bob to send Alice 1 NEPH at a `baseFeePerGas` of 190 gwei and `maxPriorityFeePerGas` of 10 gwei, Bob will need to pay the following fee:
 
@@ -162,54 +147,48 @@ Validator keeps the tip **+0.000210 NEPH**
 
 Gas is required for any smart contract interaction too.
 
-![Diagram showing how unused gas is refunded](./gas-tx.png)
-_Diagram adapted from [Nephele EVM illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
+![Diagram showing how unused gas is refunded](gas-tx.png) _Diagram adapted from_ [_Nephele EVM illustrated_](https://takenobu-hs.github.io/downloads/ethereum\_evm\_illustrated.pdf)
 
 Any gas not used in a transaction is refunded to the user account.
 
-## Transaction lifecycle {#transaction-lifecycle}
+## Transaction lifecycle <a href="#transaction-lifecycle" id="transaction-lifecycle"></a>
 
 Once the transaction has been submitted the following happens:
 
-1. A transaction hash is cryptographically generated:
-   `0x97d99bc7729211111a21b12c933c949d4f31684f1d6954ff477d0477538ff017`
+1. A transaction hash is cryptographically generated: `0x97d99bc7729211111a21b12c933c949d4f31684f1d6954ff477d0477538ff017`
 2. The transaction is then broadcasted to the network and added to a transaction pool consisting of all other pending network transactions.
 3. A validator must pick your transaction and include it in a block in order to verify the transaction and consider it "successful".
-4. As time passes the block containing your transaction will be upgraded to "justified" then "finalized". These upgrades make it much
-   more certain that your transaction was successful and will never be altered. Once a block is "finalized" it could only ever be changed
-   by a network level attack that would cost many billions of dollars.
+4. As time passes the block containing your transaction will be upgraded to "justified" then "finalized". These upgrades make it much more certain that your transaction was successful and will never be altered. Once a block is "finalized" it could only ever be changed by a network level attack that would cost many billions of dollars.
 
-## A visual demo {#a-visual-demo}
+## A visual demo <a href="#a-visual-demo" id="a-visual-demo"></a>
 
 Watch Austin walk you through transactions, gas, and mining.
 
-<YouTube id="er-0ihqFQB0" />
+### Typed Transaction Envelope <a href="#typed-transaction-envelope" id="typed-transaction-envelope"></a>
 
-## Typed Transaction Envelope {#typed-transaction-envelope}
-
-Nephele originally had one format for transactions. Each transaction contained a nonce, gas price, gas limit, to address, value, data, v, r, and s. These fields are [RLP-encoded](/developers/docs/data-structures-and-encoding/rlp/), to look something like this:
+Nephele originally had one format for transactions. Each transaction contained a nonce, gas price, gas limit, to address, value, data, v, r, and s. These fields are [RLP-encoded](../../../../../developers/docs/data-structures-and-encoding/rlp/), to look something like this:
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 
-Nephele has evolved to support multiple types of transactions to allow for new features such as access lists and [EIP-1559](https://eips.Nephele.org/EIPS/eip-1559) to be implemented without affecting legacy transaction formats.
+Nephele has evolved to support multiple types of transactions to allow for new features such as access lists and [EIP-1559](https://eips.nephele.org/EIPS/eip-1559) to be implemented without affecting legacy transaction formats.
 
-[EIP-2718](https://eips.Nephele.org/EIPS/eip-2718) is what allows for this behavior. Transactions are interpreted as:
+[EIP-2718](https://eips.nephele.org/EIPS/eip-2718) is what allows for this behavior. Transactions are interpreted as:
 
 `TransactionType || TransactionPayload`
 
 Where the fields are defined as:
 
-- `TransactionType` - a number between 0 and 0x7f, for a total of 128 possible transaction types.
-- `TransactionPayload` - an arbitrary byte array defined by the transaction type.
+* `TransactionType` - a number between 0 and 0x7f, for a total of 128 possible transaction types.
+* `TransactionPayload` - an arbitrary byte array defined by the transaction type.
 
-## Further reading {#further-reading}
+### Further reading <a href="#further-reading" id="further-reading"></a>
 
-- [EIP-2718: Typed Transaction Envelope](https://eips.Nephele.org/EIPS/eip-2718)
+* [EIP-2718: Typed Transaction Envelope](https://eips.nephele.org/EIPS/eip-2718)
 
 _Know of a community resource that helped you? Edit this page and add it!_
 
-## Related topics {#related-topics}
+### Related topics <a href="#related-topics" id="related-topics"></a>
 
-- [Accounts](/developers/docs/accounts/)
-- [Nephele virtual machine (EVM)](/developers/docs/evm/)
-- [Gas](/developers/docs/gas/)
+* [Accounts](../../../../../developers/docs/accounts/)
+* [Nephele virtual machine (EVM)](../../../../../developers/docs/evm/)
+* [Gas](../../../../../developers/docs/gas/)
