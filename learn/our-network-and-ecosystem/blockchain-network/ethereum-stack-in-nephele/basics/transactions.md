@@ -46,9 +46,9 @@ The transaction is operated in the EVM which means that it must be able to be ex
 
 * `gasLimit` – the maximum amount of gas units that can be consumed by the transaction. The [EVM](../../../../../developers/docs/evm/opcodes/) specifies the units of gas required by each computational step
 * `maxPriorityFeePerGas` - the maximum price of the consumed gas to be included as a tip to the validator
-* `maxFeePerGas` - the maximum fee per unit of gas willing to be paid for the transaction (inclusive of `baseFeePerGas` and `maxPriorityFeePerGas`)
+* `maxFeePerGas` - the maximum fee per unit of gas willing to be paid for the transaction (inclusive of `baseFeePerGas` and `maxPriorityFeePerGas`). For a transaction to be executed, the max fee must exceed the sum of the base fee and the tip. The transaction sender is refunded the difference between the max fee and the sum of the base fee and tip.
 
-Gas is a reference to the computation required to process the transaction by a validator. Users have to pay a fee for this computation. The `gasLimit`, and `maxPriorityFeePerGas` determine the maximum transaction fee paid to the validator. [More on Gas](../../../../../developers/docs/gas/).
+**Gas fees** refer to the computation required by a validator to process the transaction.  [More on Gas Fees](transactions.md#gas).
 
 The transaction object will look a little like this:
 
@@ -138,7 +138,7 @@ According to the ABI specifications, integer values (such as addresses, which ar
 
 ***
 
-## Gas
+## Gas Fees
 
 Gas is a unit that measures the computational effort required to execute operations on the Nephele network. Each transaction on Nephele requires a certain amount of computational resources, which must be compensated to prevent the network from being overloaded by spam or getting stuck in infinite loops.
 
@@ -154,21 +154,17 @@ Gas fees have to be paid with the cryptocurrency of the blockchain network. Gas 
 
 The word 'gwei' is a contraction of 'giga-wei', meaning 'billion wei'. One gwei is equal to one billion wei. Wei itself (named after [Wei Dai](https://wikipedia.org/wiki/Wei\_Dai), creator of [b-money](https://www.investopedia.com/terms/b/bmoney.asp)) is the smallest unit of NEPH.
 
-### Why do gas fees exist? <a href="#why-do-gas-fees-exist" id="why-do-gas-fees-exist"></a>
-
-In short, gas fees help keep the Nephele network secure. By requiring a fee for every computation executed on the network, we prevent bad actors from spamming the network. In order to avoid accidental or hostile infinite loops or other computational wastage in code, each transaction is required to set a limit to how many computational steps of code execution it can use. The fundamental unit of computation is "gas".
-
 ### What is a gas made of? <a href="#how-are-gas-fees-calculated" id="how-are-gas-fees-calculated"></a>
 
-A transaction must spend gas to the network that will integrate it into the EVM's submission and validation transaction procedure. The transaction operator can customize the gas, which will play on how the validators will prioritize the event. The higher is the gas fees, the higher is the commitment of validators to prioritize the transaction.
+A transaction must spend gas to the network to integrate it into the EVM's submission and validation transaction procedure. The transaction operator can customize the gas, which will play on how the validators will prioritize the event. The higher is the gas fees; the higher is the commitment of validators to prioritize the transaction.
 
-The total gas is divided into two components:  The <mark style="color:yellow;">base fee</mark> and the <mark style="color:yellow;">priority fee.</mark>
+The total gas is divided into the <mark style="color:yellow;">base fee</mark> and the <mark style="color:yellow;">priority fee.</mark>&#x20;
 
 #### Base fee <a href="#base-fee" id="base-fee"></a>
 
-Every block has a base fee which acts as a reserve price. To be eligible for inclusion in a block the offered price per gas must at least equal the base fee. The base fee is calculated independently of the current block and is instead determined by the blocks before it - making transaction fees more predictable for users. When the block is created this **base fee is "burned"**, removing it from circulation.
+Every block has a base fee that acts as a reserve price. To be eligible for inclusion in a block, the offered price per gas must at least equal the base fee. The base fee is calculated independently of the current block and is instead determined by the blocks before it, making transaction fees more predictable for users. When the block is created, this base fee is "burned," removing it from circulation.&#x20;
 
-The base fee is calculated by a formula that compares the size of the previous block (the amount of gas used for all the transactions) with the target size. The base fee will increase by a maximum of 12.5% per block if the target block size is exceeded. This exponential growth makes it economically non-viable for block size to remain high indefinitely.
+The base fee is calculated by a formula that compares the size of the previous block (the amount of gas used for all the transactions) with the target size. If the target block size is exceeded, the base fee will increase by a maximum of 12.5% per block. This exponential growth makes it economically non-viable for block size to remain high indefinitely.
 
 | Block Number | Included Gas | Fee Increase | Current Base Fee |
 | ------------ | -----------: | -----------: | ---------------: |
@@ -193,31 +189,23 @@ It's also important to note it is unlikely we will see extended spikes of full b
 | ...          |          ... |        12.5% |              ... |
 | 100          |          30M |        12.5% |  10302608.6 gwei |
 
-### Priority fee (tips) <a href="#priority-fee" id="priority-fee"></a>
+#### Priority fee (tips) <a href="#priority-fee" id="priority-fee"></a>
 
 The priority fee (tip) incentivizes validators to include a transaction in the block. Without tips, validators would find it economically viable to mine empty blocks, as they would receive the same block reward. Small tips give validators a minimal incentive to include a transaction. For transactions to be preferentially executed ahead of other transactions in the same block, a higher tip can be added to try to outbid competing transactions.
 
-### Max fee <a href="#maxfee" id="maxfee"></a>
-
-To execute a transaction on the network, users can specify a maximum limit they are willing to pay for their transaction to be executed. This optional parameter is known as the `maxFeePerGas`. For a transaction to be executed, the max fee must exceed the sum of the base fee and the tip. The transaction sender is refunded the difference between the max fee and the sum of the base fee and tip.
+### &#x20;<a href="#how-are-gas-fees-calculated" id="how-are-gas-fees-calculated"></a>
 
 ### Block size <a href="#block-size" id="block-size"></a>
 
-Each block has a target size of 15 million gas, but the size of blocks will increase or decrease in accordance with network demand, up until the block limit of 30 million gas (2x the target block size). The protocol achieves an equilibrium block size of 15 million on average through the process of _tâtonnement_. This means if the block size is greater than the target block size, the protocol will increase the base fee for the following block. Similarly, the protocol will decrease the base fee if the block size is less than the target block size. The amount by which the base fee is adjusted is proportional to how far the current block size is from the target. [More on blocks](../../../../../developers/docs/blocks/).
+Each block has a target size of 15 million gas, but the size of blocks will increase or decrease in accordance with network demand, up until the block limit of 30 million gas (2x the target block size). The protocol achieves an equilibrium block size of 15 million on average through the process of _tâtonnement_. This means if the block size exceeds the target, the protocol will increase the base fee for the following block. Similarly, the protocol will decrease the base fee if the block size is less than the target block size. The amount by which the base fee is adjusted is proportional to how far the current block size is from the target. [More on blocks](../../../../../developers/docs/blocks/).
 
-### Calculating gas fees in practice <a href="#calculating-fees-in-practice" id="calculating-fees-in-practice"></a>
+### How to calculating gas fees in practice <a href="#calculating-fees-in-practice" id="calculating-fees-in-practice"></a>
 
-* The <mark style="color:yellow;">priority fee</mark>
-* The <mark style="color:yellow;">base fee</mark> is set by the protocol - the operator has to pay at least this amount for the transaction to be considered valid.&#x20;
-* The <mark style="color:yellow;">priority fee</mark> is a tip that can be added to the base fee to make the transaction attractive to validators so that they choose it for inclusion in the next block. Playing on the priority fee is the principal leverage to prioritze the transaction for the next block.
-
-For example, let's say Jordan has to pay Taylor 1 NEPH. An NEPH transfer requires 21,000 units of gas, and the base fee is 10 gwei. Jordan includes a tip of 2 gwei.
+Let's say Jordan has to pay Taylor 1 NEPH. A NEPH transfer requires 21,000 units of gas, and the base fee is 10 gwei. Jordan includes a tip of 2 gwei.
 
 The total fee would now be equal to:
 
-`units of gas used * (base fee + priority fee)`
-
-where the `base fee` is a value set by the protocol and the `priority fee` is a value set by the user as a tip to the validator.
+`total_fee = units of gas used * (base fee + priority fee)`
 
 i.e. `21,000 * (10 + 2) = 252,000 gwei` (0.000252 NEPH).
 
