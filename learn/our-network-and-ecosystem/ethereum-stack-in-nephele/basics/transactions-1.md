@@ -4,7 +4,7 @@ author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 
 # Transactions
 
-To help you better understand this page, we recommend you first read [externally-owned accounts (EOA)](accounts.md) and our [introduction](../../../../introduction/) about Nephele.
+To help you better understand this page, we recommend you first read [externally-owned accounts (EOA)](accounts.md) and our [introduction](../../../introduction/) about Nephele.
 
 ***
 
@@ -18,16 +18,24 @@ On Nephele, there are a few different types of transactions:
 
 * <mark style="color:orange;">Regular transactions</mark> from one account to another.
 * <mark style="color:orange;">Contract deployment transactions</mark> are not sent to an account, where the data field is used for the contract code.
-* <mark style="color:orange;">Execution of a contract</mark> that interacts with a deployed smart contract. In this case, the account that receives the transaction is the smart contract address.
+* <mark style="color:orange;">Execution of a contract</mark> that interacts with a deployed smart contract. In this case, the smart contract address is the account that receives the transaction.
 
 ## Transaction Lifecycle <a href="#transaction-lifecycle" id="transaction-lifecycle"></a>
 
-Once the transaction has been submitted, the following happens:
+Different operations happen when someone sends a transaction to another account, which certifies the operation's uniqueness and validity.&#x20;
 
-1. A transaction hash is cryptographically generated with the following hash: `0x97d99bc7729211111a21b12c933c949d4f31684f1d6954ff477d0477538ff017`
-2. The transaction is then broadcast by a node to the network and added to a pool of pending network transactions.
-3. A validator must pick your transaction and include it in a block to verify the transaction and consider it "successful".
-4. As time passes, the block containing your transaction will be upgraded to "justified" then "finalized". These upgrades ensure that your transaction was successful and will never be altered. Once a block is "finalized," it could only ever be changed by a network-level attack that would cost many billions of dollars.
+### 1. Create, verify, and sign a transaction
+
+* **Creation**: It is usually handled by a wallet (the interface of an EOA) or a library such as [ether.js](https://docs.ethers.io/v5/), [web3js](https://docs.web3js.org/), or [web3py](https://web3py.readthedocs.io/en/v5/), but under the hood, the user is requesting a node using the Ethereum [JSON-RPC API](https://ethereum.org/en/developers/docs/apis/json-rpc/). The user defines the amount of [gas ](transactions.md)they are prepared to pay as a priority fee (tip) to a validator to encourage them to include the transaction in a block.&#x20;
+* **Verification**: The transaction is submitted to an Ethereum [execution client](https://ethereum.org/en/developers/docs/nodes-and-clients/#execution-client) which verifies its validity. This means ensuring that the sender has enough ETH to fulfill the transaction and they have signed it with the correct key.
+
+
+
+A transaction hash is cryptographically generated with the following hash: `0x97d99bc7729211111a21b12c933c949d4f31684f1d6954ff477d0477538ff017`
+
+1. The transaction is then broadcast by a node to the network and added to a pool of pending network transactions.
+2. A validator must pick your transaction and include it in a block to verify the transaction and consider it "successful".
+3. As time passes, the block containing your transaction will be upgraded to "justified" then "finalized". These upgrades ensure that your transaction was successful and will never be altered. Once a block is "finalized," it could only ever be changed by a network-level attack that would cost many billions of dollars.
 
 ## The Standard Fields
 
@@ -42,7 +50,7 @@ A submitted transaction includes the following standard fields:
 
 The transaction is operated in the EVM which means that it must be able to be executed thanks to the rules of the EVM. In these rules, a transaction may spend gas to be effective and the following fields:
 
-* `gasLimit` – the maximum amount of gas units that the transaction can consume. The [EVM](../../../../../developers/docs/evm/opcodes/) specifies the units of gas required by each computational step
+* `gasLimit` – the maximum amount of gas units that the transaction can consume. The [EVM](../../../../developers/docs/evm/opcodes/) specifies the units of gas required by each computational step
 * `maxPriorityFeePerGas` - the maximum price of the consumed gas to be included as a tip to the validator
 * `maxFeePerGas` - the maximum fee per unit of gas willing to be paid for the transaction (inclusive of `baseFeePerGas` and `maxPriorityFeePerGas`). For a transaction to be executed, the max fee must exceed the sum of the base fee and the tip. The transaction sender is refunded the difference between the max fee and the sum of the base fee and tip.
 
@@ -62,7 +70,7 @@ The transaction object will look a little like this:
 
 But a transaction object must be signed using the sender's private key. This proves that the transaction could only have come from the sender and was not sent fraudulently. A Nephele client like Geth or Nethermind will handle this signing process.
 
-Example [JSON-RPC](../../../../../developers/docs/apis/json-rpc/) call:
+Example [JSON-RPC](../../../../developers/docs/apis/json-rpc/) call:
 
 ```json
 {
@@ -109,7 +117,7 @@ Example response:
 }
 ```
 
-* the `raw` is the signed transaction in [Recursive Length Prefix (RLP)](../../../../../developers/docs/data-structures-and-encoding/rlp/) encoded form
+* the `raw` is the signed transaction in [Recursive Length Prefix (RLP)](../../../../developers/docs/data-structures-and-encoding/rlp/) encoded form
 * the `tx` is the signed transaction in JSON form
 
 With the signature hash, the transaction can be cryptographically proven that it came from the sender and submitted to the network.

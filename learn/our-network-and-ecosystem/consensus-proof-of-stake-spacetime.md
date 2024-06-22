@@ -16,7 +16,7 @@ requires: (list any IPs this IP depends on)
 
 Each validator in Nephele must perform different checks on the blockchain to achieve distributed consensus. There are manifold distributed consensus mechanisms such as the Nakamoto or [Slasher ](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm)consensus.
 
-The Nephele network functions as both a blockchain and a data storage medium. We have implemented a hybrid consensus approach known as <mark style="color:yellow;">**Proof-of-Stake-Spacetime (PoS-ST)**</mark> to validate both functionalities effectively**.**
+The Nephele network is a blockchain with on-chain and off-chain data storage. We have implemented a hybrid consensus approach known as <mark style="color:yellow;">**Proof-of-Stake-Spacetime (PoS-ST)**</mark> to validate both functionalities effectively**.**
 
 This proposal introduces an upgrade to the current [Gasper's Proof-of-Stake (PoS)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/) consensus mechanism by incorporating [Proof-of-Spacetime (PoSt)](https://spec.filecoin.io/algorithms/pos/post/) functionalities, aiming to enable decentralized file storage on an Ethereum Virtual Machine (EVM)-compatible blockchain. The core addition, termed PoS-ST, extends the validator's role to include transaction validation and storage duties, whereby validators must attest to the availability and integrity of the files they store.
 

@@ -18,7 +18,7 @@ Nephele's state is a large data structure which holds not only all accounts and 
 
 The EVM executes the transactions and manages the smart contracts. Every operation that leads to modify the machine's state requires the use of an elementary measure of computational efforts called the gas.
 
-<figure><img src="evm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../blockchain-network/ethereum-stack-in-nephele/basics/evm.png" alt=""><figcaption></figcaption></figure>
 
 ## The Virtual Machine for Developers <a href="#evm-instructions" id="evm-instructions"></a>
 
@@ -30,7 +30,7 @@ During execution, the EVM maintains a transient _memory_ (as a word-addressed by
 
 However, contracts contain a Merkle Patricia _storage_ trie (as a word-addressable word array), associated with the account in question and part of the global state.
 
-Compiled smart contract bytecode executes as several EVM [opcodes](../../../../../developers/docs/evm/opcodes/), which perform standard stack operations like `XOR`, `AND`, `ADD`, `SUB`, etc. The EVM also implements a number of blockchain-specific stack operations, such as `ADDRESS`, `BALANCE`, `BLOCKHASH`, etc.
+Compiled smart contract bytecode executes as several EVM [opcodes](../../../../developers/docs/evm/opcodes/), which perform standard stack operations like `XOR`, `AND`, `ADD`, `SUB`, etc. The EVM also implements a number of blockchain-specific stack operations, such as `ADDRESS`, `BALANCE`, `BLOCKHASH`, etc.
 
 ### The Different Implementation <a href="#evm-implementations" id="evm-implementations"></a>
 
