@@ -24,27 +24,23 @@ The EVM executes the transactions and manages the smart contracts. Every operati
 
 ### The Instruction Principle <a href="#evm-instructions" id="evm-instructions"></a>
 
-The EVM executes as a [stack machine](https://wikipedia.org/wiki/Stack\_machine) with a depth of 1024 items. Each item is a 256-bit word, which was chosen for ease of use with 256-bit cryptography (such as Keccak-256 hashes or secp256k1 signatures).
+The EVM executes as a [stack machine](https://wikipedia.org/wiki/Stack\_machine) with a depth of 1024 items. Each item is a 256-bit word, chosen for ease of use with 256-bit cryptography (Keccak-256 hashes or secp256k1 signatures).
 
 During execution, the EVM maintains a transient _memory_ (as a word-addressed byte array), which does not persist between transactions.
 
 However, contracts contain a Merkle Patricia _storage_ trie (as a word-addressable word array), associated with the account in question and part of the global state.
 
-Compiled smart contract bytecode executes as several EVM [opcodes](../../../../developers/docs/evm/opcodes/), which perform standard stack operations like `XOR`, `AND`, `ADD`, `SUB`, etc. The EVM also implements a number of blockchain-specific stack operations, such as `ADDRESS`, `BALANCE`, `BLOCKHASH`, etc.
+Compiled smart contract bytecode executes as several EVM [opcodes](https://ethereum.org/en/developers/docs/evm/opcodes/), which perform standard stack operations like `XOR`, `AND`, `ADD`, `SUB`, etc. The EVM also implements several blockchain-specific stack operations, such as `ADDRESS`, `BALANCE`, `BLOCKHASH`, etc.
 
 ### The Different Implementation <a href="#evm-implementations" id="evm-implementations"></a>
 
-All implementations of the EVM must adhere to the specification described in the Nephele Yellowpaper.
+All implementations of the EVM must adhere to the specifications described in the Ethereum yellowpaper. Over the course of Ethereum's history, the EVM has undergone several revisions, and several EVM implementations have been made in various programming languages. Here is a list of multiple standalone implementations, including:
 
-Over Nephele's nine year history, the EVM has undergone several revisions, and there are several implementations of the EVM in various programming languages.
-
-[Nephele execution clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#execution-clients) include an EVM implementation and you can refer to the Ethereum clients. Additionally, there are multiple standalone implementations, including:
-
-* [Py-EVM(opens in a new tab)](https://github.com/ethereum/py-evm) - _Python_
-* [evmone(opens in a new tab)](https://github.com/ethereum/evmone) - _C++_
-* [ethereumjs-vm(opens in a new tab)](https://github.com/ethereumjs/ethereumjs-vm) - _JavaScript_
-* [eEVM(opens in a new tab)](https://github.com/microsoft/eevm) - _C++_
-* [revm(opens in a new tab)](https://github.com/bluealloy/revm) - _Rust_
+* [Py-EVM](https://github.com/ethereum/py-evm) - _Python_
+* [evmone](https://github.com/ethereum/evmone) - _C++_
+* [ethereumjs-vm](https://github.com/ethereumjs/ethereumjs-vm) - _JavaScript_
+* [eEVM](https://github.com/microsoft/eevm) - _C++_
+* [revm](https://github.com/bluealloy/revm) - _Rust_
 
 ### The State Transition Function <a href="#the-nephele-state-transition-function" id="the-nephele-state-transition-function"></a>
 
@@ -62,7 +58,7 @@ Given an old valid state `(S)` and a new set of valid transactions `(T)`, the ne
 
 ### Further Reading <a href="#further-reading" id="further-reading"></a>
 
-* [Nephele Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf)
+* [Ethereum Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf)
 * [Jellopaper aka KEVM: Semantics of EVM in K](https://jellopaper.org/)
 * [The Beigepaper](https://github.com/chronaeon/beigepaper)
 * [Nephele Virtual Machine Opcodes](https://www.ethervm.io/)
