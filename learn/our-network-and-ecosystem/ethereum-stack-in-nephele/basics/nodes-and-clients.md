@@ -52,6 +52,8 @@ While such scenarios are uncommon, the network ecosystem can reduce their likeli
 
 Having a single client dominate the network also carries significant human costs. It places undue pressure and responsibility on a small group of developers. When client diversity is limited, this small team bears an outsized burden, which can be overwhelming. Distributing this responsibility among several development teams alleviates this strain and benefits the overall health of node network and its community of contributors.
 
+***
+
 ## Execution Clients <a href="#execution-clients" id="execution-clients"></a>
 
 The Ethereum community maintains multiple open-source execution clients (previously known as 'Eth1 clients', or just 'Ethereum clients'), developed by different teams using different programming languages. The ideal goal is to achieve diversity without any client dominating to reduce any single points of failure.
@@ -64,16 +66,16 @@ Each client has unique use cases and advantages, so you should choose one based 
 
 The Ethereum client needs to sync with the latest network state to follow and verify current data. This is done by downloading data from peers, cryptographically verifying their integrity, and building a local blockchain database. On the execution layer, we can observe three different synchronization modes:
 
-### **Full archive**
+### **Default or Archive**
 
-<mark style="color:yellow;">Full archive synchronization (Full sync or Full client)</mark> downloads all blocks information (including headers, transactions, and receipts) and generates the state of the blockchain incrementally by executing every block from genesis.
+<mark style="color:yellow;">Default synchronization (Full sync, archive sync, or Full client)</mark> downloads all blocks information (including headers, transactions, and receipts) and generates the state of the blockchain incrementally by executing every block from genesis.
 
 * Minimizes trust and offers the highest security by verifying every transaction.
 * With an increasing number of transactions, processing all transactions can take days to weeks.
 
-### **Full snapshot**
+### **Snapshot**
 
-<mark style="color:yellow;">Full snapshot synchronization (snap sync or snap client)</mark> \[more [here](https://github.com/ethereum/devp2p/blob/master/caps/snap.md)] operates similarly to a full archive synchronization by verifying each block in the blockchain. However, unlike full syncs that begin at the genesis block, snap sync starts from a recent, verified checkpoint believed to be a reliable part of the blockchain. Employing snap sync demand to periodically saves these checkpoints and removes data that exceeds a certain age. This method allows nodes to recreate state data from these snapshots when necessary, rather than maintaining a permanent record of all state data.
+<mark style="color:yellow;">Snapshot synchronization (snap sync or snap client)</mark> \[more [here](https://github.com/ethereum/devp2p/blob/master/caps/snap.md)] operates similarly to a full archive synchronization by verifying each block in the blockchain. However, unlike full syncs that begin at the genesis block, snap sync starts from a recent, verified checkpoint believed to be a reliable part of the blockchain. Employing snap sync demand to periodically saves these checkpoints and removes data that exceeds a certain age. This method allows nodes to recreate state data from these snapshots when necessary, rather than maintaining a permanent record of all state data.
 
 * Fastest sync strategy, currently default in Ethereum mainnet
 * Saves a lot of disk usage and network bandwidth without sacrificing security
@@ -91,7 +93,7 @@ The light sync client then verifies this data, keeping it updated with the lates
 
 When Ethereum transitioned to a proof-of-stake consensus mechanism, it introduced specific infrastructure to enhance support for light clients. The system operates by designating a **sync committee**, a randomly selected group of 512 validators, every 1.1 days.&#x20;
 
-This committee is responsible for signing the headers of recent blocks. Each block header includes the collective signature from the sync committee members, along with a "bitfield" indicating which validators participated in the signing. Additionally, the header lists the validators expected to sign the next block. This setup allows light clients to verify the authenticity of the data they receive by checking if the current sync committee's signature matches the expected committee detailed in the previous block's header. Thus, light clients can continually update their understanding of the latest Ethereum block by only downloading the header, which contains summarized information.
+This committee is responsible for signing the headers of recent blocks. Each block header includes the collective signature from the sync committee members, along with a "bitfield" indicating which validators participated in the signing. Additionally, the header lists the validators expected to sign the next block. This setup allows light clients to verify the authenticity of the data they receive by checking if the current sync committee's signature matches the expected committee detailed in the previous block's header. Thus, light clients can continually update their understanding of the latest block by only downloading the header, which contains summarized information.
 
 A lot of work is also being done to improve how light clients can access network data. Currently, light clients rely on RPC requests to full sync nodes using a client/server model, but in the future the data could be requested in a more decentralized way using a dedicated network such as the [Portal Network](https://www.ethportal.net/) that could serve the data to light clients using a peer-to-peer gossip protocol.
 
@@ -117,6 +119,8 @@ Ethereum rollups also benefit from light clients, particularly in safeguarding a
 
 Moreover, upgrading Ethereum wallets with light clients adds a layer of security. Users can ensure their RPC provider's accuracy by directly verifying transaction data, reducing risks associated with erroneous or dishonest data provision.
 
+***
+
 ## Consensus Clients <a href="#consensus-clients" id="consensus-clients"></a>
 
 There are multiple consensus clients (previously known as 'Eth2' clients in the Ethereum network) to support the [consensus upgrades](https://ethereum.org/en/roadmap/beacon-chain/). They are responsible for all consensus-related logic including the fork-choice algorithm, processing attestations and managing block rewards and penalties.
@@ -136,6 +140,8 @@ Checkpoint synchronization, also called checkpoint sync or weak subjectivity syn
 [Weak subjectivity](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/weak-subjectivity/) refers to the reliance on external information—specifically a checkpoint that is generally accepted by the community as valid—to initiate the sync process. In checkpoint sync, a consensus client connects to a trusted remote service to download a snapshot of a recently finalized state of the blockchain. This state includes balances, stakes, and other critical data necessary for the node to function and participate in the network. The node then resumes blockchain verification from this point forward rather than from the beginning.&#x20;
 
 The reliance on a trusted third party to provide this initial state introduces a degree of trust into the process, necessitating careful selection of the data provider to minimize security risks. Providers are generally well-established, highly reputable nodes or services within the community with a proven track record of reliability and integrity. By starting from a recent checkpoint, nodes can rapidly achieve current network state and begin participating in consensus processes, thereby enhancing the scalability and user experience of the blockchain network.
+
+***
 
 ## Further Reading <a href="#further-reading" id="further-reading"></a>
 

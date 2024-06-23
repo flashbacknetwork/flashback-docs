@@ -1,38 +1,55 @@
 # Nodes
 
-A "node" is a computer connected to other computers, forming a peer-to-peer network. A node has to run two clients: a [consensus client](nodes-and-clients.md#consensus-clients) and an [execution client](nodes-and-clients.md#execution-clients).
+A "node" is a computer connected to other computers, forming a peer-to-peer network. A node has to run two clients: a [consensus client](nodes-and-clients.md#consensus-clients) and an [execution client](nodes-and-clients.md#execution-clients).Different types of nodes consume data differently. Clients can run three different types of nodes: light, full, and archive. There are also options for different synchronization strategies, of nodes that consume data differently. Clients can run three different types of nodes: light, full, and archive. There are also options for different [synchronization strategies](nodes-and-clients.md) which enable faster synchronization time. Synchronization refers to how quickly it can get the most up-to-date information on the state of the network, such as Ethereum or Nephele.
 
-### NODE TYPES <a href="#node-types" id="node-types"></a>
+***
 
-If you want to [run your own node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/), you should understand that there are different types of node that consume data differently. In fact, clients can run three different types of nodes: light, full and archive. There are also options of different sync strategies which enable faster synchronization time. Synchronization refers to how quickly it can get the most up-to-date information on Ethereum's state.
+## Full node <a href="#full-node" id="full-node"></a>
 
-#### Full node <a href="#full-node" id="full-node"></a>
+Full nodes are essential components of a blockchain network, performing the critical function of block-by-block validation. This includes the comprehensive task of downloading and verifying each block's body and state data. Full nodes ensure the integrity and consistency of the blockchain by confirming that all transactions and block contents adhere to the network rules.
 
-Full nodes do a block-by-block validation of the blockchain, including downloading and verifying the block body and state data for each block. There are different classes of full node - some start from the genesis block and verify every single block in the entire history of the blockchain. Others start their verification at a more recent block that they trust to be valid (e.g. Geth's 'snap sync'). Regardless of where the verification starts, full nodes only keep a local copy of relatively recent data (typically the most recent 128 blocks), allowing older data to be deleted to save disk space. Older data can be regenerated when it is needed.
+There are various classes of full nodes, each differing in how they sync with the blockchain:
 
-* Stores full blockchain data (although this is periodically pruned so a full node does not store all state data back to genesis)
-* Participates in block validation, verifies all blocks and states.
-* All states can be either retrieved from local storage or regenerated from 'snapshots' by a full node.
-* Serves the network and provides data on request.
+1. <mark style="color:orange;">**Classic Full Nodes**</mark>: These nodes start syncing from the genesis block and methodically verify every single block up to the present. This method ensures the highest level of data integrity but can be resource-intensive and time-consuming.
+2. <mark style="color:orange;">**Modern Sync Methods**</mark> (see '[snap sync](nodes-and-clients.md#full-snapshot)')**:** These nodes begin validating from a trusted, more recent block. This approach significantly speeds up the synchronization process by avoiding revalidation the entire blockchain history.
 
-#### Archive node <a href="#archive-node" id="archive-node"></a>
+Regardless of the synchronization method, full nodes typically only retain some historical data for a while. Instead, they keep only a local copy of the most recent data—often the last 128 blocks—which allows them to save disk space by deleting older data that is less frequently accessed. However, these older blocks and state data are not lost; they can be regenerated from saved 'snapshots' when needed. This pruning process helps manage the node’s storage efficiently while supporting the network's demands.
 
-Archive nodes are full nodes that verify every block from genesis and never delete any of the downloaded data.
+Full nodes play several vital roles in the blockchain ecosystem:
 
-* Stores everything kept in the full node and builds an archive of historical states. It is needed if you want to query something like an account balance at block #4,000,000, or simply and reliably test your own transactions set without mining them using tracing.
-* This data represents units of terabytes, which makes archive nodes less attractive for average users but can be handy for services like block explorers, wallet vendors, and chain analytics.
+* <mark style="color:purple;">**Data Verification:**</mark> They participate actively in block validation, ensuring every block and state transition is legitimate.
+* <mark style="color:purple;">**Network Support:**</mark> By serving verified data on request, they help maintain the blockchain's operational continuity and reliability.
+* <mark style="color:purple;">**Decentralization and Security:**</mark> By independently verifying and storing data, full nodes contribute to the network's decentralization and enhance its resilience against attacks or failures.
 
-Syncing clients in any mode other than archive will result in pruned blockchain data. This means, there is no archive of all historical states but the full node is able to build them on demand.
+Overall, full nodes are foundational to the blockchain's function and security, ensuring the network remains robust, accurate, and trustworthy.
 
-Learn more about [Archive nodes](https://ethereum.org/en/developers/docs/nodes-and-clients/archive-nodes/).
+***
 
-#### Light node <a href="#light-node" id="light-node"></a>
+## Archive node <a href="#archive-node" id="archive-node"></a>
 
-Instead of downloading every block, light nodes only download block headers. These headers contain summary information about the contents of the blocks. Any other information the light node requires gets requested from a full node. The light node can then independently verify the data they receive against the state roots in the block headers. Light nodes enable users to participate in the Ethereum network without the powerful hardware or high bandwidth required to run full nodes. Eventually, light nodes might run on mobile phones or embedded devices. The light nodes do not participate in consensus (i.e. they cannot be miners/validators), but they can access the Ethereum blockchain with the same functionality and security guarantees as a full node.
+An archive node (see [full archive sync client](nodes-and-clients.md#full-archive)) is crucial for understanding the concept of "state" in Ethereum and Nephele, which functions as a transaction-based state machine. Here, the state encompasses all the global data, such as account balances, contract code and storage, and other consensus-related data, all stored within a trie database managed by the execution layer client.
 
-Light clients are an area of active development for Ethereum and we expect to see new light clients for the consensus layer and execution layer soon. There are also potential routes to providing light client data over the [gossip network(opens in a new tab)](https://www.ethportal.net/). This is advantageous because the gossip network could support a network of light nodes without requiring full nodes to serve requests.
+### **Why Full Nodes and Archive Nodes Differ**
 
-Ethereum does not support a large population of light nodes yet, but light node support is an area expected to develop rapidly in the near future. In particular, clients like [Nimbus(opens in a new tab)](https://nimbus.team/), [Helios(opens in a new tab)](https://github.com/a16z/helios), and [LodeStar(opens in a new tab)](https://lodestar.chainsafe.io/) are currently heavily focused on light nodes.
+Full nodes play a vital role by downloading, verifying, and storing each block's body and state data. While most full nodes sync from the genesis block and continuously verify each block, some, like those using Geth's 'snap sync', start from a trusted recent block. Typically, full nodes keep only the recent state (e.g., the last 128 blocks) to manage chain reorganizations and provide quick access to recent data. This makes them efficient for everyday tasks like transaction verification and block production but not for accessing historical data.
+
+<mark style="color:green;">In contrast, archive nodes store not just recent states but every historical state from each block.</mark> They trade more extensive disk space for the ability to provide immediate access to any historical state without re-executing transactions. This is particularly useful for users who need to query historical data frequently, such as for checking the balance of an account at a specific block in the past.
+
+### **Use Cases for Archive Nodes**
+
+Regular network users typically don't need archive nodes for standard network interactions like sending transactions or deploying contracts. However, archive nodes are invaluable for:
+
+* Service providers like block explorers that need to offer historical data.
+* Researchers and security analysts who analyze past network activities.
+* DApp developers and auditors who require access to historical states for testing and compliance checks.
+
+Depending on the client, running an archive node involves different configurations, sync times, and database sizes. It's important to choose the right client based on how efficiently it handles the vast amount of data. For example, while some clients may require over 12TB of space, others like Erigon can operate under 3TB.
+
+Given their extensive data needs, archive nodes require substantial disk space ranging from 3TB to 12TB, making SSDs a necessity for efficiency. It's also advisable to use high-quality, reliable SATA drives and consider configurations like RAID0 or ZFS for data integrity. While more RAM can expedite synchronization, the CPU speed is critical during the initial sync, which can take up to a month on consumer-grade hardware.
+
+## Light node <a href="#light-node" id="light-node"></a>
+
+Light nodes are simply running a[ light sync client](nodes-and-clients.md#light). Light nodes enable users to participate in the network without the powerful hardware or high bandwidth required to run full nodes. Eventually, light nodes might run on mobile phones or embedded devices. The light nodes do not participate in consensus (i.e. they cannot be miners/validators). Still, they can access the blockchain with the same functionality and security guarantees as a full node. Potential routes to providing light client data over the [gossip network](https://www.ethportal.net/) in Ethereum and can have similar interests in Nephele.
 
 ### WHY SHOULD I RUN AN ETHEREUM NODE? <a href="#why-should-i-run-an-ethereum-node" id="why-should-i-run-an-ethereum-node"></a>
 
