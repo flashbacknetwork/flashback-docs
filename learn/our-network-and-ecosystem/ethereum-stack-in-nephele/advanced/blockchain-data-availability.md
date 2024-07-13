@@ -1,6 +1,6 @@
-# Data Availability
+# Blockchain Data Availability
 
-The principle "Don't trust, verify" underpins Ethereum's network security and integrity approach. In this system, nodes operate independently to confirm the accuracy of information by executing every transaction contained within the blocks they receive. This rigorous validation process ensures that the transactions recorded in the blocks match those computed by the node, eliminating the need for trust in the honesty of the block's sender. This method is only effective when all necessary data is present.
+The principle "Don't trust, verify" underpins Ethereum's network security and integrity approach. In this system, nodes operate independently to confirm the accuracy of information by executing every transaction contained within the blocks they receive. This rigorous validation ensures that the transactions recorded in the blocks match those computed by the node, eliminating the need for trust in the honesty of the block's sender. This method is only effective when all necessary data is present.
 
 Data availability is a crucial concept in blockchain technology. It ensures that all the required data for verifying a block is accessible to all network participants. For full nodes on Ethereum's Layer 1, ensuring data availability is straightforward: nodes download every piece of data within each block, and any block missing data is automatically discarded. This is known as "on-chain data availability" and is typical of traditional, monolithic blockchains. By downloading and verifying every transaction, full nodes protect against accepting any invalid transactions.
 
@@ -30,7 +30,7 @@ Data Availability Committees (DACs) are trusted parties that provide or attest t
 
 DACs are also used by some validiums. The DAC is a trusted set of nodes that stores copies of data offline. The DAC is required to make the data available in the event of a dispute. Members of the DAC also publish on-chain attestations to prove that the data is indeed available. Some validiums replace DACs with a proof-of-stake (PoS) validator system. Here, anyone can become a validator and store data off-chain. However, they must provide a “bond”, which is deposited in a smart contract. In the event of malicious behavior, such as the validator withholding data, the bond can be slashed. Proof-of-stake data availability committees are considerably more secure than regular DACs because they incentivize honest behavior.
 
-### DATA AVAILABILITY AND LIGHT NODES <a href="#data-availability-and-light-nodes" id="data-availability-and-light-nodes"></a>
+## Data Availability and Light Nodes <a href="#data-availability-and-light-nodes" id="data-availability-and-light-nodes"></a>
 
 [Light nodes](https://ethereum.org/en/developers/docs/nodes-and-clients/light-clients/) need to validate the correctness of the block headers they receive without downloading the block data. The cost of this lightness is the inability to independently verify the block headers by re-executing transactions locally as full nodes do.
 
@@ -48,7 +48,7 @@ Even in this scenario, attacks that withhold just a few bytes could feasibly go 
 
 **Note:** DAS and fraud proofs have not yet been implemented for proof-of-stake Ethereum light clients, but they are on the roadmap, most likely taking the form of ZK-SNARK based proofs. Today's light clients rely on a form of DAC: they verify the identities of the sync-committee and then trust the signed block headers they receive.
 
-### DATA AVAILABILITY AND LAYER 2 ROLLUPS <a href="#data-availability-and-layer-2-rollups" id="data-availability-and-layer-2-rollups"></a>
+## Data Availability and Rollups <a href="#data-availability-and-layer-2-rollups" id="data-availability-and-layer-2-rollups"></a>
 
 [Layer 2 scaling solutions](https://ethereum.org/en/layer-2/), such as rollups, reduce transaction costs and increase Ethereum's throughput by processing transactions off-chain. Rollup transactions are compressed and posted on Ethereum in batches. Batches represent thousands of individual off-chain transactions in a single transaction on Ethereum. This reduces congestion on the base layer and reduces fees for users.
 
@@ -58,15 +58,15 @@ However, it is only possible to trust the 'summary' transactions posted to Ether
 
 [Zero-knowledge (ZK) rollups](https://ethereum.org/en/developers/docs/scaling/zk-rollups/) don't need to post transaction data since zero-knowledge validity proofs guarantee the correctness of state transitions. However, data availability is still an issue because we can only guarantee the functionality of the ZK-rollup (or interact with it) with access to its state data. For example, users cannot know their balances if an operator withholds details about the rollup’s state. Also, they cannot perform state updates using information in a newly added block.
 
-### DATA AVAILABILITY VS. DATA RETRIEVABILITY <a href="#data-availability-vs-data-retrievability" id="data-availability-vs-data-retrievability"></a>
+## Availability and Retrievability <a href="#data-availability-vs-data-retrievability" id="data-availability-vs-data-retrievability"></a>
 
-Data availability is different from data retrievability. Data availability is the assurance that full nodes have been able to access and verify the full set of transactions associated with a specific block. It does not necessarily follow that the data is accessible forever.
+Data availability is different from data retrievability. Data availability assures full nodes can access and verify the full transactions associated with a specific block. It does not necessarily follow that the data is accessible forever.
 
-Data retrievability is the ability of nodes to retrieve _historical information_ from the blockchain. This historical data is not needed for verifying new blocks, it is only required for syncing full nodes from the genesis block or serving specific historical requests.
+Data retrievability is the ability of nodes to retrieve _historical information_ from the blockchain. This historical data is not needed to verify new blocks; it is only required for syncing full nodes from the Genesis block or serving specific historical requests.
 
-The core Ethereum protocol is primarily concerned with data availability, not data retrievability. Data retrievability can be provided by a small population of archive nodes run by third parties, or it can be distributed across the network using decentralized file storage such as the [Portal Network](https://www.ethportal.net/).
+The core Ethereum protocol primarily concerns data availability, not data retrievability. Data retrievability can be provided by a small population of [archive nodes ](../basics/nodes-and-clients-1.md)run by third parties, or it can be distributed across the network using a decentralized file storage: Nephele.
 
-### FURTHER READING <a href="#further-reading" id="further-reading"></a>
+## More Reading <a href="#further-reading" id="further-reading"></a>
 
 * [WTF is Data Availability?](https://medium.com/blockchain-capital-blog/wtf-is-data-availability-80c2c95ded0f)
 * [What Is Data Availability?](https://coinmarketcap.com/alexandria/article/what-is-data-availability)
