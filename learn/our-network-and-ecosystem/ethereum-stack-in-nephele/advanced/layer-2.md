@@ -78,13 +78,13 @@ Layer-2 solutions are pivotal advancements in blockchain technology, designed to
 **Cons:**
 
 * **Complexity:** Implementing and maintaining Plasma chains can be complex.
-* **User Experience:** Users must periodically submit data to the main chain, which can complicate the user experience.
+* **User Experience:** Users must periodically submit data to the main chain, complicating the user experience.
 
 **Tutorial and Resources:** The Plasma Group provides resources and community support for those interested in developing with Plasma.
 
 ## Validium
 
-**Mechanism:** Similar to zk-Rollups, Validium uses zero-knowledge proofs but differs in how data is handled; data is not stored on the main Ethereum chain but rather off-chain.
+**Mechanism:** Similar to zk-Rollups, Validium uses zero-knowledge proofs but differs in handling data; data is not stored on the main Ethereum chain butoff-chain.
 
 **Pros:**
 
@@ -100,7 +100,7 @@ Layer-2 solutions are pivotal advancements in blockchain technology, designed to
 
 Each of these Layer-2 solutions presents a different approach to solving blockchain scalability and efficiency issues, and the choice of which to use will depend on the specific needs and constraints of the project in question. For developers interested in these technologies, diving into the tutorials and resources provided by each platform is a great way to start understanding and leveraging these advanced solutions.
 
-### Further Reading <a href="#further-reading" id="further-reading"></a>
+## Further Reading <a href="#further-reading" id="further-reading"></a>
 
 * [A rollup-centric Ethereum roadmap](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698) _Vitalik Buterin_
 * [Up-to-date analytics on Layer 2 scaling solutions for Ethereum](https://www.l2beat.com/)
