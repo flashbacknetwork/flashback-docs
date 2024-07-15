@@ -1,0 +1,38 @@
+# Proof-of-Stake
+
+Proof-of-stake is a way to prove that validators have put something of value into the network that can be destroyed if they act dishonestly. In Ethereum's proof-of-stake, validators explicitly stake capital in network tokens (ETH in Ethereum) into a smart contract. The validator is then responsible for checking that new blocks propagated over the network are valid and occasionally creating and propagating new blocks themselves. If they try to defraud the network (for example, by proposing multiple blocks when they ought to send one or sending conflicting attestations), some or all of their staked network token can be destroyed.
+
+## Validators <a href="#validators" id="validators"></a>
+
+To participate as a validator, a user must deposit network tokens (32 ETH in Ethereum) into the deposit contract and run three separate pieces of software: an execution client, a consensus client, and a validator client. On depositing their ETH, the user joins an activation queue that limits the rate of new validators joining the network. Once activated, validators receive new blocks from peers on the network. The transactions delivered in the block are re-executed to check that the proposed changes to the network's state are valid, and the block signature is checked. The validator then sends a vote (an [attestation](attestations.md)) to favor that block across the network.
+
+The time between [blocks ](../basics/blocks.md)is divided into slots (12 seconds), and the block forms an epoch (32 slots). One validator is randomly selected to be a block proposer in every slot. This validator is responsible for creating a new block and sending it out to other nodes on the network. Also, in every slot, a committee of validators is randomly chosen, whose votes are used to determine the proposed block's validity. Dividing the validator set up into committees is important for keeping the network load manageable. Committees divide the validator set so that every active validator attests in every epoch but not every slot.
+
+## Finality of Transactions <a href="#finality" id="finality"></a>
+
+A transaction has "finality" in distributed networks when part of a block can't change without a large amount of network tokens getting burned. This is managed using "checkpoint" blocks. The first block in each epoch is a checkpoint. Validators vote for pairs of checkpoints that they consider to be valid. The checkpoints are upgraded if a pair of checkpoints attracts votes representing at least two-thirds of the total staked ETH. The more recent of the two (target) becomes "justified." The earlier of the two is already justified because it was the "target" in the previous epoch. Now it is upgraded to "finalized".
+
+To revert a finalized block, an attacker would commit to losing at least one-third of the total supply of staked ETH. The exact reason for this is explained in this [Ethereum Foundation blog post.](https://blog.ethereum.org/2016/05/09/on-settlement-finality/) Since finality requires a two-thirds majority, an attacker could prevent the network from reaching finality by voting with one-third of the total stake. A mechanism to defend against this is the [inactivity leak](https://eth2book.info/bellatrix/part2/incentives/inactivity). This activates whenever the chain fails to finalize for more than four epochs. The inactivity leak bleeds away the staked ETH from validators voting against the majority, allowing the majority to regain a two-thirds majority and finalize the chain.
+
+## Crypto-economic Security <a href="#crypto-economic-security" id="crypto-economic-security"></a>
+
+Running a validator is a commitment. The validator must maintain sufficient hardware and connectivity to participate in block validation and proposal. The validator is paid in-network tokens (their staked balance increases). On the other hand, participating as a validator also opens new avenues for users to attack the network for personal gain or sabotage. To prevent this, validators miss out on block rewards if they fail to participate when called upon, and their existing stake can be destroyed if they behave dishonestly. Two primary behaviors can be considered dishonest: proposing multiple blocks in a single slot (equivocating) and submitting contradictory attestations.
+
+The amount of network tokens slashed depends on how many validators are slashed around the same time. This is known as the ["correlation penalty"](https://eth2book.info/bellatrix/part2/incentives/slashing#the-correlation-penalty), and it can be minor (\~1% stake for a single validator slashed on their own) or can result in 100% of the validator's stake getting destroyed (mass slashing event). It is imposed halfway through a forced exit period that begins with an immediate penalty (up to 1 ETH in Ethereum) on Day 1, the correlation penalty on Day 18, and finally, ejection from the network on Day 36. They receive minor attestation penalties daily because they are present on the network but not submitting votes. This all means a coordinated attack would be very costly for the attacker.
+
+## Fork Choice: Choice of a New Block <a href="#fork-choice" id="fork-choice"></a>
+
+When the network performs optimally and honestly, only one new block is at the head of the chain, and all validators attest to it. However, it is possible for validators to have different views of the head of the chain due to network latency or because a block proposer has equivocated. Therefore, consensus clients require an algorithm to decide which one to favor. The algorithm used in the proof-of-stake of Ethereum is called [LMD-GHOST](https://arxiv.org/pdf/2003.03052.pdf), and it works by identifying the fork with the greatest weight of attestations in its history.
+
+## Security Discusions with Ethereum's Proof-of-Stake <a href="#pos-and-security" id="pos-and-security"></a>
+
+The threat of a [51% attack](https://www.investopedia.com/terms/1/51-attack.asp) still exists on proof-of-stake as it does on proof-of-work, but it's even riskier for the attackers. An attacker would need 51% of the staked ETH. They could then use their attestations to ensure their preferred fork had the most accumulated attestations. The 'weight' of accumulated attestations is what consensus clients use to determine the correct chain, so this attacker can make their fork canonical. However, a strength of proof-of-stake over proof-of-work is that the community has flexibility in mounting a counter-attack. For example, the honest validators could decide to keep building on the minority chain and ignore the attacker's fork while encouraging apps, exchanges, and pools to do the same. They could also decide to forcibly remove the attacker from the network and destroy their staked ETH. These are strong economic defenses against a 51% attack.
+
+Beyond 51% attacks, bad actors might also attempt other types of malicious activities, such as:
+
+* long-range attacks (although the finality gadget neutralizes this attack vector)
+* short range 'reorgs' (although proposer boosting and attestation deadlines mitigate this)
+* bouncing and balancing attacks (also mitigated by proposer boosting, and these attacks have anyway only been demonstrated under idealized network conditions)
+* avalanche attacks (neutralized by the fork choice algorithms rule of only considering the latest message)
+
+Overall, proof-of-stake, as it is implemented on Ethereum, has been demonstrated to be more economically secure than proof-of-work.
