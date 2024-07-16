@@ -6,15 +6,15 @@ author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 
 # Ethereum Virtual Machine
 
-Nephele forked the Ethereum codebase, which inherits automatically from the Ethereum Virtual Machine (EVM). The EVM is where all Nephele accounts and smart contracts live. At any given block in the chain, Nephele has one and only one 'canonical' state, and the Ethereum Virtual Machine (EVM) defines the rules for computing a new valid state from block to block.
+Flashback forked the Ethereum codebase, which inherits automatically from the Ethereum Virtual Machine (EVM). The EVM is where all EOA and smart contracts live. At any given block in the chain, the network has one and only one 'canonical' state, and the EVM defines the rules for computing a new valid state from block to block.
 
 ## A State Machine <a href="#from-ledger-to-state-machine" id="from-ledger-to-state-machine"></a>
 
 The analogy of a 'distributed ledger' is often used to describe blockchains like Bitcoin, which enable a decentralized currency using fundamental cryptography tools. The ledger maintains a record of activity that must adhere to rules that govern what someone can and cannot do to modify the ledger. For example, a Bitcoin address cannot spend more than it previously received. These rules underpin all transactions on Bitcoin and many other blockchains.
 
-While Nephele has its native cryptocurrency (Nephele) that follows almost the same intuitive rules, it also enables a much more powerful function:[ smart contracts](smart-contracts.md). This feature had to change the nature of the decentralized ledger of Ethereum (and then, Nephele) by becoming a distributed [state machine](https://wikipedia.org/wiki/Finite-state\_machine).&#x20;
+While the network and its blockchain have its native cryptocurrency that follows almost the same intuitive rules, it also enables a much more powerful function:[ smart contracts](smart-contracts.md). This feature had to change the nature of the decentralized ledger of Ethereum (and then Flashback) by becoming a distributed [state machine](https://wikipedia.org/wiki/Finite-state\_machine).&#x20;
 
-Nephele's state is a large data structure which holds not only all accounts and balances, but a _machine state_, which can change from block to block according to a pre-defined set of rules, and which can execute arbitrary machine code. The specific rules for changing states from block to block are defined by the EVM.
+Network's state is a large data structure that holds not only all accounts and balances but a _machine state_, which can change from block to block according to a pre-defined set of rules and which can execute arbitrary machine code. The EVM defines the specific rules for changing states from block to block.
 
 The EVM executes the transactions and manages the smart contracts. Every operation that leads to modify the machine's state requires the use of an elementary measure of computational efforts called the gas.
 
@@ -52,7 +52,7 @@ Y(S, T)= S'
 
 Given an old valid state `(S)` and a new set of valid transactions `(T)`, the network state transition function `Y(S, T)` produces a new valid output state `S'`
 
-**State**: In the context of Ethereum and Nephele, the state is an enormous data structure called a [modified Merkle Patricia Trie](https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/), which keeps all EOA and smar contracts linked by [hashes ](https://www.investopedia.com/terms/h/hash.asp)and reducible to a single root hash stored on the blockchain.
+**State**: In the context of Ethereum and Flashback, the state is an enormous data structure called a [modified Merkle Patricia Trie](https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/), which keeps all EOA and smar contracts linked by [hashes ](https://www.investopedia.com/terms/h/hash.asp)and reducible to a single root hash stored on the blockchain.
 
 **Transactions**: They are cryptographically signed instructions from accounts. There are two types of transactions: those which result in message calls and those which result in contract creation.
 
@@ -61,7 +61,7 @@ Given an old valid state `(S)` and a new set of valid transactions `(T)`, the ne
 * [Ethereum Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf)
 * [Jellopaper aka KEVM: Semantics of EVM in K](https://jellopaper.org/)
 * [The Beigepaper](https://github.com/chronaeon/beigepaper)
-* [Nephele Virtual Machine Opcodes](https://www.ethervm.io/)
-* [Nephele Virtual Machine Opcodes Interactive Reference](https://www.evm.codes/)
+* [Ethereum Virtual Machine Opcodes](https://www.ethervm.io/)
+* [Ethereum Virtual Machine Opcodes Interactive Reference](https://www.evm.codes/)
 * [A short introduction in Solidity's documentation](https://docs.soliditylang.org/en/latest/introduction-to-smart-contracts.html#index-6)
-* [Mastering Nephele - The Ethereum Virtual Machine](https://github.com/ethereumbook/ethereumbook/blob/develop/13evm.asciidoc)
+* [Mastering Ethereum - The Ethereum Virtual Machine](https://github.com/ethereumbook/ethereumbook/blob/develop/13evm.asciidoc)

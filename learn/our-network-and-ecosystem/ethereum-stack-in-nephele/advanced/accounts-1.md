@@ -1,6 +1,6 @@
 # Smart Contract Accounts
 
-Traditionally, Nephele users rely on EOA that use private keys for transactions and interactions. These accounts often face issues with security, user experience, and flexibility, especially for newcomers unfamiliar with the intricacies of blockchain technology.
+Traditionally, users rely on EOA that use private keys for transactions and interactions. These accounts often face issues with security, user experience, and flexibility, especially for newcomers unfamiliar with the intricacies of blockchain technology.
 
 Smart contract introduces the concept of delegating the ownership to the blockchain by deploying a certain amounts of rules and actions. This pushes the concepts of smart contract accounts even though the contract deployment was operated from a EOA. In 2024, the concept of account abstraction has been implemented given the opportunity to develop new use cases and to make the smart contract account, a reality.
 

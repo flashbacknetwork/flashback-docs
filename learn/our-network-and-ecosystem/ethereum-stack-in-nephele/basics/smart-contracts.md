@@ -10,11 +10,11 @@ Nick Szabo introduced the term ["smart contract"](https://www.fon.hum.uva.nl/rob
 
 <mark style="color:red;">**The smart contract is also an account**</mark>, but the difference from an [EOA ](accounts.md)is that the key pairs are controlled by the network itself through its code. A smart contract is mainly deployed from an EOA. The smart contract is hosted by and for the network, allowing it to develop without limitations based on [the composability](smart-contracts.md#the-composability) principle.
 
-## Key Characteristics of Smart Contracts
+## <mark style="color:yellow;">Key Characteristics</mark> of Smart Contracts
 
-* **Automated**: They automatically execute actions when predetermined conditions are met, such as transferring funds or issuing tickets.
-* **Immutable**: Once a smart contract is deployed on the blockchain, it cannot be changed; this prevents tampering and ensures all parties adhere to the original terms.
-* **Distributed**: Everyone on the network validates the output of the contract, so there's no need to trust a single central authority.
+* <mark style="color:yellow;">**Automated**</mark><mark style="color:yellow;">:</mark> They automatically execute actions when predetermined conditions are met, such as transferring funds or issuing tickets.
+* <mark style="color:yellow;">**Immutable**</mark><mark style="color:yellow;">:</mark> Once a smart contract is deployed on the blockchain, it cannot be changed; this prevents tampering and ensures all parties adhere to the original terms.
+* <mark style="color:yellow;">**Distributed**</mark><mark style="color:yellow;">:</mark> Everyone on the network validates the output of the contract, so there's no need to trust a single central authority.
 
 ## Trust in Conventional Contracts
 
@@ -37,6 +37,8 @@ A simple metaphor for a smart contract is a vending machine, which works somewha
 5. The vending machine gives you your item
 
 The vending machine will only dispense your desired product after all requirements are met. If you don't select a product or insert enough money, the vending machine won't give out your product.
+
+***
 
 ## Others Examples
 

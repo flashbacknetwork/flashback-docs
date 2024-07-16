@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Nephele](README.md)
+* [Welcome to Flashback](README.md)
 * [Getting Started](getting-started/README.md)
   * [Get a Wallet](getting-started/get-wallets.md)
   * [Discover Ethereum and Filecoin](getting-started/discover-ethereum.md)
@@ -12,7 +12,7 @@
     * [What is the Web?](learn/introduction/what-is-the-web.md)
     * [DePIN and Cloud Storage](learn/introduction/depin-and-cloud-storage.md)
     * [The Problem](learn/introduction/the-problem.md)
-    * [Why Nephele?](learn/introduction/why-nephele.md)
+    * [Why Flashback?](learn/introduction/why-nephele.md)
   * [Our Layer-1 Blockchain](learn/decentralized-ledger.md)
   * [The Inherited Features](learn/our-network-and-ecosystem/README.md)
     * [From Ethereum](learn/our-network-and-ecosystem/ethereum-stack-in-nephele/README.md)

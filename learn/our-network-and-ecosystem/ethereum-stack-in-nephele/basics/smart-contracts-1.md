@@ -2,7 +2,7 @@
 
 
 
-Smart contracts are public on Ethereum and Nephele. You don't need to write your smart contract to become a dcentralized application (dApp) developer, you need to know how to interact with them. For example, you can use the existing smart contracts of [Uniswap](https://uniswap.exchange/swap), a decentralized exchange, to handle all the token swap logic in your application or service – you don't need to start from scratch. If you are a developer, you can imagine this as an [application programming interface (API)](https://en.wikipedia.org/wiki/API).&#x20;
+Smart contracts are public on Ethereum and Flashback. You don't need to write your smart contract to become a dcentralized application (dApp) developer, you need to know how to interact with them. For example, you can use the existing smart contracts of [Uniswap](https://uniswap.exchange/swap), a decentralized exchange, to handle all the token swap logic in your application or service – you don't need to start from scratch. If you are a developer, you can imagine this as an [application programming interface (API)](https://en.wikipedia.org/wiki/API).&#x20;
 
 ## What is It? <a href="#what-is-composability" id="what-is-composability"></a>
 
@@ -12,13 +12,11 @@ Hence, every smart contract is a Lego of sorts—you can use smart contracts fro
 
 ## How does It Work? <a href="#how-does-composability-work" id="how-does-composability-work"></a>
 
-Smart contract composability generally works off three principles: modularity, autonomy, and discoverability:
+<mark style="color:yellow;">**Smart contract composability**</mark> generally works off <mark style="color:yellow;">**three principles**</mark>:&#x20;
 
-**1. Modularity**: This is the ability of individual components to perform a specific task. Every smart contract has a specific use case (as shown in the Uniswap example).
-
-**2. Autonomy**: Composable components must be able to operate independently. Each smart contract in Nephele is self-executing and can function without relying on other parts of the system.
-
-**3. Discoverability**: Developers cannot call external contracts or integrate software libraries into applications if the former are not publicly available. By design, smart contracts are open-source; anyone can call a smart contract or fork a codebase.
+* <mark style="color:yellow;">**Modularity**</mark><mark style="color:yellow;">:</mark> This is the ability of individual components to perform a specific task. Every smart contract has a specific use case (as shown in the Uniswap example).
+* <mark style="color:yellow;">**Autonomy**</mark><mark style="color:yellow;">:</mark> Composable components must be able to operate independently. Each smart contract is self-executing and can function without relying on other parts of the system.
+* <mark style="color:yellow;">**Discoverability**</mark><mark style="color:yellow;">:</mark> Developers cannot call external contracts or integrate software libraries into applications if the former are not publicly available. By design, smart contracts are open-source; anyone can call a smart contract or fork a codebase.
 
 ## Benefits of Composability <a href="#benefits-of-composability" id="benefits-of-composability"></a>
 
@@ -34,13 +32,13 @@ Composability encourages innovation and experimentation because developers can r
 
 ### Better user experience <a href="#better-user-experience" id="better-user-experience"></a>
 
-Interoperability between components of the Nephele ecosystem improves the user experience. Users can access greater functionality when apps integrate external smart contracts than in a fragmented ecosystem where applications cannot communicate.
+Interoperability between components of the Ethereum or Flashback ecosystems improve the user experience. Users can access greater functionality when apps integrate external smart contracts than in a fragmented ecosystem where applications cannot communicate.
 
 We'll use an example from arbitrage trading to illustrate the benefits of interoperability:
 
-If a token is trading higher on `exchange A` than `exchange B`, you can take advantage of the price difference to make profit. However, you can only do that if you have enough capital to fund the transaction (i.e., buying the token from `exchange B` and selling it on `exchange A`).
+If a token is trading higher on `exchange A` than `exchange B`, you can take advantage of the price difference to make a profit. However, you can only do that if you have enough capital to fund the transaction (i.e., buying the token from `exchange B` and selling it on `exchange A`).
 
-In a scenario where you don't have enough funds to cover the trade, a flash loan might be ideal. [Flash loans](https://ethereum.org/en/defi/#flash-loans) are highly technical, but the basic idea is that you can borrow assets (without collateral) and return same within _one_ transaction.
+In a scenario where you don't have enough funds to cover the trade, a flash loan might be ideal. [Flash loans](https://ethereum.org/en/defi/#flash-loans) are highly technical, but the basic idea is to borrow assets (without collateral) and return same within _one_ transaction.
 
 Going back to our initial example, an arbitrage trader can take out a large flash loan, buy tokens from `exchange B`, sell them on `exchange A`, pay back the capital + interest, and keep the profit, within the same transaction. This complex logic requires combining calls to multiple contracts, which wouldn't be possible if smart contracts lacked interoperability.
 

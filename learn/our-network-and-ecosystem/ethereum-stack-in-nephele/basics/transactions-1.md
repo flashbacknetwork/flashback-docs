@@ -4,17 +4,13 @@ author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 
 # Transactions
 
-To help you better understand this page, we recommend you first read [externally-owned accounts (EOA)](accounts.md) and our [introduction](../../../introduction/) about Nephele.
-
-***
-
-A transaction refers to an action initiated by an EOA to transfer a value to another EOA. For example, if Bob sends Alice 1 NEPH, Bob's account must be debited, and Alice's must be credited. This state-changing action takes place within a transaction.
+A transaction refers to an action initiated by an EOA to transfer a value to another EOA. For example, if Bob sends Alice 1 FLASH, Bob's account must be debited, and Alice's must be credited. This state-changing action takes place within a transaction.
 
 Transactions need to be broadcast to the whole network. Any EOA can broadcast a request for a transaction to be executed on the decentralized ledger; after this happens, the network will validate and manage the transaction and propagate the resulting state change to the rest of the network. This process includes the transactions in a validated block of the decentralized ledger, the blockchain.
 
 ## Types of Transactions <a href="#types-of-transactions" id="types-of-transactions"></a>
 
-On Nephele, there are a few different types of transactions:
+On Flashback, there are a few different types of transactions:
 
 * <mark style="color:orange;">Regular transactions</mark> from one account to another.
 * <mark style="color:orange;">Contract deployment transactions</mark> are not sent to an account, where the data field is used for the contract code.
@@ -45,7 +41,7 @@ A submitted transaction includes the following standard fields:
 * `to` – the receiving address (if an EOA, the transaction will transfer value. If a smart contract, the transaction will execute the contract code)
 * `signature` – the sender's identifier. This is generated when the sender's private key signs the transaction and confirms the sender has authorized this transaction
 * `nonce` - a sequentially incrementing counter which indicates the transaction number from the account
-* `value` – amount of NEPH to transfer from sender to recipient (denominated in WEI, where 1 NEPH equals 1e+18wei)
+* `value` – amount of FLASH to transfer from sender to recipient (denominated in WEI, where 1 FLASH equals 1e+18wei)
 * `input data` – optional field to include arbitrary data
 
 The transaction is operated in the EVM which means that it must be able to be executed thanks to the rules of the EVM. In these rules, a transaction may spend gas to be effective and the following fields:
@@ -68,7 +64,7 @@ The transaction object will look a little like this:
 }
 ```
 
-But a transaction object must be signed using the sender's private key. This proves that the transaction could only have come from the sender and was not sent fraudulently. A Nephele client like Geth or Nethermind will handle this signing process.
+But a transaction object must be signed using the sender's private key. This proves that the transaction could only have come from the sender and was not sent fraudulently. A protocol execution client like Geth or Nethermind will handle this signing process.
 
 Example [JSON-RPC](../../../../developers/docs/apis/json-rpc/) call:
 
@@ -142,7 +138,7 @@ According to the ABI specifications, integer values (such as addresses, which ar
 
 ### Go Beyond: Typed Transaction Envelope <a href="#typed-transaction-envelope" id="typed-transaction-envelope"></a>
 
-Nephele (forking Ethereum) originally had one format for transactions. Each transaction contained a nonce, gas price, gas limit, to address, value, data, v, r, and s. These fields are [RLP-encoded](https://ethereum.org/en/developers/docs/data-structures-and-encoding/rlp/), to look something like this:
+Flashback (forking Ethereum) originally had one format for transactions. Each transaction contained a nonce, gas price, gas limit, to address, value, data, v, r, and s. These fields are [RLP-encoded](https://ethereum.org/en/developers/docs/data-structures-and-encoding/rlp/), to look something like this:
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 

@@ -1,6 +1,6 @@
 # Nodes
 
-A "node" is a computer connected to other computers, forming a peer-to-peer network. A node has to run two clients: a [consensus client](nodes-and-clients.md#consensus-clients) and an [execution client](nodes-and-clients.md#execution-clients).Different types of nodes consume data differently. Clients can run three different types of nodes: light, full, and archive. There are also options for different synchronization strategies, of nodes that consume data differently. Clients can run three different types of nodes: light, full, and archive. There are also options for different [synchronization strategies](nodes-and-clients.md) which enable faster synchronization time. Synchronization refers to how quickly it can get the most up-to-date information on the state of the network, such as Ethereum or Nephele.
+A "node" is a computer connected to other computers, forming a peer-to-peer network. A node has to run two clients: a [consensus client](nodes-and-clients.md#consensus-clients) and an [execution client](nodes-and-clients.md#execution-clients).Different types of nodes consume data differently. Clients can run three different types of nodes: light, full, and archive. There are also options for different synchronization strategies, of nodes that consume data differently. Clients can run three different types of nodes: light, full, and archive. There are also options for different [synchronization strategies](nodes-and-clients.md) which enable faster synchronization time. Synchronization refers to how quickly it can get the most up-to-date information on the state of the network, such as Ethereum or Flashback.
 
 ***
 
@@ -27,7 +27,7 @@ Overall, full nodes are foundational to the blockchain's function and security, 
 
 ## Archive node <a href="#archive-node" id="archive-node"></a>
 
-An archive node (see [full archive sync client](nodes-and-clients.md#full-archive)) is crucial for understanding the concept of "state" in Ethereum and Nephele, which functions as a transaction-based state machine. Here, the state encompasses all the global data, such as account balances, contract code and storage, and other consensus-related data, all stored within a trie database managed by the execution layer client.
+An archive node (see [full archive sync client](nodes-and-clients.md#full-archive)) is crucial for understanding the concept of "state" in Ethereum and Flashback, which functions as a transaction-based state machine. Here, the state encompasses all the global data, such as account balances, contract code and storage, and other consensus-related data, all stored within a trie database managed by the execution layer client.
 
 ### **Why Full Nodes and Archive Nodes Differ**
 
@@ -49,27 +49,27 @@ Given their extensive data needs, archive nodes require substantial disk space r
 
 ## Light node <a href="#light-node" id="light-node"></a>
 
-Light nodes are simply running a[ light sync client](nodes-and-clients.md#light). Light nodes enable users to participate in the network without the powerful hardware or high bandwidth required to run full nodes. Eventually, light nodes might run on mobile phones or embedded devices. The light nodes do not participate in consensus (i.e. they cannot be miners/validators). Still, they can access the blockchain with the same functionality and security guarantees as a full node. Potential routes to providing light client data over the [gossip network](https://www.ethportal.net/) in Ethereum and can have similar interests in Nephele.
+Light nodes are simply running a[ light sync client](nodes-and-clients.md#light). Light nodes enable users to participate in the network without the powerful hardware or high bandwidth required to run full nodes. Eventually, light nodes might run on mobile phones or embedded devices. The light nodes do not participate in consensus (i.e. they cannot be miners/validators). Still, they can access the blockchain with the same functionality and security guarantees as a full node. Potential routes to providing light client data over the [gossip network](https://www.ethportal.net/) in Ethereum and can have similar interests in Flashback.
 
 ### Run your node <a href="#running-your-own-node" id="running-your-own-node"></a>
 
-Interested in running your Nephele client?
+Interested in running your Flashback client?
 
 For a beginner-friendly setup, you can visit [our guide](../../../../participate/run-your-evm-like-node/for-beginners.md).
 
-If you're more of a technical user, a true OG, or a future vaidator, dive into more details and options in [this expert guide](../../../../participate/run-your-evm-like-node/for-experts.md).
+If you're more of a technical user, a true OG, or a future validator, dive into more details and options in [this expert guide](../../../../participate/run-your-evm-like-node/for-experts.md).
 
 ### Alternatives <a href="#alternatives" id="alternatives"></a>
 
-Setting up your node can cost you time and resources, but you don’t always need to run your instance. In this case, you can use a third-party API provider. Ethereum ecosystem develops many [nodes as a service](https://ethereum.org/en/developers/docs/nodes-and-clients/nodes-as-a-service/), and Nephele will develop this approach for a diversity of applications and services.&#x20;
+Setting up your node can cost you time and resources, but you don’t always need to run your instance. In this case, you can use a third-party API provider. Ethereum ecosystem develops many [nodes as a service](https://ethereum.org/en/developers/docs/nodes-and-clients/nodes-as-a-service/), and Flashback will develop this approach for a diversity of applications and services.&#x20;
 
-Suppose somebody runs a Nephele node with a public API in your community. In that case, you can point your wallets to a community node via Custom RPC and gain more privacy than with some random trusted third party.
+Suppose somebody runs a Flashback node with a public API in your community. In that case, you can point your wallets to a community node via Custom RPC and gain more privacy than with some random trusted third party.
 
 On the other hand, if you run a client, you can share it with your friends who might need it.
 
 #### Tracking nodes in the network <a href="#network-overview" id="network-overview"></a>
 
-Multiple trackers offer a real-time overview of nodes in the Ethereum network. We expect to find solutions for Nephele and its ecosystem development. Note that due to the nature of decentralized networks, these crawlers can only provide a limited view of the network and might report different results.
+Multiple trackers offer a real-time overview of nodes in the Ethereum network. We expect to find solutions for Flashback and its ecosystem development. Note that due to the nature of decentralized networks, these crawlers can only provide a limited view of the network and might report different results.
 
 * TBD
 

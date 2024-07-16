@@ -1,10 +1,10 @@
 # Block Proposals
 
-Blocks are the fundamental units of the blockchain. They are discrete units of information that are passed between nodes, agreed upon, and added to each node's database. This page explains how blocks are produced and proposed to the network.
+Blocks are the fundamental units of the blockchain. They are discrete information units passed between nodes, agreed upon, and added to each node's database. This page explains how blocks are produced and proposed to the network.
 
 ## A Gentle Reminder <a href="#who-produces-blocks" id="who-produces-blocks"></a>
 
-Validator accounts propose blocks. Validator accounts are managed by node operators who run validator software as part of their execution and consensus clients. They have deposited at least 32 ETH  in Ethereum or 10,000 NEP in Nephele into the deposit contract. However, each validator is only occasionally responsible for proposing a block. Ethereum measures time in slots and epochs. Each slot is twelve seconds, and 32 slots (6.4 minutes) make up an epoch. Every slot is an opportunity to add a new block on Ethereum.
+Validator accounts propose blocks. Validator accounts are managed by node operators who run validator software as part of their execution and consensus clients. They have deposited at least 32 ETH  in Ethereum or 10,000 FLASH in Flashback into the deposit contract. However, each validator is only occasionally responsible for proposing a block. Ethereum measures time in slots and epochs. Each slot is twelve seconds, and 32 slots (6.4 minutes) make up an epoch. Every slot is an opportunity to add a new block on Ethereum.
 
 ## Random selection of Validators <a href="#random-selection" id="random-selection"></a>
 
