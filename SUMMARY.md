@@ -37,7 +37,7 @@
       * [Staking Validators](learn/our-network-and-ecosystem/ethereum-stack-in-nephele/validators/README.md)
         * [Proof-of-Stake](learn/our-network-and-ecosystem/ethereum-stack-in-nephele/validators/proof-of-stake.md)
         * [Attestations](learn/our-network-and-ecosystem/ethereum-stack-in-nephele/validators/attestations.md)
-        * [Block Proposal Principles](learn/our-network-and-ecosystem/ethereum-stack-in-nephele/validators/block-proposal-principles.md)
+        * [Block Proposal and Rewards](learn/our-network-and-ecosystem/ethereum-stack-in-nephele/validators/block-proposal-principles.md)
         * [Keys](learn/our-network-and-ecosystem/ethereum-stack-in-nephele/validators/account-and-keys.md)
         * [Slashing](learn/our-network-and-ecosystem/ethereum-stack-in-nephele/validators/slashing.md)
     * [From Filecoin](learn/our-network-and-ecosystem/storage-mechanisms/README.md)
