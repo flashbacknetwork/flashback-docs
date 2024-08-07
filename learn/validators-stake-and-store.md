@@ -34,6 +34,29 @@ There are 3 different ways to become a validator:
 
 * **Solo Validator**: This is the ultimate standard. You have full participation rewards, you improve the decentralization of the network, and you never require trusting anyone else with your funds. You'll need a dedicated computer connected to the Internet. This connection must be stable and available \~24/7.
 
+\---- (to add the following)
 
+#### Staking-as-a-Service
+
+* **Your 32 FLASH**: Start with your stake.
+* **Your Validator Keys**: Manage your credentials.
+* **Entrusted Node Operation**: Leave the technicalities to the experts.
+
+If you're hesitant about managing hardware but still want to stake your 32 FLASH, consider using staking-as-a-service. This option guides you through the process of creating validator credentials, uploading your signing keys, and depositing your 32 FLASH. The service handles validation on your behalf, allowing you to earn native block rewards.
+
+This method requires trusting the service provider. To mitigate risk, withdrawal keys—allowing you to reclaim your FLASH—are typically retained by you, ensuring security and control.
+
+#### Pooled Staking
+
+* **Stake Any Amount**: Flexible entry.
+* **Earn Rewards**: Participate in gains.
+* **Keep it Simple**: User-friendly approach.
+* **Popular Choice**: Widely used option.
+
+For those not ready or able to stake 32 FLASH directly, pooled staking offers a viable alternative. Many services offer what's known as 'liquid staking', which issues an ERC-20 liquidity token that represents your staked FLASH. This makes it easy to enter or exit staking positions just like a token swap and allows you to maintain custody of your assets in your own Flashback wallet.
+
+Keep in mind, pooled staking solutions are developed by third parties and are not native to the Flashback network. These platforms introduce their own set of risks.
+
+Both of these staking methods provide ways to engage with the Flashback ecosystem, whether you prefer a hands-on approach or seek the simplicity and lower entry requirements of pooled options.
 
 ### &#x20;<a href="#why-should-i-run-an-ethereum-node" id="why-should-i-run-an-ethereum-node"></a>

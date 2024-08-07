@@ -1,0 +1,21 @@
+# Storage providers' Collateral
+
+## Initial Pledge Collateral
+
+* **Purpose and Composition**: The initial pledge collateral is a security deposit that miners must pay when sealing a new sector, composed of a storage pledge and a consensus pledge. This collateral is designed to incentivize miners to fulfill their storage obligations and to secure the network by deterring malicious or unreliable behavior.
+* **Amount and Calculation**: The amount is calculated based on the expected block rewards that the sector will earn over approximately 20 days, ensuring the pledge is large enough to cover potential faults and penalties but feasible for new miners to afford.
+* **Dynamic Adjustments**: The consensus pledge part of the initial pledge is adjusted based on the sector's contribution to the network's total quality-adjusted power (QAP) and the circulating supply of FIL tokens, aiming to lock about 30% of the circulating supply in pledges.
+
+## Block Reward Collateral
+
+* **Incentive Alignment**: Block rewards earned by a sector also serve as collateral, which can be slashed if the miner fails to fulfill the storage deal or terminates a sector prematurely. This mechanism ensures miners have continuous financial incentives to maintain reliable storage.
+* **Vesting Schedule**: Rewards are vested over a fixed duration, providing miners with liquidity for ongoing operations while retaining a strong incentive to preserve data until the end of the deal. This system balances the need for immediate liquidity against the risk of premature sector termination.
+* **Economic Impact**: Using block rewards as collateral allows for a lower initial cash outlay from miners, reducing barriers to entry while still providing a robust mechanism to enforce deal terms and network reliability.
+
+## Storage Deal Collateral
+
+* **Deal-Specific Security**: This collateral is provided by miners to specifically guarantee individual storage deals, ensuring that they have a vested interest in maintaining the data integrity and availability as agreed upon in the storage deal contracts.
+* **Market Dynamics**: This form of collateral allows miners to differentiate themselves in the market, potentially attracting more clients by demonstrating higher reliability or offering better terms.
+* **Regulatory Mechanism**: Governed by the Storage Market Actor, this collateral aligns the incentives of miners with their clients, ensuring that penalties are applied for non-compliance with the agreed terms of storage contracts.
+
+These collateral mechanisms collectively help maintain the reliability, security, and economic viability of the Filecoin network by aligning miner incentives with network and client needs.

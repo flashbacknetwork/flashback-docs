@@ -2,11 +2,27 @@
 
 The on-chain storage marketplace in Filecoin facilitates interactions between clients who need data storage and storage providers who offer storage capacity. Here's an overview of how this marketplace operates:
 
-## Components of the On-Chain Storage Marketplace
+The Filecoin Storage Market is where clients looking to store data connect with storage providers who have available capacity. This market operates through a series of on-chain and off-chain interactions that ensure transparency, security, and compliance with agreed-upon terms.
 
-1. **Deal Making Process**: The process begins with clients identifying potential storage providers and inquiring about their storage rates. Once a provider is chosen, terms are negotiated and agreed upon. The finalized [deal](file-storage-contracts.md) is then recorded on the Filecoin blockchain, ensuring transparency and enforceability of the contract​.
-2. **Publishing Deals**: Storage providers prepare and sign a _StorageDeal_ message, which includes a proposal signed by both the client and the provider. This message can be sent back to the client for verification or directly published to the blockchain via the `PublishStorageDeals` function. Once published, the deal is officially recorded on the blockchain and the storage provider adds the client’s data into their storage sectors​.
-3. **Storage and Handoff**: After a deal is published on-chain, the next steps involve the physical storage of data. This includes sealing the data into sectors and proving the ongoing storage through continuous proofs like Proof-of-Spacetime. Once stored, the data is managed and retrievable according to the terms set out in the storage deal​.
+## Deal Flow in the Filecoin Storage Market
+
+1. **Deal Negotiation (Off-chain)**:
+   * **Initiation**: Clients and storage providers begin by negotiating terms such as the size of the data, price, duration of storage, and specific storage requirements.
+   * **Deal Terms**: These are discussed off-chain to speed up the process and reduce transaction costs. Once both parties agree, they proceed to formalize the deal on-chain.
+2. **Deal Setup (On-chain)**:
+   * **AddBalance**: Both parties deposit FIL (Filecoin tokens) into the Storage Market Actor—a smart contract that manages deal transactions on Filecoin.
+   * **Publishing the Deal**: The client or the provider then sends a message to the Storage Market Actor to publish the deal on the blockchain. This message includes the deal terms and the data's cryptographic hash as proof of the data that will be stored.
+3. **Proof of Storage**:
+   * **Preparation**: Once a deal is published, the storage provider prepares the data for storage by sealing it into sectors. This process is computationally intensive and ensures the data's integrity and retrievability.
+   * **Continuous Verification**: Throughout the duration of the deal, the provider must periodically submit Proof-of-Spacetime (PoSt) to prove that the data is being correctly stored. This is essential to maintain the integrity of the data and the trust of the network.
+4. **Deal Conclusion**:
+   * **Retrieval**: At the end of the deal, or upon request, the data is made available for retrieval by the client. If the storage provider fails to return the data in the agreed-upon condition, penalties may be applied.
+   * **Renewal or Termination**: Deals can either be renewed under new or existing terms or conclude entirely with the data being returned to the client or deleted, as specified in the deal terms.
+
+## Collaterals and Incentives
+
+* **Collaterals**: To ensure compliance and penalize defaulters, both clients and providers lock up collateral in FIL, which can be slashed in cases of misconduct or failure to meet the deal's terms.
+* **Incentives**: Providers are incentivized to maintain data integrity and availability through block rewards, which are contingent on their ongoing submission of valid storage proofs.
 
 ## Challenges and Considerations
 
