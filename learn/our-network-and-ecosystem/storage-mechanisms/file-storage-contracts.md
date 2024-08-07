@@ -20,6 +20,7 @@ A file storage contract in the Filecoin network can be compared to a traditional
 3. **Deal Lifecycle:**
    * Deals in Filecoin are immutably recorded on the blockchain, creating a transparent and verifiable record of the agreement and its fulfillment.
    * Storage providers receive compensation in Filecoin tokens, which are disbursed according to the contract terms, typically after they successfully prove they are holding the data as agreed.
+   * The minimum duration for these deals is 180 days, while the maximum extends to 540 days, balancing deal length with cryptographic security needs.
 4. **Proofs of Storage:**
    * Throughout the deal, the storage provider must submit proof to the blockchain. These proofs, known as Proof-of-Spacetime (PoSt), verify that the data is correctly stored over time.
 5. **Deal Completion:**

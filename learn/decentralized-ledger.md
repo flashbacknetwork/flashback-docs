@@ -2,7 +2,7 @@
 author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 ---
 
-# Our Layer-1 Blockchain
+# Flashback Network
 
 A blockchain is a ledger that lists different accountancy operations gathered per block. Every new block is linked to its predecessor, forming a continuous chain of blocks. Gathering the operations into blocks enables frequent updates without altering the ledger and its historical operations.
 
@@ -22,7 +22,7 @@ A group of persons or an individual (who knows) called [Satoshi Nakamoto](https:
 The decentralized ledger was born with its first cryptocurrency, Bitcoin, to incentivize the owners of machines to participate positively in the consensus based on the proof-of-work (PoW) algorithm. Bitcoin enables it to operate accountancy operations called transactions of its cryptocurrency. Nowadays, the Bitcoin network is in the category of Layer-1 blockchain, like Ethereum, Solana, or **Flashback**. It has the following characteristics:
 
 1. <mark style="color:yellow;">Decentralized Ledger</mark> _-_ The network maintains a distributed ledger that records all transactions and state changes. The machines in the peer-to-peer network maintaining the ledger are called network nodes or **nodes**.
-2. <mark style="color:yellow;">Consensus Mechanism</mark> - Layer-1 blockchains implement consensus protocols (e.g., Proof of Work, Proof of Stake, Proof-of-Stake-Spacetime) that allow nodes to agree on the state of the blockchain and validate transactions. These nodes performing the consensus process are called **validators**.
+2. <mark style="color:yellow;">Consensus Mechanism</mark> - Layer-1 blockchains implement consensus protocols (e.g., Proof of Work, Proof of Stake, Proof-of-Stake-Spacetime) that allow nodes to agree on the state of the blockchain and validate transactions. These nodes performing the consensus process are called **validators**. <mark style="color:purple;">**Validators are block verifiers and storage providers in Flashback.**</mark>&#x20;
 3. <mark style="color:yellow;">Native Cryptocurrency</mark> - Most Layer-1 blockchains have a native cryptocurrency used for transactions and incentivizing network participants. Flashback supports its cryptocurrency called **FLASH**.
 4. <mark style="color:yellow;">Smart Contract Functionality</mark> - Some Layer-1 blockchains support smart contracts, self-executing contracts with the terms directly written into the code. **Flashback is EVM-compatible by fork**, which means it has the same features of virtual machines as Ethereum.
 
