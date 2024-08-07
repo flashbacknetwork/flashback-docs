@@ -18,7 +18,3 @@ Filecoin's model is designed to facilitate decentralized storage solutions on a 
 
 <mark style="color:yellow;">**6. Technological Infrastructure:**</mark> Filecoin storage providers typically utilize advanced file systems like ZFS due to their robustness, data integrity features, and support for high storage capacities. Providers must also manage their hardware effectively, ensuring data redundancy and protection to maintain service quality and reliability​​.
 
-## Differences between Filecoin and Nephele
-
-
-
