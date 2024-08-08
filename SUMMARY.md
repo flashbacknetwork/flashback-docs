@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Flashback Documentation](README.md)
+* [Flashback Documentation](README.md)
 * [Glossary](glossary.md)
 
 ## GETTING STARTED
