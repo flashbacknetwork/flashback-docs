@@ -17,7 +17,7 @@ Here’s a breakdown of the potential utility of such a token within a hybrid bl
 ## **Storage Deals**
 
 * **Paying for Storage**: Mirroring Filecoin’s utility, FLASH can be used to pay for storage within the network. Users who need to store data (e.g., documents, media files) can pay storage providers in FLASH.
-* **be paid as Storage Providers**: Storage providers will receive payments in FLASH from the submitted [file storage contracts (deals)](../our-network-and-ecosystem/storage-mechanisms/file-storage-contracts.md) according to their services and [their quality](../quality-of-network-qon-optimizer.md), ensuring they win in reliably storing users’ data.
+* **be paid as Storage Providers**: Storage providers will receive payments in FLASH from the submitted [file storage contracts (deals)](../our-network-and-ecosystem/storage-mechanisms/file-storage-contracts.md) according to their services and [their quality](../decentralized-ledger/quality-of-network-qon-optimizer.md), ensuring they win in reliably storing users’ data.
 
 ## **Governance**
 
@@ -38,4 +38,3 @@ Here’s a breakdown of the potential utility of such a token within a hybrid bl
 * **Bridging with Other Chains**: Given the blockchain's hybrid nature, features might allow for interoperability with Ethereum, Filecoin, or other blockchains. This could involve wrapping FLASH to be used on other networks or creating swap mechanisms to exchange it with other cryptocurrencies seamlessly.
 
 $FLASH is pivotal to both the economic and operational layers of the network, facilitating not just transactions and consensus but also providing a utility in decentralized storage markets, enhancing network governance, and supporting the broader ecosystem through various incentives. Such a versatile role could position $FLASH as a fundamental asset within and potentially beyond the network’s confines.
-
