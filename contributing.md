@@ -59,8 +59,8 @@ Start by reviewing the existing documentation to identify gaps or areas for impr
 Fork the repository to your GitHub account and clone it to your local machine:
 
 ```bash
-git clone https://github.com/your-username/project-name.git
-cd project-name
+git clone https://github.com/thenephelecloud/neph-docs
+cd flashback-docs
 ```
 
 ### 2. Create a New Branch
@@ -91,7 +91,7 @@ git commit -m "Updated documentation for feature X"
 Push your changes to your forked repository:
 
 ```bash
-git push origin documentation-update
+git push origin documentation-update-gitusername
 ```
 
 ### 6. Create a Pull Request
@@ -100,7 +100,7 @@ Navigate to the original repository and create a pull request. Provide a detaile
 
 ### 7. Address Feedback
 
-Project maintainers may request changes. Address their feedback promptly to get your contribution merged.
+Project maintainers may request changes. Please address their feedback as soon as possible to get your contribution merged. We recommend you to open a ticket in our [Discord](https://discord.gg/yy8kyM5qFB) to follow-up your contribution and to get rewarded.&#x20;
 
 ## Writing Tutorials and How-to Guides
 
@@ -122,13 +122,26 @@ Provide an overview of what the tutorial covers.
 ## Prerequisites
 - List of required tools or knowledge.
 
-## Steps
-1. **Step 1**: Detailed instructions for the first step.
-2. **Step 2**: Detailed instructions for the second step.
-3. **Step 3**: Detailed instructions for the third step.
+## The Steps of the Guide
 
-## Conclusion
+### Step 1: Name of the Step
+- Detailed instructions for the first step.
+
+### Step 2: Name of the Step
+- Detailed instructions for the second step.
+
+## Additional Information (optional)
+Provide additional information to udnerstand the tutorial and the technology.
+
+## Conclusion (Optional)
 Summarize what was covered and suggest further reading or next steps.
+
+## Frequently Asked Questions (Optional)
+List the questions you receive by doing your tutorial. 
+
+## Author Contact (Optional)
+Provide the contact information as an author. 
+It is welcome and will help to improve your tutotial and yur contribution.
 ```
 
 ## Best Practices
@@ -140,6 +153,6 @@ Summarize what was covered and suggest further reading or next steps.
 
 ## Conclusion
 
-Contributing to blockchain documentation, tutorials, and how-to guides is a rewarding way to enhance your skills, support the community, and promote the adoption of blockchain technology. By following these guidelines, you can make meaningful contributions that benefit both newcomers and experienced developers.
+Contributing to blockchain documentation, tutorials, and how-toes is a rewarding way to enhance your skills, support the community, and promote the adoption of blockchain technology. By following these guidelines, you can make meaningful contributions that benefit both newcomers and experienced developers.
 
 Happy contributing!
