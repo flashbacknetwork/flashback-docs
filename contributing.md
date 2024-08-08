@@ -1,6 +1,6 @@
 ---
-description: It explains our documentation participation.
 author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
+description: It explains our documentation participation.
 ---
 
 # Improve Our Documentation
@@ -68,7 +68,7 @@ cd project-name
 Create a new branch for your contribution:
 
 ```bash
-git checkout -b documentation-update
+git checkout -b documentation-update-gitusername
 ```
 
 ### 3. Write or Update Documentation

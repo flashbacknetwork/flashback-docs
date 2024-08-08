@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Flashback](README.md)
+* [Welcome](README.md)
 * [Improve Our Documentation](contributing.md)
 * [Glossary](glossary.md)
 
