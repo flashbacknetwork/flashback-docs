@@ -9,8 +9,7 @@
 * [Get a Wallet](getting-started/get-wallets.md)
 * [Get NEPH Tokens](getting-started/get-neph-tokens.md)
 * [Discover Ethereum and Filecoin](getting-started/discover-ethereum.md)
-* [File Storage Services](getting-started/file-storage-services.md)
-* [List of Validators](getting-started/list-of-validators.md)
+* [Network Statistics](getting-started/network-statistics.md)
 
 ## LEARN
 
