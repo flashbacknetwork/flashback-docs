@@ -8,13 +8,13 @@ The Filecoin Storage Market is where clients looking to store data connect with 
 
 1. **Deal Negotiation (Off-chain)**:
    * **Initiation**: Clients and storage providers begin by negotiating terms such as the size of the data, price, duration of storage, and specific storage requirements.
-   * **Deal Terms**: These are discussed off-chain to speed up the process and reduce transaction costs. Once both parties agree, they proceed to formalize the deal on-chain.
+   * **Deal Terms**: These are discussed off-chain to speed up the process and reduce transaction costs. Once both parties agree, they proceed to formalize the deal on-chain. It can be done manually but deal-making systems exist to automate the process.&#x20;
 2. **Deal Setup (On-chain)**:
    * **AddBalance**: Both parties deposit FIL (Filecoin tokens) into the Storage Market Actor—a smart contract that manages deal transactions on Filecoin.
    * **Publishing the Deal**: The client or the provider then sends a message to the Storage Market Actor to publish the deal on the blockchain. This message includes the deal terms and the data's cryptographic hash as proof of the data that will be stored.
 3. **Proof of Storage**:
    * **Preparation**: Once a deal is published, the storage provider prepares the data for storage by sealing it into sectors. This process is computationally intensive and ensures the data's integrity and retrievability.
-   * **Continuous Verification**: Throughout the duration of the deal, the provider must periodically submit Proof-of-Spacetime (PoSt) to prove that the data is being correctly stored. This is essential to maintain the integrity of the data and the trust of the network.
+   * **Continuous Verification**: Throughout the duration of the deal, the provider must periodically submit Proof-of-Spacetime (PoSt) to prove that the data is being correctly stored. This is essential to maintain the integrity of the data and the network's trust.
 4. **Deal Conclusion**:
    * **Retrieval**: At the end of the deal, or upon request, the data is made available for retrieval by the client. If the storage provider fails to return the data in the agreed-upon condition, penalties may be applied.
    * **Renewal or Termination**: Deals can either be renewed under new or existing terms or conclude entirely with the data being returned to the client or deleted, as specified in the deal terms.
@@ -22,7 +22,7 @@ The Filecoin Storage Market is where clients looking to store data connect with 
 ## Collaterals and Incentives
 
 * **Collaterals**: To ensure compliance and penalize defaulters, both clients and providers lock up collateral in FIL, which can be slashed in cases of misconduct or failure to meet the deal's terms.
-* **Incentives**: Providers are incentivized to maintain data integrity and availability through block rewards, which are contingent on their ongoing submission of valid storage proofs.
+* **Incentives**: Providers are incentivized to maintain data integrity and availability through block rewards, contingent on their ongoing submission of valid storage proofs.
 
 ## Challenges and Considerations
 
