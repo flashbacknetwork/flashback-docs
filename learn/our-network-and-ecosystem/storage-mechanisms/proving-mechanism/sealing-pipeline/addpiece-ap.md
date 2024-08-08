@@ -19,7 +19,7 @@ The initial stage of the sealing pipeline in the Filecoin network, known as AddP
 *   **Resource Allocation**: To prevent any single process from monopolizing system resources, which could lead to inefficiencies or slowdowns, you can use the `taskset` command to specify CPU core allocation for the AddPiece process:
 
     ```arduino
-    arduinoCopier le codetaskset -c <xx-xx> lotus-worker run ...
+    arduino taskset -c <xx-xx> lotus-worker run ...
     ```
 
     Replace `<xx-xx>` with the specific range of CPU cores you wish to allocate, ensuring balanced resource usage across the server.

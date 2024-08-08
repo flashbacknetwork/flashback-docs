@@ -8,8 +8,6 @@ The proof-of-stake spacetime (PoS-ST) has different responsibilities as validato
 
 The validators can decide to be storage providers by enabling the proof-of-spacetime (PoSt) commitments as validators. This way, you extend your duties with off-chain file storage, the cornerstone of our DePIN-based cloud storage.
 
-
-
 ## Why be a validator?
 
 ### Earn rewards and Be Profitable
@@ -30,7 +28,7 @@ Doing staking is the best way to consume limited resources, the opposite of the 
 
 Nephele chose to develop a sustainable ecosystem by design. You'll be part of decision processes toward greener and more sustainable cloud storage by offering and optimizing our operating fees depending on your energy consumption, workforce, and other criteria.
 
-
+***
 
 ## 3 Ways to be a staking Validator
 
@@ -63,9 +61,9 @@ Remember, third parties develop pooled staking solutions and are not native to t
 
 Both staking methods provide ways to engage with the Flashback ecosystem, whether you prefer a hands-on approach or seek pooled options' simplicity and lower entry requirements.
 
-You can find more details on how to [become a validator (WIP)](../participate/become-a-validator/).
+You can find more details on how to [become a validator (WIP)](../participate/become-a-validator.md).
 
-
+***
 
 ## The storage duties <a href="#why-should-i-run-an-ethereum-node" id="why-should-i-run-an-ethereum-node"></a>
 
@@ -100,7 +98,7 @@ To begin, you'll need to invest in appropriate hardware. Flashback doesn't requi
 * **Stay Updated**: Keep your software up-to-date with the latest releases from Flashback. This includes updates that may affect consensus, storage proofs, and the storage market dynamics.
 * **Engage with the Community**: Participating in the Flashback community can provide support, insights, and essential updates regarding protocol changes.
 
-You can find more details on how to [become a validator (WIP)](../participate/become-a-validator/).
+You can find more details on how to [become a validator (WIP)](../participate/become-a-validator.md).
 
 
 

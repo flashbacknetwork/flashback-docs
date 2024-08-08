@@ -34,7 +34,7 @@ Once PC2 is complete:
 **Command to Force Pre-Commit Message**: For testing or urgent commitments, you can manually push the precommit message to the blockchain:
 
 ```bash
-bashCopier le codelotus-miner sectors batching precommit --publish-now
+bash lotus-miner sectors batching precommit --publish-now
 ```
 
 **Storage of Sealed Data**: The sealed sector, along with all its cryptographic layers, remains on the scratch volume until the Commit 2 (C2) phase is complete, ensuring data integrity and availability for final blockchain commitment.
