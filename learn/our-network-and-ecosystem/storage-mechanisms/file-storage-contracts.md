@@ -1,10 +1,10 @@
-# Deal and Sectors
+# File Storage Contracts (Deals) and Sectors
 
 The deal and sectors are unitary elements that compose the Filecoin network. The Flashback network derives these components to support the data storage security.
 
 ## Deal: A file Storage Contract with the Network
 
-In the Filecoin network, a "deal" refers to an agreement between a client and a storage provider. Essentially, this deal is a contract where the client pays the storage provider to keep their files securely on the network for a specified duration. This process involves the storage provider allocating space within their systems to house the client's data, ensuring its safety and availability as agreed upon in the terms of the deal.
+In the Filecoin network, a "deal" refers to an agreement between a client and a storage provider. Essentially, this deal is a contract where the client pays the storage provider to keep their files securely on the network for a specified duration. The storage provider allocates space within its systems to house the client's data, ensuring its safety and availability as agreed upon in the terms of the deal.
 
 ### **File Storage Contract Overview**
 
