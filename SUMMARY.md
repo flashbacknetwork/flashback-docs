@@ -72,7 +72,7 @@
   * [TGE Allocation](learn/network-economy/tge-allocation.md)
   * [Validators' Revenues](learn/network-economy/validators-revenues.md)
   * [Service Gateways' Revenues](learn/network-economy/services-revenues.md)
-* [Compliance Flashback System](learn/compliance-flashback-system.md)
+* [Flashback Compliance System](learn/compliance-flashback-system.md)
 
 ## PARTICIPATE
 
