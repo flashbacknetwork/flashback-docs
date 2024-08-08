@@ -55,9 +55,9 @@ Light nodes are simply running a[ light sync client](nodes-and-clients.md#light)
 
 Interested in running your Flashback client?
 
-For a beginner-friendly setup, you can visit [our guide](../../../../participate/run-your-evm-like-node/for-beginners.md).
+For a beginner-friendly setup, you can visit [our guide](../../../../participate/become-a-validator/run-your-evm-like-node/for-beginners.md).
 
-If you're more of a technical user, a true OG, or a future validator, dive into more details and options in [this expert guide](../../../../participate/run-your-evm-like-node/for-experts.md).
+If you're more of a technical user, a true OG, or a future validator, dive into more details and options in [this expert guide](../../../../participate/become-a-validator/run-your-evm-like-node/for-experts.md).
 
 ### Alternatives <a href="#alternatives" id="alternatives"></a>
 

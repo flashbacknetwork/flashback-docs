@@ -20,7 +20,7 @@ The Quality-of-Network (QoN) Optimizer is a smart contract designed for Ethereum
 
 **2. Validator Contract Management and Duties**
 
-* **Registration**: When a contract is submitted, validators register by sending a transaction (a collatoral) including a fee. The contract records each validator’s commitment and capabilities.
+* **Registration**: When a contract is submitted, validators register by sending a transaction (data collateral), including a fee. The contract records each validator’s commitment and capabilities.
 * **Data Handling Responsibilities**: After registration, validators respond to data requests from users, proving delivery through cryptographic signatures linked to the off-chain PoST verification.
 
 **3 Data Requests**

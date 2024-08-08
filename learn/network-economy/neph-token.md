@@ -24,18 +24,18 @@ Here’s a breakdown of the potential utility of such a token within a hybrid bl
 * **Voting Rights**: $FLASH holders could participate in governance decisions, voting on network upgrades, changes in protocol parameters, or community funding proposals. This can democratize control over the network’s development and future direction.
 * **Proposal Deposits**: To avoid spam and ensure seriousness, submitting proposals for network changes might require depositing tokens, which could be forfeited if the proposal is rejected or fails to gather sufficient support.
 
-#### 5. **Incentives and Rewards**
+## **Incentives and Rewards**
 
-* **Developer Incentives**: The token could be used to fund grants or bounties for developers to build on the network, create dApps, or improve the core protocol.
-* **Ecosystem Rewards**: Tokens might be distributed to users who contribute positively to the ecosystem, such as by providing liquidity, participating in testnets, or educating others about the network.
+* **Developer Incentives**: $FLASH could be used to fund grants or bounties for developers to build on the network, create dApps, or improve the core protocol.
+* **Ecosystem Rewards**: $FLASH might be distributed to users who contribute positively to the ecosystem by providing liquidity, participating in testnets, or educating others about the network.
 
-#### 6. **Token Burns**
+## **Token Burns**
 
-* **Deflationary Pressure**: To control inflation or adjust the circulating supply, a mechanism could be implemented where a portion of the tokens used in transactions or storage payments is burned, potentially increasing the token's value over time.
+* **Deflationary Pressure**: To control inflation or adjust the circulating supply, penalties, and protection mechanisms are implemented where a portion of the $FLASH used in transactions or storage payments is burned, potentially increasing the token's value over time.
 
-#### 7. **Interoperability and Token Swaps**
+## **Interoperability and Token Swaps**
 
-* **Bridging with Other Chains**: Given the hybrid nature of the blockchain, there might be features allowing for interoperability with Ethereum, Filecoin, or other blockchains. This could involve wrapping the native token to be used on other networks or creating swap mechanisms to exchange it with other cryptocurrencies seamlessly.
+* **Bridging with Other Chains**: Given the blockchain's hybrid nature, features might allow for interoperability with Ethereum, Filecoin, or other blockchains. This could involve wrapping $FLASH to be used on other networks or creating swap mechanisms to exchange it with other cryptocurrencies seamlessly.
 
-This token would essentially be pivotal to both the economic and operational layers of the network, facilitating not just transactions and consensus, but also providing a utility in decentralized storage markets, enhancing network governance, and supporting the broader ecosystem through various incentives. Such a versatile role could position the token as a fundamental asset within and potentially even beyond the network’s confines.
+$FLASH is pivotal to both the economic and operational layers of the network, facilitating not just transactions and consensus but also providing a utility in decentralized storage markets, enhancing network governance, and supporting the broader ecosystem through various incentives. Such a versatile role could position $FLASH as a fundamental asset within and potentially beyond the network’s confines.
 

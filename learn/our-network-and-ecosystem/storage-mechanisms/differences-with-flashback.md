@@ -22,7 +22,7 @@ Filecoin brought many cryptographic proofs and a giant leap in the decentralizat
 
 ## Storage of proofs
 
-<mark style="color:yellow;">**Filecoin**</mark>: Filecoin designed the first truly decentralized proving system for data storage. This is undoubtedly a great leap for the decentralized ecosystem of public blockchain. This somehow led to the conception of blockchain, resulting in different problems. The first problem was the storage of proofs. It led to extremely high fees filling the whole block while increasing blockchain storage daily. The project developed Filecoin Plus (FIL+): An off-chain system of trusted data storage providers to support more useful data storage. This centralized notary system helped Filecoin grow and reduce the exponential growth of blockchain storage at the cost of security, privacy, and decentralization.
+<mark style="color:yellow;">**Filecoin**</mark>: Filecoin designed the first truly decentralized proving system for data storage. This is undoubtedly a great leap for the decentralized ecosystem of public blockchain. This somehow led to the conception of blockchain, resulting in different problems. The first problem was the storage of proofs. It led to extremely high fees filling the block while increasing daily blockchain storage. The project developed Filecoin Plus (FIL+): An off-chain system of trusted data storage providers to support more useful data storage. This centralized notary system helped Filecoin grow and reduce the exponential growth of blockchain storage at the cost of security, privacy, and decentralization.
 
 <mark style="color:yellow;">**Flashback**</mark>: The design of the blockchain is fundamental to achieving significant security and decentralization while offering vectors of scalability. Flashback is integrated with the Dencun upgrade and can use the [Blobs](../ethereum-stack-in-nephele/advanced/blockchain-data-availability.md). As explained later in the [QoN optimizer](../../quality-of-network-qon-optimizer.md), the solution streams the proofs to be stored in the Blobs, considerably reducing the [gas fees](https://unchainedcrypto.com/how-much-will-the-dencun-upgrade-really-reduce-ethereum-layer-2-fees-by/) and the blockchain storage growth. Finally, the Layer-2 capabilities will allow developers and companies to extend the storage scalabilities while opening the gate to computing, AI, and other computation-related applications into a unique ecosystem.
 
@@ -42,7 +42,7 @@ Filecoin brought many cryptographic proofs and a giant leap in the decentralizat
 
 <mark style="color:yellow;">**Filecoin**</mark>: Storage providers have three distinct collaterals: the initial pledge, the block reward, and the deals. These collaterals guarantee the security and stability of the network's storage. Multiple collaterals can complicate the business model of storage providers, who must integrate all the different collaterals and the associated penalties.
 
-<mark style="color:yellow;">**Flashback**</mark>: Storage providers have only one collateral from Ethereum's proof-of-stake (PoS) protocol. All penalties target this collateral. There are no pledges, block rewards, or deal collaterals. This approach eases the business of storage providers while understanding that it will only affect their staking operations but does not directly affect their storage duties.&#x20;
+<mark style="color:yellow;">**Flashback**</mark>: Storage providers have only one collateral from Ethereum's proof-of-stake (PoS) protocol. All penalties for block validation target this collateral. There are no pledges or block rewards related to storage. Nonetheless, Flashback keeps the storage deal collateral to pay the QoN contract fees. This approach eases the business of storage providers while understanding that it will only affect their staking operations but does not directly affect their storage duties.&#x20;
 
 ## Penalties
 
@@ -58,7 +58,7 @@ Filecoin brought many cryptographic proofs and a giant leap in the decentralizat
 
 ## Utility: "cold" vs "hot" storage
 
-<mark style="color:yellow;">**Filecoin**</mark>: The network is supporting the growth of storage providers in terms of capacity and to commit a setup to mine blocks and not the utility itself. Hence, Filecoin is aiming to be the archive system of the world, which is related to ["cold" storage](https://www.seagate.com/fr/fr/blog/what-is-cold-data-storage/).&#x20;
+<mark style="color:yellow;">**Filecoin**</mark>: The network is supporting the growth of storage providers in terms of capacity and to commit a setup to mine blocks and not the utility itself. Hence, Filecoin aims to be the world's archive system, which is related to ["cold" storage](https://www.seagate.com/fr/fr/blog/what-is-cold-data-storage/).&#x20;
 
 <mark style="color:yellow;">**Flashback**</mark>: The network promotes and rewards the storage providers with the best data storage performance. This unique incentive mechanism only supports the ["hot" storage](https://www.logicmonitor.com/blog/hot-storage-vs-cold-storage) of AI and other high-demanding data applications and services.&#x20;
 
