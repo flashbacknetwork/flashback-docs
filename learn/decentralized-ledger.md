@@ -1,7 +1,3 @@
----
-author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
----
-
 # Flashback Network
 
 A blockchain is a ledger that lists different accountancy operations gathered per block. Every new block is linked to its predecessor, forming a continuous chain of blocks. Gathering the operations into blocks enables frequent updates without altering the ledger and its historical operations.
@@ -30,7 +26,7 @@ Layer-1 blockchains are critical, forming the foundation for other solutions and
 
 ***
 
-The web is constantly evolving, and we're here to solve [the problem](../introduction/the-problem.md) that will support a brighter future for individuals and companies. The new generation of technologies saw mass adoption when the services and applications using them significantly improved user experience (UX). In DePIN-based cloud storage, the UX is not just a feature; it's the backbone of our core technologies.\
+The web is constantly evolving, and we're here to solve [the problem](introduction/the-problem.md) that will support a brighter future for individuals and companies. The new generation of technologies saw mass adoption when the services and applications using them significantly improved user experience (UX). In DePIN-based cloud storage, the UX is not just a feature; it's the backbone of our core technologies.\
 \
 How can we become the future backbone of cloud storage? This is Flashback's mission: to drive the innovations of tomorrow and its features to guarantee that:
 
