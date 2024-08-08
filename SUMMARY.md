@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Welcome to Flashback](README.md)
-* [Improve Our Documentation](contributing.md)
+* [Welcome to Flashback Documentation](README.md)
 * [Glossary](glossary.md)
 
 ## GETTING STARTED
@@ -85,3 +84,4 @@
 * [How-To Guides](participate/how-to-guides/README.md)
   * [Create a Flashback Account](participate/how-to-guides/use-a-wallet.md)
   * [A Simple Storage Service](participate/how-to-guides/a-simple-storage-service.md)
+* [Contribute to the Documentation](participate/contributing.md)
