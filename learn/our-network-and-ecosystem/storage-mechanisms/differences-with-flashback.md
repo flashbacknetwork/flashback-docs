@@ -56,3 +56,9 @@ Filecoin brought many cryptographic proofs and a giant leap in the decentralizat
 
 <mark style="color:yellow;">**Flashback**</mark>: The network is considered FTP agnostic, which means IPFS, FTP, HTTPS, and other protocols can operate between the storage providers and the network's clients.&#x20;
 
+## Utility: "cold" vs "hot" storage
+
+<mark style="color:yellow;">**Filecoin**</mark>: The network is supporting the growth of storage providers in terms of capacity and to commit a setup to mine blocks and not the utility itself. Hence, Filecoin is aiming to be the archive system of the world, which is related to ["cold" storage](https://www.seagate.com/fr/fr/blog/what-is-cold-data-storage/).&#x20;
+
+<mark style="color:yellow;">**Flashback**</mark>: The network promotes and rewards the storage providers with the best data storage performance. This unique incentive mechanism only supports the ["hot" storage](https://www.logicmonitor.com/blog/hot-storage-vs-cold-storage) of AI and other high-demanding data applications and services.&#x20;
+

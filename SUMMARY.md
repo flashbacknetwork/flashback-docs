@@ -59,7 +59,7 @@
       * [Differences with Flashback](learn/our-network-and-ecosystem/storage-mechanisms/differences-with-flashback.md)
   * [Consensus: Proof-of-Stake-Spacetime](learn/consensus-proof-of-stake-spacetime.md)
   * [Quality-of-Network (QoN) Optimizer](learn/quality-of-network-qon-optimizer.md)
-  * [Validators: Stake + Store](learn/validators-stake-and-store.md)
+  * [Validators: Stake first, Store after](learn/validators-stake-and-store.md)
   * [Network Economy](learn/network-economy/README.md)
     * [FLASH Token](learn/network-economy/neph-token.md)
     * [TGE Allocation](learn/network-economy/tge-allocation.md)
