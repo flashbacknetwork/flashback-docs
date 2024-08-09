@@ -6,7 +6,7 @@
 ## GETTING STARTED
 
 * [Get a Wallet](getting-started/get-wallets.md)
-* [Get NEPH Tokens](getting-started/get-neph-tokens.md)
+* [Get FLASH Tokens](getting-started/get-neph-tokens.md)
 * [Discover Ethereum and Filecoin](getting-started/discover-ethereum.md)
 * [Network Statistics](getting-started/network-statistics.md)
 
