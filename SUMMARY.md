@@ -76,6 +76,7 @@
 
 * [Join our Testnet](participate/participate-to-the-nephele-testnet.md)
 * [Become a Validator](participate/become-a-validator.md)
+  * [Hardware Requirements](participate/become-a-validator/hardware-requirements.md)
   * [Run Your EVM-like Node](participate/run-your-evm-like-node/README.md)
     * [For Beginners](participate/run-your-evm-like-node/for-beginners.md)
     * [For Experts](participate/run-your-evm-like-node/for-experts.md)
