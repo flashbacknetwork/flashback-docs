@@ -1,8 +1,12 @@
-# Examples with Cloud Providers
+# Cloud Providers
 
 _<mark style="color:red;">No endorsement of any Cloud provider is made here. The information provided is purely indicative. Please do your own research.</mark>_
 
-Here is a comprehensive list of server providers, including Google, Amazon, Microsoft, DigitalOcean, Hetzner, and OVH Cloud, along with their options and configurations that meet the minimal hardware requirements for a staking validator full node (in September 2024):
+## Centralized Providers
+
+### Solutions for Staking
+
+Here is a comprehensive list of centralized server providers, including Google, Amazon, Microsoft, DigitalOcean, Hetzner, and OVH Cloud, along with their options and configurations that meet the minimal hardware requirements for a staking validator (in September 2024):
 
 {% tabs %}
 {% tab title="Light" %}
@@ -18,7 +22,11 @@ Here is a comprehensive list of server providers, including Google, Amazon, Micr
 {% endtab %}
 {% endtabs %}
 
+### Solutions for Storage
 
+(soon)
+
+***
 
 ## Pros of Using a Cloud Service Provider
 
@@ -56,63 +64,3 @@ Here is a comprehensive list of server providers, including Google, Amazon, Micr
    * **Data Sovereignty**: Depending on where the cloud provider's data centers are located, there may be legal and regulatory implications for your node's stored and processed data.
    * **Provider Policies**: Cloud providers may have policies that conflict with your use case, particularly if your node is involved in regulated or restricted activities in certain jurisdictions.
 
-***
-
-## By Using a Homemade Setup
-
-A homemade setup for running a PoS validator node can offer greater control and potentially lower long-term costs thana cloud service. I've included below a suggested hardware setup along with estimated costs for purchasing the hardware. Additionally, I’ll provide an estimate of operating costs such as electricity bills and maintenance, with a breakdown for 2 years and 5 years.
-
-### Hardware Requirements and Costs
-
-
-
-| Type                | Caracteristics                             | Costs  |
-| ------------------- | ------------------------------------------ | ------ |
-| **Processor (CPU)** | Intel Core i5-12600K (6 cores, 12 threads) | \~$260 |
-| **Memory (RAM)**    | 16GB DDR4 RAM (2 x 8GB, 3200MHz)           | \~$60  |
-| **Storage**         | 1TB NVMe SSD (Samsung 970 EVO Plus)        |        |
-|                     |                                            |        |
-|                     |                                            |        |
-|                     |                                            |        |
-
-
-
-**3. Storage**
-
-* **1TB NVMe SSD (Samsung 970 EVO Plus)**
-* **Cost**: \~$100
-
-**4. Motherboard**
-
-* **ASUS Prime Z690-P**
-* **Cost**: \~$170
-
-**5. Power Supply Unit (PSU)**
-
-* **EVGA 500 W1, 80+ WHITE 500W**
-* **Cost**: \~$40
-
-**6. Cooling System**
-
-* **Cooler Master Hyper 212 RGB CPU Cooler**
-* **Cost**: \~$50
-
-**7. Case**
-
-* **Mid-Tower ATX Case (Corsair Carbide Series 275R)**
-* **Cost**: \~$70
-
-**8. Uninterruptible Power Supply (UPS)**
-
-* **APC UPS 600VA**
-* **Cost**: \~$80
-
-**9. Networking**
-
-* **Gigabit Ethernet (integrated)**
-* **No additional cost (assumed to be part of the motherboard)**
-
-**10. Operating System**
-
-* **Ubuntu Linux (Free)**
-* **Cost**: $0
