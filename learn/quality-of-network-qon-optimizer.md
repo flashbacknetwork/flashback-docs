@@ -1,6 +1,10 @@
 # Quality-of-Network (QoN) Optimizer
 
-The Quality-of-Network (QoN) Optimizer is a smart contract designed for Ethereum Virtual Machine (EVM) compatible blockchain networks. It is intended to optimize data availability and integrity through a decentralized network of validators. This document outlines the technical specifications of the QoN Optimizer, which leverages Proofs of Space-Time (PoST) within the Dencun data availability layer to ensure secure and efficient data transactions. The QoN Optimizer utilizes a contract-based mechanism where validators are required to store and reliably provide data upon request. Validators submit PoST to demonstrate they have held a specific amount of data for a designated period. The system is designed to incentivize speed and reliability among validators by providing economic rewards and penalties.
+The Quality-of-Network (QoN) Optimizer is a smart contract designed for compatible Ethereum Virtual Machine (EVM) blockchain networks. It is intended to optimize data availability and integrity through a decentralized network of validators.&#x20;
+
+This document outlines the technical specifications of the QoN Optimizer, which leverages Proofs of Spacetime (PoSt) within the Dencun data availability layer to ensure secure and efficient data transactions. The QoN Optimizer utilizes a contract-based mechanism where validators are required to store and reliably provide data upon request. Validators submit PoSt to demonstrate they have held a specific amount of data for a designated period.&#x20;
+
+The system is designed to incentivize speed and reliability among validators by providing economic rewards and penalties. Flashback is the first blockchain to leverage the PoSt for the quality of storage nodes, which is the **only truly decentralized** proof system.
 
 ## Contract Specifications
 
@@ -21,7 +25,7 @@ The Quality-of-Network (QoN) Optimizer is a smart contract designed for Ethereum
 **2. Validator Contract Management and Duties**
 
 * **Registration**: When a contract is submitted, validators register by sending a transaction (data collateral), including a fee. The contract records each validator’s commitment and capabilities.
-* **Data Handling Responsibilities**: After registration, validators respond to data requests from users, proving delivery through cryptographic signatures linked to the off-chain PoST verification.
+* **Data Handling Responsibilities**: After registration, validators respond to data requests from users, proving delivery through cryptographic signatures linked to the off-chain PoSt verification.
 
 **3 Data Requests**
 
@@ -42,7 +46,7 @@ The Quality-of-Network (QoN) Optimizer is a smart contract designed for Ethereum
 **5. User Proof of Space-Time (PoST) Commitment**
 
 * **Generation**:
-  * Once the user receives the file, they must generate a PoST to verify receipt and integrity of the data.
+  * Once the user receives the file, they must generate a PoSt to verify receipt and integrity of the data.
 * **Submission**:
   * The PoST is then submitted to a blob on the Dencun data availability layer.
 * **Purpose**:
@@ -60,9 +64,9 @@ The Quality-of-Network (QoN) Optimizer is a smart contract designed for Ethereum
 
 ## Security Considerations
 
-* **Proof of Space-Time**:
-  * The PoST mechanism is crucial for preventing Sybil attacks and ensuring validators hold the data they claim to manage.
+* **Proof of Spacetime**:
+  * The PoSt mechanism is crucial for preventing Sybil attacks and ensuring validators hold the data they claim to manage.
 * **Economic Incentives**:
   * The system discourages malicious practices and promotes genuine service provision by burning half of the post-winner fees and rewarding only the most efficient validator.
 * **Data Integrity**:
-  * The requirement for users to validate received data through PoST ensures data integrity and deters validators from sending incorrect or incomplete files.
+  * The requirement for users to validate received data through PoSt ensures data integrity and deters validators from sending incorrect or incomplete files.

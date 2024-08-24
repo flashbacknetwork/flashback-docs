@@ -1,29 +1,26 @@
-# Commit 1 (C1) and Commit 2 (C2)
+# Commit 1 (C1)
 
-The Commit 1 (C1) and Commit 2 (C2) phases in the Filecoin sealing pipeline are critical steps that finalize the storage process, securing data and ensuring its verifiability on the blockchain. Below, I'll detail these phases to enhance understanding:
+Commit 1 (C1) is a critical phase in the Filecoin sealing pipeline, where the groundwork for generating the final proof of storage is laid. This phase is primarily concerned with preparing the necessary data structures and performing initial computations that will eventually be used to create a zk-SNARK (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) proof. This proof will attest to the correctness of the data replication process and ensure that the data has been stored as required by the network.
 
-## Commit 1 (C1)
+## **Cryptographic Foundations**
 
-* **Purpose**: The C1 phase acts as an intermediate step where preparations are made to generate a cryptographic proof. This proof verifies that data has been sealed according to the Filecoin protocol's standards.
-* **Process**: This phase is heavily reliant on CPU resources as it involves assembling and processing data needed for the zk-SNARK proof generated in the subsequent C2 phase.
-* **Duration**: Typically, C1 completes very quickly, often within seconds, reflecting its role as a preparatory step rather than a heavy computational process.
-* **Execution Recommendation**: It is advisable for storage providers to run C1 on the same server as C2. This co-location minimizes data transfer delays between the two phases and streamlines the overall processing time.
+* **Preparation for zk-SNARK Proof**: In C1, the initial computations required to generate the zk-SNARK proof in the next phase (Commit 2) are carried out. This involves setting up data structures and performing necessary cryptographic operations to ensure that the proof can be efficiently and correctly generated.
+* **Data Integrity**: The operations performed in C1 are crucial for ensuring that the data stored within a sector remains secure and tamper-proof. The proofs generated from this phase will be part of the final proof that is submitted to the blockchain, proving the storage provider's commitment to the network.
 
-## Commit 2 (C2)
+## **Hardware and Performance Considerations**
 
-* **Purpose**: C2 is the final step in the sealing pipeline where the zk-SNARK proof is created. This proof is critical as it provides the cryptographic guarantee required by the Filecoin network to verify the integrity and authenticity of the sealed data.
-* **Process**: C2 is GPU-intensive, utilizing substantial graphical processing power to compute the zk-SNARK. This step consolidates all previous data transformations into a final proof that can be verified independently by anyone on the network.
-* **Hardware Requirements**: Due to its GPU-bound nature, running C2 on a high-performance GPU setup is crucial. This ensures the proof is generated efficiently and within the required time constraints.
+* **CPU Utilization**: The C1 phase is CPU-bound, meaning that it primarily relies on the processing power of the CPU to execute the necessary computations. While it is less demanding than the PC1 phase, it still requires a robust CPU to perform the operations efficiently.
+* **Memory and Storage Requirements**: The memory usage during C1 is relatively moderate compared to the initial sealing phases, but it still requires sufficient RAM to prepare data structures. The storage requirements involve managing intermediate data that will be used in the final proof generation.
+* **Duration**: The C1 phase is typically brief, often taking only a few seconds to a few minutes, depending on the hardware configuration and the size of the sector being processed.
 
-## On-Chain Commitment
+## **Process Execution**
 
-* **Commit Message Posting**: After C2 completes, a commit message that includes the zk-SNARK proof is prepared for posting to the Filecoin blockchain. This message is critical as it serves as the on-chain record of the data being securely stored.
-* **Batching Process**: To optimize network and resource usage, commit messages are typically batched and held for up to 24 hours before being sent to the blockchain. This batching helps in managing the blockchain's load and reduces the frequency of messages.
-* **Immediate Commit Option**: For scenarios requiring immediate on-chain commitment, such as testing or urgent updates, storage providers can use the command `lotus-miner sectors batching commit --publish-now` to bypass the batching process and push commit messages directly.
+* **Data Structure Initialization**: The primary task of C1 is to initialize and prepare the data structures that will be used in generating the zk-SNARK proof. This involves organizing the encoded data from previous phases and ensuring it is ready for the final proof generation.
+* **Optimizations**: While C1 is less resource-intensive than earlier phases like PC1, optimizing the CPU and memory usage during this phase can still contribute to overall efficiency in the sealing pipeline. Proper management of resources during C1 ensures that the transition to C2, where the final proof is generated, is smooth and efficient.
 
-## Storage and Retrieval
+## **Final Steps**
 
-* **Long-Term Storage**: Once sealed and verified, the sector is stored in the miner's long-term storage. This setup is essential for ensuring that data remains accessible for future retrieval requests, complying with the network's durability requirements.
-* **Retrieval Readiness**: Along with the sealed sectors, miners often store unsealed copies of the data. These are necessary for quick retrieval operations, as unsealing data can be time-consuming and computationally expensive.
+* **Transition to Commit 2 (C2)**: Once the C1 phase is complete, the system is ready to proceed to C2, where the final zk-SNARK proof will be generated. The outputs from C1 are crucial for ensuring that the proof generation in C2 is both accurate and efficient.
 
-Understanding these phases in detail helps storage providers optimize their operations and maintain compliance with Filecoin's stringent security and verifiability standards.
+Understanding the role of the Commit 1 (C1) phase in the Filecoin sealing pipeline is essential for optimizing the sealing process and ensuring the integrity and security of stored data. By properly managing the hardware resources and optimizing the execution of C1, storage providers can enhance their overall performance and contribute to the robustness of the Filecoin network.
+
