@@ -1,6 +1,6 @@
 # Minimal Requirements
 
-## Minimal Hardware Requirements for Staking
+## Validator for Staking
 
 As Flashback inherits from the Ethereum specifications, the network can support light, complete, and archive nodes. The validator cannot make the storage duties available. Flashback does not have the history of Ethereum and can reduce certain specifications. The minimal hardware requirements must then evolve with the growth of the Flashback ecosystem. &#x20;
 
@@ -11,7 +11,7 @@ As Flashback inherits from the Ethereum specifications, the network can support 
 | Storage           | 50 GB SSD           | 500 GB SSD          | 2 TB NVMe            |
 | Network Bandwidth | 10 Mbps             | 25 Mbps             | 100 Mbps             |
 
-## Minimal Hardware Requirements for Storage
+## Validator for Storage
 
 **A** Flashback validator performing storage duties will operate the [proof-of-stake spacetime (PoS-ST)](../../../learn/consensus-proof-of-stake-spacetime.md). Flashback needs to integrate storage in block generation and validation like Filecoin, which removes some processes and responsibilities compared to the protocol. Nonetheless, the Proof-of-Spacetime (PoSt) in the PoS-ST demands considering specific hardware requirements to achieve the zero-knowledge procedure of PoSt properly. \
 The minimal hardware requirements also depend highly on the [sealing rate](../../../learn/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/sealing-rate.md), which means how the validator wants to perform the[ sealing pipeline](../../../learn/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/sealing-pipeline/). The following considers the minimal hardware requirements for a single-sealing rate (sealing sector by sector, 32 GiB sector). We also consider the transformation of a PoS-only validator into a PoS-ST validator according to the node client (light, full, archive).&#x20;
