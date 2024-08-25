@@ -15,7 +15,14 @@
 * [Yellowpaper](learn/yellowpaper.md)
 * [Introduction](learn/introduction/README.md)
   * [What is the Web?](learn/introduction/what-is-the-web.md)
-  * [DePIN and Cloud Storage](learn/introduction/depin-and-cloud-storage.md)
+  * [The Dawn of Cloud Storage Market](learn/introduction/depin-and-cloud-storage/README.md)
+    * [Overview](learn/introduction/depin-and-cloud-storage/overview.md)
+    * [Segmentation](learn/introduction/depin-and-cloud-storage/segmentation.md)
+    * [Trends and Challenges](learn/introduction/depin-and-cloud-storage/trends-and-challenges.md)
+  * [DePIN-based Cloud Storage](learn/introduction/depin-and-cloud-storage-1/README.md)
+    * [What is DePIN?](learn/introduction/depin-and-cloud-storage-1/what-is-depin.md)
+    * [Levels of Decentralization](learn/introduction/depin-and-cloud-storage-1/levels-of-decentralization.md)
+    * [Landscape](learn/introduction/depin-and-cloud-storage-1/landscape.md)
   * [The Problem](learn/introduction/the-problem.md)
   * [Why Flashback?](learn/introduction/why-nephele.md)
 * [The Inherited Features](learn/our-network-and-ecosystem/README.md)
@@ -77,7 +84,7 @@
   * [TGE Allocation](learn/network-economy/tge-allocation.md)
   * [Validators' Revenues](learn/network-economy/validators-revenues.md)
   * [Service Gateways' Revenues](learn/network-economy/services-revenues.md)
-* [Flashback Compliance System](learn/compliance-flashback-system.md)
+* [Data Compliance](learn/compliance-flashback-system.md)
 
 ## PARTICIPATE
 
