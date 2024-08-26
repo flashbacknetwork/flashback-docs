@@ -1,10 +1,18 @@
-# Landscape
+# DePIN-based Cloud Storage
 
-Decentralized cloud storage is emerging as a vital component of the decentralized web. By leveraging blockchain technology, they enable various services, such as file storage, cloud computing, and more. This review, in line with Flashback's belief in the power of education, focuses on listed DePIN-based cloud storage solutions (FDV of +$10m market cap), specifically evaluating their levels of decentralization in the context of data storage. We listed only projects that natively integrated data storage. For instance, OORT proposes data storage projects using other infrastructure.&#x20;
+## The Origin of DePIN in Cloud Storage
+
+The emergence of Decentralized Physical Infrastructure Networks (DePIN) in cloud storage can be traced back to the growing demand for a more secure, cost-effective, and decentralized alternative to traditional cloud storage solutions. Centralized cloud storage providers, while offering significant convenience and scalability, have raised concerns over issues like data privacy, control, and single points of failure. These concerns have driven the development of decentralized storage networks, which aim to address the vulnerabilities inherent in centralized systems.
+
+Pioneering projects like Filecoin and Arweave were among the first to explore the potential of decentralized storage by leveraging blockchain technology. These projects laid the foundational principles of DePIN by creating networks where users could rent out their unused storage capacity on personal devices, thus contributing to a decentralized and distributed storage ecosystem. The core idea was to remove reliance on centralized servers and instead distribute data across a network of independent nodes operated by individual participants. This approach promised enhanced security, as data would be stored in a distributed manner, making it harder for any single point of failure to compromise the entire system.
+
+## The Current Landscape
+
+DePIN-based cloud storage is emerging as a vital component of the decentralized web. By leveraging blockchain technology, they enable various services, such as file storage, cloud computing, and more. This review, in line with Flashback's belief in the power of education, focuses on listed DePIN-based cloud storage solutions (FDV of +$10m market cap), specifically evaluating their levels of decentralization in the context of data storage. We listed only projects that natively integrated data storage. For instance, OORT proposes data storage projects using other infrastructure.&#x20;
 
 Below, we included a list of projects that summarize the various attractions of the technologies. The level of decentralization achieved is defined by the project's inability to validate the next level.
 
-## FDV: +$100m marketcap projects
+### +$100m marketcap projects
 
 {% tabs %}
 {% tab title="ICP" %}
@@ -12,7 +20,7 @@ Below, we included a list of projects that summarize the various attractions of 
 
 **Review:** The Internet Computer, developed by the DFINITY Foundation, is a blockchain project that aims to extend the public internet to host backend software, transforming it into a global, decentralized computing platform. The Internet Computer is designed to support applications of any scale. Its vision is to decentralize the internet by enabling developers to deploy software directly on the public internet without relying on traditional IT infrastructure such as cloud services.
 
-**Network Structure and Consensus Mechanism:** The Internet Computer utilizes a unique consensus mechanism called Threshold Relay, combined with Chain Key Technology. The network comprises independent data centers running specialized hardware, nodes, organized into subnets. These subnets collectively validate and execute smart contracts, known as canisters, on the Internet Computer.
+**Network Structure and Consensus Mechanism:** The Internet Computer utilizes a unique consensus mechanism called Threshold Relay, combined with Chain Key Technology. The network comprises independent data centers running specialized hardware and nodes organized into subnets. These subnets collectively validate and execute smart contracts, known as canisters, on the Internet Computer.
 
 The network’s governance is managed by the Network Nervous System (NNS), a decentralized autonomous organization (DAO) that oversees the protocol's upgrades, economic parameters, and node operator decisions. The NNS is controlled by holders of the ICP token, who can vote on proposals that affect the network.
 
@@ -170,7 +178,7 @@ STORJ operates at a decentralization level between Level 2 and 3. While the netw
 {% endtab %}
 {% endtabs %}
 
-## FDV: -$100m marketcap projects
+### -$100m marketcap projects
 
 {% tabs %}
 {% tab title="BLZ" %}
