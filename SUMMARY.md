@@ -26,7 +26,7 @@
     * [Here comes the Age of Gods](learn/introduction/depin-and-cloud-storage/here-comes-the-age-of-gods.md)
   * [DePIN-based Cloud Storage](learn/introduction/depin-and-cloud-storage-1/README.md)
     * [What is DePIN?](learn/introduction/depin-and-cloud-storage-1/what-is-depin.md)
-    * [Levels of Decentralization](learn/introduction/depin-and-cloud-storage-1/levels-of-decentralization.md)
+    * [Assess Decentralization](learn/introduction/depin-and-cloud-storage-1/assess-decentralization.md)
     * [Landscape](learn/introduction/depin-and-cloud-storage-1/landscape.md)
   * [The Problem](learn/introduction/the-problem.md)
   * [Why Flashback?](learn/introduction/why-nephele.md)
