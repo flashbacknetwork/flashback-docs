@@ -9,7 +9,7 @@ Before diving into how DePIN and distributed networks work together, it’s impo
 * **Distributed Networks:** In a distributed network, data and computing resources are spread across multiple locations or nodes, which work together to perform tasks. This distribution ensures redundancy, improves performance, and enhances reliability, as the network does not rely on a single point of failure. Distributed networks are designed to operate efficiently by leveraging multiple resources, often across different geographic locations, to achieve a common goal.
 * **Decentralized Networks:** Decentralization takes the concept of distribution a step further by removing centralized control and authority. In a decentralized network, no single entity has control over the entire system. Instead, decision-making, data storage, and resource management are shared among participants, often through consensus mechanisms. This creates a more resilient and equitable network where participants collectively govern and maintain the system.
 
-While distributed networks focus on the technical architecture of spreading resources, decentralization adds an additional layer of governance and autonomy. This combination makes DePIN and distributed cloud computing such a compelling match.
+While distributed networks focus on the technical architecture of spreading resources, decentralization adds an additional layer of governance and autonomy. <mark style="color:yellow;">**This combination makes DePIN and distributed cloud computing such a compelling match.**</mark>
 
 ## **Composability: The Building Blocks of a New Economy**
 
