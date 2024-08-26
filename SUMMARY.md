@@ -17,7 +17,7 @@
     * [Web1: Internet's Birth](learn/introduction/what-is-the-web/web1-internets-birth.md)
     * [Web2: Global Society](learn/introduction/what-is-the-web/web2-global-society.md)
     * [Web3: Decentralization](learn/introduction/what-is-the-web/web3-decentralization.md)
-    * [Web4 and Beyond](learn/introduction/what-is-the-web/web4-and-beyond.md)
+    * [Web4: Metaverse and beyond](learn/introduction/what-is-the-web/web4-metaverse-and-beyond.md)
   * [The Advent of Cloud Storage](learn/introduction/depin-and-cloud-storage/README.md)
     * [Magnetic tapes to Cloud Storage](learn/introduction/depin-and-cloud-storage/magnetic-tapes-to-cloud-storage.md)
     * [The Market](learn/introduction/depin-and-cloud-storage/the-market.md)
