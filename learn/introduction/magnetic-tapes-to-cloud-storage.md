@@ -22,6 +22,12 @@ Simultaneously, early forms of networked storage began to emerge. With the rise 
 
 ## **The 1990s: The Dawn of Cloud Storage**
 
-The 1990s marked a pivotal shift in the data storage landscape with the emergence of cloud storage technologies. This era saw the advent of the Internet and the commercialization of online services. The concept of storing data remotely rather than on physical media began to take shape.
+The 1990s marked a pivotal shift in the data storage landscape with the emergence of cloud storage technologies. This era saw the advent of the Internet and the commercialization of online services, and the concept of storing data remotely rather than on physical media began to take shape.
 
 Salesforce, founded in 1999, is often credited with pioneering the modern cloud storage model. As one of the first companies to offer customer relationship management (CRM) software as a service over the Internet, Salesforce demonstrated the potential of cloud-based data storage and application delivery. Their approach allowed businesses to access and manage their data from anywhere with an Internet connection, revolutionizing how data was stored and accessed.
+
+## **The 2000s: The Expansion of Cloud Storage and Solid-State Drives (SSDs)**
+
+The 2000s witnessed the rapid expansion and adoption of cloud storage, transforming how data was managed and accessed globally. Companies like Amazon Web Services (AWS), which launched its Simple Storage Service (S3) in 2006, played a pivotal role in making cloud storage a mainstream solution. S3 allowed businesses and individuals to store and retrieve any data anytime, marking a significant shift towards scalable, on-demand storage solutions. This decade also saw the rise of consumer cloud storage services like Dropbox (founded in 2007), which brought cloud storage into everyday use, allowing users to easily store, sync, and share files across multiple devices.
+
+Simultaneously, the 2000s marked the introduction and gradual adoption of Solid-State Drives (SSDs). Unlike traditional Hard Disk Drives (HDDs), SSDs used flash memory to store data, offering significantly faster read and write speeds, lower power consumption, and greater durability. While initially more expensive, the performance benefits of SSDs made them increasingly popular, particularly in high-performance computing environments and consumer electronics, setting the stage for SSDs to become a standard in data storage solutions in the following decade.
