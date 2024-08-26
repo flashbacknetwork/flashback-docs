@@ -12,11 +12,14 @@
 
 ## LEARN
 
-* [Yellowpaper](learn/yellowpaper.md)
 * [Introduction](learn/introduction/README.md)
-  * [What is the Web?](learn/introduction/what-is-the-web.md)
-  * [Magnetic tapes to Cloud Storage](learn/introduction/magnetic-tapes-to-cloud-storage.md)
+  * [What is the Web?](learn/introduction/what-is-the-web/README.md)
+    * [Web1: Internet's Birth](learn/introduction/what-is-the-web/web1-internets-birth.md)
+    * [Web2: Global Society](learn/introduction/what-is-the-web/web2-global-society.md)
+    * [Web3: Decentralization](learn/introduction/what-is-the-web/web3-decentralization.md)
+    * [Web4 and Beyond](learn/introduction/what-is-the-web/web4-and-beyond.md)
   * [The Advent of Cloud Storage](learn/introduction/depin-and-cloud-storage/README.md)
+    * [Magnetic tapes to Cloud Storage](learn/introduction/depin-and-cloud-storage/magnetic-tapes-to-cloud-storage.md)
     * [The Market](learn/introduction/depin-and-cloud-storage/the-market.md)
     * [Adoption Drivers](learn/introduction/depin-and-cloud-storage/adoption-drivers.md)
     * [Model and Service Type](learn/introduction/depin-and-cloud-storage/model-and-service-type.md)
@@ -90,6 +93,7 @@
   * [Validators' Revenues](learn/network-economy/validators-revenues.md)
   * [Service Gateways' Revenues](learn/network-economy/services-revenues.md)
 * [Data Compliance](learn/compliance-flashback-system.md)
+* [Yellowpaper](learn/yellowpaper.md)
 
 ## PARTICIPATE
 
