@@ -2,12 +2,12 @@
 
 ## Staking Revenues
 
-In the Flashback network, validators play a critical role in maintaining the network's integrity, security, and functionality. The revenue model for validators in Flashback, who stake their FLASH tokens to participate in network consensus, includes several sources of income.
+Validators play a critical role in maintaining the Flashback network's integrity, security, and functionality. The revenue model for validators in Flashback, who stake their FLASH tokens to participate in network consensus, includes several sources of income.
 
 ### **Block rewards**
 
 * **Primary Income**: Validators earn block rewards for proposing and validating new blocks. These rewards are issued in FLASH and are designed to compensate validators for their computational efforts, energy costs, and the capital locked up as stake.
-* **Reward Mechanism**: The Flashback network periodically mints new FLASH tokens as part of its inflationary policy, which are distributed to validators as block rewards. The rate of these rewards may decrease over time as the network reaches certain milestones or the total supply caps.
+* **Reward Mechanism**: The Flashback network periodically mints new FLASH tokens as part of its inflationary policy, distributed to validators as block rewards. The rate of these rewards may decrease over time as the network reaches certain milestones or the total supply caps.
 
 ### **Transaction fees**
 
@@ -16,7 +16,7 @@ In the Flashback network, validators play a critical role in maintaining the net
 
 ### **Network-specific fees**
 
-* **Special Operations**: Besides regular transactions, validators may earn fees from specific network functions such as executing large-scale smart contracts, participating in network upgrades, or managing cross-chain operations if Flashback supports interoperability features.
+* **Special Operations**: In addition to regular transactions, validators may earn fees from specific network functions, such as executing large-scale smart contracts, participating in network upgrades, or managing cross-chain operations, if Flashback supports interoperability features.
 
 ### **MEV (Miner Extractable Value)**
 
@@ -25,19 +25,19 @@ In the Flashback network, validators play a critical role in maintaining the net
 
 ### Passive incomes and delegation
 
-* **Passive Income**: Apart from actively validating blocks, validators earn staking rewards simply for participating in the consensus mechanism by locking their FLASH tokens. This secures the network by ensuring a sufficient token supply is staked, reducing liquidity and limiting circulating supply, which can also stabilize the token’s value.
+* **Passive Income**: In addition to actively validating blocks, validators earn staking rewards simply for participating in the consensus mechanism by locking their FLASH tokens. This secures the network by ensuring a sufficient token supply is staked, reducing liquidity and limiting thecirculating supply, which can also stabilize the token’s value.
 * **Delegation Systems**: If Flashback implements a delegation system, validators can also earn additional fees by accepting delegated stakes from other token holders who wish to participate in the staking process without running a validator node themselves.
 
 ***
 
 ## Storage Revenues
 
-Flashback leverages decentralized storage solutions like the one facilitated by the Quality-of-Network (QoN) Optimizer, validators play a crucial role in maintaining data availability and integrity. Their revenue model is fundamental to incentivize participation and ensure the network remains robust and reliable. Here’s a detailed overview of how validators generate revenue from their storage operations within such a system:
+Flashback leverages decentralized storage solutions like the one facilitated by the Quality-of-Network (QoN) Optimizer; validators play a crucial role in maintaining data availability and integrity. Their revenue model is fundamental to incentivize participation and ensure the network remains robust and reliable. Here’s a detailed overview of how validators generate revenue from their storage operations within such a system:
 
 ### **Data Storage Fees**
 
 * **Primary Revenue Source**: Validators charge fees for storing data on behalf of users. These fees are typically set based on the amount of data stored, the duration of storage, and the required accessibility or bandwidth.
-* **Contract-Based Pricing**: In systems like the QoN Optimizer, storage fees might be predefined in smart contracts, which specify the terms and conditions for storing and accessing data.
+* **Contract-Based Pricing**: In systems like the QoN Optimizer, smart contracts' storage fees might be predefined, which specify the terms and conditions for storing and accessing data.
 * **Dynamic Pricing Models**: Fees can vary based on the urgency of access, the popularity of the data, or market dynamics, allowing validators to capitalize on high-demand data assets.
 
 ### **Performance-Based Incentives**
@@ -52,23 +52,22 @@ Flashback leverages decentralized storage solutions like the one facilitated by 
 
 ***
 
-## Case Studies of Storage Provision
+## Example of Profits with Storage Provision
 
-Making deals requires you to select the different validators you want to operate in your service. Specifically, Flashback will have a on-chain marketplace that refers to all the nodes and their pricing. However, it can be complex to estimate its storage cost as a physical storage infrastructure provider. The following example illustrates approaches which can help you to understand how you can set your price. The figures provided are illustrative to support understanding, and should be aligned with actual deployment costs. We assume a staking of 10,000 FLASH staked per node and a circulating supply of 1,000,000,000 FLASH.&#x20;
+Making deals requires selecting the different validators you want to operate in your service. Specifically, Flashback will have a on-chain marketplace that refers to all the nodes and their pricing. However, estimating its storage cost as a physical storage infrastructure provider can be complex. The following example illustrates approaches that can help you to understand the profits you could make with the protocol. The figures provided are illustrative to support understanding and should be aligned with actual deployment costs. We assume a staking of 10,000 FLASH staked per node and a circulating supply of 1,000,000,000 FLASH.\
+\
+<mark style="color:red;">**WARNING: This is an example and does not reflect the reality. We suggest you to check the**</mark> [<mark style="color:blue;">**hardware configurations**</mark>](../../participate/become-a-validator/hardware-configurations/) <mark style="color:red;">**to understand better the specifications. This is not an advice and here to illustrate the incomes of storage provision.**</mark>
 
-A recommended configuration when you have a lot of TB is to add a GPU-based server that takes charge of the proof computation. Another option is to use a service called Sealing-as-a-Service (SlaaS) that will take charge of the proof computation. Using a GPU or a SlaaS speeds the storage availability in nodes. However, this kind of service is new and it isn't easy to find public data. We’ll then only assume configuration with a GPU. We assume that the storage provider wants to make 50% of benefits on the costs.We also set a minimal operating fee of 0.25 USD/TB/Month.
+We assume that the storage provider wants to make 50% of benefits on the costs. We also set a minimal operating fee of 0.25 USD/TB/Month.
 
-Disclaimer: The following configurations come from the same provider and are just here to give insights to our reader.
+| Storage Server                                   | STANDARD                            | LARGE                             | HIGH-GRADE                          |
+| ------------------------------------------------ | ----------------------------------- | --------------------------------- | ----------------------------------- |
+| Storage                                          | 24 TB of HDD SATA                   | 112 TB of HDD SAS                 | 92 TB of SSD NVMe                   |
+| Processor (CPU)                                  | 4 cores                             | 8 cores                           | 24 cores                            |
+| Memory (RAM)                                     | 16GB DDR4                           | 64GB DDR4                         | 750GB DDR4                          |
+| <p>Bandwidth </p><p>Public -</p><p>Private -</p> | <p></p><p>500 MB/s</p><p>1 GB/s</p> | <p></p><p>3 GB/s</p><p>6 GB/s</p> | <p></p><p>10 GB/s</p><p>25 GB/s</p> |
 
-| Storage Server             | STANDARD                                  | LARGE                                         | HIGH-GRADE                               |
-| -------------------------- | ----------------------------------------- | --------------------------------------------- | ---------------------------------------- |
-| Price                      | 100 USD/Month                             | 700 USD/Month                                 | 2,400 USD/Month                          |
-| Storage                    | 24 TB of HDD SATA                         | 112 TB of HDD SAS                             | 92 TB of SSD NVMe                        |
-| Processor (CPU)            | Intel Xeon-D 1521 - 4c/8t - 2.4GHz/2.7GHz | AMD Ryzen 7 Pro 3700 - 8c/16t - 3.6GHz/4.4GHz | AMD Epyc 7402 - 24c/48t - 2.8GHz/3.35GHz |
-| Memory (RAM)               | 16GB DDR4 ECC 2133MHz                     | 64GB DDR4 ECC 2933MHz                         | 750GB DDR4 ECC 2933MHz                   |
-| Bandwidth (Public/Private) | <p>500 MB/s</p><p> 1 GB/s</p>             | <p>3 GB/s</p><p>6 GB/s</p>                    | <p>10 GB/s</p><p>25 GB/s</p>             |
-
-An assumption is that this GPU configuration is limited by the private bandwidth with storage nodes. Let’s now consider 3 different configurations (no mixing server type to keep winning rate constant) with the proof computation limitation:
+Let’s now consider 3 different configurations (no mixing server type to keep the winning rate constant) with the proof computation limitation run by a unique GPU:
 
 | Configurations             | CONF-1            | CONF-2          | CONF-3           |
 | -------------------------- | ----------------- | --------------- | ---------------- |
@@ -146,7 +145,7 @@ In this situation, one node provides 1,400 tokens i.e. 35,000 USD in 1 year. Her
 
 ### Conclusion
 
-The operating fee is a decision of the storage provider. This section is to illustrate an operator's strategy for deciding the operating fees. Storage providers must consider other hardware such as SSD, NVMe, etc. Low operating fees do not mean storage priority. It is just a market offer and users will choose what is convenient for them and their use cases.
+The operating fee is the storage provider's decision. This section illustrates an operator's strategy for deciding the operating fee. Storage providers must consider other hardware, such as SSD, NVMe, etc. Low operating fees do not mean storage priority. It is just a market offer, and users will choose what is convenient for them and their use cases. To go further, we suggest you to check the [hardware configurations](../../participate/become-a-validator/hardware-configurations/).
 
 ***
 

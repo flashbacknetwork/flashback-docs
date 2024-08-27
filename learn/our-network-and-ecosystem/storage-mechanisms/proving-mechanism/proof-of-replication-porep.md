@@ -10,7 +10,7 @@ Proof of Replication (PoRep) is a mechanism by which a storage provider proves t
 4. **Compression of the Proof**: Once the unique encoding is created, it is compressed to optimize storage and transmission efficiency.
 5. **Certification Submission**: The compressed proof is then submitted to the Filecoin network. This acts as a certification from the storage provider, confirming that the data has been securely stored according to the agreed terms.
 
-These different steps will be explained in deeper details in the&#x20;
+You can find a mathematical approach [here](https://filecoin.io/proof-of-replication.pdf).
 
 ## Sealing as Proof
 
@@ -23,4 +23,3 @@ The unique encoding generated during the sealing process is derived from several
 This encoding is highly sensitive to changes; any alteration in the data, the storage provider's identity, or the sealing time will result in a different encoding. This sensitivity ensures that the encoding is unique and tamper-evident, providing a reliable method to verify that a particular storage provider did store the specified data at a given time.
 
 This cryptographic approach ensures that all stored data is secure and verifiable, maintaining trust and integrity within the Filecoin network. This process underscores the robustness of Filecoin's security measures, designed to safeguard client data against tampering and ensure compliance with storage agreements.
-

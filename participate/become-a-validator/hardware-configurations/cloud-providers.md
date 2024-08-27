@@ -8,7 +8,7 @@ _<mark style="color:red;">The provided information from Cloud providers are extr
 
 ### Network Protocol Clients
 
-Here is a comprehensive list of centralized server providers, including Google, Amazon, and OVH Cloud, along with their options and configurations that meet the minimal hardware requirements for a staking validator (in September 2024):
+Here is a non-exhaustive list of centralized Cloud providers, including Google, Amazon, and OVH Cloud, along with their options and configurations that meet the minimal hardware requirements for a staking validator (in September 2024):
 
 {% tabs %}
 {% tab title="Light" %}
@@ -26,21 +26,31 @@ Here is a comprehensive list of centralized server providers, including Google, 
 
 ## Storage Duties (PoS-ST Nodes)
 
-Here is a comprehensive list of centralized server providers, including Google, Amazon, and OVH Cloud, along with their options and configurations that meet the minimal hardware requirements for a staking validator (in September 2024):
-
-
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+Here is a non-exhaustive list of centralized dedicated server providers, including OVH Cloud,???, and ??? along with their options and configurations that meet the minimal hardware requirements for a staking validator (in September 2024). The server setups can vary depending on how you split the sector certification into multiple workers. We also consider that the storage duties are performed with a full node.
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="OVH Cloud" %}
+**Server 1:** Reception and Retrieval Node
 
-{% endtab %}
+* Market (Price and Request Management)
+* Daemons (Full-Node Network Client and Sector Management Client)
+* Sector Storage.
 
-{% tab title="Second Tab" %}
+**Server 2:** Sector Management
 
+* PoRep: Sealing Pipeline (AddPiece, PC1, PC2, C1, C2, Commitment)
+* WindowedPoSt
+* SnapDeal Pipelines
+
+<table><thead><tr><th width="193">Configurations</th><th>Server 1</th><th>Server 2</th></tr></thead><tbody><tr><td>Instance Name</td><td><strong>Advance-STOR</strong></td><td><strong>Scale-GPU-1</strong></td></tr><tr><td>CPU</td><td><strong>AMD EPYC 4344P - 8c/16t - 3.8GHz/5.3GHz</strong></td><td><strong>AMD EPYC GENOA 9354 - 32c/64t - 3.25GHz/3.8GHz</strong></td></tr><tr><td>RAM</td><td><strong>64 GB DDR5 5400MHz</strong></td><td><strong>384GB DDR5 ECC 4800MHz</strong></td></tr><tr><td>System + Client</td><td><strong>2x SSD NVMe 960GB Datacenter Class Soft RAID</strong></td><td><strong>2x SSD NVMe 960GB Datacenter Class Soft RAID</strong></td></tr><tr><td>Additional Storage</td><td><strong>4× 22TB HDD SAS Soft RAID</strong></td><td><strong>2× 1.92TB SSD NVMe Soft RAID</strong></td></tr><tr><td>Public Bandwidth</td><td><strong>1 Gbit/s unmetered</strong></td><td><strong>1G bit/s unlimited and guaranteed</strong></td></tr><tr><td>Private Bandwidth</td><td><strong>5G bit/s unlimited and guaranteed</strong></td><td>2<strong>5G bit/s unlimited and guaranteed</strong></td></tr><tr><td>GPU</td><td>---</td><td><strong>2x Nvidia L4 24GB</strong></td></tr><tr><td>Price</td><td><strong>300 USD/Month</strong></td><td><strong>1,500 USD/Month</strong></td></tr></tbody></table>
+
+In this basic configuration, we can see running a unique Server 1 with the&#x20;
 {% endtab %}
 {% endtabs %}
+
+
+
+
 
 ## Pros of Using a Cloud Service Provider
 

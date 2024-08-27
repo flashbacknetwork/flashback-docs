@@ -63,7 +63,7 @@
   * [From Filecoin](learn/our-network-and-ecosystem/storage-mechanisms/README.md)
     * [The Model](learn/our-network-and-ecosystem/storage-mechanisms/general-model.md)
     * [File Storage Contracts (Deals) and Sectors](learn/our-network-and-ecosystem/storage-mechanisms/file-storage-contracts.md)
-    * [Sector Proving: Pipelines and Proofs](learn/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/README.md)
+    * [Sector Management: Pipelines and Proofs](learn/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/README.md)
       * [Proof of Replication (PoRep)](learn/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/proof-of-replication-porep.md)
       * [Sealing Pipeline](learn/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/sealing-pipeline/README.md)
         * [AddPiece (AP)](learn/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/sealing-pipeline/addpiece-ap.md)
