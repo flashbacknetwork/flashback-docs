@@ -24,12 +24,12 @@ Here is a non-exhaustive list of centralized Cloud providers, including Google, 
 {% endtab %}
 {% endtabs %}
 
-## Storage Duties (PoS-ST Nodes)
+### Storage Duties (PoS-ST Nodes)
 
-Here is a non-exhaustive list of centralized dedicated server providers, including OVH Cloud,???, and ??? along with their options and configurations that meet the minimal hardware requirements for a staking validator (in September 2024). The server setups can vary depending on how you split the sector certification into multiple workers. We also consider that the storage duties are performed with a full node.
+Here is an example with a centralized dedicated server provider and their options and configurations that meet the minimal hardware requirements for a staking validator (in September 2024). The server setups can vary depending on how you split the sector certification into multiple workers. We also consider that the storage duties are performed with a full node.
 
 {% tabs %}
-{% tab title="OVH Cloud" %}
+{% tab title="OVH  - Basic" %}
 **Server 1:** Reception and Retrieval Node
 
 * Market (Price and Request Management)
@@ -38,19 +38,31 @@ Here is a non-exhaustive list of centralized dedicated server providers, includi
 
 **Server 2:** Sector Management
 
-* PoRep: Sealing Pipeline (AddPiece, PC1, PC2, C1, C2, Commitment)
+* PoRep: Sealing Pipeline
 * WindowedPoSt
 * SnapDeal Pipelines
 
-<table><thead><tr><th width="193">Configurations</th><th>Server 1</th><th>Server 2</th></tr></thead><tbody><tr><td>Instance Name</td><td><strong>Advance-STOR</strong></td><td><strong>Scale-GPU-1</strong></td></tr><tr><td>CPU</td><td><strong>AMD EPYC 4344P - 8c/16t - 3.8GHz/5.3GHz</strong></td><td><strong>AMD EPYC GENOA 9354 - 32c/64t - 3.25GHz/3.8GHz</strong></td></tr><tr><td>RAM</td><td><strong>64 GB DDR5 5400MHz</strong></td><td><strong>384GB DDR5 ECC 4800MHz</strong></td></tr><tr><td>System + Client</td><td><strong>2x SSD NVMe 960GB Datacenter Class Soft RAID</strong></td><td><strong>2x SSD NVMe 960GB Datacenter Class Soft RAID</strong></td></tr><tr><td>Additional Storage</td><td><strong>4× 22TB HDD SAS Soft RAID</strong></td><td><strong>2× 1.92TB SSD NVMe Soft RAID</strong></td></tr><tr><td>Public Bandwidth</td><td><strong>1 Gbit/s unmetered</strong></td><td><strong>1G bit/s unlimited and guaranteed</strong></td></tr><tr><td>Private Bandwidth</td><td><strong>5G bit/s unlimited and guaranteed</strong></td><td>2<strong>5G bit/s unlimited and guaranteed</strong></td></tr><tr><td>GPU</td><td>---</td><td><strong>2x Nvidia L4 24GB</strong></td></tr><tr><td>Price</td><td><strong>300 USD/Month</strong></td><td><strong>1,500 USD/Month</strong></td></tr></tbody></table>
+<table><thead><tr><th width="169">Configurations</th><th width="250">Server 1</th><th>Server 2</th></tr></thead><tbody><tr><td>Instance Name</td><td><strong>Advance-STOR</strong></td><td><strong>Scale-GPU-1</strong></td></tr><tr><td>CPU</td><td><strong>AMD EPYC 4344P - 8c/16t - 3.8GHz/5.3GHz</strong></td><td><strong>AMD EPYC GENOA 9354 - 32c/64t - 3.25GHz/3.8GHz</strong></td></tr><tr><td>RAM</td><td><strong>64 GB DDR5 5400MHz</strong></td><td><strong>384GB DDR5 ECC 4800MHz</strong></td></tr><tr><td>System + Client</td><td><strong>2x SSD NVMe 960GB Datacenter Class Soft RAID</strong></td><td><strong>2x SSD NVMe 960GB Datacenter Class Soft RAID</strong></td></tr><tr><td>Additional Storage</td><td><strong>4× 22TB HDD SAS Soft RAID</strong></td><td><strong>2× 1.92TB SSD NVMe Soft RAID</strong></td></tr><tr><td>Public Bandwidth</td><td><strong>1 Gbit/s unmetered</strong></td><td><strong>1G bit/s unlimited and guaranteed</strong></td></tr><tr><td>Private Bandwidth</td><td><strong>5G bit/s unlimited and guaranteed</strong></td><td>2<strong>5G bit/s unlimited and guaranteed</strong></td></tr><tr><td>GPU</td><td>---</td><td><strong>2x Nvidia L4 24GB</strong></td></tr><tr><td>Price</td><td><strong>300 USD/Month</strong></td><td><strong>1,500 USD/Month</strong></td></tr></tbody></table>
+{% endtab %}
 
-In this basic configuration, we can see running a unique Server 1 with the&#x20;
+{% tab title="Your Proposal" %}
+Propose a setup that you tested! We'll integrate it to the documentation!
+
+**Server 1:** Role
+
+* Purpose 1
+* Purpose 2
+
+**Server 2:** Role
+
+* Purpose 1
+* Purpose 2
+
+<table><thead><tr><th width="169">Configurations</th><th width="240">Server 1</th><th>Server 2</th></tr></thead><tbody><tr><td>Instance Name</td><td></td><td></td></tr><tr><td>CPU</td><td></td><td></td></tr><tr><td>RAM</td><td></td><td></td></tr><tr><td>System + Client</td><td></td><td></td></tr><tr><td>Additional Storage</td><td></td><td></td></tr><tr><td>Public Bandwidth</td><td></td><td></td></tr><tr><td>Private Bandwidth</td><td></td><td></td></tr><tr><td>GPU</td><td></td><td></td></tr><tr><td>Price</td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
-
-
-
+In this basic configuration, we can see running a unique Server 1 with Server 2; the storage provider must set a 40 TB/USD/Month price with OVH Cloud for instance. This does not consider the staking reward, but we invite you to read the [network economy](../../../learn/network-economy/) model to understand more about this aspect. Nonetheless, a storage provider can improve the setup with a dedicated server provider.&#x20;
 
 ## Pros of Using a Cloud Service Provider
 
@@ -70,7 +82,7 @@ In this basic configuration, we can see running a unique Server 1 with the&#x20;
    * **No Upfront Hardware Costs**: There is no need to invest in expensive hardware, which can be particularly advantageous for small-scale operations or those testing the waters.
    * **Pay-as-You-Go**: Cloud providers typically charge on a pay-as-you-go basis, allowing you to only pay for the resources you use.
 
-### Cons of Using a Cloud Service Provider
+## Cons of Using a Cloud Service Provider
 
 1. **Potential for Higher Long-Term Costs**:
    * **Ongoing Expenses**: While cloud providers are cost-effective for short-term or small-scale operations, the costs can add up over time, especially if you require high-performance configurations or extensive data storage.
@@ -87,4 +99,8 @@ In this basic configuration, we can see running a unique Server 1 with the&#x20;
 5. **Regulatory Challenges**:
    * **Data Sovereignty**: Depending on where the cloud provider's data centers are located, there may be legal and regulatory implications for your node's stored and processed data.
    * **Provider Policies**: Cloud providers may have policies that conflict with your use case, particularly if your node is involved in regulated or restricted activities in certain jurisdictions.
+6. **Limited Customization and Optimization:**
+   * **Standardized Hardware:** Many dedicated server providers offer a limited range of hardware configurations, which may not be fully optimized for your specific needs. This can be a significant limitation if you require specialized hardware for tasks such as high-throughput data processing, low-latency operations, or specific storage requirements.
+   * **Inflexible Configurations:** The lack of diverse options in dedicated servers can prevent you from achieving the best possible performance or cost-efficiency for your blockchain node. For example, you might need a specific balance of CPU, GPU, memory, and storage that isn't available in pre-configured options, leading to either underutilized resources or insufficient performance.
+   * **Limited Vendor Selection:** The choice of hardware vendors and components is often restricted to what the provider offers, which can limit your ability to select the most reliable or performance-oriented components for your needs.
 
