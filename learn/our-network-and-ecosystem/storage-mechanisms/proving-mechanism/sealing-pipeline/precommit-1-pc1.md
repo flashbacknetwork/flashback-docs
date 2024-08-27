@@ -9,7 +9,7 @@ PreCommit 1 (PC1) is a critical and resource-intensive phase in the Filecoin sea
 ### **Parameters and Environment Setup**:
 
 * **Cryptographic Parameters**: The process begins with loading cryptographic parameters from a cache. These parameters are essential for the encoding process and are stored on enterprise-level NVMe storage to minimize latency.
-* **CPU Requirements**: PC1 is executed as a single-threaded process that is heavily reliant on CPU capabilities, particularly those that support SHA256 extensions. Optimal CPUs for this task include AMD Epyc Milan/Rome and Intel Xeon Ice Lake processors with 32 cores or more.
+* **CPU Requirements**: PC1 is executed as a single-threaded process that is heavily reliant on CPU capabilities, particularly those that support SHA256 extensions.&#x20;
 
 ### **Memory and Storage Utilization**:
 
@@ -18,7 +18,7 @@ PreCommit 1 (PC1) is a critical and resource-intensive phase in the Filecoin sea
 
 ### **Process Execution**:
 
-* To ensure the sealing pipeline operates efficiently without overloading the system, it's crucial to manage the number of concurrent PC1 jobs. This is typically controlled by setting the `PC1_32G_MAX_CONCURRENT` environment variable, limiting simultaneous encoding jobs per server.
+* To ensure the sealing pipeline operates efficiently without overloading the system, managing the number of concurrent PC1 jobs is crucial. This is typically controlled by setting the `PC1_32G_MAX_CONCURRENT` environment variable, limiting simultaneous encoding jobs per server.
 
 ## The 11 Layers of Data Encoding
 
@@ -31,4 +31,4 @@ During the PC1 phase, 11 distinct data layers are created as part of the sector 
 
 * **Sealing Time**: The duration to seal a single 32 GiB sector typically takes about 3 hours, although this can vary based on the server’s hardware specifications and the workload of other tasks being processed simultaneously.
 
-By understanding and optimizing each component of PC1, storage providers can significantly enhance their operational efficiency and ensure compliance with the Filecoin network's security standards. This detailed setup not only helps in managing the computational load but also aligns with Filecoin’s requirements for data integrity and proof of storage.
+By understanding and optimizing each component of PC1, storage providers can significantly enhance their operational efficiency and ensure compliance with the Filecoin network's security standards. This detailed setup helps manage the computational load and aligns with Filecoin’s requirements for data integrity and proof of storage.

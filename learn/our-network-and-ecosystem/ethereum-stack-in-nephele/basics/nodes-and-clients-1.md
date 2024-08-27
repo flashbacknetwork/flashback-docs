@@ -49,27 +49,21 @@ Given their extensive data needs, archive nodes require substantial disk space r
 
 ## Light node <a href="#light-node" id="light-node"></a>
 
-Light nodes are simply running a[ light sync client](nodes-and-clients.md#light). Light nodes enable users to participate in the network without the powerful hardware or high bandwidth required to run full nodes. Eventually, light nodes might run on mobile phones or embedded devices. The light nodes do not participate in consensus (i.e. they cannot be miners/validators). Still, they can access the blockchain with the same functionality and security guarantees as a full node. Potential routes to providing light client data over the [gossip network](https://www.ethportal.net/) in Ethereum and can have similar interests in Flashback.
+Light nodes are simply running a[ light sync client](nodes-and-clients.md#light). Light nodes enable users to participate in the network without the powerful hardware or high bandwidth required to run full nodes. Eventually, light nodes might run on mobile phones or embedded devices. They can access the blockchain with the same functionality and security guarantees as a full node. Potential routes to providing light client data over the [gossip network](https://www.ethportal.net/) in Ethereum and can have similar interests in Flashback.
 
-### Run your node <a href="#running-your-own-node" id="running-your-own-node"></a>
+### **Differences Between Light Nodes and Full Nodes Regarding Rewards:**
 
-Interested in running your Flashback client?
+**Full Nodes** can participate as validators. Validators are selected to propose and attest to new blocks based on their stake in the network (the amount of ETH they have staked). Validators earn rewards for performing these duties correctly, and they can lose some of their stake (through slashing) if they act maliciously or negligently.
 
-For a beginner-friendly setup, you can visit [our guide](../../../../participate/run-your-evm-like-node/for-beginners.md).
+**Light Nodes** do not have the full blockchain and are not involved in validating the blockchain in the same way full nodes are. Therefore, they do not earn rewards from block production or validation.
 
-If you're more of a technical user, a true OG, or a future validator, dive into more details and options in [this expert guide](../../../../participate/run-your-evm-like-node/for-experts.md).
+### **Role of Light Nodes:**
 
-### Alternatives <a href="#alternatives" id="alternatives"></a>
+* **Data Access:** Light nodes are primarily used to access blockchain data without the overhead of storing the entire blockchain. They are often used in environments with limited storage and computational resources, like mobile devices or lightweight clients.
+* **No Reward Mechanism:** In the Ethereum protocol, light nodes are not rewarded because they do not contribute to the network's security by validating transactions or blocks.
 
-Setting up your node can cost you time and resources, but you don’t always need to run your instance. In this case, you can use a third-party API provider. Ethereum ecosystem develops many [nodes as a service](https://ethereum.org/en/developers/docs/nodes-and-clients/nodes-as-a-service/), and Flashback will develop this approach for a diversity of applications and services.&#x20;
-
-Suppose somebody runs a Flashback node with a public API in your community. In that case, you can point your wallets to a community node via Custom RPC and gain more privacy than with some random trusted third party.
-
-On the other hand, if you run a client, you can share it with your friends who might need it.
-
-#### Tracking nodes in the network <a href="#network-overview" id="network-overview"></a>
+## Tracking nodes in the network <a href="#network-overview" id="network-overview"></a>
 
 Multiple trackers offer a real-time overview of nodes in the Ethereum network. We expect to find solutions for Flashback and its ecosystem development. Note that due to the nature of decentralized networks, these crawlers can only provide a limited view of the network and might report different results.
 
 * TBD
-
