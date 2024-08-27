@@ -63,7 +63,7 @@ You can find more details on how to [become a validator (WIP)](../participate/be
 
 ## The storage duties <a href="#why-should-i-run-an-ethereum-node" id="why-should-i-run-an-ethereum-node"></a>
 
-Becoming a storage provider on the Flashback network involves several steps, from setting up the necessary hardware to participating actively in the network’s operations. We recommend you to read everything about the [storage proving](our-network-and-ecosystem/storage-mechanisms/proving-mechanism/) and [differences with Filecoin](decentralized-ledger/differences-with-flashback.md). Here’s a detailed guide on how you can become a storage provider in Flashback:
+Becoming a storage provider on the Flashback network involves several steps, from setting up the necessary hardware to participating actively in the network’s operations. We recommend you to read everything about the [storage proving](our-network-and-ecosystem/storage-mechanisms/proving-mechanism/) and [differences with Filecoin](our-network-and-ecosystem/storage-mechanisms/differences-with-flashback.md). Here’s a detailed guide on how you can become a storage provider in Flashback:
 
 ### 1. Have a nice **hardware setup**
 

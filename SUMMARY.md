@@ -84,7 +84,7 @@
       * [Slashing](learn/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/slashing.md)
     * [On-Chain Marketplace](learn/our-network-and-ecosystem/storage-mechanisms/on-chain-marketplace.md)
 * [Flashback Network](learn/decentralized-ledger.md)
-  * [Differences between Filecoin and Flashback](learn/decentralized-ledger/differences-with-flashback.md)
+  * [Differences between Filecoin and Flashback](learn/our-network-and-ecosystem/storage-mechanisms/differences-with-flashback.md)
   * [Consensus: Proof-of-Stake-Spacetime](learn/consensus-proof-of-stake-spacetime.md)
   * [Quality-of-Network (QoN) Optimizer](learn/quality-of-network-qon-optimizer.md)
   * [Validators: Stake first, Store after](learn/validators-stake-and-store.md)

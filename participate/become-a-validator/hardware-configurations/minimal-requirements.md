@@ -11,7 +11,7 @@ As Flashback inherits from the Ethereum specifications, the network can support 
 | Storage           | 50 GB SSD           | 500 GB SSD          | 2 TB NVMe            |
 | Network Bandwidth | 10 Mbps             | 25 Mbps             | 100 Mbps             |
 
-## Storage Duties
+## Storage Duties (PoS-ST Nodes)
 
 **A** Flashback validator performing storage duties will operate the [proof-of-stake spacetime (PoS-ST)](../../../learn/consensus-proof-of-stake-spacetime.md). Flashback needs to integrate storage in block generation and validation like Filecoin, which removes some processes and responsibilities compared to the protocol. Nonetheless, the Proof-of-Spacetime (PoSt) in the PoS-ST demands considering specific hardware requirements to properly achieve the [Sector Proving](../../../learn/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/). \
 The minimal hardware requirements also depend heavily on the sealing rate and snap dealy on the [sealing rate](../../../learn/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/sealing-rate.md) and [snapdeal rate](../../../learn/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/snapdeal-rate.md). The following considers the minimal hardware requirements for a single-sealing rate (sealing sector by sector, 64 GiB sector).&#x20;
