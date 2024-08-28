@@ -1,6 +1,6 @@
 # Cloud Providers
 
-This document provides an overview of the main points covered, concise explanations, and key takeaways. Then, you'll be able to continue your reading with some examples with [centralized instances](centralized-instances.md) and [decentralized instances](decentralized-instances.md).
+This document provides an overview of the main points covered, concise explanations, and key takeaways. Then, you'll be able to continue your reading with some examples with [centralized instances](cloud-providers/centralized-instances.md) and [decentralized instances](cloud-providers/decentralized-instances.md).
 
 ## Advantages
 

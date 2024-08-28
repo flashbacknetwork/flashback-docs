@@ -24,13 +24,13 @@ Here is a non-exhaustive list of centralized Cloud providers, including Google, 
 {% endtab %}
 {% endtabs %}
 
-### Resources to Run Storage Duties (PoS-ST Node)
+### To Support Storage Provision (PoS-ST Node)
 
 Here is an example with a centralized dedicated server provider and their options and configurations that meet the minimal hardware requirements for a staking validator (in September 2024). The server setups can vary depending on how you split the sector certification into multiple workers. We also consider that the storage duties are performed with a full node.
 
 {% tabs %}
 {% tab title="OVH  - Basic" %}
-**Server 1:** Reception and Retrieval Node
+**Server 1:** Data Reception and Retrieval Node, Blockchain Validation
 
 * Market (Price and Request Management)
 * Daemons (Full-Node Network Client and Sector Management Client)
