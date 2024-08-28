@@ -2,7 +2,7 @@
 
 _<mark style="color:red;">No endorsement of any Cloud provider is made here. The information provided is purely indicative. Please do your own research.</mark>_
 
-_<mark style="color:red;">The provided information from Cloud providers are extremely approximative because of the rebates and other conditions related to the usage of the server.</mark>_&#x20;
+_<mark style="color:red;">The information provided by Cloud providers is extremely approximative because of rebates and other conditions related to server usage.</mark>_&#x20;
 
 ## Centralized Providers
 
@@ -42,7 +42,7 @@ Here is an example with a centralized dedicated server provider and their option
 * WindowedPoSt
 * SnapDeal Pipelines
 
-<table><thead><tr><th width="169">Configurations</th><th width="250">Server 1</th><th>Server 2</th></tr></thead><tbody><tr><td>Instance Name</td><td><strong>Advance-STOR</strong></td><td><strong>Scale-GPU-1</strong></td></tr><tr><td>CPU</td><td><strong>AMD EPYC 4344P - 8c/16t - 3.8GHz/5.3GHz</strong></td><td><strong>AMD EPYC GENOA 9354 - 32c/64t - 3.25GHz/3.8GHz</strong></td></tr><tr><td>RAM</td><td><strong>64 GB DDR5 5400MHz</strong></td><td><strong>384GB DDR5 ECC 4800MHz</strong></td></tr><tr><td>System + Client</td><td><strong>2x SSD NVMe 960GB Datacenter Class Soft RAID</strong></td><td><strong>2x SSD NVMe 960GB Datacenter Class Soft RAID</strong></td></tr><tr><td>Additional Storage</td><td><strong>4× 22TB HDD SAS Soft RAID</strong></td><td><strong>2× 1.92TB SSD NVMe Soft RAID</strong></td></tr><tr><td>Public Bandwidth</td><td><strong>1 Gbit/s unmetered</strong></td><td><strong>1G bit/s unlimited and guaranteed</strong></td></tr><tr><td>Private Bandwidth</td><td><strong>5G bit/s unlimited and guaranteed</strong></td><td>2<strong>5G bit/s unlimited and guaranteed</strong></td></tr><tr><td>GPU</td><td>---</td><td><strong>2x Nvidia L4 24GB</strong></td></tr><tr><td>Price</td><td><strong>300 USD/Month</strong></td><td><strong>1,500 USD/Month</strong></td></tr></tbody></table>
+<table><thead><tr><th width="169">Configurations</th><th width="250">Server 1</th><th>Server 2</th></tr></thead><tbody><tr><td>Instance Name</td><td><strong>HGR-STOR-1</strong></td><td><strong>Scale-GPU-1</strong></td></tr><tr><td>CPU</td><td><strong>Intel Xeon Gold 6554S - 36c/72t - 2.2GHz/3GHz</strong></td><td><strong>AMD EPYC GENOA 9354 - 32c/64t - 3.25GHz/3.8GHz</strong></td></tr><tr><td>RAM</td><td><strong>128GB DDR5 ECC 4800MHz</strong></td><td><strong>384GB DDR5 ECC 4800MHz</strong></td></tr><tr><td>System + Client</td><td><strong>2x SSD NVMe 960GB Datacenter Class Soft RAID</strong></td><td><strong>2x SSD NVMe 960GB Datacenter Class Soft RAID</strong></td></tr><tr><td>Additional Storage</td><td><p><strong>36× 22TB HDD SAS</strong> </p><p><strong>2× 15.36TB SSD NVMe Soft RAID</strong></p></td><td><strong>2× 1.92TB SSD NVMe Soft RAID</strong></td></tr><tr><td>Public Bandwidth</td><td><strong>10G bit/s unlimited and guaranteed</strong></td><td><strong>1G bit/s unlimited and guaranteed</strong></td></tr><tr><td>Private Bandwidth</td><td><strong>25G bit/s unlimited and guaranteed</strong></td><td>2<strong>5G bit/s unlimited and guaranteed</strong></td></tr><tr><td>GPU</td><td>---</td><td><strong>2x Nvidia L4 24GB</strong></td></tr><tr><td>Price</td><td><strong>3100 USD/Month</strong></td><td><strong>1,500 USD/Month</strong></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Your Proposal" %}
@@ -62,7 +62,7 @@ Propose a setup that you tested! We'll integrate it to the documentation!
 {% endtab %}
 {% endtabs %}
 
-In this basic configuration, we can see running a unique Server 1 with Server 2; the storage provider must set a 40 TB/USD/Month price with OVH Cloud for instance. This does not consider the staking reward, but we invite you to read the [network economy](../../../learn/network-economy/) model to understand more about this aspect. Nonetheless, a storage provider can improve the setup with a dedicated server provider.&#x20;
+In this basic configuration, we can see running a unique Server 1 with Server 2; the storage provider must set a 5.6 USD/TB/Month price with OVH Cloud for instance. This does not consider the staking reward, the maintenance costs, and other expenses or alternative setups to reduce the costs. We invite you to read the [network economy](../../../learn/network-economy/) model to understand more about how you can define a business model with the storage provision. Nonetheless, a storage provider can improve the setup with a dedicated server provider.&#x20;
 
 ## Pros of Using a Cloud Service Provider
 
