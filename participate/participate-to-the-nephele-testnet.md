@@ -1,3 +1,4 @@
 # Join our Testnet
 
-The testnet is not released yet.  The instructions will be provided when launched.
+The testnet has yet to be released. You can join our whitelist members here: \
+[https://forms.gle/FhjbyatWj1qECvUr6](https://forms.gle/FhjbyatWj1qECvUr6)
