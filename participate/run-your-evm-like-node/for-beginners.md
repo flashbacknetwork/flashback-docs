@@ -71,7 +71,7 @@ Nethermind is a fast and flexible Ethereum execution client. To run Nethermind a
     Save the file and run:
 
     ```bash
-    bashCopier le codedocker-compose -f docker-compose-nethermind.yml up -d
+    bash docker-compose -f docker-compose-nethermind.yml up -d
     ```
 
     This command will start Nethermind in a Light Node mode, configured to run on the Goerli testnet. You can replace `goerli` with `mainnet` for the main network.
