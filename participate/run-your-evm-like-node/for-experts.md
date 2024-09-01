@@ -9,7 +9,7 @@ To run a **Full Node** on the Flashback network using Nethermind as the executio
 Ensure your system is up to date before installing the necessary dependencies.
 
 ```bash
-bashCopier le codesudo apt update && sudo apt upgrade -y
+bash sudo apt update && sudo apt upgrade -y
 ```
 
 **Install Required Dependencies**
@@ -19,18 +19,18 @@ Docker and Docker Compose are recommended for running Nethermind and Lighthouse 
 1.  **Install Docker**:
 
     ```bash
-    bashCopier le codesudo apt install docker.io -y
+    bash sudo apt install docker.io -y
     sudo systemctl enable docker --now
     ```
 2.  **Install Docker Compose**:
 
     ```bash
-    bashCopier le codesudo apt install docker-compose -y
+    bash sudo apt install docker-compose -y
     ```
 3.  **Add Your User to the Docker Group**:
 
     ```bash
-    bashCopier le codesudo usermod -aG docker $USER
+    bash sudo usermod -aG docker $USER
     ```
 
     Log out and back in to apply the changes.
@@ -42,14 +42,14 @@ Nethermind is a high-performance, multi-platform execution client for Ethereum a
 1.  **Pull the Docker Image for Nethermind**:
 
     ```bash
-    bashCopier le codedocker pull nethermind/nethermind
+    bash docker pull nethermind/nethermind
     ```
 2.  **Create a Docker Compose File for Nethermind**:
 
     Create a file named `docker-compose-nethermind.yml`:
 
     ```yaml
-    yamlCopier le codeversion: '3.8'
+    yaml version: '3.8'
     services:
       nethermind:
         image: nethermind/nethermind
@@ -76,7 +76,7 @@ Nethermind is a high-performance, multi-platform execution client for Ethereum a
     Start the Nethermind container using Docker Compose:
 
     ```bash
-    bashCopier le codedocker-compose -f docker-compose-nethermind.yml up -d
+    bash docker-compose -f docker-compose-nethermind.yml up -d
     ```
 
     This command runs Nethermind as a full node with complete synchronization of the blockchain.
@@ -88,7 +88,7 @@ Lighthouse is a consensus client that is fully compatible with the Ethereum 2.0 
 1.  **Install Rust** (if not installed):
 
     ```bash
-    bashCopier le codecurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    bash curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     source $HOME/.cargo/env
     ```
 2.  **Download and Build Lighthouse**:
@@ -96,7 +96,7 @@ Lighthouse is a consensus client that is fully compatible with the Ethereum 2.0 
     Clone the Lighthouse repository and build it:
 
     ```bash
-    bashCopier le codegit clone https://github.com/sigp/lighthouse.git
+    bash git clone https://github.com/sigp/lighthouse.git
     cd lighthouse
     make
     ```
@@ -105,7 +105,7 @@ Lighthouse is a consensus client that is fully compatible with the Ethereum 2.0 
     Create a file named `docker-compose-lighthouse.yml`:
 
     ```yaml
-    yamlCopier le codeversion: '3.8'
+    yaml version: '3.8'
     services:
       lighthouse:
         image: sigp/lighthouse:latest
@@ -132,7 +132,7 @@ Lighthouse is a consensus client that is fully compatible with the Ethereum 2.0 
     Start the Lighthouse container using Docker Compose:
 
     ```bash
-    bashCopier le codedocker-compose -f docker-compose-lighthouse.yml up -d
+    bash docker-compose -f docker-compose-lighthouse.yml up -d
     ```
 
 ## Step 4: Connecting Execution and Consensus Clients
@@ -145,7 +145,7 @@ To ensure that Nethermind and Lighthouse work seamlessly together:
 2.  **Restart Lighthouse**:
 
     ```bash
-    bashCopier le codedocker-compose -f docker-compose-lighthouse.yml restart
+    bash docker-compose -f docker-compose-lighthouse.yml restart
     ```
 
 ## Step 5: Monitoring and Logging
@@ -159,7 +159,7 @@ To ensure that Nethermind and Lighthouse work seamlessly together:
 *   **Update Commands**:
 
     ```bash
-    bashCopier le codedocker pull nethermind/nethermind
+    bash docker pull nethermind/nethermind
     docker pull sigp/lighthouse:latest
     docker-compose -f docker-compose-nethermind.yml up -d
     docker-compose -f docker-compose-lighthouse.yml up -d

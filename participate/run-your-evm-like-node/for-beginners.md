@@ -9,7 +9,7 @@ A Light Node is a lightweight version of a blockchain node that does not store t
 Before running the node, make sure your system is up to date.
 
 ```bash
-bashCopier le codesudo apt update && sudo apt upgrade -y
+bash sudo apt update && sudo apt upgrade -y
 ```
 
 #### **Install Required Dependencies**
@@ -49,7 +49,7 @@ Nethermind is a fast and flexible Ethereum execution client. To run Nethermind a
     Create a Docker Compose file named `docker-compose-nethermind.yml`:
 
     ```yaml
-    yamlCopier le codeversion: '3.8'
+    yaml version: '3.8'
     services:
       nethermind:
         image: nethermind/nethermind
@@ -83,13 +83,13 @@ Lighthouse is a fast, secure, and efficient Ethereum consensus client. It’s wr
 1.  **Install Rust** (if not already installed):
 
     ```bash
-    bashCopier le codecurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    bash curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     source $HOME/.cargo/env
     ```
 2.  **Download and Build Lighthouse**:
 
     ```bash
-    bashCopier le codegit clone https://github.com/sigp/lighthouse.git
+    bash git clone https://github.com/sigp/lighthouse.git
     cd lighthouse
     make
     ```
@@ -98,7 +98,7 @@ Lighthouse is a fast, secure, and efficient Ethereum consensus client. It’s wr
     Create a Docker Compose file named `docker-compose-lighthouse.yml`:
 
     ```yaml
-    yamlCopier le codeversion: '3.8'
+    yaml version: '3.8'
     services:
       lighthouse:
         image: sigp/lighthouse:latest
@@ -117,7 +117,7 @@ Lighthouse is a fast, secure, and efficient Ethereum consensus client. It’s wr
     Save the file and run:
 
     ```bash
-    bashCopier le codedocker-compose -f docker-compose-lighthouse.yml up -d
+    bash docker-compose -f docker-compose-lighthouse.yml up -d
     ```
 
     This command runs Lighthouse as a beacon node configured to connect to the Goerli testnet.
@@ -131,7 +131,7 @@ To connect Nethermind and Lighthouse, you need to configure the consensus client
     Edit `docker-compose-lighthouse.yml` to add the `--execution-endpoint` parameter:
 
     ```yaml
-    yamlCopier le codecommand: >
+    yaml command: >
       lighthouse bn
       --network goerli
       --http
@@ -142,7 +142,7 @@ To connect Nethermind and Lighthouse, you need to configure the consensus client
 2.  **Restart Lighthouse**:
 
     ```bash
-    bashCopier le codedocker-compose -f docker-compose-lighthouse.yml up -d
+    bash docker-compose -f docker-compose-lighthouse.yml up -d
     ```
 
 This will ensure that Lighthouse uses Nethermind as its execution layer, enabling them to work together seamlessly.
@@ -157,7 +157,7 @@ This will ensure that Lighthouse uses Nethermind as its execution layer, enablin
 Both Nethermind and Lighthouse are actively developed. It’s essential to keep your node up to date to avoid any network issues or vulnerabilities:
 
 ```bash
-bashCopier le codedocker pull nethermind/nethermind
+bash docker pull nethermind/nethermind
 docker pull sigp/lighthouse:latest
 docker-compose -f docker-compose-nethermind.yml up -d
 docker-compose -f docker-compose-lighthouse.yml up -d
