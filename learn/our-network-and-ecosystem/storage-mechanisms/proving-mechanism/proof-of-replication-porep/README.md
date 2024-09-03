@@ -1,6 +1,6 @@
-# Proof of Replication (PoRep)
+# Initial Sealing (PoRep)
 
-Proof of Replication (PoRep) is a mechanism by which a storage provider proves to the network that data has been replicated to its unique copy. <mark style="color:orange;">**PoRep happens when the data is first sealed and stored**</mark><mark style="color:orange;">.</mark> The process involves the storage provider generating a unique data encoding, proving it is stored, and ensuring its retrievability. This proof ensures that the storage provider can only claim to store multiple copies of the data after actually doing so. Let’s clarify the process with more precision:
+**Proof of Replication (PoRep)** is a mechanism by which a storage provider proves to the network that data has been replicated to its unique copy. <mark style="color:orange;">**PoRep happens when the data is first sealed and stored**</mark><mark style="color:orange;">.</mark> The process involves the storage provider generating a unique data encoding, proving it is stored, and ensuring its retrievability. This proof ensures that the storage provider can only claim to store multiple copies of the data after actually doing so. Let’s clarify the process with more precision:
 
 ## The General Steps
 
@@ -22,4 +22,4 @@ The unique encoding generated during the sealing process is derived from several
 
 This encoding is highly sensitive to changes; any alteration in the data, the storage provider's identity, or the sealing time will result in a different encoding. This sensitivity ensures that the encoding is unique and tamper-evident, providing a reliable method to verify that a particular storage provider did store the specified data at a given time.
 
-This cryptographic approach ensures that all stored data is secure and verifiable, maintaining trust and integrity within the Filecoin network. This process underscores the robustness of Filecoin's security measures, designed to safeguard client data against tampering and ensure compliance with storage agreements.
+This cryptographic approach ensures that all stored data is secure and verifiable, maintaining trust and integrity within the Filecoin network. This process underscores the robustness of Filecoin's security measures, designed to safeguard client data against tampering and ensure compliance with storage agreements. Let's explore how Filecoin guarantees a received file is verified and marked with its proof by understanding every step of the [sealing pipeline](sealing-pipeline/) and the [sealing rate](sealing-rate.md) depending on the different computational works.&#x20;

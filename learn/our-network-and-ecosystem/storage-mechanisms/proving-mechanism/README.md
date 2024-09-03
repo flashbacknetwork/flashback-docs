@@ -1,29 +1,32 @@
-# Sector Proving: Pipelines and Proofs
+# Sector: A Storage Unit to Prove
 
-Flashback integrates zero-knowledge storage-proving cryptographic mechanisms to guarantee storage security and retrievability from the network's nodes. What does Flashback inherit from Filecoin?\
-\
-In the Filecoin network, storage proofing is a critical mechanism designed to ensure that storage providers (miners) reliably store the data they are obligated to keep safe under storage deals. This process is fundamental to maintaining the network's integrity and trustworthiness. Filecoin employs two primary types of proofs: **Proof of Replication (PoRep)** and **Proof of Spacetime (PoSt)**.
+In the Filecoin network, a "sector" is a fundamental unit of storage that a storage provider commits to the network to use in deals with clients. Essentially, sectors are how storage is organized and sold in Filecoin. Here’s a breakdown of what a sector involves and its role in the network:
 
-## Proof of Replication (PoRep)
+## Definition and Purpose
 
-Proof of Replication is a mechanism by which a storage provider proves to the network that data has been replicated to its unique copy. PoRep happens when the data is first sealed and stored. The process involves the storage provider generating a unique encoding of the data, proving that the data is stored and ensuring its retrievability. This proof ensures that the miner can only claim to store multiple copies of the data after actually doing so.
+* **Size and Configuration**: Sectors are defined by the Filecoin protocol. Common sizes are 32 GiB ([gibibytes](https://www.techtarget.com/searchstorage/definition/gibibyte-GiB)) and 64 GiB. The size determines how much data can be stored in a single sector.
+* **Commitment to the Network**: Storage providers commit these sectors to the Filecoin blockchain through a process known as "sealing." Sealing is a cryptographic process that prepares the sector for storage by encoding the data and generating proofs of replication (PoRep) to prove that the data is uniquely stored.
 
-## Proof of Spacetime (PoSt)
+## Role in Filecoin
 
-Proof of Spacetime is where **WindowPoSt** comes into play. PoSt is a periodic proof made by storage providers to prove that they continue to store their client's data over time.
+* **Storage Deals**: When a client and a storage provider agree on a storage deal, the data is stored in one or more sectors. Each sector is dedicated to a particular deal or could be shared among multiple deals, depending on the agreement and the sector size.
+* **Proving Storage**: Sectors are critical for storage providers to prove that they reliably store data. Providers must submit regular proofs, known as Proofs of Spacetime (PoSt), which attest that each committed sector correctly stores its data over time.
+* **Lifecycle**: A sector's lifecycle in Filecoin includes pledging (committing the sector), sealing (preparing and proving the storage of data), storing (the duration of the storage deal), and, eventually, sector removal or re-use after a deal concludes.
 
-### **Window Proof of Spacetime (WindowPoSt)**
+## Section Summary
 
-WindowPoSt is the mechanism by which storage providers continually prove that they are storing the data they have committed to store. It involves the following:
+### [Importance of Proving](importance-of-proving.md)
 
-* **Frequency**: WindowPoSt needs to be submitted at regular intervals for each sector proving that the data is still being stored. This happens according to a schedule that divides the entire set of a miner’s sectors into " partitions " subsets and allocates specific windows during which these proofs must be submitted.
-* **Process**: During their respective windows, miners must submit proof for each sector in their partition. This involves scanning the encoded data in each sector and using it to generate a proof. If a miner fails to submit a WindowPoSt in time, or if the proof fails to validate, it can result in penalties, and the sector may be marked as faulty.
-* **Faults and Penalties**: If a storage provider fails to provide a valid WindowPoSt for any sector, they are subject to fault fees, and the sector is declared faulty. Faults can be declared temporary (if expected to recover) or permanent (if data is lost). Continued failure to prove storage for a sector can lead to more severe penalties, including sector termination and loss of the stake.
+_Discover why generating proofs of sector existence is essential in a decentralized storage network._
 
-## Importance of Sector Proving
+### [Initial Sealing (PoRep)](proof-of-replication-porep/)
 
-These proofs are vital for several reasons:
+_The steps of every sector's proof-of-replication (PoRep) to make the storage more transparent and traceable._
 
-* **Network Security**: They prevent dishonest behavior by miners, ensuring miners cannot claim rewards for storage they are not providing.
-* **Data Integrity and Availability**: Regularly submitting proofs guarantees that data remains available and retrievable throughout the storage contract.
-* **Economic Incentives**: By aligning incentives (via block rewards and penalties), Filecoin ensures that storing data reliably benefits storage providers.
+### [Availability Checkup (PoSt)](./#sector-availability-checkup-post)
+
+_The different steps of every sector's proof-of-spacetime (PoSt) to ensure a reliable, available, and secure storage ecosystem._
+
+### [Availability Checkup (PoSt)](./#sector-availability-checkup-post)
+
+_The different steps of every sector's proof-of-spacetime (PoSt) to ensure a reliable, available, and secure storage ecosystem._
