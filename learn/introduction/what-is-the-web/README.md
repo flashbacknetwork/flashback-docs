@@ -8,21 +8,7 @@ The Internet, a product of the 70s and the rapid development of information tech
 \
 The web has had many evolutions since its birth. Evolution is often related to technological breakthroughs, which are related to technology itself. However, the Web is, before everything else, an evolution of managing and transferring information in humanity. Today, there are thridentifiable generations:
 
-### [**Web1 (1989)**](web1-internets-birth.md)
-
-_The globalization of information transfer in digital form, whereas it was previously mainly analog or physical. This marked the beginning of the Internet._
-
-### [**Web2 (1997)**](web2-global-society.md)
-
-_The advent of the “social” web. Individuals can interact through the web to perform everyday actions. Exchange communities often represent the “social” web, called “social networks,” managed by giant centralized entities like Google or Amazon. Telecommuting and online shopping are also part of this social evolution._
-
-### [**Web3 (2008)**](web3-decentralization.md)&#x20;
-
-_It all started with the Bitcoin project. In the wake of the financial crisis, individuals decided to transfer social trust (held by banks) to a blockchain-based network. This marked the beginning of decentralized governance architectures/networks, allowing individuals to completely control their assets and communication data through digital means (algorithmic) rather than human trust._
-
-### [**Web4 (2030-35?)**](web4-metaverse-and-beyond.md)&#x20;
-
-[_Web4_](https://ec.europa.eu/commission/presscorner/detail/en/ip\_23\_3718) _recently emerged from the European Commission (EC), which defines It as "a blend between artificial intelligence, the Internet of Things, blockchain, virtual worlds, and extended reality capabilities." This concept, rather innovative but without consensus, requires the maturity of the previous Web2 and Web3 phases, which are still ongoing and demand new solutions in the market._
+<table><thead><tr><th width="227">Section</th><th>Summary</th></tr></thead><tbody><tr><td><a href="web1-internets-birth.md"><strong>Web1 (1989)</strong></a></td><td><em>The globalization of information transfer in digital form, whereas it was previously mainly analog or physical. This marked the beginning of the Internet.</em></td></tr><tr><td><a href="web2-global-society.md"><strong>Web2 (1997)</strong></a></td><td><em>The advent of the “social” web. Individuals can interact through the web to perform everyday actions. Exchange communities often represent the “social” web, called “social networks,” managed by giant centralized entities like Google or Amazon. Telecommuting and online shopping are also part of this social evolution.</em></td></tr><tr><td><a href="web3-decentralization.md"><strong>Web3 (2008)</strong></a> </td><td><em>It all started with the Bitcoin project. In the wake of the financial crisis, individuals decided to transfer social trust (held by banks) to a blockchain-based network. This marked the beginning of decentralized governance architectures/networks, allowing individuals to completely control their assets and communication data through digital means (algorithmic) rather than human trust.</em></td></tr><tr><td><a href="web4-metaverse-and-beyond.md"><strong>Web4 (2030-35?)</strong></a> </td><td><a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_23_3718"><em>Web4</em></a> <em>recently emerged from the European Commission (EC), which defines It as "a blend between artificial intelligence, the Internet of Things, blockchain, virtual worlds, and extended reality capabilities." This concept, rather innovative but without consensus, requires the maturity of the previous Web2 and Web3 phases, which are still ongoing and demand new solutions in the market.</em></td></tr></tbody></table>
 
 ***
 
