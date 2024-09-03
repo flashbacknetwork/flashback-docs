@@ -1,4 +1,4 @@
-# Snapdeal Rate
+# SnapDeal Rate
 
 The SnapDeal pipeline is a specialized sealing process in the Filecoin network that allows storage providers to update existing sealed sectors by adding new deal data. This pipeline is essential for storage providers who need to efficiently manage their storage resources while ensuring data integrity and security. Here's a detailed explanation of the SnapDeal pipeline, along with considerations for optimizing its performance.
 

@@ -35,4 +35,4 @@ In Filecoin, Proof of Spacetime is part of the consensus mechanism and ties dire
 
 Proof of Spacetime is a sophisticated, essential mechanism for decentralized storage networks, ensuring long-term data reliability and integrity. For developers and participants in networks like Filecoin, understanding and optimizing PoSt processes is critical to maintaining performance and meeting network standards.
 
-Now that you have a clear understanding of the PoSt, we suggest you read a bit more about [WinningPoSt](winningpost.md) and [WindowPoSt](windowpost.md).
+Now that you have a clear understanding of the PoSt, we suggest you read a bit more about [WinningPoSt](proof-of-spacetime-post/winningpost.md) and [WindowPoSt](proof-of-spacetime-post/windowpost.md).

@@ -10,11 +10,11 @@ To use Committed Capacity sectors efficiently, storage providers can follow thes
 
 Storage providers should deploy CC sectors to maximize their storage capacity and participate in Filecoin's consensus mechanism. Since these sectors still require sealing (a costly and time-consuming process), the decision to use CC sectors should consider the balance between the costs of sealing and the potential block rewards earned.
 
-#### **Upgrading CC Sectors with Real Deals**
+#### **Upgrading CC Sectors with Real Data**
 
-A significant advantage of CC sectors is the ability to upgrade them with real client data without incurring additional costs for collateral or penalties. This is known as a "Snap Deal." This method allows a miner to take an existing CC sector and "snap" a client deal into it, thereby turning it into a regular deal sector.
+A significant advantage of CC sectors is the ability to upgrade them with real client data without incurring additional costs for collateral or penalties. This is known as a SnapDeal. This method allows a miner to take an existing CC sector and "snap" a client deal into it, thereby turning it into a regular deal sector.
 
-The Snap Deal process involves updating the sector without resealing the entire sector from scratch, which saves on gas fees and sealing time.
+The Snap Deal process involves updating the sector without resealing it from scratch, which saves on gas fees and sealing time.
 
 #### **Maintaining Active Power and Rewards**
 
@@ -26,6 +26,8 @@ By keeping a certain percentage of storage capacity committed as CC sectors, min
 * **Upgrade Strategy:** Have a strategy for upgrading CC sectors to deal sectors based on deal flow. This could mean setting thresholds for when to upgrade or keeping a reserve of CC sectors to quickly onboard new deals.
 * **Network Incentives and Penalties:** Be aware of the network’s rules regarding CC sectors, such as collateral requirements and penalties for failing to meet proof deadlines.
 
+***
+
 ## **Mixing Real Deals with Fake Deals**
 
 In the Filecoin network, **mixing real deals with fake deals** within the same sector is **impossible**. Filecoin enforces a clear separation between sectors that store client data and sectors that commit capacity to the network without storing actual client data.
@@ -33,7 +35,7 @@ In the Filecoin network, **mixing real deals with fake deals** within the same s
 ### **Deal Sectors and CC Sectors are Distinct**
 
 * Deal sectors are sectors that contain real client data. They require proof that the data is stored correctly and consistently to receive rewards and avoid penalties.
-* CC sectors are used to commit storage capacity to the network without storing any actual user data. They earn block rewards by contributing to the network’s power without holding deals initially.
+* CC sectors commit storage capacity to the network without storing any actual user data. They earn block rewards by contributing to the network’s power without holding deals initially.
 
 1. **Upgrading CC Sectors with Real Deals:**
    * The upgrade process, known as a **Snap Deal**, allows storage providers to upgrade a CC sector to a deal sector by adding real client data. However, once a CC sector is upgraded to a deal sector, it only contains real deals and does not mix with any "fake deals" or placeholder data.
