@@ -61,9 +61,3 @@ Light nodes are simply running a[ light sync client](nodes-and-clients.md#light)
 
 * **Data Access:** Light nodes are primarily used to access blockchain data without the overhead of storing the entire blockchain. They are often used in environments with limited storage and computational resources, like mobile devices or lightweight clients.
 * **No Reward Mechanism:** In the Ethereum protocol, light nodes are not rewarded because they do not contribute to the network's security by validating transactions or blocks.
-
-## Tracking nodes in the network <a href="#network-overview" id="network-overview"></a>
-
-Multiple trackers offer a real-time overview of nodes in the Ethereum network. We expect to find solutions for Flashback and its ecosystem development. Note that due to the nature of decentralized networks, these crawlers can only provide a limited view of the network and might report different results.
-
-* TBD

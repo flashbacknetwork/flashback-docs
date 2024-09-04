@@ -1,5 +1,11 @@
 # From Ethereum
 
-Flashback is a Layer-1 blockchain as an Ethereum fork. We ultimately inherit its blockchain architecture. Our comprehensive documentation covers all the primary information needed to understand the network features and how to join our ecosystem. You can discover more about Ethereum [here](https://ethereum.org/en/).&#x20;
+Flashback is a Layer-1 blockchain built as a fork of Ethereum, inheriting its robust blockchain architecture and foundational principles. Our comprehensive documentation aims to provide all the essential information needed to understand Flashback’s unique features and how to become part of our ecosystem.&#x20;
 
-However, the Ethereum documentation has had many ramifications over the last 10 years and can be complex to read. It is why we reworked it in our documentation to ease your experience.&#x20;
+While Ethereum’s extensive documentation, developed over the past decade, offers deep insights, it can often be complex and overwhelming due to its numerous updates and layers of information. To enhance user experience and streamline understanding, we have carefully restructured and simplified this information in our documentation, making it easier for you to navigate and grasp the core concepts of the Flashback network.
+
+<table><thead><tr><th width="227">Section</th><th>Summary</th></tr></thead><tbody><tr><td><a href="basics/"><strong>Basics</strong></a></td><td><em>Learn about the fundamental concept of Ethereum that leads to being the ecosystem it is.</em></td></tr><tr><td><a href="advanced/"><strong>Advanced</strong></a></td><td><em>Ethereum became more and more complex with many features that we gathered here.</em></td></tr><tr><td><a href="validators/"><strong>Staking Validators</strong></a></td><td><em>Validator is the backbone of Ethereum, and its understanding is important for embracing the future of web3.</em></td></tr></tbody></table>
+
+***
+
+Let's explore the fantastic world of Ethereum that is driving the web3 ecosystem for a decade.
