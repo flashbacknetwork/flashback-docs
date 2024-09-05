@@ -1,17 +1,8 @@
 # Sector: The Storage Unit
 
-In the Filecoin network, a "sector" is a fundamental unit of storage that a storage provider commits to the network to use in deals with clients. Essentially, sectors are how storage is organized and sold in Filecoin. Here’s a breakdown of what a sector involves and its role in the network:
+In the Filecoin network, a "sector" is a key storage unit that storage providers use to store data on behalf of clients. Sectors come in standardized sizes, such as 32 GiB or 64 GiB, and represent the amount of storage space allocated for storing client data. To use a sector for storage, providers undergo a process called "sealing," which involves encoding the data to prove the provider is storing it uniquely. This process, known as Proof-of-Replication (PoRep), generates cryptographic proofs to verify that data has been securely and uniquely stored within the sector.
 
-#### Definition and Purpose
-
-* **Size and Configuration**: The Filecoin protocol defines sectors. Common sizes are 32 GiB ([gibibytes](https://www.techtarget.com/searchstorage/definition/gibibyte-GiB)) and 64 GiB. The size determines how much data can be stored in a single sector.
-* **Commitment to the Network**: Storage providers commit these sectors to the Filecoin blockchain through a process known as "sealing." Sealing is a cryptographic process that prepares the sector for storage by encoding the data and generating proofs of replication (PoRep) to prove that the data is uniquely stored.
-
-#### Role in Filecoin
-
-* **Storage Deals**: When a client and a storage provider agree on a storage deal, the provider accepts the contract, and the data is stored in one or more sectors. Each sector is dedicated to a particular deal or could be shared among multiple deals, depending on the agreement and the sector size.
-* **Proving Storage**: Sectors are critical for storage providers to prove that they reliably store data. Providers must submit regular proofs, known as Proofs of Spacetime (PoSt), which attest that each committed sector correctly stores its data over time.
-* **Lifecycle**: A sector's lifecycle in Filecoin includes pledging (committing the sector), sealing (preparing and proving the storage of data), storing (the duration of the storage deal), and, eventually, sector removal or re-use after a deal concludes.
+Sectors are crucial for enabling storage deals on the Filecoin network, where storage providers enter into contracts with clients to store their data for a specified period. Each sector can be dedicated to a single storage deal or shared among multiple deals, depending on its size and configuration. Once data is sealed and stored in a sector, storage providers must periodically submit cryptographic proofs called Proofs of Spacetime (PoSt) to demonstrate that they continue to store the data reliably over time. A sector's lifecycle includes pledging, sealing, storing data during the agreed term, and, eventually, being either reused or removed after the contract expires.
 
 ## Section Table
 
