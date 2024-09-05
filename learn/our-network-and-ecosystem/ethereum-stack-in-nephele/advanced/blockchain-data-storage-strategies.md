@@ -25,11 +25,7 @@ At writing posting on EIP-4844 costs one wei (10-18 ETH) per byte, which is negl
 
 Here are the addresses to see the blobs posted by some famous rollups.
 
-| Rollup                               | Mailbox address                                                                                                         |
-| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| [Optimism](https://www.optimism.io/) | [`0xFF00000000000000000000000000000000000010`](https://blobscan.com/address/0xFF00000000000000000000000000000000000010) |
-| [Arbitrum](https://arbitrum.io/)     | [`0x1c479675ad559DC151F6Ec7ed3FbF8ceE79582B6`](https://blobscan.com/address/0x1c479675ad559DC151F6Ec7ed3FbF8ceE79582B6) |
-| [Base](https://base.org/)            | [`0xFF00000000000000000000000000000000008453`](https://blobscan.com/address/0xFF00000000000000000000000000000000008453) |
+<table><thead><tr><th width="195">Rollup</th><th>Mailbox address</th></tr></thead><tbody><tr><td><a href="https://www.optimism.io/">Optimism</a></td><td><a href="https://blobscan.com/address/0xFF00000000000000000000000000000000000010"><code>0xFF00000000000000000000000000000000000010</code></a></td></tr><tr><td><a href="https://arbitrum.io/">Arbitrum</a></td><td><a href="https://blobscan.com/address/0x1c479675ad559DC151F6Ec7ed3FbF8ceE79582B6"><code>0x1c479675ad559DC151F6Ec7ed3FbF8ceE79582B6</code></a></td></tr><tr><td><a href="https://base.org/">Base</a></td><td><a href="https://blobscan.com/address/0xFF00000000000000000000000000000000008453"><code>0xFF00000000000000000000000000000000008453</code></a></td></tr></tbody></table>
 
 ### Calldata <a href="#calldata" id="calldata"></a>
 
@@ -41,11 +37,7 @@ At writing the prices are 12 gwei/gas and 2300 $/ETH, which means the cost is ap
 
 Here are the addresses to see the transactions posted by some famous rollups.
 
-| Rollup                               | Mailbox address                                                                                                               |
-| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
-| [Optimism](https://www.optimism.io/) | [`0xFF00000000000000000000000000000000000010`](https://eth.blockscout.com/address/0xFF00000000000000000000000000000000000010) |
-| [Arbitrum](https://arbitrum.io/)     | [`0x1c479675ad559DC151F6Ec7ed3FbF8ceE79582B6`](https://eth.blockscout.com/address/0x1c479675ad559DC151F6Ec7ed3FbF8ceE79582B6) |
-| [Base](https://base.org/)            | [`0xFF00000000000000000000000000000000008453`](https://eth.blockscout.com/address/0xFF00000000000000000000000000000000008453) |
+<table><thead><tr><th width="191">Rollup</th><th>Mailbox address</th></tr></thead><tbody><tr><td><a href="https://www.optimism.io/">Optimism</a></td><td><a href="https://eth.blockscout.com/address/0xFF00000000000000000000000000000000000010"><code>0xFF00000000000000000000000000000000000010</code></a></td></tr><tr><td><a href="https://arbitrum.io/">Arbitrum</a></td><td><a href="https://eth.blockscout.com/address/0x1c479675ad559DC151F6Ec7ed3FbF8ceE79582B6"><code>0x1c479675ad559DC151F6Ec7ed3FbF8ceE79582B6</code></a></td></tr><tr><td><a href="https://base.org/">Base</a></td><td><a href="https://eth.blockscout.com/address/0xFF00000000000000000000000000000000008453"><code>0xFF00000000000000000000000000000000008453</code></a></td></tr></tbody></table>
 
 ### Offchain with L1 mechanisms <a href="#offchain-with-l1-mechs" id="offchain-with-l1-mechs"></a>
 
@@ -80,14 +72,7 @@ This is the most expensive form of storage in Ethereum.
 
 This table summarizes the difference options, their advantages and disadvantages.
 
-| Storage type                | Source of data      | Availability guarantee                                                                                                              | Onchain availability                                             | Additional limitations                                                  |
-| --------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| EIP-4844 blobs              | Offchain            | Ethereum guarantee for [\~18 days](https://github.com/ethereum/consensus-specs/blob/dev/specs/deneb/p2p-interface.md#configuration) | Only hash is available                                           |                                                                         |
-| Calldata                    | Offchain            | Ethereum guarantee forever (part of the blockchain)                                                                                 | Only available if written to a contract, and at that transaction |                                                                         |
-| Offchain with L1 mechanisms | Offchain            | "One honest verifier" guarantee during the challenge period                                                                         | Hash only                                                        | Guaranteed by the challenge mechanism, only during the challenge period |
-| Contract code               | Onchain or offchain | Ethereum guarantee forever (part of the blockchain)                                                                                 | Yes                                                              | Written to a "random" address, cannot start with `0xEF`                 |
-| Events                      | Onchain             | Ethereum guarantee forever (part of the blockchain)                                                                                 | No                                                               |                                                                         |
-| Storage                     | Onchain             | Ethereum guarantee forever (part of the blockchain and the present state until overwritten)                                         | Yes                                                              |                                                                         |
+<table data-full-width="true"><thead><tr><th width="197">Storage type</th><th width="165">Source of data</th><th width="268">Availability guarantee</th><th width="207">Onchain availability</th><th>Additional limitations</th></tr></thead><tbody><tr><td>EIP-4844 blobs</td><td>Offchain</td><td>Ethereum guarantee for <a href="https://github.com/ethereum/consensus-specs/blob/dev/specs/deneb/p2p-interface.md#configuration">~18 days</a></td><td>Only hash is available</td><td></td></tr><tr><td>Calldata</td><td>Offchain</td><td>Ethereum guarantee forever (part of the blockchain)</td><td>Only available if written to a contract, and at that transaction</td><td></td></tr><tr><td>Offchain with L1 mechanisms</td><td>Offchain</td><td>"One honest verifier" guarantee during the challenge period</td><td>Hash only</td><td>Guaranteed by the challenge mechanism, only during the challenge period</td></tr><tr><td>Contract code</td><td>Onchain or offchain</td><td>Ethereum guarantee forever (part of the blockchain)</td><td>Yes</td><td>Written to a "random" address, cannot start with <code>0xEF</code></td></tr><tr><td>Events</td><td>Onchain</td><td>Ethereum guarantee forever (part of the blockchain)</td><td>No</td><td></td></tr><tr><td>Storage</td><td>Onchain</td><td>Ethereum guarantee forever (part of the blockchain and the present state until overwritten)</td><td>Yes</td><td></td></tr></tbody></table>
 
 ## Decision Factors
 
@@ -110,4 +95,3 @@ In general, information security consists of three attributes:
 * _Availability_, the information is available to any authorized entity. On the blockchain, this is usually achieved by having the information available on every fulle node.
 
 The different solutions here all have excellent integrity, because hashes are posted on L1. However, they do have different availability guarantees.
-

@@ -1,54 +1,26 @@
 # Storage Deals
 
-A "deal" refers to an agreement between a client and a storage provider. Essentially, this deal is a contract where the client pays the storage provider to keep their files securely on the network for a specified duration. The storage provider allocates space within its systems to house the client's data, ensuring its safety and availability as agreed upon in the terms of the deal.
+A **storage deal** in the Filecoin network represents a service agreement between a **client** and a **storage provider** (SP), facilitated and enforced by blockchain technology. The lifecycle of a deal involves several phases, ensuring data integrity, availability, and fair compensation for the storage provider.
 
-## **Overview**
+## **1. Initiating a Deal**
 
-A storage contract through a deal can be compared to a traditional service level agreement (SLA) in conventional cloud storage services but is enforced by blockchain technology. Here's how it typically works between a network client and a storage provider (it can be extended to multiple storage providers):
+* **Proposal Submission**: The lifecycle of a deal begins when a client proposes a deal to a storage provider. The proposal includes details such as the required storage size, the duration of storage (minimum of 180 days to a maximum of 540 days), and the price the client is willing to pay for storage services.
+* **Deal Negotiation**: The storage provider reviews the proposed deal terms. If they find them acceptable in terms of price, duration, and data requirements, they accept the deal.
 
-1. **Making a Deal:**
-   * The client selects a storage provider and proposes a deal.
-   * The deal proposal includes details such as the required storage size, duration, and price willing to be paid.
-2. **Acceptance and Storage:**
-   * If the storage provider agrees to the terms, they accept the deal.
-   * The client then sends their data to the storage provider.
-   * The provider stores the data and must periodically prove to the network that they are correctly storing it through cryptographic proofs.
-3. **Deal Lifecycle:**
-   * Deals in Filecoin are immutably recorded on the blockchain, creating a transparent and verifiable record of the agreement and its fulfillment.
-   * Storage providers receive compensation in Filecoin tokens, which are disbursed according to the contract terms, typically after they successfully prove they are holding the data as agreed.
-   * The minimum duration for these deals is 180 days, while the maximum extends to 540 days, balancing deal length with cryptographic security needs.
-4. **Proofs of Storage:**
-   * Throughout the deal, the storage provider must submit proof to the blockchain. These proofs, known as Proof-of-Spacetime (PoSt), verify that the data is correctly stored over time.
-5. **Deal Completion:**
-   * Upon completion of the deal term, the client can retrieve the data, or the deal can be renewed or extended.
+## **2. Data Transfer and Storage Commitment**
 
-Using smart contracts for these deals adds a layer of security and automation, reducing the potential for disputes and ensuring compliance with the agreed terms without requiring intermediaries.
+* **Data Transfer**: Once the storage provider accepts the deal, the client transfers their data to the provider. This data is typically uploaded in a format that the Filecoin network supports, such as a CAR (Content Addressable aRchive) file.
+* **Sealing Process**: Upon receiving the data, the storage provider begins the process of sealing. Sealing is a cryptographic process that transforms the raw data into a "sealed" format using Proof-of-Replication (PoRep). This process ensures the data is uniquely stored and replicated by the provider.
 
-***
+## **3. Deal Expiry and Post-Term Actions**
 
+* **Deal Expiry**: As the deal reaches the end of its agreed duration, several options are available:
+  * **Data Retrieval**: The client can retrieve their data from the storage provider before the deal expires. This retrieval process involves sending a request to the storage provider and receiving the data back in the agreed format.
+  * **Deal Renewal or Extension**: If the client requires continued storage, they can negotiate a new deal with the provider to extend the storage duration. This would involve proposing a new set of terms, similar to the initial deal proposal phase.
+  * **Sector Expiry**: If no renewal is negotiated and the client does not retrieve the data, the sealed sector will eventually expire. The provider may unseal the sector and reclaim the storage capacity for new deals or commitments.
+* **Post-Deal State**: Once the sector expires and is no longer required for an active deal, the storage provider can either clear the storage space for new clients or retain the data based on their storage strategy.
 
+## **4. On-Chain Records and Security**
 
-
-
-
-
-***
-
-## Obtain the Proof of a Specific Contract
-
-To determine the proof of a specific file within a sector in Filecoin, you need to understand that Filecoin does not directly produce proofs for individual files. Instead, it generates proofs for entire sectors containing potentially multiple files. However, you can indirectly verify the integrity and presence of a specific file within a sealed sector by leveraging Merkle trees and Content Identifiers (CIDs).
-
-1. **Merkle Trees and Sector Structure**:
-   * When a sector is sealed, Filecoin uses a Merkle tree to hash all the data within that sector. Each file or piece of data contributes to the leaves of the Merkle tree.
-   * The root of this Merkle tree is included in the proof for the sector (e.g., during **Proof of Replication (PoRep)** and **Proof of Spacetime (PoSt)**).
-   * To verify a specific file's presence within a sector, you need the Merkle proof path (a series of hashes) from the file's hash up to the root of the Merkle tree.
-2. **Content Identifiers (CIDs)**:
-   * Files stored in the Filecoin network are referenced by **Content Identifiers (CIDs)**, which are unique cryptographic hashes that represent the content of the file. When a file is added to a sector, its CID is one of the leaves in the Merkle tree.
-   * To verify that a file exists in a sector, you compare the file's CID against the Merkle tree's structure and proofs.
-3. **Verification Steps**:
-   * **Step 1**: Retrieve the **CID** of the file you want to verify. This CID is generated when the file is initially added to the Filecoin network and represents the file's hash.
-   * **Step 2**: Obtain the **Merkle proof** from the storage provider for the sector that contains your file. This proof includes all the hashes needed to compute the path from your file's hash (CID) to the Merkle root of the sector.
-   * **Step 3**: Compute the Merkle root using the proof provided. If the computed Merkle root matches the sector's Merkle root included in the sector's **PoRep** or **PoSt**, you can be confident that the file is part of that sector and has been correctly stored.
-4. **Proof-of-Inclusion Tools**:
-   * In practice, there are tools and libraries that can help users verify file inclusion in a sector, often using cryptographic libraries for Merkle tree validation. Storage providers or third-party services may provide interfaces to help users generate or verify these proofs.
-
+* **Immutable Record-Keeping**: Every step of the deal lifecycle, from proposal to completion, is immutably recorded on the Filecoin blockchain. This provides a transparent and verifiable history of the agreement and its fulfillment, ensuring both parties adhere to the contract terms without requiring a central intermediary.
+* **Smart Contract Automation**: The use of smart contracts in Filecoin ensures that the terms of the deal are automatically enforced, minimizing potential disputes and reducing the need for third-party arbitration. The blockchain's immutable nature guarantees that any network participant securely stores and verifies all actions and proofs.

@@ -18,7 +18,7 @@ Data availability is also critical for future ["stateless"](https://ethereum.org
 
 ### Data availability sampling (DAS) <a href="#data-availability-sampling" id="data-availability-sampling"></a>
 
-Data Availability Sampling (DAS) is a way for the network to check that data is available without putting too much strain on any individual node. Each node (including ones that are not validators) downloads some small, randomly selected subset of the total data. Successfully downloading the samples confirms with high confidence that all data is available. This relies upon data erasure coding, which expands a given dataset with redundant information (the way this is done is to fit a function known as a _polynomial_ over the data and evaluate that polynomial at additional points). This allows the original data to be recovered from the redundant data when necessary.&#x20;
+Data Availability Sampling (DAS) is a way for the network to check that data is available without putting too much strain on any individual node. Each node (including ones that are not validators) downloads some small, randomly selected subset of the total data. Successfully downloading the samples confirms with high confidence that all data is available. This relies upon data erasure coding, which expands a given dataset with redundant information (the way this is done is to fit a function known as a _polynomial_ over the data and evaluate that polynomial at additional points). This allows the original data to be recovered from the redundant data when necessary.
 
 A consequence of this data creation is that half of the expanded data will be missing if any original data is unavailable! The amount of data samples downloaded by each node can be tuned so that it is _highly_ likely that at least one of the data fragments sampled by each client will be missing _if_ less than half the data is available.
 
@@ -78,5 +78,3 @@ The core Ethereum protocol primarily concerns data availability, not data retrie
 * [Proof-of-stake data availability committees](https://blog.matter-labs.io/zkporter-a-breakthrough-in-l2-scaling-ed5e48842fbf)
 * [Solutions to the data retrievability problem](https://notes.ethereum.org/@vbuterin/data\_sharding\_roadmap#Who-would-store-historical-data-under-sharding)
 * [Data Availability Or: How Rollups Learned To Stop Worrying And Love Ethereum](https://ethereum2077.substack.com/p/data-availability-in-ethereum-rollups)
-
-#### Was this article helpful?

@@ -24,7 +24,7 @@ The purpose of the **validator private key** is to sign on-chain operations such
   * Being an attester and signing two different attestations having the same target
 * Forces a voluntary exit, which stops the validator from staking and grants access to its staked network token balance to the withdrawal key owner.
 
-The **validator public key** is included in the transaction data when a user deposits network tokens to the staking deposit contract. This is known as the _deposit data_, allowing Ethereum and Flashback to identify the validator.
+The **validator public key** is included in the transaction data when a user deposits network tokens to the staking deposit contract. This is known as the _deposit data_, allowing Ethereum to identify the validator.
 
 ### Withdrawal keys and credentials <a href="#withdrawal-credentials" id="withdrawal-credentials"></a>
 
@@ -40,7 +40,7 @@ Losing this key before updating withdrawal credentials to `0x01` type means losi
 
 ## Keys Derivation from the Seed Phrase <a href="#deriving-keys-from-seed" id="deriving-keys-from-seed"></a>
 
-In Ethereum and Flashback, if every 32 ETH (10,000 FLASH) staked required a new set of 2 completely independent keys, key management would quickly become unwieldy, especially for users running multiple validators. Instead, multiple validator keys can be derived from a single common secret, and storing that single secret allows access to multiple validator keys.
+In Ethereum, if every 32 ETH staked required a new set of 2 completely independent keys, key management would quickly become unwieldy, especially for users running multiple validators. Instead, multiple validator keys can be derived from a single common secret, and storing that single secret allows access to multiple validator keys.
 
 [Mnemonics](https://en.bitcoinwiki.org/wiki/Mnemonic\_phrase) and paths are prominent features that users often encounter when [they access](https://ethereum.stackexchange.com/questions/19055/what-is-the-difference-between-m-44-60-0-0-and-m-44-60-0) their wallets. The mnemonic is a sequence of words that act as an initial seed for a private key. When combined with additional data, the mnemonic generates a hash known as the 'master key'. This can be thought of as the root of a tree. Branches from this root can then be derived using a hierarchical path so that child nodes can exist as combinations of their parent node's hash and their index in the tree. Read about [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) and [BIP-19](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) standards for mnemonic-based key generation.
 

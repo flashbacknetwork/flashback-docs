@@ -1,6 +1,6 @@
 # Proof-of-Stake
 
-Proof-of-stake is a way to prove that validators have put something of value into the network that can be destroyed if they act dishonestly. In Ethereum's proof-of-stake, validators explicitly stake capital in network tokens (32 ETH in Ethereum, 10,000 FLASH in Flashback) into a smart contract. The validator is then responsible for checking that new blocks propagated over the network are valid and occasionally creating and propagating new blocks themselves. If they try to defraud the network (for example, by proposing multiple blocks when they ought to send one or sending conflicting attestations), some or all of their staked network token can be destroyed.
+Proof-of-stake is a way to prove that validators have put something of value into the network that can be destroyed if they act dishonestly. In Ethereum's proof-of-stake, validators explicitly stake capital in network tokens (32 ETH in Ethereum) into a smart contract. The validator is then responsible for checking that new blocks propagated over the network are valid and occasionally creating and propagating new blocks themselves. If they try to defraud the network (for example, by proposing multiple blocks when they ought to send one or sending conflicting attestations), some or all of their staked network token can be destroyed.
 
 ## Validators <a href="#validators" id="validators"></a>
 
@@ -26,7 +26,7 @@ When the network performs optimally and honestly, only one new block is at the h
 
 ## Security Discussions with Ethereum's Proof-of-Stake <a href="#pos-and-security" id="pos-and-security"></a>
 
-The threat of a [51% attack](https://www.investopedia.com/terms/1/51-attack.asp) still exists on proof-of-stake as it does on proof-of-work, but it's even riskier for the attackers. An attacker would need 51% of the staked network tokens. They could then use their attestations to ensure their preferred fork had the most accumulated attestations. The 'weight' of accumulated attestations is what consensus clients use to determine the correct chain so that this attacker can make their fork canonical.&#x20;
+The threat of a [51% attack](https://www.investopedia.com/terms/1/51-attack.asp) still exists on proof-of-stake as it does on proof-of-work, but it's even riskier for the attackers. An attacker would need 51% of the staked network tokens. They could then use their attestations to ensure their preferred fork had the most accumulated attestations. The 'weight' of accumulated attestations is what consensus clients use to determine the correct chain so that this attacker can make their fork canonical.
 
 However, a strength of proof-of-stake is that the community can mount a counter-attack. For example, the honest validators could keep building on the minority chain and ignore the attacker's fork while encouraging apps, exchanges, and pools to do the same. They could also decide to forcibly remove the attacker from the network and destroy their staked tokens. These are economically solid defenses against a 51% attack.
 
