@@ -116,6 +116,55 @@ Block time refers to the time separating blocks proposed by the blockchain valid
 
 ## Block Size <a href="#block-size" id="block-size"></a>
 
-A final important note is that blocks themselves are bounded in size. Each block has a target size of 15 million gas but the size of blocks will increase or decrease following network demands, up until the block limit of 30 million gas (2x target block size). The block gas limit can be adjusted upwards or downwards by a factor of 1/1024 from the previous block's gas limit.&#x20;
+A final important note is that blocks themselves are bounded in size. Each block has a target size of 15 million gas but the size of blocks will increase or decrease following network demands, up until the block limit of 30 million gas (2x target block size). The block gas limit can be adjusted upwards or downwards by a factor of 1/1024 from the previous block's gas limit.
 
 As a result, validators can change the block gas limit through consensus. The total amount of gas expended by all transactions in the block must be less than the block gas limit. This is important because it ensures that blocks can’t be arbitrarily large. If blocks could be arbitrarily large, then less performant full nodes would gradually stop being able to keep up with the network due to space and speed requirements. The larger the block, the greater the computing power required to process them in time for the next slot. This is a centralizing force, which is resisted by capping block sizes.
+
+***
+
+## The Size growth by Adding Blocks
+
+The growth rate of the Ethereum blockchain, in terms of its size in gigabytes (GB), is significant due to the increasing number of transactions, smart contracts, and dApps deployed on the network. Below, I'll provide an overview of the Ethereum blockchain size growth over several time periods from 2014 to 2024. Note that the data is based on full nodes (which store the entire blockchain history).
+
+#### 1. **2014 to 2016**
+
+* Ethereum was launched in July 2015.
+* By the end of 2015, the blockchain size was around **5 GB**.
+* By the end of 2016, the size grew to approximately **25 GB**.
+* **Growth Rate:** The blockchain grew by about **20 GB** over these two years.
+
+#### 2. **2016 to 2018**
+
+* By early 2017, the blockchain size had reached **35 GB**.
+* By the end of 2017, it was approximately **150 GB** due to the ICO boom.
+* By the end of 2018, the size had reached around **200 GB**.
+* **Growth Rate:** The blockchain size increased by about **175 GB** during this period.
+
+#### 3. **2018 to 2020**
+
+* At the start of 2019, the size was around **220 GB**.
+* By the end of 2019, the size grew to around **250 GB**.
+* By the end of 2020, the blockchain size was approximately **400 GB**.
+* **Growth Rate:** The size grew by about **180 GB** over these two years.
+
+#### 4. **2020 to 2022**
+
+* By the beginning of 2021, the blockchain size reached about **450 GB**.
+* By the end of 2021, it grew to around **800 GB** due to the rise in DeFi and NFTs.
+* By the end of 2022, the size had reached around **1.2 TB (1200 GB)**.
+* **Growth Rate:** The size increased by about **750 GB** in this period.
+
+#### 5. **2022 to 2024**
+
+* At the start of 2023, the blockchain size was around **1.3 TB**.
+* By mid-2023, the size grew to approximately **1.5 TB**.
+* As of mid-2024, the size is estimated to be around **1.7 TB**.
+* **Growth Rate:** The growth was about **500 GB** over these two years.
+
+| Period    | Approximate Growth (GB) |
+| --------- | ----------------------- |
+| 2014-2016 | 20 GB                   |
+| 2016-2018 | 175 GB                  |
+| 2018-2020 | 180 GB                  |
+| 2020-2022 | 750 GB                  |
+| 2022-2024 | 500 GB                  |
