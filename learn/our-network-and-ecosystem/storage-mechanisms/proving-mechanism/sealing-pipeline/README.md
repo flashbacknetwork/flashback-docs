@@ -1,33 +1,11 @@
 # Sealing Pipeline
 
-The sealing pipeline in Filecoin is a sophisticated, multi-stage process essential for storage providers to securely encrypt and commit data to the network. It ensures that data is not only stored securely but also verifiable through cryptographic proofs that confirm its continued existence and integrity over time.
+The sealing pipeline in Filecoin is a sophisticated, multi-stage process essential for storage providers to encrypt and commit data to the network securely. It ensures that data is stored securely and verifiable through cryptographic proofs confirming its continued existence and integrity over time. The sealing process comprises several phases, each with specific hardware requirements and performance considerations.
 
-The sealing process comprises several distinct phases, each with specific hardware requirements and performance considerations:
+## Section Table
 
-## [**AddPiece (AP)**](addpiece-ap.md)
+<table><thead><tr><th width="227">Section</th><th>Summary</th></tr></thead><tbody><tr><td><a href="addpiece-ap.md"><strong>AddPiece (AP)</strong></a></td><td><em>This initial phase involves taking the raw data in CAR-file format and preparing it for the following cryptographic processes. Data is written to the sealing scratch space, preparing for the next phase, PreCommit 1.</em> </td></tr><tr><td><a href="precommit-1-pc1.md"><strong>PreCommit 1 (PC1)</strong></a></td><td><em>This phase is crucial for transforming the raw data into a cryptographically secure format through the Proof-of-Replication (PoRep) process. The data undergoes SDR (Seal Data Replica) encoding, creating multiple data layers and enhancing security.</em></td></tr><tr><td><a href="./#precommit-2-pc2"><strong>PreCommit 2 (PC2)</strong></a></td><td><em>Validates the encoding done by PC1 using the Poseidon hashing algorithm to create a Merkle Tree DAG of the encoded data. It transfers the entire scratch space prepared in PC1 to PC2.</em></td></tr><tr><td><a href="waitseed.md"><strong>WaitSeed</strong></a></td><td><em>The blockchain mandates a built-in waiting period to enhance security measures between the sealing and committing phases. The system waits for several blockchain epochs before proceeding to the next step, ensuring no premature commitments.</em></td></tr><tr><td><a href="commit-1-c1-and-commit-2-c2.md"><strong>Commit 1 (C1)</strong></a></td><td><em>An intermediate phase that performs the necessary preparations for generating a zk-SNARK proof will later be used to prove that the data has been correctly replicated and stored.</em></td></tr><tr><td><a href="commit-2-c2.md"><strong>Commit 2 (C2)</strong></a></td><td><em>This is the final phase in the sealing pipeline where the zk-SNARK proof is generated. This proof certifies that the data has been correctly replicated and stored following Filecoin's protocol.</em></td></tr><tr><td><a href="on-chain-commitment.md"><strong>On-Chain Commitment</strong></a></td><td><em>It involves submitting the zk-SNARK proof to the Filecoin blockchain, verifying and recording it. This confirms the storage provider's proof of data replication and storage, which secures their storage deal rewards and maintains network integrity.</em></td></tr></tbody></table>
 
-_This initial phase involves taking the raw data in CAR-file format and preparing it for the cryptographic processes that follow. Data is written to the sealing scratch space, preparing for the next phase, PreCommit 1._&#x20;
+***
 
-## [**PreCommit 1 (PC1)**](precommit-1-pc1.md)
-
-_This phase is crucial for transforming the raw data into a cryptographically secure format through the Proof-of-Replication (PoRep) process. The data undergoes SDR (Seal Data Replica) encoding, creating multiple data layers and enhancing security._
-
-## [**PreCommit 2 (PC2)**](./#precommit-2-pc2)
-
-_Validates the encoding done by PC1 using the Poseidon hashing algorithm to create a Merkle Tree DAG of the encoded data. It transfers the entire scratch space prepared in PC1 to PC2._
-
-## [**WaitSeed**](waitseed.md)
-
-_The blockchain mandates a built-in waiting period to enhance security measures between the sealing and committing phases. The system waits for several blockchain epochs before proceeding to the next step, ensuring no premature commitments._
-
-## [Commit 1 (C1)](commit-1-c1-and-commit-2-c2.md)
-
-_An intermediate phase that performs the necessary preparations for generating a zk-SNARK proof will later be used to prove that the data has been correctly replicated and stored._
-
-## [Commit 2 (C2)](commit-2-c2.md)
-
-_Commit 2 (C2) is the final phase in the sealing pipeline where the zk-SNARK proof is generated. This proof certifies that the data has been correctly replicated and stored following Filecoin's protocol._
-
-## [On-Chain Commitment](on-chain-commitment.md)
-
-_It involves submitting the zk-SNARK proof to the Filecoin blockchain, where it is verified and recorded, confirming the storage provider's proof of data replication and storage, which secures their storage deal rewards and maintains network integrity._
+The sealing pipeline is a complex multi-step process with different requirements according to the execution stage of the PoRep. Knowing them is essential for designing properly the storage provision in your nodes. Let's explore every step, their specifications, and consequences for storage providers!
