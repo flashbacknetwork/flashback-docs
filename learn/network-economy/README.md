@@ -6,7 +6,7 @@ The model ensures that network participants are compensated fairly based on thei
 
 ## Section Table
 
-<table><thead><tr><th width="227">Section</th><th>Summary</th></tr></thead><tbody><tr><td><a href="neph-token.md"><strong>FLASH Token</strong></a></td><td></td></tr><tr><td><a href="../our-network-and-ecosystem/storage-mechanisms/differences-with-flashback.md"><strong>Differences between Filecoin and Flashba</strong></a></td><td></td></tr><tr><td><a href="../consensus-proof-of-stake-spacetime.md"><strong>Consensus: Proof-of-Stake-Spacetime</strong></a></td><td></td></tr><tr><td><a href="../quality-of-network-qon-optimizer.md"><strong>Quality-of-Network (QoN) Optimizer</strong></a></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="227">Section</th><th>Summary</th></tr></thead><tbody><tr><td><a href="neph-token.md"><strong>FLASH Token</strong></a></td><td><em>You will discorver FLASH, the token that enables all the operations in the Flashback network.</em></td></tr><tr><td><a href="tge-allocation.md"><strong>TGE Allocation</strong></a></td><td><em>Flashback allocates the token generation event for different purposes and with different cliff/vesting terms.</em> </td></tr><tr><td><a href="validators-revenues.md"><strong>Validators' Revenues</strong></a></td><td><em>You will understand in this section what are the revenues streams of validators.</em></td></tr><tr><td><a href="services-revenues.md"><strong>Service Gateways' Revenues</strong></a></td><td><em>The service gateways are connecting the end users with the network while providing an ensemble of services with their own revenue model.</em></td></tr></tbody></table>
 
 ***
 
