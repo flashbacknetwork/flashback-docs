@@ -58,13 +58,13 @@ The storage providers have the autonomy to accept or refuse deals, and there are
 
 ### Can a Storage Provider Refuse a Deal?
 
-Yes, a storage provider can **refuse a deal** on the Filecoin network. When a client proposes a deal, the storage provider has the option to review its terms, including the price, duration, and data size. If the storage provider does not find the deal terms acceptable or does not have the resources to store the data, it can choose not to accept it.
+Yes, a storage provider can **refuse a deal** on the Flashback network. When a client proposes a deal, the storage provider has the option to review its terms, including the price, duration, and data size. If the storage provider does not find the deal terms acceptable or does not have the resources to store the data, it can choose not to accept it.
 
 * **No Obligation to Accept**: Storage providers are not obligated to accept every deal proposal they receive. They have full control over which deals they choose to store based on their policies, storage capacity, and economic considerations.
 
 ### Can a Storage Provider Revoke a Deal After Acceptance?
 
-Once a storage provider has accepted a deal and the data has been sealed into a sector, they **cannot unilaterally revoke** the deal or delete the data from the blockchain. Filecoin deals are governed by smart contracts that define the terms of storage, including duration and payment. These contracts are binding for the agreed-upon duration unless certain conditions are violated (e.g., failing to provide regular proofs).
+Once a storage provider has accepted a deal and the data has been sealed into a sector, they **cannot unilaterally revoke** the deal or delete the data from the blockchain. Flashback deals are governed by smart contracts that define the terms of storage, including duration and payment. These contracts are binding for the agreed-upon duration unless certain conditions are violated (e.g., failing to provide regular proofs).
 
 However, there are certain considerations:
 

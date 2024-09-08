@@ -32,9 +32,9 @@ Filecoin brought many cryptographic proofs and a giant leap in the decentralizat
 
 <mark style="color:yellow;">**Flashback**</mark>: The design of the blockchain is fundamental to achieving significant security and decentralization while offering vectors of scalability. Flashback is integrated with the Dencun upgrade and can use the [Blobs](../ethereum-stack-in-nephele/advanced/blockchain-data-availability.md). As explained later in the [QoN optimizer](../../quality-of-network-qon-optimizer.md), the solution streams the proofs to be stored in the Blobs, considerably reducing the [gas fees](https://unchainedcrypto.com/how-much-will-the-dencun-upgrade-really-reduce-ethereum-layer-2-fees-by/) and the blockchain storage growth. Finally, the Layer-2 capabilities will allow developers and companies to extend the storage scalabilities while opening the gate to computing, AI, and other computation-related applications into a unique ecosystem.
 
-## Block rewards
+## Block rewards and validation Consensus
 
-<mark style="color:yellow;">**Filecoin**</mark>: Storage providers receive rewards from the block verifications related to the [storage power consensus](https://spec.filecoin.io/systems/filecoin\_blockchain/storage\_power\_consensus/). This means every sector provides a "power" to mine a new block. The system tends to reward the storage providers with the most significant number of sectors, leading to a network based on capacity rather than the quality of storage performance. While the storage providers receive 25% of block rewards, 75% is unlocked for 180 days. This induces complex risk management for storage providers, and they must integrate this into their business model.
+<mark style="color:yellow;">**Filecoin**</mark>: Storage providers receive rewards from the block verifications related to the [expected consensus](expected-consensus.md). This means every sector provides a "power" to mine a new block. The system tends to reward the storage providers with the most significant number of sectors, leading to a network based on capacity rather than the quality of storage performance. While the storage providers receive 25% of block rewards, 75% is unlocked for 180 days. This induces complex risk management for storage providers, and they must integrate this into their business model.
 
 <mark style="color:yellow;">**Flashback**</mark>: Storage providers are staking validators. Due to their staking duties, they receive rewards from the blocks with the Proof-of-Stake (PoS) protocol. The storage is then strictly independent of the block verifications, forcing it to depend on its utility vector. This gives more flexibility, and the storage providers can adjust their resources quickly according to market conditions and needs. As a consequence, the WinningPoSt is unnecessary in our network.
 
@@ -42,7 +42,7 @@ Filecoin brought many cryptographic proofs and a giant leap in the decentralizat
 
 <mark style="color:yellow;">**Filecoin**</mark>: In the Filecoin network, users (individuals or service providers) commit to file storage contracts with storage providers, which allows them to store their data and as sector availability. Winning a deal is independent of any quality or space function.
 
-<mark style="color:yellow;">**Flashback**</mark>: Storage providers have deal parameters similar to Filecoin in file storage contracts. (See [on-chain marketplace](on-chain-marketplace/)) However, the storage providers will win rewards for the [Quality-of-Network (QoN) optimizer](../../quality-of-network-qon-optimizer.md). This forces the network to become increasingly efficient in terms of hardware and setups for the network's users.
+<mark style="color:yellow;">**Flashback**</mark>: Storage providers have deal parameters similar to Filecoin in file storage contracts. (See [on-chain marketplace](on-chain-marketplace.md)) However, the storage providers will win rewards for the [Quality-of-Network (QoN) optimizer](../../quality-of-network-qon-optimizer.md). This forces the network to become increasingly efficient in terms of hardware and setups for the network's users.
 
 ## Collaterals of storage providers
 
