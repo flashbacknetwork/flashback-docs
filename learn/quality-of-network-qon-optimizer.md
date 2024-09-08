@@ -37,11 +37,11 @@ The system is designed to incentivize speed and reliability among validators by 
 
 **4. Validator Data Provision**
 
-* **Data Provision and Verification**: Validators fetch the requested data and provide it back to the requester along with a response time and a signature.
+* **Data Provision and Verification**: Validators fetch the requested data and provide it back to the requester with a response time and a signature.
 * **Responsibility**:
   * Upon receiving a data request, validators are required to send the requested file directly to the user.
 * **Verification**:
-  * Validators must ensure that the data sent is accurate and complete, adhering to the terms specified in the contract.
+  * Validators must ensure that the data sent is accurate and complete and adhere to the terms specified in the contract.
 
 **5. User Proof of Space-Time (PoST) Commitment**
 
@@ -50,12 +50,12 @@ The system is designed to incentivize speed and reliability among validators by 
 * **Submission**:
   * The PoST is then submitted to a blob on the Dencun data availability layer.
 * **Purpose**:
-  * This proof serves as a verifiable claim that the user has indeed received the data as per the request.
+  * This proof serves as a verifiable claim that the user has received the data as requested.
 
 **6. Performance-Based Reward Assessment and Distribution**
 
 * **Criteria**:
-  * Throughout the duration of the contract, the performance of validators is monitored based on the average time taken to fulfill data requests.
+  * Throughout the contract, the performance of validators is monitored based on the average time taken to fulfill data requests.
 * **Reward Mechanism**:
   * The validator with the quickest average response time throughout the contract can receive its data storage fee and a rebate of half the remaining contract fee.
   * The validator(s) with a lower average response time throughout the contract is/are eligible for a rebate amounting to half the _**post-winner fee**_ (remaining contract fee after the winner's payment) divided by the number of validator(s).
