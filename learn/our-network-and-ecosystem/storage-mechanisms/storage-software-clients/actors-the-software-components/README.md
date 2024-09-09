@@ -1,2 +1,10 @@
-# The Software Components
+# Actors: The Software Components
+
+Key actors such as the **Storage Miner Actor**, **Market Actor**, **Power Actor**, and **Reward Actor** coordinate the network's economic, operational, and consensus mechanisms. the **Power Actor** tracks storage power contributions of miners, affecting their eligibility for mining rewards and consensus participation; and the **Reward Actor** distributes block rewards based on storage power and consensus rules. Together, these actors, supported by **Account Actors** that represent user accounts and manage FIL balances, form a robust ecosystem that ensures data integrity, incentivizes decentralized storage, and maintains network security and growth.
+
+## Section Table
+
+<table><thead><tr><th width="227">Section</th><th>Summary</th></tr></thead><tbody><tr><td><a href="market-actor.md"><strong>Market Actor</strong></a></td><td><em>It facilitates storage and retrieval deals between clients (service gateways) and storage providers, handling payments and collateral.</em></td></tr><tr><td><a href="storage-miner-actor.md"><strong>Storage Miner Actor</strong></a></td><td><em>It manages storage operations, including sealing data and submitting proofs.</em></td></tr><tr><td><a href="power-actor.md"><strong>Power Actor</strong></a></td><td> <em>It tracks the storage power contributions of miners, affecting their eligibility for mining rewards and consensus participation.</em></td></tr><tr><td><a href="reward-actor.md"><strong>Reward Actor</strong></a></td><td><em>It distributes block rewards based on storage power and consensus rules.</em></td></tr><tr><td><a href="account-actor.md"><strong>Account Actor</strong></a></td><td><em>It represents user accounts and manage FIL balances, form a robust ecosystem that ensures data integrity, incentivizes decentralized storage, and maintains network security and growth.</em></td></tr></tbody></table>
+
+***
 
