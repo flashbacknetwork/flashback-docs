@@ -6,7 +6,7 @@ Storage software clients enable users to leverage Filecoin's decentralized stora
 
 {% tabs %}
 {% tab title="Lotus" %}
-Lotus is the most widely used and officially supported Filecoin client developed by Protocol Labs. It is the primary implementation of the Filecoin protocol and is written in **Go**.
+**Lotus** is the most widely used and officially supported Filecoin client developed by Protocol Labs. It is written in Go and is the primary implementation of the Filecoin protocol.
 
 * **Features:**
   * Implements the full Filecoin node capabilities, including storage miner operations, blockchain synchronization, deal-making, proof generation, and network participation.
