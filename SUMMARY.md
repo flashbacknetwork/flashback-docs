@@ -99,6 +99,7 @@
         * [Power Actor](learn/our-network-and-ecosystem/storage-mechanisms/storage-software-clients/actors-the-software-components/power-actor.md)
         * [Reward Actor](learn/our-network-and-ecosystem/storage-mechanisms/storage-software-clients/actors-the-software-components/reward-actor.md)
         * [Account Actor](learn/our-network-and-ecosystem/storage-mechanisms/storage-software-clients/actors-the-software-components/account-actor.md)
+      * [The List of Clients](learn/our-network-and-ecosystem/storage-mechanisms/storage-software-clients/the-list-of-clients.md)
 * [Flashback Network](learn/decentralized-ledger.md)
   * [General Specifications](learn/decentralized-ledger/general-specifications.md)
   * [Differences between Filecoin and Flashback](learn/our-network-and-ecosystem/storage-mechanisms/differences-with-flashback.md)
