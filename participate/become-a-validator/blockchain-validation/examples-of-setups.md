@@ -1,6 +1,8 @@
 # Examples of Setups
 
-## Cloud Providers
+## Centralized Cloud Providers
+
+_<mark style="color:red;">No endorsement of any Cloud provider is made here. The information provided is purely indicative. Please extend your research according to your needs and do not hesitate to ask questions in our social medias. The information provided by Cloud providers is extremely approximative because of rebates and other conditions related to server usage.</mark>_&#x20;
 
 Here is a non-exhaustive list of centralized Cloud providers, including Google, Amazon, and OVH Cloud, along with their options and configurations that meet the minimal hardware requirements for a staking validator (in September 2024):
 
@@ -18,16 +20,12 @@ Here is a non-exhaustive list of centralized Cloud providers, including Google, 
 {% endtab %}
 {% endtabs %}
 
-## Decentralized Providers
+## Decentralized Cloud Providers
 
 Soon.
 
 ## Local Setups
 
-## To Run Network Protocol Clients (PoS-Only Nodes)
-
 A hosted setup for running a PoS validator node can offer greater control and potentially lower long-term costs than a cloud service. Below, we've included a suggested hardware setup and estimated costs for purchasing the hardware. Additionally, I’ll provide an estimate of operating costs such as electricity bills and maintenance, with a breakdown for four years (why not a Bitcoin cycle!).
 
 <table><thead><tr><th width="174">Category</th><th width="191">Light Node</th><th width="193">Full Node</th><th>Archive Node</th></tr></thead><tbody><tr><td>CPU</td><td><strong>Intel Core i3-10100 (4 cores, 8 threads, 3.6 GHz base clock)</strong></td><td><strong>AMD Ryzen 5 5600X (6 cores, 12 threads, 3.7 GHz base clock, 4.6 GHz boost)</strong></td><td><strong>AMD Ryzen 9 5900X (12 cores, 24 threads, 3.7 GHz base clock, 4.8 GHz boost)</strong></td></tr><tr><td>Motherboard</td><td><strong>ASUS Prime B460M-A</strong></td><td><strong>ASUS TUF Gaming B550-PLUS (AM4 socket)</strong></td><td><strong>ASUS ROG Strix B550-F Gaming (AM4 socket)</strong></td></tr><tr><td>RAM</td><td><strong>Crucial 8GB DDR4 2666 MHz</strong></td><td><strong>Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200 MHz</strong></td><td><strong>Corsair Vengeance LPX 32GB (2x16GB) DDR4 3200 MHz</strong></td></tr><tr><td>Storage (System + Software)</td><td><strong>Kingston A2000 NVMe PCIe M.2 250GB</strong></td><td><strong>Samsung 970 EVO Plus 250GB NVMe M.2 SSD</strong></td><td><strong>Samsung 970 EVO Plus 500GB NVMe M.2 SSD</strong></td></tr><tr><td>Storage (Staking)</td><td><strong>---</strong></td><td><strong>Samsung 970 EVO Plus 1TB NVMe M.2 SSD</strong></td><td><strong>970 EVO Plus 2TB NVMe M.2 SSD</strong></td></tr><tr><td>Power Supply Unit (PSU)</td><td><strong>EVGA 500 W1, 80+ WHITE 500W</strong></td><td><strong>EVGA SuperNOVA 650 G5, 80 Plus Gold 650W</strong></td><td><strong>Corsair RM850x, 850W, 80 Plus Gold</strong></td></tr><tr><td>Case</td><td><strong>Cooler Master MasterBox Q300L</strong></td><td><strong>Fractal Design Meshify C</strong></td><td><strong>Fractal Design Define R6 USB-C</strong></td></tr><tr><td>Cooling</td><td><strong>Stock cooler (included with the CPU)</strong></td><td><strong>Noctua NH-U12S Redux</strong></td><td><strong>NH-D15 Chromax.Black</strong></td></tr><tr><td>Fans</td><td><strong>Arctic F12 PWM Rev. 2</strong></td><td><strong>Noctua NF-P12 redux-1700 PWM (120mm)</strong></td><td><strong>Noctua NF-A14 PWM Chromax.Black (140mm)</strong></td></tr><tr><td>Network Interface</td><td><strong>TP-Link TG-3468 PCIe Network Adapter (Gigabit Ethernet)</strong></td><td><strong>Intel Gigabit CT PCI-E Network Adapter EXPI9301CTBLK</strong></td><td><strong>Intel X550-T2 Dual-Port 10GbE PCIe Network Adapter</strong></td></tr><tr><td>Uninterruptible Power Supply</td><td><strong>APC UPS, 600VA UPS Battery Backup &#x26; Surge Protector</strong></td><td><strong>CyberPower CP1000AVRLCD Intelligent LCD UPS System</strong></td><td><strong>APC Smart-UPS 1500VA, Sine Wave UPS Battery Backup</strong></td></tr><tr><td>Hardware Costs</td><td><strong>$450-$600</strong></td><td><strong>$900-$1,250</strong></td><td><strong>$1,830 - $2,270</strong></td></tr><tr><td>Miscellaneous<br>Electricity</td><td><strong>$50</strong><br><strong>25 USD/Month</strong></td><td><strong>$50</strong><br><strong>40 USD/Month</strong></td><td><strong>$50</strong><br><strong>70 USD/Month</strong></td></tr><tr><td>At Home <br>(over 4 years)</td><td><strong>35-55 USD/month</strong></td><td><strong>60-70 USD/Month</strong></td><td><strong>100-120 USD/Month</strong></td></tr><tr><td>In Colocation<br>(over 4 Years)</td><td><strong>50-100 USD/month (no UPS)</strong></td><td><strong>70-230 USD/Month (no UPS)</strong></td><td><strong>160-420 USD/Month (no UPS)</strong></td></tr></tbody></table>
-
-## To Support Storage Provision (PoS-ST Nodes)

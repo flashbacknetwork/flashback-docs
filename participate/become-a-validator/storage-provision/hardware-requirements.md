@@ -20,8 +20,3 @@ The following table resumes the requirements for every steps of the sealing and 
 | Prove Replica Update 2 | All Cores or GPU | 11 GiB | \~ 192GiB | 64 GiB     |
 | WindowPoSt             | All Cores or GPU | 11 GiB | 96GiB     | 64 GiB     |
 
-## Additional Considerations
-
-* **Backup and Security**: Since validators must keep their private keys secure, consider using hardware security modules (HSMs) or secure offline storage (cold wallets) for private keys.
-* **Redundancy**: For those seeking to operate a highly available node, consider setting up failover systems or backup internet connections to ensure continuous operation.
-* **Regular Upgrade**: The Flashback network is constantly evolving. Increasing traffic and user numbers will change the minimum requirements. It's essential to adapt accordingly and regularly update your customers and hardware.
