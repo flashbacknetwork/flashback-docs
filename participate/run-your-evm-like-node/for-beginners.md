@@ -48,33 +48,35 @@ Nethermind is a fast and flexible Ethereum execution client. To run Nethermind a
 
     Create a Docker Compose file named `docker-compose-nethermind.yml`:
 
-    ```yaml
-    yaml version: '3.8'
-    services:
-      nethermind:
-        image: nethermind/nethermind
-        container_name: nethermind
-        restart: always
-        ports:
-          - 30303:30303/tcp
-          - 30303:30303/udp
-        command: >
-          --config goerli
-          --Network.DiscoveryPort=30303
-          --Network.P2PPort=30303
-          --Sync.FastSync=true
-          --JsonRpc.Enabled=true
-          --JsonRpc.Host=0.0.0.0
-          --JsonRpc.Port=8545
-    ```
 
-    Save the file and run:
 
-    ```bash
-    bash docker-compose -f docker-compose-nethermind.yml up -d
-    ```
+```yaml
+yaml version: '3.8'
+services:
+  nethermind:
+    image: nethermind/nethermind
+    container_name: nethermind
+    restart: always
+    ports:
+      - 30303:30303/tcp
+      - 30303:30303/udp
+    command: >
+      --config goerli
+      --Network.DiscoveryPort=30303
+      --Network.P2PPort=30303
+      --Sync.FastSync=true
+      --JsonRpc.Enabled=true
+      --JsonRpc.Host=0.0.0.0
+      --JsonRpc.Port=8545
+```
 
-    This command will start Nethermind in a Light Node mode, configured to run on the Goerli testnet. You can replace `goerli` with `mainnet` for the main network.
+Save the file and run:
+
+```bash
+bash docker-compose -f docker-compose-nethermind.yml up -d
+```
+
+This command will start Nethermind in a Light Node mode, configured to run on the Goerli testnet. You can replace `goerli` with `mainnet` for the main network.
 
 ## Step 3: Installing Lighthouse Consensus Client
 

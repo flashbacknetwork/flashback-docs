@@ -1,55 +1,82 @@
-# Archive Node
-
-To run an **Archive Node** on the Flashback network using Nethermind as the execution client and Lighthouse as the consensus client, you will need a setup that allows you to store and maintain the entire blockchain history, including all past states. This is more demanding than running a Full Node, as Archive Nodes are used primarily for querying all historical data and past states of the blockchain, which requires significant hardware resources.
+# Command Lines
 
 <mark style="color:red;">**WARNING: This tutorial is incomplete and only illustrates the process. Additional information related to the network version (testnet/mainnet) will be documented and added to this tutorial.**</mark>
 
-## Step 1: Preparing the Environment
+## Step 1: Setting Up Your Environment
 
-Ensure your system is up to date before installing the necessary dependencies.
+Before running the node, make sure your system is up to date.
 
 ```bash
 bash sudo apt update && sudo apt upgrade -y
 ```
 
-**Install Required Dependencies**
+### **Install Required Dependencies**
 
-Docker and Docker Compose are recommended for running Nethermind and Lighthouse in isolated environments.
+You need to install Docker and Docker Compose to manage your clients easily.
 
-1.  **Install Docker**:
+**Install Docker**:
 
-    ```bash
-    bash sudo apt install docker.io -y
-    sudo systemctl enable docker --now
-    ```
-2.  **Install Docker Compose**:
+```bash
+bash sudo apt install docker.io -y
+sudo systemctl enable docker --now
+```
 
-    ```bash
-    bash sudo apt install docker-compose -y
-    ```
-3.  **Add Your User to the Docker Group**:
+**Install Docker Compose**
 
-    ```bash
-    bash sudo usermod -aG docker $USER
-    ```
+```bash
+bash sudo apt install docker-compose -y
+```
 
-    Log out and back in to apply the changes.
+**Add Your User to the Docker Group**:
 
-## Step 2: Install Nethermind Execution Client
+```bash
+bash sudo usermod -aG docker $USER
+```
 
-Nethermind is a high-performance, multi-platform execution client for Ethereum and its forks, such as Flashback.
+Log out and back in to apply the changes.
 
-1.  **Pull the Docker Image for Nethermind**:
+***
 
-    ```bash
-    bash docker pull nethermind/nethermind
-    ```
-2.  **Create a Docker Compose File for Nethermind**:
+## Step 2: Installing Nethermind Execution Client
 
-    Create a file named `docker-compose-nethermind.yml`:
+Nethermind is a fast and flexible Ethereum execution client. To run Nethermind as a Light Node, we'll configure it to minimize resource usage.
 
+**Pull the Docker Image**
 
+```bash
+bash docker pull nethermind/nethermind
+```
 
+**Run Nethermind**
+
+Create a Docker Compose file named `docker-compose-nethermind.yml`:
+
+{% tabs %}
+{% tab title="Full" %}
+```yaml
+yaml version: '3.8'
+services:
+  nethermind:
+    image: nethermind/nethermind
+    container_name: nethermind
+    restart: always
+    ports:
+      - 30303:30303/tcp
+      - 30303:30303/udp
+      - 8545:8545/tcp
+    volumes:
+      - ./nethermind-data:/nethermind/data
+    command: >
+      --config mainnet
+      --Sync.FullNode=true
+      --Init.VerifiedSync=true
+      --JsonRpc.Enabled=true
+      --JsonRpc.Host=0.0.0.0
+      --JsonRpc.Port=8545
+```
+{% endtab %}
+
+{% tab title="Archive" %}
 ```yaml
 yaml version: '3.8'
 services:
@@ -73,31 +100,31 @@ services:
       --JsonRpc.Port=8545
 ```
 
-* The `--Sync.Archive=true` flag enables the Archive Node mode, allowing the client to store all historical states.
+The `--Sync.Archive=true` flag enables the Archive Node mode, allowing the client to store all historical states.
+{% endtab %}
+{% endtabs %}
 
-1.  **Run Nethermind**:
+This configuration sets up Nethermind as a Full Node on the mainnet. It also enables JSON-RPC for client interactions.
 
-    Start the Nethermind container using Docker Compose:
+Save the file and run:
 
-    ```bash
-    bash docker-compose -f docker-compose-nethermind.yml up -d
-    ```
+```bash
+bash docker-compose -f docker-compose-nethermind.yml up -d
+```
 
-    This command will initialize Nethermind as an Archive Node and begin the complete synchronization of the blockchain history.
+This command will start Nethermind in a Node mode, configured to run on the Goerli testnet. You can replace `goerli` with `mainnet` for the main network.
 
-## Step 3: Install Lighthouse Consensus Client
+## Step 3: Installing Lighthouse Consensus Client
 
-Lighthouse is a consensus client optimized for security and performance, fully compatible with the Ethereum 2.0 protocol and Flashback.
+Lighthouse is a fast, secure, and efficient Ethereum consensus client. It’s written in Rust and optimized for performance.
 
-1.  **Install Rust** (if not installed):
+1.  **Install Rust** (if not already installed):
 
     ```bash
     bash curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     source $HOME/.cargo/env
     ```
 2.  **Download and Build Lighthouse**:
-
-    Clone the Lighthouse repository and build it:
 
     ```bash
     bash git clone https://github.com/sigp/lighthouse.git
@@ -130,7 +157,7 @@ Lighthouse is a consensus client optimized for security and performance, fully c
           --metrics
     ```
 
-    This configuration sets up Lighthouse as a beacon node, connects it to the mainnet, and links it with Nethermind as the execution client.
+    This configuration will set up Lighthouse as a beacon node, connect it to the mainnet, and link it with Nethermind as the execution client.
 4.  **Run Lighthouse**:
 
     Start the Lighthouse container using Docker Compose:
@@ -168,4 +195,4 @@ To ensure that Nethermind and Lighthouse work seamlessly together:
     docker-compose -f docker-compose-nethermind.yml up -d
     docker-compose -f docker-compose-lighthouse.yml up -d
     ```
-* **Backup Data**: Regularly back up the data directories (`nethermind-data` and `lighthouse-data`) to prevent data loss.
+* **Backup Data**: Regularly backup the data directories (`nethermind-data` and `lighthouse-data`) to prevent data loss.

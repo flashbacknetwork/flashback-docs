@@ -47,31 +47,35 @@ Nethermind is a high-performance, multi-platform execution client for Ethereum a
 2.  **Create a Docker Compose File for Nethermind**:
 
     Create a file named `docker-compose-nethermind.yml`:
+3.
 
-    ```yaml
-    yaml version: '3.8'
-    services:
-      nethermind:
-        image: nethermind/nethermind
-        container_name: nethermind
-        restart: always
-        ports:
-          - 30303:30303/tcp
-          - 30303:30303/udp
-          - 8545:8545/tcp
-        volumes:
-          - ./nethermind-data:/nethermind/data
-        command: >
-          --config mainnet
-          --Sync.FullNode=true
-          --Init.VerifiedSync=true
-          --JsonRpc.Enabled=true
-          --JsonRpc.Host=0.0.0.0
-          --JsonRpc.Port=8545
-    ```
 
-    This configuration sets up Nethermind as a Full Node on the mainnet. It also enables JSON-RPC for client interactions.
-3.  **Run Nethermind**:
+
+```yaml
+yaml version: '3.8'
+services:
+  nethermind:
+    image: nethermind/nethermind
+    container_name: nethermind
+    restart: always
+    ports:
+      - 30303:30303/tcp
+      - 30303:30303/udp
+      - 8545:8545/tcp
+    volumes:
+      - ./nethermind-data:/nethermind/data
+    command: >
+      --config mainnet
+      --Sync.FullNode=true
+      --Init.VerifiedSync=true
+      --JsonRpc.Enabled=true
+      --JsonRpc.Host=0.0.0.0
+      --JsonRpc.Port=8545
+```
+
+This configuration sets up Nethermind as a Full Node on the mainnet. It also enables JSON-RPC for client interactions.
+
+1.  **Run Nethermind**:
 
     Start the Nethermind container using Docker Compose:
 
