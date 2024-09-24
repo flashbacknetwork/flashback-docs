@@ -56,7 +56,7 @@ Flashback leverages decentralized storage solutions like the one facilitated by 
 
 Making deals requires selecting the different validators you want to operate in your service. Specifically, Flashback will have a on-chain marketplace that refers to all the nodes and their pricing. However, estimating its storage cost as a physical storage infrastructure provider can be complex. The following example illustrates approaches that can help you to understand the profits you could make with the protocol. The figures provided are illustrative to support understanding and should be aligned with actual deployment costs. We assume a staking of 10,000 FLASH staked per node and a circulating supply of 1,000,000,000 FLASH.\
 \
-<mark style="color:red;">**WARNING: This is an example and does not reflect the reality. We suggest you to check the**</mark> [<mark style="color:blue;">**hardware configurations**</mark>](broken-reference) <mark style="color:red;">**to understand better the specifications. This is not an advice and here to illustrate the incomes of storage provision.**</mark>
+<mark style="color:red;">**WARNING: This is an example and does not reflect the reality. We suggest you to check the**</mark>** **<mark style="color:blue;">**hardware configurations**</mark>** **<mark style="color:red;">**to understand better the specifications. This is not an advice and here to illustrate the incomes of storage provision.**</mark>
 
 We assume that the storage provider wants to make 50% of benefits on the costs. We also set a minimal operating fee of 0.25 USD/TB/Month.
 
@@ -145,7 +145,7 @@ In this situation, one node provides 1,400 tokens i.e. 35,000 USD in 1 year. Her
 
 ### Conclusion
 
-The operating fee is the storage provider's decision. This section illustrates an operator's strategy for deciding the operating fee. Storage providers must consider other hardware, such as SSD, NVMe, etc. Low operating fees do not mean storage priority. It is just a market offer, and users will choose what is convenient for them and their use cases. To go further, we suggest you to check the [hardware configurations](broken-reference).
+The operating fee is the storage provider's decision. This section illustrates an operator's strategy for deciding the operating fee. Storage providers must consider other hardware, such as SSD, NVMe, etc. Low operating fees do not mean storage priority. It is just a market offer, and users will choose what is convenient for them and their use cases. To go further, we suggest you to check the hardware configurations.
 
 ***
 
