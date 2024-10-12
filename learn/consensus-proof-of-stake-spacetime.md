@@ -14,80 +14,35 @@ Following data sealing, validators must continuously prove the existence and ava
 
 ***
 
-## The Motivation of PoS-ST Consensus
+## The Motivation of Hybrid Consensus
 
-The current PoS consensus mechanism is robust for transaction validation and block production. However, it needs to address the growing need for decentralized storage capabilities on the blockchain inherently, which are essential for broadening the range of decentralized applications (dApps) and services. The introduction of PoS-ST aims to integrate decentralized file storage into the existing PoS framework, enhancing the blockchain's functionality without altering the core consensus for block validation.
+The current PoS consensus mechanism is robust for transaction validation and block production. However, it needs to address the growing need for decentralized storage capabilities on the blockchain inherently, which are essential for broadening the range of decentralized applications (dApps) and services. The introduction of PoSt with PoS aims to integrate decentralized file storage into the existing PoS framework, enhancing the blockchain's functionality without altering the core consensus for block validation.
 
-The first motivation for upgrading to PoS-ST is the desire to enhance the blockchain’s utility and economic viability. It aims to provide a comprehensive solution that supports the core functionalities of transaction processing and consensus building and extends the blockchain’s capabilities to include secure DePIN-based cloud storage. The validators will benefit from two revenue streams, which is essential for more stable and long-term participation in the network. This evolution is vital for the blockchain to remain competitive and relevant in an increasingly decentralized digital landscape.
+The first motivation for doing PoS-ST is to enhance the blockchain’s utility and economic viability. It aims to provide a comprehensive solution that supports the core functionalities of transaction processing and consensus building and extends the blockchain’s capabilities to include secure DePIN-based cloud storage. The validators will benefit from two revenue streams, which are essential for more stable and long-term participation in the network. This evolution is vital for the blockchain to remain competitive and relevant in an increasingly decentralized digital landscape.
 
 \
-The second motivation for upgrading to have a validator do the staking and storage duties is mainly to reinforce the network's security and stability. In many DePin-based cloud storage, the storage nodes perform a limited storage duty, where rules are only mandated by the storage protocol itself. The storage providers can also do as many nodes as they want, which tends to degrade the storage quality. Forcing staking and storage duties in Flashback guarantees the participation of good-quality providers, which must ensure a higher standard for blockchain validation and storage.
+The second motivation for upgrading to have a validator do the staking and storage duties is reinforcing the network's security and stability. In many DePIN-based cloud storage, the storage nodes perform a limited storage duty, where rules are only mandated by the storage protocol. The storage providers can also do as many nodes as they want, which tends to degrade the storage quality. Forcing staking and storage duties in Flashback guarantees the participation of good-quality providers, which must ensure a higher standard for blockchain validation and storage.
 
-### Trust and Decentralization
+#### Trust and Decentralization
 
 Integrating decentralized file storage into the blockchain's consensus layer enables a more trustless ecosystem. This reduces reliance on external storage solutions and increases data decentralization. This integration fosters a more resilient and censorship-resistant network, enhancing trust in the blockchain's capabilities.
 
 We designed this consensus to support a decentralized, transparent, and on-chain commitment to the services running on our DePIN-based cloud storage. The PoS consensus from Ethereum is also known as its good decentralization factor, and forcing the storage providers to be validators reinforces the trust in their storage duties.
 
-### Economic Incentives for Validators
+#### Economic Incentives for Validators
 
-By incorporating PoSt commitments into the duties of validators, PoS-ST allows them to leverage their existing computational and storage hardware to earn additional fees. This optimizes physical resources and provides a financial incentive for validators to support and maintain the network's storage capabilities, aligning their interests with the network's health and expansion.
+Incorporating PoSt commitments into validators' duties allows them to leverage their existing computational and storage hardware to earn additional income. This optimizes physical resources and provides a financial incentive for validators to support and maintain the network's storage capabilities, aligning their interests with the network's health and expansion.
 
-The PoS-ST allows validators to participate in the storage duties while benefiting from the block validation. The storage providers will balance their profits between the staking and the storage revenues. The PoS-ST presents slashing mechanisms for their block validation and storage duties. A validator enabling storage will provide a higher degree of services, improving the network's quality.
+The PoS-ST allows validators to participate in the storage duties while benefiting from the block validation. The storage providers will balance their profits between the staking and the storage revenues. The PoS-ST presents slashing mechanisms for their block validation and storage duties. A validator enabling storage will provide more services, improving the network's quality.
 
-### Scalability and Future Enhancements
+#### Scalability and Future Enhancements
 
 The current implementation of PoS-ST uses standardized data encumbrances known as "Dencun blobs," which are a step toward more scalable storage solutions. The planned transition to non-interactive PoSt will enhance the system’s scalability and efficiency, enabling the network to handle larger data storage requests seamlessly.
 
 This progression aligns with the blockchain’s long-term vision to support a wider array of decentralized services and applications, making the blockchain a platform for financial transactions and a robust layer for decentralized data services.
 
-### Addressing a Market Need
+#### Addressing a Market Need
 
-The integration of PoS-ST creates an open, customizable market for data storage within the blockchain environment. This market fills a critical gap in the current ecosystem and establishes a new utility paradigm for blockchains, transforming them into multi-functional platforms that can meet diverse needs of modern digital economies.
+The integration of PoS-ST creates an open, customizable market for data storage within the blockchain environment. This market fills a critical gap in the current ecosystem. It establishes a new utility paradigm for blockchains, transforming them into multi-functional platforms that can meet diverse needs of modern digital economies.
 
-The implementation of PoS-ST fills the gap and establishes solid foundations for innovative applications and services that will drive the mass adoption of the web3 ecosystem. The consensus offers the storage providers a straightforward profitability process while envisioning a variety of offers in a simple commitment mechanism.
-
-***
-
-## PoS-ST Specifications
-
-This section outlines the detailed technical changes to the network's architecture, including adjustments to block validation, consensus rules, and node requirements with the integration of the PoS-ST mechanism.
-
-### Cryptographic Techniques using zk-SNARKS
-
-The PoS-ST protocol incorporates Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge (zk-SNARKs) to enable validators to prove the integrity and ongoing availability of the data they store without revealing the actual data:
-
-* **Functionality**: zk-SNARKs allow validators to prove that they possess specific data by generating and submitting proofs that demonstrate data integrity and possession while keeping the actual data private and without any interaction between the prover (validator) and the verifier (network).
-* **Implementation in PoST**: Validators use zk-SNARKs to create compact, non-interactive proofs for data integrity. These proofs are integrated into the network's existing consensus mechanisms, ensuring they are scalable and minimally invasive to network performance.
-
-### Application in Windowed Proof
-
-PoS-ST uses windowed proofs to maintain continuous verification of data integrity over time:
-
-* **Proof Creation**: Upon initiating a storage contract, validators generate a zk-SNARK proof that establishes the initial data storage conditions. Validators must then produce subsequent proofs periodically, as the storage contract stipulates, to demonstrate ongoing compliance and data integrity.
-* **Proof Verification**: These proofs are submitted in response to periodic challenges based on the windows defined by each contract. The network verifies these proofs using decentralized verification mechanisms, ensuring validators adhere to their storage obligations without requiring full data disclosure.
-
-### Dynamic Proof Window Duration
-
-The flexibility of proof windows is a key feature of PoS-ST:
-
-* **Customization**: The duration of proof windows can be customized in the validator's storage contract, allowing validators to adapt their resource allocation to the requirements of the contract issuer. This feature provides significant flexibility and optimizes network resource utilization.
-* **Adaptation and Efficiency**: This customization helps the network efficiently manage resource distribution and accommodate varying storage needs, ranging from dynamic short-term data to static long-term storage.
-
-### Penalty Mechanisms from Existing PoS Systems
-
-PoS-ST integrates penalty mechanisms familiar to traditional PoS validators:
-
-* **Enforcement and Compliance**: Validators who fail to submit valid proofs within the specified windows are subject to penalties, including the potential loss of staked tokens or reduced opportunities to participate in future proofs.
-* **Network Governance**: The specifics of these penalties, including severity and conditions, are governed by the network's consensus protocols. Changes to the penalty system can be proposed and implemented through protocol amendments, ensuring they remain fair and effective.
-
-### Validator's Node Requirements
-
-Nodes participating in PoS-ST must meet additional hardware and software requirements to handle the increased computational load:
-
-* **Hardware Specifications**: Validators require enhanced storage capabilities to manage the data for which they are responsible. Additionally, sufficient computational power is needed to efficiently generate and verify zk-SNARK proofs.
-* **Software Specifications**: Nodes must run software that supports zk-SNARK generation and verification, integrated seamlessly with the blockchain's existing consensus software.
-
-### Integration with the Dencun Data Availability Layer
-
-Proofs generated by validators are pushed as blobs on the Dencun data availability layer, ensuring that proofs are accessible and verifiable by the entire network without congesting the blockchain with large data files.
+The PoS-ST fills the gap and establishes solid foundations for innovative applications and services that will drive the mass adoption of the web3 ecosystem. The consensus offers the storage providers a straightforward profitability process while envisioning a variety of offers in a simple commitment mechanism.
