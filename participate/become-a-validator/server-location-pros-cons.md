@@ -1,3 +1,7 @@
+---
+icon: location-pin
+---
+
 # Server Location: Pros/Cons
 
 ## Cloud Providers

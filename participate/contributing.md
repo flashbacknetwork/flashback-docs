@@ -3,7 +3,7 @@ author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 description: It explains our documentation participation.
 ---
 
-# Improve Our Documentation
+# 🙌 Contribute to the Documentation
 
 ## Introduction
 
@@ -100,7 +100,7 @@ Navigate to the original repository and create a pull request. Provide a detaile
 
 ### 7. Address Feedback
 
-Project maintainers may request changes. Please address their feedback as soon as possible to get your contribution merged. We recommend you to open a ticket in our [Discord](https://discord.gg/yy8kyM5qFB) to follow-up your contribution and to get rewarded.&#x20;
+Project maintainers may request changes. Please address their feedback as soon as possible to get your contribution merged. We recommend you to open a ticket in our [Discord](https://discord.gg/yy8kyM5qFB) to follow-up your contribution and to get rewarded.
 
 ## Writing Tutorials and How-to Guides
 

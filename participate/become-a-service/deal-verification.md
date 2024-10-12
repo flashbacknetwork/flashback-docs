@@ -1,4 +1,4 @@
-# Deal Verification
+# ℹ️ Deal Verification
 
 A **service gateway** (acting as a client) in Filecoin can verify the proof of a deal to ensure that the storage provider is genuinely storing the data as agreed and can also verify the integrity of the data when it is retrieved to ensure it has not been tampered with. Here’s how these verifications work:
 

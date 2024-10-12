@@ -7,7 +7,7 @@ The use of smart contracts in Filecoin ensures that the terms of the deal are au
 ### **Deal Negotiation (Off-chain)**
 
 * **Initiation**: Clients and storage providers begin by negotiating terms such as the size of the data, price, duration of storage, and specific storage requirements.
-* **Deal Terms**: These are discussed off-chain to speed up the process and reduce transaction costs. Once both parties agree, they proceed to formalize the deal on-chain. It can be done manually, but deal-making systems exist to automate the process.&#x20;
+* **Deal Terms**: These are discussed off-chain to speed up the process and reduce transaction costs. Once both parties agree, they proceed to formalize the deal on-chain. It can be done manually, but deal-making systems exist to automate the process.
 
 ### **Deal Setup (On-chain)**
 
@@ -16,19 +16,19 @@ The use of smart contracts in Filecoin ensures that the terms of the deal are au
 
 ### **Data transfer**
 
-* **Data Encryption (Off-chain):** Before sending the data to the storage providers and all the selected nodes, it is highly recommended that the client verify the transfer protocol's data encryption according to the level of security and privacy. While the sealing encrypts data automatically in a sector, the storage node receives the data "as it is" before doing this process.&#x20;
-* **Data Transfer**: Once the storage provider accepts the deal, the client transfers their data to the provider. This data is typically uploaded in a format that the Filecoin network supports, such as a CAR (Content Addressable aRchive) file. If the node supports other protocols, the client will interact with these protocols thanks to the software's API.&#x20;
+* **Data Encryption (Off-chain):** Before sending the data to the storage providers and all the selected nodes, it is highly recommended that the client verify the transfer protocol's data encryption according to the level of security and privacy. While the sealing encrypts data automatically in a sector, the storage node receives the data "as it is" before doing this process.
+* **Data Transfer**: Once the storage provider accepts the deal, the client transfers their data to the provider. This data is typically uploaded in a format that the Filecoin network supports, such as a CAR (Content Addressable aRchive) file. If the node supports other protocols, the client will interact with these protocols thanks to the software's API.
 
 ### Sealing Procedure
 
 * **Data Aggregation**: The storage provider must seal data pieces of 32GiB or 64 GiB. When a file is received and costs are optimized, the storage provider will aggregate different deals to complete at the best sector size.
-* **Sealing**: Upon receiving the data, the storage provider begins the process of [sealing](../proving-mechanism/proof-of-replication-porep.md).
+* **Sealing**: Upon receiving the data, the storage provider begins the process of [sealing](../proving-mechanism/proof-of-replication-porep/).
 
 ### Sealing Procedure and Retrieval
 
 * **Data Aggregation**: The storage provider must seal data pieces of 32GiB or 64 GiB. When a file is received, and costs are optimized, the storage provider will aggregate different deals to complete at the best sector size.
-* **Sealing**: Upon receiving the data, the storage provider begins the process of [sealing](../proving-mechanism/proof-of-replication-porep.md).
-* **Data Retrieval**: The client can retrieve their data from the storage provider before the deal expires. This retrieval process involves sending a request to the storage provider and receiving the data in the agreed format. The selection of storage providers that handle the risks related to the sealing process is essential.&#x20;
+* **Sealing**: Upon receiving the data, the storage provider begins the process of [sealing](../proving-mechanism/proof-of-replication-porep/).
+* **Data Retrieval**: The client can retrieve their data from the storage provider before the deal expires. This retrieval process involves sending a request to the storage provider and receiving the data in the agreed format. The selection of storage providers that handle the risks related to the sealing process is essential.
 
 ### **Deal Expiry and Post-Term Actions**
 

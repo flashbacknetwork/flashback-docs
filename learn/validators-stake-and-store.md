@@ -1,6 +1,6 @@
-# Validators: Stake first, Store after
+# 🖥️ Validators: Stake first, Store after
 
-The proof-of-stake spacetime (PoS-ST) has different responsibilities as validators. Validators are primarily staking-based, equivalent to Ethereum's validators, which are [full nodes](our-network-and-ecosystem/ethereum-stack-in-nephele/basics/nodes-and-clients-1.md). A validator stores data, processes transactions, and adds new blocks to the blockchain. However, storage duties are limited to on-chain data storage.
+The proof-of-stake spacetime (PoS-ST) has different responsibilities as validators. Validators are primarily staking-based, equivalent to Ethereum's validators, which are [full nodes](decentralized-ledger/our-network-and-ecosystem/ethereum-stack-in-nephele/basics/nodes-and-clients-1.md). A validator stores data, processes transactions, and adds new blocks to the blockchain. However, storage duties are limited to on-chain data storage.
 
 The validators can decide to be storage providers by enabling the proof-of-spacetime (PoSt) commitments as validators. This way, you extend your duties with off-chain file storage, the cornerstone of our DePIN-based cloud storage.
 
@@ -63,7 +63,7 @@ You can find more details on how to [become a validator (WIP)](../participate/be
 
 ## The storage duties <a href="#why-should-i-run-an-ethereum-node" id="why-should-i-run-an-ethereum-node"></a>
 
-Becoming a storage provider on the Flashback network involves several steps, from setting up the necessary hardware to participating actively in the network’s operations. We recommend you to read everything about the [storage proving](our-network-and-ecosystem/storage-mechanisms/proving-mechanism/) and [differences with Filecoin](our-network-and-ecosystem/storage-mechanisms/differences-with-flashback.md). Here’s a detailed guide on how you can become a storage provider in Flashback:
+Becoming a storage provider on the Flashback network involves several steps, from setting up the necessary hardware to participating actively in the network’s operations. We recommend you to read everything about the [storage proving](decentralized-ledger/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/) and [differences with Filecoin](our-network-and-ecosystem/storage-mechanisms/differences-with-flashback.md). Here’s a detailed guide on how you can become a storage provider in Flashback:
 
 ### 1. Have a nice **hardware setup**
 

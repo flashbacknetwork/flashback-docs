@@ -1,3 +1,7 @@
+---
+icon: circle-bolt
+---
+
 # FLASH Token
 
 The Flashback token $FLASH is not just a concept, but a practical asset that serves as the cornerstone of the network's utility. It is dedicated to storing files and data for a variety of use cases, such as artificial intelligence, metaverse, Web3 gaming, browser-first, and more. Its blockchain design further enhances its practicality, allowing it to be used for blockchain applications and use cases, such as decentralized finance, smart contracts, or Layer-2 deployment.

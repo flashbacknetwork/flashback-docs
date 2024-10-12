@@ -1,4 +1,4 @@
-# Deployment Strategy
+# 🤔 Deployment Strategy
 
 In the **Flashback network**, a **Service Gateway** acts as an intermediary layer that facilitates data interactions between clients and storage providers. It plays a critical role in the storage provisioning lifecycle by ensuring data is stored, retrieved, and managed efficiently and securely. To run a service gateway effectively in Flashback, a robust strategy must be developed, focusing on optimizing data handling, network economics, client relationships, and storage provider collaborations. Below is a comprehensive guide on establishing a successful service gateway strategy within the Flashback ecosystem.
 

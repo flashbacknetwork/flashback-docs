@@ -1,4 +1,4 @@
-# DePIN-based Cloud Storage
+# 💾 DePIN-based Cloud Storage
 
 ## The Origin of DePIN in Cloud Storage
 
@@ -8,7 +8,7 @@ Pioneering projects like Filecoin and Arweave were among the first to explore th
 
 ## The Current Landscape
 
-DePIN-based cloud storage is emerging as a vital component of the decentralized web. By leveraging blockchain technology, they enable various services, such as file storage, cloud computing, and more. This review, in line with Flashback's belief in the power of education, focuses on listed DePIN-based cloud storage solutions (FDV of +$10m market cap), specifically evaluating their levels of decentralization in the context of data storage. We listed only projects that natively integrated data storage. For instance, OORT proposes data storage projects using other infrastructure.&#x20;
+DePIN-based cloud storage is emerging as a vital component of the decentralized web. By leveraging blockchain technology, they enable various services, such as file storage, cloud computing, and more. This review, in line with Flashback's belief in the power of education, focuses on listed DePIN-based cloud storage solutions (FDV of +$10m market cap), specifically evaluating their levels of decentralization in the context of data storage. We listed only projects that natively integrated data storage. For instance, OORT proposes data storage projects using other infrastructure.
 
 Below, we included a list of projects that summarize the various attractions of the technologies. The level of decentralization achieved is defined by the project's inability to validate the next level.
 
@@ -28,10 +28,10 @@ The network’s governance is managed by the Network Nervous System (NNS), a dec
 
 **Level Evaluation:**
 
-* **Service Providers:** Developers can deploy dApps directly onto the Internet Computer, bypassing traditional IT infrastructure. This aspect of the network is highly decentralized, as it allows for open and permissionless development.&#x20;
-* **Infrastructure Providers:** Node operators and independent data centers run the Internet Computer's infrastructure. However, these nodes must meet specific hardware requirements and are subject to approval by the NNS, which introduces a level of centralization in the network's infrastructure layer.&#x20;
-* **Consensus Mechanism:** The Threshold Relay consensus mechanism is designed to be decentralized, but the NNS’s ability to control node configurations and network upgrades can centralize control. While the NNS operates as a DAO, its decisions can significantly impact the network, leading to potential centralization in governance. &#x20;
-* **Economic Model:** The Internet Computer uses ICP tokens for network transactions and governance. While the NNS controls many aspects of the network’s economic model, token holders can vote on proposals, providing a degree of decentralization in decision-making. However, large token holders can exert disproportionate influence over governance decisions, leading to potential centralization.&#x20;
+* **Service Providers:** Developers can deploy dApps directly onto the Internet Computer, bypassing traditional IT infrastructure. This aspect of the network is highly decentralized, as it allows for open and permissionless development.
+* **Infrastructure Providers:** Node operators and independent data centers run the Internet Computer's infrastructure. However, these nodes must meet specific hardware requirements and are subject to approval by the NNS, which introduces a level of centralization in the network's infrastructure layer.
+* **Consensus Mechanism:** The Threshold Relay consensus mechanism is designed to be decentralized, but the NNS’s ability to control node configurations and network upgrades can centralize control. While the NNS operates as a DAO, its decisions can significantly impact the network, leading to potential centralization in governance.
+* **Economic Model:** The Internet Computer uses ICP tokens for network transactions and governance. While the NNS controls many aspects of the network’s economic model, token holders can vote on proposals, providing a degree of decentralization in decision-making. However, large token holders can exert disproportionate influence over governance decisions, leading to potential centralization.
 * **Network Evolution:** The NNS governs the evolution of the Internet Computer, with token holders voting on proposals. Although the system is designed to be decentralized, the centralization risk arises from the NNS’s control over critical network decisions and its ability to approve or reject node operators.
 {% endtab %}
 
@@ -166,7 +166,7 @@ The consensus mechanism in STORJ does not involve traditional blockchain consens
 
 **Level Evaluation:**
 
-* **Service Providers:** In STORJ’s ecosystem, service providers can deploy their applications and use the storage network. However, they must interact with a centrally managed economic system that governs payments and rewards.&#x20;
+* **Service Providers:** In STORJ’s ecosystem, service providers can deploy their applications and use the storage network. However, they must interact with a centrally managed economic system that governs payments and rewards.
 * **Infrastructure Providers:** Node operators, or infrastructure providers, must undergo a verification process before they can participate in the network. While they do contribute to the network’s decentralized storage system, their participation is controlled by a central authority that manages node verification and reputation.
 * **Consensus Mechanism:** STORJ does not use a traditional blockchain consensus mechanism. Instead, it relies on a reputation system and audits, both overseen by a central entity. This limits the decentralization of the consensus process, as decision-making power is concentrated within STORJ Labs.
 * **Economic Model:** STORJ's economic model is centralized, with STORJ Labs managing payments, rewards, and pricing structures. This central control contrasts with more decentralized networks, where economic decisions are made by the community or through algorithmic processes.
@@ -194,11 +194,11 @@ Bluzelle's storage model leverages IPFS to distribute files across a network of 
 
 **Level Evaluation:**
 
-* **Service Providers:** In Bluzelle’s ecosystem, service providers can deploy their applications on top of the network, but the network's central management might limit their level of control over their deployment.&#x20;
-* **Infrastructure Providers:** Infrastructure providers in Bluzelle, particularly those participating as nodes in the IPFS network, have a certain degree of autonomy. However, because Bluzelle manages the consensus mechanism and potentially oversees the storage network, these providers do not have the same freedom as in more decentralized networks.&#x20;
-* **Consensus Mechanism:** Bluzelle does not have a native consensus for storage. Bluzelle's BFT consensus mechanism involves a smaller set of validators, which centralizes decision-making to some extent. This approach contrasts with more decentralized networks that allow broader participation in consensus.&#x20;
-* **Economic Model:** Its centralized network management likely influences Bluzelle’s economic model. While it may offer incentives for participation, the overall structure is more controlled than completely decentralized networks.&#x20;
-* **Network Evolution:** Bluzelle's evolution is managed by a centralized team, similar to other projects with strong central oversight. This means that the introduction of new features, updates, and governance decisions are likely controlled by Bluzelle’s core team rather than driven by a decentralized community.&#x20;
+* **Service Providers:** In Bluzelle’s ecosystem, service providers can deploy their applications on top of the network, but the network's central management might limit their level of control over their deployment.
+* **Infrastructure Providers:** Infrastructure providers in Bluzelle, particularly those participating as nodes in the IPFS network, have a certain degree of autonomy. However, because Bluzelle manages the consensus mechanism and potentially oversees the storage network, these providers do not have the same freedom as in more decentralized networks.
+* **Consensus Mechanism:** Bluzelle does not have a native consensus for storage. Bluzelle's BFT consensus mechanism involves a smaller set of validators, which centralizes decision-making to some extent. This approach contrasts with more decentralized networks that allow broader participation in consensus.
+* **Economic Model:** Its centralized network management likely influences Bluzelle’s economic model. While it may offer incentives for participation, the overall structure is more controlled than completely decentralized networks.
+* **Network Evolution:** Bluzelle's evolution is managed by a centralized team, similar to other projects with strong central oversight. This means that the introduction of new features, updates, and governance decisions are likely controlled by Bluzelle’s core team rather than driven by a decentralized community.
 {% endtab %}
 
 {% tab title="SRX" %}
@@ -218,7 +218,7 @@ StorX’s decentralization is moderate. Its data distribution model has strong d
 
 **Level Evaluation:**
 
-* **Service Providers:** Service providers on StorX can deploy their applications and utilize the network’s storage resources.&#x20;
+* **Service Providers:** Service providers on StorX can deploy their applications and utilize the network’s storage resources.
 * **Infrastructure Providers:** Node operators in StorX must stake SRX tokens and meet specific criteria set by the network, which slightly centralizes control over who can contribute to the storage infrastructure.
 * **Consensus Mechanism:** StorX does not have a native blockchain consensus mechanism. Instead, it relies on the XDC Network to handle blockchain-based operations such as transactions, staking, and consensus. StorX relies on the DPoS consensus mechanism used by the XinFin blockchain, which centralizes decision-making to a limited number of elected validators. This reduces the level of decentralization in the consensus process compared to networks that allow broader participation.
 * **Economic Model:** StorX's economic model is also centralized to some extent, with the StorX team managing the tokenomics and rewards distribution. While storage providers can earn SRX tokens, the network’s core team designs and controls the overall economic framework.
@@ -244,10 +244,10 @@ Jackal Protocol employs cryptographic proofs to ensure that storage providers ar
 
 Jackal Protocol strikes a balance between decentralization in storage operations and centralization in governance and node management.
 
-* **Service Providers**: Service providers on Jackal Protocol can deploy applications and services on top of the network, utilizing its decentralized storage capabilities.&#x20;
+* **Service Providers**: Service providers on Jackal Protocol can deploy applications and services on top of the network, utilizing its decentralized storage capabilities.
 * **Infrastructure Providers**: Infrastructure providers, or storage nodes, play a crucial role in the network by storing and managing data. While the storage process is decentralized, the criteria for participating as a node and managing nodes introduce some centralization.
-* **Consensus Mechanism**: The cryptographic proofs used in Jackal Protocol ensure a high level of data integrity and security.&#x20;
-* **Economic Model**: Jackal Protocol’s economic model likely involves token incentives for storage providers, similar to other decentralized storage networks. However, the distribution and management of these incentives may be centrally controlled, influencing the network’s overall decentralization.&#x20;
+* **Consensus Mechanism**: The cryptographic proofs used in Jackal Protocol ensure a high level of data integrity and security.
+* **Economic Model**: Jackal Protocol’s economic model likely involves token incentives for storage providers, similar to other decentralized storage networks. However, the distribution and management of these incentives may be centrally controlled, influencing the network’s overall decentralization.
 * **Network Evolution**: The core team behind Jackal Protocol oversees its development and updates. While this ensures stability and coordinated progress, it also introduces a level of centralization in how the network evolves, unlike a fully decentralized governance model where changes are made through on-chain proposals.
 {% endtab %}
 
@@ -264,7 +264,7 @@ The consensus mechanism in Stratos is a blend of Proof-of-Traffic (PoT) and Proo
 
 **Level Evaluation:**
 
-* **Service Providers:** Stratos allows providers to deploy decentralized applications (dApps) and other services on its platform. These providers can utilize the network's decentralized storage and computation resources.&#x20;
+* **Service Providers:** Stratos allows providers to deploy decentralized applications (dApps) and other services on its platform. These providers can utilize the network's decentralized storage and computation resources.
 * **Infrastructure Providers:** The PoA layer and the need to meet certain criteria to participate in the network add a level of centralization, as only approved nodes can partake in specific consensus roles.
 * **Consensus Mechanism:** Stratos's combination of PoT and PoA creates a unique consensus model that balances decentralization and centralization. While PoT encourages active participation from all nodes, PoA limits the consensus process to a select group, centralizing the decision-making process to some extent.
 * **Economic Model:** Stratos's economic model is centrally managed, with the team controlling the tokenomics and reward mechanisms. While nodes earn STOS tokens for contributing resources, the central team influences the overarching economic framework, which could limit the network's fully decentralized nature.
@@ -284,10 +284,10 @@ While Swarm employs decentralized technologies like PoSt, SWAP introduces a leve
 
 **Level Evaluation:**
 
-* **Service Providers:** In Swarm, service providers can deploy their applications on the network, benefiting from its decentralized storage and distribution capabilities.&#x20;
+* **Service Providers:** In Swarm, service providers can deploy their applications on the network, benefiting from its decentralized storage and distribution capabilities.
 * **Infrastructure Providers:** Nodes providing storage and bandwidth operate decentralizedly. The infrastructure provider can commit a node without considering a centralized vetting process.
 * **Consensus Mechanism:** It relies on SWAP and PoSt, which decentralize storage and the consenus and the associated algorithms are extremely decentralized by design.
-* **Economic Model:** The economic model of Swarms involves the distribution of rewards and penalties among nodes based on their participation and contribution to the network related to future-proof Storage.&#x20;
+* **Economic Model:** The economic model of Swarms involves the distribution of rewards and penalties among nodes based on their participation and contribution to the network related to future-proof Storage.
 * **Network Evolution:** The evolution of Swarm is likely guided by a core development team, with updates and governance decisions potentially being made centrally, although the community may have some input.
 {% endtab %}
 
@@ -316,7 +316,7 @@ While Swarm employs decentralized technologies like PoSt, SWAP introduces a leve
 
 ScPrime is a decentralized storage network that offers enterprise-grade solutions for secure and distributed data storage. The platform emphasizes cost-effectiveness and reliability, targeting both individual and enterprise users. Despite its decentralized storage model, ScPrime incorporates several centralized elements in its governance and economic models, which influence the overall decentralization of the network.
 
-**Network Structure and Consensus Mechanism:** ScPrime operates through a network of decentralized storage nodes, where operators provide storage capacity in exchange for rewards in ScPrime tokens (SCP). The network uses a Proof-of-Storage mechanism to ensure that storage providers uphold their data storage commitments. This mechanism verifies that storage providers correctly store the data they commit to by requiring them to submit periodic proofs. Failure to provide these proofs results in penalties, ensuring data availability and encouraging honest participation. While the storage network is decentralized, ScPrime's governance is more centralized. The core development team and a limited set of trusted nodes control key decisions regarding network upgrades, economic policies, and other aspects of the network.&#x20;
+**Network Structure and Consensus Mechanism:** ScPrime operates through a network of decentralized storage nodes, where operators provide storage capacity in exchange for rewards in ScPrime tokens (SCP). The network uses a Proof-of-Storage mechanism to ensure that storage providers uphold their data storage commitments. This mechanism verifies that storage providers correctly store the data they commit to by requiring them to submit periodic proofs. Failure to provide these proofs results in penalties, ensuring data availability and encouraging honest participation. While the storage network is decentralized, ScPrime's governance is more centralized. The core development team and a limited set of trusted nodes control key decisions regarding network upgrades, economic policies, and other aspects of the network.
 
 **Impact on Decentralization:** ScPrime's network exhibits both decentralized and centralized characteristics. The storage network is decentralized, with data distributed across various nodes, but the governance and economic models show centralization, particularly in decision-making and reward distribution.
 
@@ -341,9 +341,9 @@ ScPrime is a decentralized storage network that offers enterprise-grade solution
 **Level Evaluation:**
 
 * **Service Providers**: Service providers can freely deploy their applications on the Crust Network, leveraging decentralized storage capabilities. The network is designed to be permissionless, allowing anyone to contribute storage resources without requiring approval from a central authority.
-* **Infrastructure Providers**: Storage providers in Crust have significant autonomy, as they can join the network without centralized oversight.&#x20;
+* **Infrastructure Providers**: Storage providers in Crust have significant autonomy, as they can join the network without centralized oversight.
 * **Consensus Mechanism**: Crust's GPoS-based consensus mechanism ensures a decentralized approach to securing the network. However, the staking process introduces a layer of centralization, as validators' influence is proportional to their stake in the network. This could lead to centralization of power among large stakeholders.
-* **Economic Model**: Crust's economic model is decentralized by design, with rewards distributed to storage providers and validators based on their contributions.&#x20;
+* **Economic Model**: Crust's economic model is decentralized by design, with rewards distributed to storage providers and validators based on their contributions.
 * **Network Evolution**: While Crust Network is highly decentralized in its operations, its core development team somewhat guides its network evolution. Governance decisions, including updates and network changes, are likely influenced by a centralized group, though community participation is encouraged through on-chain governance mechanisms.
 {% endtab %}
 {% endtabs %}

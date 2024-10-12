@@ -1,4 +1,4 @@
-# General Specifications
+# ☺️ General Specifications
 
 Flashback is a peer-to-peer network that uses blockchain and cryptographical proofs to achieve a decentralized consensus and economy of its utilities. It has then its own specifications and goals.
 

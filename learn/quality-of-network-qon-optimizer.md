@@ -1,8 +1,8 @@
-# Quality-of-Network (QoN) Optimizer
+# 💵 Quality-of-Network (QoN) Optimizer
 
-The Quality-of-Network (QoN) Optimizer is a smart contract designed for compatible Ethereum Virtual Machine (EVM) blockchain networks. It is intended to optimize data availability and integrity through a decentralized network of validators.&#x20;
+The Quality-of-Network (QoN) Optimizer is a smart contract designed for compatible Ethereum Virtual Machine (EVM) blockchain networks. It is intended to optimize data availability and integrity through a decentralized network of validators.
 
-This document outlines the technical specifications of the QoN Optimizer, which leverages Proofs of Spacetime (PoSt) within the Dencun data availability layer to ensure secure and efficient data transactions. The QoN Optimizer utilizes a contract-based mechanism where validators are required to store and reliably provide data upon request. Validators submit PoSt to demonstrate they have held a specific amount of data for a designated period.&#x20;
+This document outlines the technical specifications of the QoN Optimizer, which leverages Proofs of Spacetime (PoSt) within the Dencun data availability layer to ensure secure and efficient data transactions. The QoN Optimizer utilizes a contract-based mechanism where validators are required to store and reliably provide data upon request. Validators submit PoSt to demonstrate they have held a specific amount of data for a designated period.
 
 The system is designed to incentivize speed and reliability among validators by providing economic rewards and penalties. Flashback is the first blockchain to leverage the PoSt for the quality of storage nodes, which is the **only truly decentralized** proof system.
 

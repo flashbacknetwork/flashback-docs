@@ -1,4 +1,4 @@
-# Considerations
+# 🤓 Considerations
 
 o enhance the considerations for hardware configurations and becoming a validator on the Flashback network, here is an improved and detailed guide:
 
@@ -37,7 +37,5 @@ o enhance the considerations for hardware configurations and becoming a validato
 **Active Community Engagement**: Validators are highly encouraged to be actively involved in the Flashback community. This includes participating in governance proposals, network discussions, and collaborative decision-making processes. Being proactive allows validators to stay ahead of network changes and understand the evolving economic and technical landscape.
 
 **Feedback and Collaboration**: Validators should regularly provide feedback to the Flashback development team and collaborate with other network participants. This engagement ensures that validators can adapt to any proposed changes in consensus mechanisms, economic models, or network governance.
-
-
 
 By adopting these best practices and considerations, validators on the Flashback network can enhance their operations' security, reliability, and efficiency, ensuring sustainable and profitable participation in the network.

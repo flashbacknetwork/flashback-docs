@@ -1,6 +1,10 @@
+---
+icon: ethereum
+---
+
 # From Ethereum
 
-Flashback is a Layer-1 blockchain built as a fork of Ethereum, inheriting its robust blockchain architecture and foundational principles. Our comprehensive documentation aims to provide all the essential information needed to understand Flashback’s unique features and how to become part of our ecosystem.&#x20;
+Flashback is a Layer-1 blockchain built as a fork of Ethereum, inheriting its robust blockchain architecture and foundational principles. Our comprehensive documentation aims to provide all the essential information needed to understand Flashback’s unique features and how to become part of our ecosystem.
 
 While Ethereum’s extensive documentation, developed over the past decade, offers deep insights, it can often be complex and overwhelming due to its numerous updates and layers of information. To enhance user experience and streamline understanding, we have carefully restructured and simplified this information in our documentation, making it easier for you to navigate and grasp the core concepts of the Flashback network.
 

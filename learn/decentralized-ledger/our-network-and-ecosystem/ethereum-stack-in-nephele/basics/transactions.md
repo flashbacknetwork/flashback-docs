@@ -8,7 +8,7 @@ Gas fees are essential for maintaining the health and efficiency of the network.
 
 The gas fee is **the amount used to do some operation multiplied by the cost per unit of gas**. The fee is paid regardless of whether a transaction succeeds or fails.
 
-![A diagram showing where gas is needed in EVM operations](../../blockchain-network/ethereum-stack-in-nephele/basics/gas.png)
+![A diagram showing where gas is needed in EVM operations](../../../../our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/gas.png)
 
 Gas fees have to be paid with the cryptocurrency of the blockchain network. Gas prices are usually quoted in gwei, a denomination of FLASH. Each gwei is equal to one-billionth of an FLASH (0.000000001 FLASH or 10-9 FLASH). Instead of saying that your gas costs 0.000000001 FLASH, you can say your gas costs 1 gwei.
 
@@ -18,11 +18,11 @@ The word 'gwei' is a contraction of 'giga-wei', meaning 'billion wei'. One gwei 
 
 A transaction must spend gas to the network to integrate it into the EVM's submission and validation transaction procedure. The transaction operator can customize the gas, which will play a role in how the validators will prioritize the event. The higher the gas fees; the higher is the commitment of validators to prioritize the transaction.
 
-The total gas is divided into the <mark style="color:yellow;">**base fee**</mark> and the <mark style="color:yellow;">**priority fee**</mark><mark style="color:yellow;">.</mark>&#x20;
+The total gas is divided into the <mark style="color:yellow;">**base fee**</mark> and the <mark style="color:yellow;">**priority fee**</mark><mark style="color:yellow;">.</mark>
 
 ### Base fee <a href="#base-fee" id="base-fee"></a>
 
-Every block has a base fee that acts as a reserve price. To be eligible for inclusion in a block, the offered price per gas must at least equal the base fee. The base fee is calculated independently of the current block and determined by the blocks before it, making transaction fees more predictable for users. When the block is created, this base fee is "burned," removing it from circulation.&#x20;
+Every block has a base fee that acts as a reserve price. To be eligible for inclusion in a block, the offered price per gas must at least equal the base fee. The base fee is calculated independently of the current block and determined by the blocks before it, making transaction fees more predictable for users. When the block is created, this base fee is "burned," removing it from circulation.
 
 The base fee is calculated by a formula that compares the size of the previous block (the amount of gas used for all the transactions) with the target size. If the target block size is exceeded, the base fee will increase by a maximum of 12.5% per block. This exponential growth makes it economically non-viable for block size to remain high indefinitely.
 
@@ -79,9 +79,9 @@ High gas fees are due to the popularity of Ethereum and then, in Flashback. If t
 
 ## Initiatives to reduce gas costs <a href="#initiatives-to-reduce-gas-costs" id="initiatives-to-reduce-gas-costs"></a>
 
-The Falshback [scalability upgrades](../../../../roadmap/) should ultimately address some of the gas fee issues, enabling the platform to process thousands of transactions per second and scale globally.
+The Falshback [scalability upgrades](../../../../../roadmap/) should ultimately address some of the gas fee issues, enabling the platform to process thousands of transactions per second and scale globally.
 
-Layer 2 scaling is a primary initiative to greatly improve gas costs, user experience and scalability. [More on layer 2 scaling](../../../../developers/docs/scaling/#layer-2-scaling).
+Layer 2 scaling is a primary initiative to greatly improve gas costs, user experience and scalability. [More on layer 2 scaling](../../../../../developers/docs/scaling/#layer-2-scaling).
 
 ## Monitoring gas fees <a href="#moitoring-gas-fees" id="moitoring-gas-fees"></a>
 

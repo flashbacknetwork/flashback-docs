@@ -1,4 +1,4 @@
-# Validators' Revenues
+# 🛢️ Validators' Revenues
 
 ## Staking Revenues
 
@@ -56,16 +56,16 @@ Flashback leverages decentralized storage solutions like the one facilitated by 
 
 Making deals requires selecting the different validators you want to operate in your service. Specifically, Flashback will have a on-chain marketplace that refers to all the nodes and their pricing. However, estimating its storage cost as a physical storage infrastructure provider can be complex. The following example illustrates approaches that can help you to understand the profits you could make with the protocol. The figures provided are illustrative to support understanding and should be aligned with actual deployment costs. We assume a staking of 10,000 FLASH staked per node and a circulating supply of 1,000,000,000 FLASH.\
 \
-<mark style="color:red;">**WARNING: This is an example and does not reflect the reality. We suggest you to check the**</mark>** **<mark style="color:blue;">**hardware configurations**</mark>** **<mark style="color:red;">**to understand better the specifications. This is not an advice and here to illustrate the incomes of storage provision.**</mark>
+<mark style="color:red;">**WARNING: This is an example and does not reflect the reality. We suggest you to check the**</mark>\*\* <mark style="color:blue;">**hardware configurations**</mark> \*\*<mark style="color:red;">**to understand better the specifications. This is not an advice and here to illustrate the incomes of storage provision.**</mark>
 
 We assume that the storage provider wants to make 50% of benefits on the costs. We also set a minimal operating fee of 0.25 USD/TB/Month.
 
-| Storage Server                                   | STANDARD                            | LARGE                             | HIGH-GRADE                          |
-| ------------------------------------------------ | ----------------------------------- | --------------------------------- | ----------------------------------- |
-| Storage                                          | 24 TB of HDD SATA                   | 112 TB of HDD SAS                 | 92 TB of SSD NVMe                   |
-| Processor (CPU)                                  | 4 cores                             | 8 cores                           | 24 cores                            |
-| Memory (RAM)                                     | 16GB DDR4                           | 64GB DDR4                         | 750GB DDR4                          |
-| <p>Bandwidth </p><p>Public -</p><p>Private -</p> | <p></p><p>500 MB/s</p><p>1 GB/s</p> | <p></p><p>3 GB/s</p><p>6 GB/s</p> | <p></p><p>10 GB/s</p><p>25 GB/s</p> |
+| Storage Server                                  | STANDARD                     | LARGE                      | HIGH-GRADE                   |
+| ----------------------------------------------- | ---------------------------- | -------------------------- | ---------------------------- |
+| Storage                                         | 24 TB of HDD SATA            | 112 TB of HDD SAS          | 92 TB of SSD NVMe            |
+| Processor (CPU)                                 | 4 cores                      | 8 cores                    | 24 cores                     |
+| Memory (RAM)                                    | 16GB DDR4                    | 64GB DDR4                  | 750GB DDR4                   |
+| <p>Bandwidth</p><p>Public -</p><p>Private -</p> | <p>500 MB/s</p><p>1 GB/s</p> | <p>3 GB/s</p><p>6 GB/s</p> | <p>10 GB/s</p><p>25 GB/s</p> |
 
 Let’s now consider 3 different configurations (no mixing server type to keep the winning rate constant) with the proof computation limitation run by a unique GPU:
 

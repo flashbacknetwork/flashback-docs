@@ -2,7 +2,7 @@
 author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 ---
 
-# The Problem
+# 🫵 The Problem
 
 Despite their extraordinary impact on cloud storage, the Web3 ecosystem has yet to embrace them fully, with even the most extensive network, Filecoin, being utilized at only 1% of its capacity by the end of 2022 (see [here](https://www.coingecko.com/research/publications/the-state-of-decentralized-storage)). This is mainly because of the technical limitations of the existing solutions focusing on archives.
 
@@ -38,7 +38,7 @@ Projects are pushing hard for lower costs, but the experience with these solutio
 
 Legal entities claim more privacy and respect for companies' sovereignty in data management and accessibility. DePIN-based cloud storage is the perfect future for the current legal concerns of experts, companies, and individuals.
 
-Unfortunately, DePIN projects decided to respect their network's data compliance and sovereignty by centralizing the rewards and economy in the hands of trusted actors in their ecosystem. This creates an unfair ecosystem for users because it is antinomic to Satoshi's vision of decentralized and public blockchain networks. Finally, this gives the network jurisdiction in certain regions' hands, reducing the governance of businesses in the other areas of the world.&#x20;
+Unfortunately, DePIN projects decided to respect their network's data compliance and sovereignty by centralizing the rewards and economy in the hands of trusted actors in their ecosystem. This creates an unfair ecosystem for users because it is antinomic to Satoshi's vision of decentralized and public blockchain networks. Finally, this gives the network jurisdiction in certain regions' hands, reducing the governance of businesses in the other areas of the world.
 
 Another major problem with the existing solutions is that they force Web3 services to use specific file transfer protocols like IPFS, Tardigrade, or the Arweave protocol. While highly secure and private, these protocols do not allow Web3 services to manage their service performances, and companies can't control where and how the data is stored in the different nodes of the network.
 

@@ -12,13 +12,13 @@ Flashback forked the Ethereum codebase, which inherits automatically from the Et
 
 The analogy of a 'distributed ledger' is often used to describe blockchains like Bitcoin, which enable a decentralized currency using fundamental cryptography tools. The ledger maintains a record of activity that must adhere to rules that govern what someone can and cannot do to modify the ledger. For example, a Bitcoin address cannot spend more than it previously received. These rules underpin all transactions on Bitcoin and many other blockchains.
 
-While the network and its blockchain have its native cryptocurrency that follows almost the same intuitive rules, it also enables a much more powerful function:[ smart contracts](smart-contracts.md). This feature had to change the nature of the decentralized ledger of Ethereum (and then Flashback) by becoming a distributed [state machine](https://wikipedia.org/wiki/Finite-state\_machine).&#x20;
+While the network and its blockchain have its native cryptocurrency that follows almost the same intuitive rules, it also enables a much more powerful function:[ smart contracts](smart-contracts.md). This feature had to change the nature of the decentralized ledger of Ethereum (and then Flashback) by becoming a distributed [state machine](https://wikipedia.org/wiki/Finite-state\_machine).
 
 Network's state is a large data structure that holds not only all accounts and balances but a _machine state_, which can change from block to block according to a pre-defined set of rules and which can execute arbitrary machine code. The EVM defines the specific rules for changing states from block to block.
 
 The EVM executes the transactions and manages the smart contracts. Every operation that leads to modify the machine's state requires the use of an elementary measure of computational efforts called the gas.
 
-<figure><img src="../../blockchain-network/ethereum-stack-in-nephele/basics/evm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/evm.png" alt=""><figcaption></figcaption></figure>
 
 ## The Virtual Machine for Developers <a href="#evm-instructions" id="evm-instructions"></a>
 
