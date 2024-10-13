@@ -58,7 +58,7 @@ However, the storage provision is more complex than the PoS-only full nodes. Her
 _The following setups not consider the staking reward, the maintenance costs, and other expenses or alternative setups to reduce the costs (staking other protocols, etc.). We'd like to invite you to read the_ [_network economy_](../../../learn/network-economy/) _model to understand how you can define a business model with the storage provision. Nonetheless, a storage provider can improve the setup with a dedicated server provider._
 
 {% tabs %}
-{% tab title="Basic" %}
+{% tab title="Minimal" %}
 This first setup is based on the minimal requirements and we consider a unique server. \
 \
 In the mainstream components based on i7 or i9, motherboards can't support more than 128 GB of RAM which is below the specifications required for doing storage provision. Nonetheless, we can observe the [last genrations of motherboards and future generation of motherboards](https://www.tomshardware.com/pc-components/motherboards/intel-600700-series-motherboards-from-asus-now-support-256gb-of-memory) would support 256 GB RAM.&#x20;
@@ -81,7 +81,7 @@ In this basic configuration, the storage provider can set a 1.70-2.02 USD/TB/Mon
 However, this configuration has a large disadvantage: All the sealing processing is performed on the machine which can slowdown the system and the data retrieval performances.
 {% endtab %}
 
-{% tab title="Standard" %}
+{% tab title="Dual" %}
 This setup reconsiders the same hardware as we have with OVH. This configuration presents higher prices but a better management of the computer power requires for storage provision. Here, the server 1 is focusing on the storage of files and lock validation while the server 2 manages the WindowedPoSt, sealing and snapdeal pipelines. \
 \
 **Server 1:** Data Reception and Retrieval Node, Blockchain Validation
@@ -101,7 +101,7 @@ This setup reconsiders the same hardware as we have with OVH. This configuration
 In this basic configuration, we can see running a unique Server 1 with Server 2; the storage provider must set a 4.7-5.8 USD/TB/Month price at home, and a 6.8-10.2 USD/TB/month price in colocation**.** In AWS, S3 storage is between 21 and 25 USD/TB/Month.&#x20;
 {% endtab %}
 
-{% tab title="Untitled" %}
+{% tab title="Enhanced" %}
 
 {% endtab %}
 
