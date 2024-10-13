@@ -7,7 +7,7 @@ _<mark style="color:red;">No endorsement of any Cloud provider is made here. The
 Here is an example with a centralized dedicated server provider and their options and configurations that meet the minimal hardware requirements for a staking validator (in September 2024). The server setups can vary depending on how you split the sector certification into multiple workers. We also consider that the storage duties are performed with a full node.
 
 {% tabs %}
-{% tab title="OVH  - Basic" %}
+{% tab title="OVH" %}
 **Server 1:** Data Reception and Retrieval Node, Blockchain Validation
 
 * Market (Price and Request Management)
@@ -55,6 +55,8 @@ A hosted setup for running a PoS-ST validator node can offer greater control and
 
 However, the storage provision is more complex than the PoS-only full nodes. Here, we would like to show a simple setup. The following presents an architecture that can be greatly optimized but allows you to understand the costs and assess different options.
 
+{% tabs %}
+{% tab title="OVH-like Setup" %}
 **Server 1:** Data Reception and Retrieval Node, Blockchain Validation
 
 * Market (Price and Request Management)
@@ -72,3 +74,22 @@ However, the storage provision is more complex than the PoS-only full nodes. Her
 In this basic configuration, we can see running a unique Server 1 with Server 2; the storage provider must set a 4.7-5.8 USD/TB/Month price at home, and a 6.8-10.2 USD/TB/month price in colocation considering **50% of storage capacity for sealing.** In AWS, S3 storage is between 21 and 25 USD/TB/Month.
 
 This does not consider the staking reward, the maintenance costs, and other expenses or alternative setups to reduce the costs. We'd like to invite you to read the [network economy](../../../learn/network-economy/) model to understand how you can define a business model with the storage provision. Nonetheless, a storage provider can improve the setup with a dedicated server provider.
+{% endtab %}
+
+{% tab title="Your Proposal" %}
+Propose a setup that you tested! We'll integrate it to the documentation!
+
+**Server 1:** Role
+
+* Purpose 1
+* Purpose 2
+
+**Server 2:** Role
+
+* Purpose 1
+* Purpose 2
+
+<table><thead><tr><th width="169">Configurations</th><th width="240">Server 1</th><th>Server 2</th></tr></thead><tbody><tr><td>Instance Name</td><td></td><td></td></tr><tr><td>CPU</td><td></td><td></td></tr><tr><td>RAM</td><td></td><td></td></tr><tr><td>System + Client</td><td></td><td></td></tr><tr><td>Additional Storage</td><td></td><td></td></tr><tr><td>Public Bandwidth</td><td></td><td></td></tr><tr><td>Private Bandwidth</td><td></td><td></td></tr><tr><td>GPU</td><td></td><td></td></tr><tr><td>Price</td><td></td><td></td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
+
