@@ -124,7 +124,7 @@
     * [Hardware Requirements](participate/become-a-validator/blockchain-validation/hardware-requirements.md)
     * [Examples of Setups](participate/become-a-validator/blockchain-validation/examples-of-setups.md)
     * [Command Lines](participate/become-a-validator/blockchain-validation/command-lines.md)
-  * [💡 Enabing Storage Provision](participate/become-a-validator/storage-provision/README.md)
+  * [🏬 Enabing Storage Provision](participate/become-a-validator/storage-provision/README.md)
     * [Deal and Sector Management](participate/become-a-validator/enabling-storage-provision/strategy-with-storage-deals.md)
     * [Hardware Requirements](participate/become-a-validator/storage-provision/hardware-requirements.md)
     * [Examples of Setups](participate/become-a-validator/storage-provision/examples-of-setups.md)
