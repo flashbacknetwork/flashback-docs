@@ -1,10 +1,10 @@
-# ⚙️ What is Proof-of-Stake-Spacetime?
+# ⚙️ Proof-of-Stake-Spacetime
 
 To achieve distributed consensus, each validator in Flashback must perform different checks on the blockchain. There are manifold distributed consensus mechanisms, such as the Nakamoto or [Slasher ](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm)consensus.
 
 The Flashback network is a blockchain with on-chain and off-chain data storage. We use a hybrid consensus approach known as **Proof-of-Stake-Spacetime (PoS-ST)** to validate both functionalities effectively.
 
-This proposal upgrades the current Gasper's [Proof-of-Stake (PoS)](decentralized-ledger/our-network-and-ecosystem/ethereum-stack-in-nephele/validators/proof-of-stake.md) consensus mechanism by using [Proof-of-Spacetime (PoSt)](decentralized-ledger/our-network-and-ecosystem/storage-mechanisms/proving-mechanism/proof-of-spacetime-post/) functionalities. It aims to enable decentralized file storage on an Ethereum Virtual Machine (EVM)-compatible blockchain. The core addition, termed PoS-ST, extends the validator's staking role to have transaction validation and storage duties, whereby validators must attest to the availability and integrity of the files they store.
+This proposal upgrades the current Gasper's [Proof-of-Stake (PoS)](ethereum-stack-in-nephele/validators/proof-of-stake.md) consensus mechanism by using [Proof-of-Spacetime (PoSt)](storage-mechanisms/proving-mechanism/proof-of-spacetime-post/) functionalities. It aims to enable decentralized file storage on an Ethereum Virtual Machine (EVM)-compatible blockchain. The core addition, termed PoS-ST, extends the validator's staking role to have transaction validation and storage duties, whereby validators must attest to the availability and integrity of the files they store.
 
 The mechanism leverages [Proof-of-Replication (PoRep)](https://spec.filecoin.io/algorithms/pos/porep/) to ensure that validators have uniquely encoded and sealed copies of the data they agree to store, using the data itself, the identity of the storage provider, and the timestamp of sealing. This ensures the creation of unique cryptographic proof that confirms the data's existence at a specific time and under particular ownership, providing robust protection against data tampering and loss.
 

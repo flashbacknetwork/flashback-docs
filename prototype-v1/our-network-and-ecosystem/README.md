@@ -1,6 +1,8 @@
-# ⛓️ Inherited Features
+# ⛓️ Features
 
-Flashback is a next-generation decentralized storage and blockchain network that leverages the foundational strengths of Ethereum and Filecoin while introducing its unique innovations. Building upon Ethereum's robust smart contract capabilities and Filecoin's decentralized storage framework, Flashback offers a hybrid solution that merges the best features of both platforms.
+Flashback's mission is to become the next-generation decentralized storage and blockchain network.\
+\
+The story started by leveraging the foundational strengths of Ethereum and Filecoin while introducing its unique innovations. Building upon Ethereum's robust smart contract capabilities and Filecoin's decentralized storage framework, Flashback offers a hybrid solution that merges the best features of both platforms.
 
 It incorporates Ethereum’s secure, programmable environment for executing decentralized applications (dApps) and Filecoin’s effective Proof-of-Replication (PoRep) and Proof-of-Spacetime (PoSt) mechanisms to ensure data availability and reliability. By combining these elements, Flashback delivers a more efficient, scalable, and secure ecosystem for decentralized storage and application deployment, enhancing data integrity, reducing costs, and enabling faster data retrieval.
 

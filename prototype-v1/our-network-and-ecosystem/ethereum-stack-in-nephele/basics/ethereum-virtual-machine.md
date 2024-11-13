@@ -18,7 +18,7 @@ Network's state is a large data structure that holds not only all accounts and b
 
 The EVM executes the transactions and manages the smart contracts. Every operation that leads to modify the machine's state requires the use of an elementary measure of computational efforts called the gas.
 
-<figure><img src="../../../../our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/evm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/evm.png" alt=""><figcaption></figcaption></figure>
 
 ## The Virtual Machine for Developers <a href="#evm-instructions" id="evm-instructions"></a>
 

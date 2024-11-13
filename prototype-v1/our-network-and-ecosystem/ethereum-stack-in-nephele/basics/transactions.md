@@ -8,7 +8,7 @@ Gas fees are essential for maintaining the health and efficiency of the network.
 
 The gas fee is **the amount used to do some operation multiplied by the cost per unit of gas**. The fee is paid regardless of whether a transaction succeeds or fails.
 
-![A diagram showing where gas is needed in EVM operations](../../../../our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/gas.png)
+![A diagram showing where gas is needed in EVM operations](../../../../learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/gas.png)
 
 Gas fees have to be paid with the cryptocurrency of the blockchain network. Gas prices are usually quoted in gwei, a denomination of FLASH. Each gwei is equal to one-billionth of an FLASH (0.000000001 FLASH or 10-9 FLASH). Instead of saying that your gas costs 0.000000001 FLASH, you can say your gas costs 1 gwei.
 
@@ -79,9 +79,9 @@ High gas fees are due to the popularity of Ethereum and then, in Flashback. If t
 
 ## Initiatives to reduce gas costs <a href="#initiatives-to-reduce-gas-costs" id="initiatives-to-reduce-gas-costs"></a>
 
-The Falshback [scalability upgrades](../../../../../roadmap/) should ultimately address some of the gas fee issues, enabling the platform to process thousands of transactions per second and scale globally.
+The Falshback [scalability upgrades](../../../../roadmap/) should ultimately address some of the gas fee issues, enabling the platform to process thousands of transactions per second and scale globally.
 
-Layer 2 scaling is a primary initiative to greatly improve gas costs, user experience and scalability. [More on layer 2 scaling](../../../../../developers/docs/scaling/#layer-2-scaling).
+Layer 2 scaling is a primary initiative to greatly improve gas costs, user experience and scalability. [More on layer 2 scaling](../../../../developers/docs/scaling/#layer-2-scaling).
 
 ## Monitoring gas fees <a href="#moitoring-gas-fees" id="moitoring-gas-fees"></a>
 

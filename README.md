@@ -20,7 +20,7 @@ layout:
 
 # 📄 Flashback Documentation
 
-Welcome to the Flashback documentation for people eager to learn more about our technology and enter the realm of our decentralized physical infrastructure network (DePIN)-based cloud storage for Artificial Intelligence (AI), Web3 Gaming, Metaverse, and more.
+Welcome to the Flashback documentation, which is for people eager to learn more about our technology and explore our decentralized physical infrastructure network (DePIN)-based cloud storage for Artificial Intelligence (AI), Web3 Gaming, Metaverse, and more.
 
 Flashback has been designed to incentivize the storage speed of your files while guaranteeing a convenient integration ecosystem with significant degrees of freedom. This documentation provides all the information to get started in Flashback, understand our technology, participate, and build with it.
 

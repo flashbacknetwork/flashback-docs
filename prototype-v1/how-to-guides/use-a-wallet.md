@@ -12,7 +12,7 @@ With a single wallet, you can instantly log into various platforms such as token
 
 ## Prerequisites
 
-We recommend you to read the [Ethereum specifications with Flashback](../../learn/decentralized-ledger/our-network-and-ecosystem/ethereum-stack-in-nephele/).
+We recommend you to read the [Ethereum specifications with Flashback](../our-network-and-ecosystem/ethereum-stack-in-nephele/).
 
 ## Steps of the Guide
 
