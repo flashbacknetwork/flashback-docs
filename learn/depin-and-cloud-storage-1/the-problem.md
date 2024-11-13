@@ -2,7 +2,7 @@
 author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 ---
 
-# 🫵 The Problem
+# The Problem
 
 Despite their extraordinary impact on cloud storage, the Web3 ecosystem has yet to embrace them fully, with even the most extensive network, Filecoin, being utilized at only 1% of its capacity by the end of 2022 (see [here](https://www.coingecko.com/research/publications/the-state-of-decentralized-storage)). This is mainly because of the technical limitations of the existing solutions focusing on archives.
 

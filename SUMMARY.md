@@ -6,9 +6,8 @@
 
 ## ⭐ GETTING STARTED
 
-* [Get a Wallet](getting-started/get-wallets.md)
-* [Get FLASH Tokens](getting-started/get-neph-tokens.md)
-* [Discover Ethereum and Filecoin](getting-started/discover-ethereum.md)
+* [💳 Get a Wallet](getting-started/get-wallets.md)
+* [🪙 Get FLASH Tokens](getting-started/get-neph-tokens.md)
 * [📊 Network Statistics](getting-started/network-statistics.md)
 
 ## 🎓 LEARN
@@ -31,11 +30,11 @@
   * [The Perfect Match](learn/depin-and-cloud-storage-1/the-perfect-match.md)
   * [A Slow Adoption](learn/depin-and-cloud-storage-1/a-slow-adoption.md)
   * [Navigate in DePIN Projects](learn/depin-and-cloud-storage-1/navigate-in-depin-projects.md)
-* [💾 DePIN-based Cloud Storage](learn/depin-based-cloud-storage.md)
-* [🫵 The web3 Problem of Storage](learn/the-problem.md)
+  * [DePIN-based Cloud Storage](learn/depin-and-cloud-storage-1/depin-based-cloud-storage.md)
+  * [Data Compliance](learn/depin-and-cloud-storage-1/compliance-flashback-system.md)
+  * [The Problem](learn/depin-and-cloud-storage-1/the-problem.md)
 * [📸 Why Flashback?](learn/why-nephele.md)
 * [🔬 Development Phase](learn/development-phase.md)
-* [🛡️ Data Compliance](learn/compliance-flashback-system.md)
 * [TGE Allocation](learn/tge-allocation.md)
 
 ## PROTOTYPE V1

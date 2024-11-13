@@ -1,4 +1,4 @@
-# 💾 DePIN-based Cloud Storage
+# DePIN-based Cloud Storage
 
 ## The Origin of DePIN in Cloud Storage
 

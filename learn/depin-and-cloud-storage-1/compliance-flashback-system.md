@@ -1,4 +1,4 @@
-# 🛡️ Data Compliance
+# Data Compliance
 
 Data compliance refers to regulatory requirements for data protection, privacy, and security. These regulations protect individuals' personal information from unauthorized access, breaches, and misuse. Data compliance becomes a complex challenge in decentralized data storage due to the need for centralized control and the global nature of blockchain networks.
 
@@ -47,10 +47,3 @@ Data protection in the United States is regulated at both federal and state leve
 * **Data Erasure**: Implementing data deletion or modification can be difficult, conflicting with regulations like GDPR that require the ability to erase personal data.
 * **Jurisdictional Challenges**: Decentralized storage complicates determining the applicable law and jurisdiction, leading to potential legal uncertainties.
 
-## **Flashback Compliance System**
-
-To navigate the diverse regulatory landscapes, Flashback will develop and sustain a federated compliance system, which will be centrally verified and upheld with the cooperation of local regulatory bodies. This arrangement allows developers to create various applications that operate on different network segments, each conforming to specific regulatory requirements, by selecting network compliance lists at the protocol level.
-
-<mark style="color:yellow;">It's crucial to recognize that these compliance lists do not impose censorship; developers retain the freedom to utilize any validators or service gateway, especially when building projects without specific compliance needs.</mark> Nevertheless, regulatory entities can publicly and transparently identify the file storage providers (and their validators) and service gateway providers that meet compliance standards, offering greater traceability and interoperability akin to conventional centralized cloud solutions. The Flashback Compliance System, with its transparent processes, will leverage data from validators and file storage contracts (among other components) using Artificial Intelligence (AI) and contemporary tools to foster the network’s evolution dynamically, pinpoint potential non-compliant nodes, and efficiently refresh the list in collaboration with regulatory authorities.
-
-This innovative system ensures that while Flashback embraces decentralization, it also remains adaptable and compliant with global data protection standards, balancing the benefits of decentralized storage with the necessities of legal compliance.

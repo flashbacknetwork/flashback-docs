@@ -15,3 +15,11 @@ The solution is based on 3 principles:
 * <mark style="color:yellow;">**Storage flexibility**</mark><mark style="color:yellow;">:</mark> Data storage must be easily integrated into traditional services or dApps. However, these projects support a unique protocol, IPFS, which reduces the freedom of developers and businesses to stick with their clients' specifications. Flashback is a unique solution that is protocol-agnostic for file transfers with its network and offers off-chain operations to support the governance and compliance required by the regional laws.
 
 Flashback provides the foundation for the competitiveness and adoption of all the web services and applications connected to its blockchain and different layers.
+
+## **Flashback Compliance System**
+
+To navigate the diverse regulatory landscapes, Flashback will develop and sustain a federated compliance system, which will be centrally verified and upheld with the cooperation of local regulatory bodies. This arrangement allows developers to create various applications that operate on different network segments, each conforming to specific regulatory requirements, by selecting network compliance lists at the protocol level.
+
+<mark style="color:yellow;">It's crucial to recognize that these compliance lists do not impose censorship; developers retain the freedom to utilize any validators or service gateway, especially when building projects without specific compliance needs.</mark> Nevertheless, regulatory entities can publicly and transparently identify the file storage and service gateway providers that meet compliance standards, offering greater traceability and interoperability akin to conventional centralized cloud solutions. The Flashback Compliance System, with its transparent processes, will leverage data from validators and file storage contracts (among other components) using Artificial Intelligence (AI) and contemporary tools to foster the network’s evolution dynamically, pinpoint potential non-compliant nodes, and efficiently refresh the list in collaboration with regulatory authorities.
+
+This innovative system ensures that while Flashback embraces decentralization, it also remains adaptable and compliant with global data protection standards, balancing the benefits of decentralized storage with the necessities of legal compliance.
