@@ -1,4 +1,4 @@
-# 🛢️ Validators' Revenues
+# Revenues
 
 ## Staking Revenues
 

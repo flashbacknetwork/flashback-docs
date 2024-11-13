@@ -57,7 +57,7 @@ Remember, third parties develop pooled staking solutions and are not native to t
 
 Both staking methods provide ways to engage with the Flashback ecosystem, whether you prefer a hands-on approach or seek pooled options' simplicity and lower entry requirements.
 
-You can find more details on how to [become a validator (WIP)](../become-a-validator/).
+You can find more details on how to [become a validator (WIP)](../participate-to-the-nephele-testnet/become-a-validator/).
 
 ***
 
@@ -94,4 +94,4 @@ To begin, you'll need to invest in appropriate hardware. Flashback doesn't requi
 * **Stay Updated**: Keep your software up-to-date with the latest releases from Flashback. This includes updates that may affect consensus, storage proofs, and the storage market dynamics.
 * **Engage with the Community**: Participating in the Flashback community can provide support, insights, and essential updates regarding protocol changes.
 
-You can find more details on how to [become a validator (WIP)](../become-a-validator/).
+You can find more details on how to [become a validator (WIP)](../participate-to-the-nephele-testnet/become-a-validator/).

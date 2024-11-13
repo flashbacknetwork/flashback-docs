@@ -4,13 +4,13 @@
 * [🙌 Contribute to the Documentation](contributing.md)
 * [📔 Glossary](glossary.md)
 
-## ⭐ GETTING STARTED
+## GETTING STARTED
 
 * [💳 Get a Wallet](getting-started/get-wallets.md)
 * [🪙 Get FLASH Tokens](getting-started/get-neph-tokens.md)
 * [📊 Network Statistics](getting-started/network-statistics.md)
 
-## 🎓 LEARN
+## LEARN
 
 * [🌐 What is the Web?](learn/what-is-the-web/README.md)
   * [Web1: Internet's Birth](learn/what-is-the-web/web1-internets-birth.md)
@@ -40,7 +40,6 @@
 ## PROTOTYPE V1
 
 * [📰 Yellowpaper](prototype-v1/yellowpaper.md)
-* [☺️ General Specifications](prototype-v1/general-specifications.md)
 * [⛓️ Features](prototype-v1/our-network-and-ecosystem/README.md)
   * [From Ethereum](prototype-v1/our-network-and-ecosystem/ethereum-stack-in-nephele/README.md)
     * [Basics](prototype-v1/our-network-and-ecosystem/ethereum-stack-in-nephele/basics/README.md)
@@ -112,24 +111,23 @@
   * [💵 Quality-of-Network (QoN) Optimizer](prototype-v1/our-network-and-ecosystem/quality-of-network-qon-optimizer.md)
   * [Token Utility](prototype-v1/our-network-and-ecosystem/neph-token.md)
   * [🖥️ Validators](prototype-v1/our-network-and-ecosystem/validators-stake-and-store.md)
-* [💰 Economy](prototype-v1/network-economy/README.md)
-  * [👛 Service Gateways' Revenues](prototype-v1/network-economy/services-revenues.md)
-* [Join our Testnet](prototype-v1/participate-to-the-nephele-testnet.md)
-* [Become a Validator](prototype-v1/become-a-validator/README.md)
-  * [Server Location: Pros/Cons](prototype-v1/become-a-validator/server-location-pros-cons.md)
-  * [🤓 Considerations](prototype-v1/become-a-validator/considerations.md)
-  * [🛢️ Validators' Revenues](prototype-v1/become-a-validator/validators-revenues.md)
-  * [✅ Blockchain Validation](prototype-v1/become-a-validator/blockchain-validation/README.md)
-    * [Hardware Requirements](prototype-v1/become-a-validator/blockchain-validation/hardware-requirements.md)
-    * [Examples of Setups](prototype-v1/become-a-validator/blockchain-validation/examples-of-setups.md)
-    * [Command Lines](prototype-v1/become-a-validator/blockchain-validation/command-lines.md)
-  * [🏬 Enabing Storage Provision](prototype-v1/become-a-validator/storage-provision/README.md)
-    * [Deal and Sector Management](prototype-v1/become-a-validator/storage-provision/strategy-with-storage-deals.md)
-    * [Hardware Requirements](prototype-v1/become-a-validator/storage-provision/hardware-requirements.md)
-    * [Examples of Setups](prototype-v1/become-a-validator/storage-provision/examples-of-setups.md)
-* [Become a Service Gateway](prototype-v1/become-a-service/README.md)
-  * [🤔 Deployment Strategy](prototype-v1/become-a-service/deployment-strategy.md)
-  * [ℹ️ Deal Verification](prototype-v1/become-a-service/deal-verification.md)
+* [🧪 Join our Testnet](prototype-v1/participate-to-the-nephele-testnet/README.md)
+  * [Become a Validator](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/README.md)
+    * [Server Location](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/server-location-pros-cons.md)
+    * [Considerations](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/considerations.md)
+    * [Blockchain Validation](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/blockchain-validation/README.md)
+      * [Hardware Requirements](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/blockchain-validation/hardware-requirements.md)
+      * [Examples of Setups](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/blockchain-validation/examples-of-setups.md)
+      * [Command Lines](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/blockchain-validation/command-lines.md)
+    * [Enabing Storage Provision](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/storage-provision/README.md)
+      * [Deal and Sector Management](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/storage-provision/strategy-with-storage-deals.md)
+      * [Hardware Requirements](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/storage-provision/hardware-requirements.md)
+      * [Examples of Setups](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/storage-provision/examples-of-setups.md)
+    * [Revenues](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/validators-revenues.md)
+  * [Become a Service Gateway](prototype-v1/participate-to-the-nephele-testnet/become-a-service/README.md)
+    * [🤔 Deployment Strategy](prototype-v1/participate-to-the-nephele-testnet/become-a-service/deployment-strategy.md)
+    * [ℹ️ Deal Verification](prototype-v1/participate-to-the-nephele-testnet/become-a-service/deal-verification.md)
+    * [👛 Revenues](prototype-v1/participate-to-the-nephele-testnet/become-a-service/services-revenues.md)
 * [How-To Guides](prototype-v1/how-to-guides/README.md)
   * [Create a Flashback Account](prototype-v1/how-to-guides/use-a-wallet.md)
   * [A Simple Storage Service](prototype-v1/how-to-guides/a-simple-storage-service.md)

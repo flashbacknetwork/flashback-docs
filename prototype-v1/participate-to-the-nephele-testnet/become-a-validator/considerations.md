@@ -1,4 +1,4 @@
-# 🤓 Considerations
+# Considerations
 
 o enhance the considerations for hardware configurations and becoming a validator on the Flashback network, here is an improved and detailed guide:
 

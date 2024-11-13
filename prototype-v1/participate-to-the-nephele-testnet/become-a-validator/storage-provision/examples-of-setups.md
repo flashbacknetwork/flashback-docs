@@ -42,7 +42,7 @@ Propose a setup that you tested! We'll integrate it to the documentation!
 
 In this basic configuration, we can see running a unique Server 1 with Server 2; the storage provider must set a 10.4-12.2 USD/TB/Month price to support the setup costs. In AWS, S3 storage is between 21 and 25 USD/TB/Month.\
 \
-This does not consider the staking reward, the maintenance costs, and other expenses or alternative setups to reduce the costs. We want to invite you to read the [network economy](../../network-economy/) model to understand how you can define a business model with the storage provision. Nonetheless, a storage provider can improve the setup with a dedicated server provider.
+This does not consider the staking reward, the maintenance costs, and other expenses or alternative setups to reduce the costs. We want to invite you to read the [network economy](broken-reference) model to understand how you can define a business model with the storage provision. Nonetheless, a storage provider can improve the setup with a dedicated server provider.
 
 ## Decentralized Cloud Providers
 
@@ -55,7 +55,7 @@ A hosted setup for running a PoS-ST validator node can offer greater control and
 
 However, the storage provision is more complex than the PoS-only full nodes. Here, we would like to show a simple setup. The following presents an architecture that can be greatly optimized but allows you to understand the costs and assess different options.
 
-_The following setups not consider the staking reward, the maintenance costs, and other expenses or alternative setups to reduce the costs (staking other protocols, etc.). We'd like to invite you to read the_ [_network economy_](../../network-economy/) _model to understand how you can define a business model with the storage provision. Nonetheless, a storage provider can improve the setup with a dedicated server provider._
+_The following setups not consider the staking reward, the maintenance costs, and other expenses or alternative setups to reduce the costs (staking other protocols, etc.). We'd like to invite you to read the_ [_network economy_](broken-reference) _model to understand how you can define a business model with the storage provision. Nonetheless, a storage provider can improve the setup with a dedicated server provider._
 
 {% tabs %}
 {% tab title="Minimal" %}
