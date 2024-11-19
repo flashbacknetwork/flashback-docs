@@ -8,7 +8,7 @@ Despite their extraordinary impact on cloud storage, the Web3 ecosystem has yet 
 
 Despite their significant potential, DePIN solutions remain relatively scarce, and where they do exist, there’s much room for improvement in quality and user experience. Most data stored in centralized solutions is often non-permanent or for intensively demanding applications like Artificial Intelligence (AI), data-driven market analysis, or video games.
 
-Hence, many Web3 companies (90% of them representing a loss of $1b in 2023 for the web3 ecosystem) still rely on centralized providers like Google or Amazon, primarily due to the inefficiency and high costs associated with decentralized options. This reliance presents substantial trust and security concerns, but **the problem is the lack of competitiveness of web3 service providers against the web2 solutions in their market segment.**
+Hence, many Web3 companies (90% of them representing a loss of $1b in 2023 for the web3 ecosystem) still rely on centralized providers like Google or Amazon, primarily due to the inefficiency and high costs associated with decentralized options. This reliance presents substantial trust and security concerns. The **problem of trust** in data storage leads to 93% of organizations using a multi-cloud strategy and 87% combining public and private clouds in hybrid environments. This **entails** the company's operating **costs**, **interoperability** between cloud providers or private infrastructure, and a need for more **flexibility in service-level agreements**.
 
 ## The unsolved key challenges of DePIN-based Cloud Storage
 
