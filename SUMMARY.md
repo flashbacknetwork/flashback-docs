@@ -22,8 +22,8 @@
   * [The Market](learn/depin-and-cloud-storage/the-market.md)
   * [Adoption Drivers](learn/depin-and-cloud-storage/adoption-drivers.md)
   * [Model and Service Type](learn/depin-and-cloud-storage/model-and-service-type.md)
-  * [Market Trends](learn/depin-and-cloud-storage/market-trends.md)
   * [Titans of the Market](learn/depin-and-cloud-storage/titans-of-the-market.md)
+  * [Market Trends](learn/depin-and-cloud-storage/market-trends.md)
   * [Navigating the Challenges](learn/depin-and-cloud-storage/navigating-the-challenges.md)
 * [🌎 Decentralized Physical Infrastructure Network (DePIN)](learn/depin-and-cloud-storage-1/README.md)
   * [The Vision](learn/depin-and-cloud-storage-1/the-vision.md)
@@ -33,9 +33,13 @@
   * [DePIN-based Cloud Storage](learn/depin-and-cloud-storage-1/depin-based-cloud-storage.md)
   * [Data Compliance](learn/depin-and-cloud-storage-1/compliance-flashback-system.md)
   * [The Problem](learn/depin-and-cloud-storage-1/the-problem.md)
-* [📸 Why Flashback?](learn/why-nephele.md)
+* [🌟 Why Flashback?](learn/why-nephele.md)
 * [🔬 Development Phase](learn/development-phase.md)
 * [TGE Allocation](learn/tge-allocation.md)
+
+## Group 1
+
+* [Page 1](group-1/page-1.md)
 
 ## ARCHIVE
 

@@ -2,7 +2,7 @@
 author: Brieuc Berruet <brieuc.berruet@thenephelecloud.com>
 ---
 
-# 📸 Why Flashback?
+# 🌟 Why Flashback?
 
 The problem with current DePIN-based cloud storage is the exact condition of the slow adoption of Web3 technologies. If a Web3 business or application pays the costs of centralized giant companies, then it can't outperform the centralized competitors.
 
