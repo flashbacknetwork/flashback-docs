@@ -1,12 +1,12 @@
 # Table of contents
 
-* [📄 Flashback Documentation](README.md)
+* [📄 Flashback Documentation (WIP)](README.md)
 * [🙌 Contribute to the Documentation](contributing.md)
 * [📔 Glossary](glossary.md)
 
 ## GETTING STARTED
 
-* [💳 Get a Wallet](getting-started/get-wallets.md)
+* [🎮 Join Flashback](getting-started/get-wallets.md)
 * [🪙 Get FLASH Tokens](getting-started/get-neph-tokens.md)
 * [📊 Network Statistics](getting-started/network-statistics.md)
 
@@ -18,13 +18,13 @@
   * [Web3: Decentralization](learn/what-is-the-web/web3-decentralization.md)
   * [Web4: Metaverse and beyond](learn/what-is-the-web/web4-metaverse-and-beyond.md)
 * [☁️ The Advent of centralized Cloud Storage](learn/depin-and-cloud-storage/README.md)
-  * [Magnetic tapes to Cloud Storage](learn/depin-and-cloud-storage/magnetic-tapes-to-cloud-storage.md)
+  * [A brief History](learn/depin-and-cloud-storage/magnetic-tapes-to-cloud-storage.md)
   * [The Market](learn/depin-and-cloud-storage/the-market.md)
   * [Adoption Drivers](learn/depin-and-cloud-storage/adoption-drivers.md)
   * [Model and Service Type](learn/depin-and-cloud-storage/model-and-service-type.md)
   * [Titans of the Market](learn/depin-and-cloud-storage/titans-of-the-market.md)
   * [Market Trends](learn/depin-and-cloud-storage/market-trends.md)
-  * [Navigating the Challenges](learn/depin-and-cloud-storage/navigating-the-challenges.md)
+  * [Strategies and Good Practices](learn/depin-and-cloud-storage/navigating-the-challenges.md)
 * [🌎 Decentralized Physical Infrastructure Network (DePIN)](learn/depin-and-cloud-storage-1/README.md)
   * [The Vision](learn/depin-and-cloud-storage-1/the-vision.md)
   * [The Perfect Match](learn/depin-and-cloud-storage-1/the-perfect-match.md)
@@ -32,14 +32,14 @@
   * [Navigate in DePIN Projects](learn/depin-and-cloud-storage-1/navigate-in-depin-projects.md)
   * [DePIN-based Cloud Storage](learn/depin-and-cloud-storage-1/depin-based-cloud-storage.md)
   * [Data Compliance](learn/depin-and-cloud-storage-1/compliance-flashback-system.md)
-  * [The Problem](learn/depin-and-cloud-storage-1/the-problem.md)
-* [🌟 Why Flashback?](learn/why-nephele.md)
+* [🌟 Discover Flashback](learn/why-nephele/README.md)
+  * [The Problem](learn/why-nephele/the-problem.md)
+  * [Solution](learn/why-nephele/solution.md)
+  * [Concept Differences with Filecoin](learn/why-nephele/differences-with-flashback.md)
+  * [Proof-of-Stake-Spacetime](learn/why-nephele/consensus-proof-of-stake-spacetime.md)
+  * [Token Utility](learn/why-nephele/neph-token.md)
+  * [TGE Allocation](learn/why-nephele/tge-allocation.md)
 * [🔬 Development Phase](learn/development-phase.md)
-* [TGE Allocation](learn/tge-allocation.md)
-
-## Group 1
-
-* [Page 1](group-1/page-1.md)
 
 ## ARCHIVE
 
@@ -111,10 +111,7 @@
           * [Reward Actor](prototype-v1/our-network-and-ecosystem/storage-mechanisms/storage-software-clients/actors-the-software-components/reward-actor.md)
           * [Account Actor](prototype-v1/our-network-and-ecosystem/storage-mechanisms/storage-software-clients/actors-the-software-components/account-actor.md)
         * [The List of Clients](prototype-v1/our-network-and-ecosystem/storage-mechanisms/storage-software-clients/the-list-of-clients.md)
-    * [Concept Differences with Filecoin](prototype-v1/our-network-and-ecosystem/differences-with-flashback.md)
-    * [Proof-of-Stake-Spacetime](prototype-v1/our-network-and-ecosystem/consensus-proof-of-stake-spacetime.md)
     * [Quality-of-Network (QoN) Optimizer](prototype-v1/our-network-and-ecosystem/quality-of-network-qon-optimizer.md)
-    * [Token Utility](prototype-v1/our-network-and-ecosystem/neph-token.md)
     * [Storage Validators](prototype-v1/our-network-and-ecosystem/validators-stake-and-store.md)
   * [Participate](prototype-v1/participate-to-the-nephele-testnet/README.md)
     * [Become a Validator](prototype-v1/participate-to-the-nephele-testnet/become-a-validator/README.md)

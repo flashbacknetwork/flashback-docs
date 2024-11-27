@@ -10,7 +10,7 @@ The validators can decide to be storage providers by enabling the proof-of-space
 
 Rewards are given for activities that help keep the network secure and running smoothly. You'll earn staking rewards for running Nephele software that groups transactions into new blocks and verifies the work of others. This is essential for maintaining the integrity and security of the chain.
 
-A validator can decide to participate in the file storage duties by allowing the commitment of storage proofs. After setting your parameters and operating fees (what people must pay to store files in your validator), you'll earn rewards according to your performances assessed by the [quality-of-network (QoN) optimizer](quality-of-network-qon-optimizer.md). You will participate in the diversity of storage offers and be a founder of the mass adoption of innovative use cases in the web3 ecosystem. With our novel [proof](consensus-proof-of-stake-spacetime.md), you can also parametrize as you want the storage duties and how you want to commit them to the network. This unique flexibility will allow you to develop a business model with your storage and be competitive. You'll have the best profitability of your storage space.
+A validator can decide to participate in the file storage duties by allowing the commitment of storage proofs. After setting your parameters and operating fees (what people must pay to store files in your validator), you'll earn rewards according to your performances assessed by the [quality-of-network (QoN) optimizer](quality-of-network-qon-optimizer.md). You will participate in the diversity of storage offers and be a founder of the mass adoption of innovative use cases in the web3 ecosystem. With our novel [proof](../../learn/why-nephele/consensus-proof-of-stake-spacetime.md), you can also parametrize as you want the storage duties and how you want to commit them to the network. This unique flexibility will allow you to develop a business model with your storage and be competitive. You'll have the best profitability of your storage space.
 
 ### Secure the network and Improve the Privacy
 
@@ -63,7 +63,7 @@ You can find more details on how to [become a validator (WIP)](../participate-to
 
 ## The storage duties <a href="#why-should-i-run-an-ethereum-node" id="why-should-i-run-an-ethereum-node"></a>
 
-Becoming a storage provider on the Flashback network involves several steps, from setting up the necessary hardware to participating actively in the network’s operations. We recommend you to read everything about the [storage proving](storage-mechanisms/proving-mechanism/) and [differences with Filecoin](differences-with-flashback.md). Here’s a detailed guide on how you can become a storage provider in Flashback:
+Becoming a storage provider on the Flashback network involves several steps, from setting up the necessary hardware to participating actively in the network’s operations. We recommend you to read everything about the [storage proving](storage-mechanisms/proving-mechanism/) and [differences with Filecoin](../../learn/why-nephele/differences-with-flashback.md). Here’s a detailed guide on how you can become a storage provider in Flashback:
 
 ### 1. Have a nice **hardware setup**
 
