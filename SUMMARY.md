@@ -35,7 +35,6 @@
   * [A Disappointment](learn/depin-and-cloud-storage-1/a-disappointment.md)
 * [🌟 Discover Flashback](learn/why-nephele/README.md)
   * [Introduction](learn/why-nephele/introduction.md)
-  * [Solution](learn/why-nephele/solution.md)
   * [Our Network](learn/why-nephele/our-network.md)
   * [Concept Differences with Filecoin](learn/why-nephele/differences-with-flashback.md)
   * [Proof-of-Stake-Spacetime](learn/why-nephele/consensus-proof-of-stake-spacetime.md)
