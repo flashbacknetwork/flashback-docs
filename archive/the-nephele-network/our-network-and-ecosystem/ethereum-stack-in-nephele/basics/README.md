@@ -1,6 +1,6 @@
 # Basics
 
-This section serves as the foundation for understanding Flashback, a Layer-1 blockchain that builds on Ethereum’s proven architecture while adding its own innovative twists. Whether you're new to blockchain technology or a seasoned developer, this section will provide you with essential knowledge about how the Flashback network operates at its core.
+This section serves as the foundation for understanding Nephele, a Layer-1 blockchain that builds on Ethereum’s proven architecture while adding its own innovative twists. Whether you're new to blockchain technology or a seasoned developer, this section will provide you with essential knowledge about how the Nephele network operates at its core.
 
 ## Section Table
 

@@ -1,12 +1,12 @@
 # Transactions
 
-A transaction refers to an action initiated by an EOA to transfer a value to another EOA. For example, if Bob sends Alice 1 FLASH, Bob's account must be debited, and Alice's must be credited. This state-changing action takes place within a transaction.
+A transaction refers to an action initiated by an EOA to transfer a value to another EOA. For example, if Bob sends Alice 1 NEPH, Bob's account must be debited, and Alice's must be credited. This state-changing action takes place within a transaction.
 
 Transactions need to be broadcast to the whole network. Any EOA can broadcast a request for a transaction to be executed on the decentralized ledger; after this happens, the network will validate and manage the transaction and propagate the resulting state change to the rest of the network. This process includes the transactions in a validated block of the decentralized ledger, the blockchain.
 
 ## Types of Transactions <a href="#types-of-transactions" id="types-of-transactions"></a>
 
-On Flashback, there are a few different types of transactions:
+On Nephele, there are a few different types of transactions:
 
 * <mark style="color:orange;">Regular transactions</mark> from one account to another.
 * <mark style="color:orange;">Contract deployment transactions</mark> are not sent to an account, where the data field is used for the contract code.
@@ -35,12 +35,12 @@ A submitted transaction includes the following standard fields:
 * `to` – the receiving address (if an EOA, the transaction will transfer value. If a smart contract, the transaction will execute the contract code)
 * `signature` – the sender's identifier. This is generated when the sender's private key signs the transaction and confirms the sender has authorized this transaction
 * `nonce` - a sequentially incrementing counter which indicates the transaction number from the account
-* `value` – amount of FLASH to transfer from sender to recipient (denominated in WEI, where 1 FLASH equals 1e+18wei)
+* `value` – amount of NEPH to transfer from sender to recipient (denominated in WEI, where 1 NEPH equals 1e+18wei)
 * `input data` – optional field to include arbitrary data
 
 The transaction is operated in the EVM which means that it must be able to be executed thanks to the rules of the EVM. In these rules, a transaction may spend gas to be effective and the following fields:
 
-* `gasLimit` – the maximum amount of gas units that the transaction can consume. The [EVM](../../../../developers/docs/evm/opcodes/) specifies the units of gas required by each computational step
+* `gasLimit` – the maximum amount of gas units that the transaction can consume. The [EVM](../../../../../developers/docs/evm/opcodes/) specifies the units of gas required by each computational step
 * `maxPriorityFeePerGas` - the maximum price of the consumed gas to be included as a tip to the validator
 * `maxFeePerGas` - the maximum fee per unit of gas willing to be paid for the transaction (inclusive of `baseFeePerGas` and `maxPriorityFeePerGas`). For a transaction to be executed, the max fee must exceed the sum of the base fee and the tip. The transaction sender is refunded the difference between the max fee and the sum of the base fee and tip.
 
@@ -60,7 +60,7 @@ The transaction object will look a little like this:
 
 But a transaction object must be signed using the sender's private key. This proves that the transaction could only have come from the sender and was not sent fraudulently. A protocol execution client like Geth or Nethermind will handle this signing process.
 
-Example [JSON-RPC](../../../../developers/docs/apis/json-rpc/) call:
+Example [JSON-RPC](../../../../../developers/docs/apis/json-rpc/) call:
 
 ```json
 {
@@ -107,7 +107,7 @@ Example response:
 }
 ```
 
-* the `raw` is the signed transaction in [Recursive Length Prefix (RLP)](../../../../developers/docs/data-structures-and-encoding/rlp/) encoded form
+* the `raw` is the signed transaction in [Recursive Length Prefix (RLP)](../../../../../developers/docs/data-structures-and-encoding/rlp/) encoded form
 * the `tx` is the signed transaction in JSON form
 
 With the signature hash, the transaction can be cryptographically proven that it came from the sender and submitted to the network.
@@ -120,7 +120,7 @@ The first four bytes specify which function to call, using the hash of the funct
 
 The rest of the calldata is the arguments, [encoded as specified in the ABI specs](https://docs.soliditylang.org/en/latest/abi-spec.html#formal-specification-of-the-encoding). For example, let's look at [this transaction](https://etherscan.io/tx/0xd0dcbe007569fcfa1902dae0ab8b4e078efe42e231786312289b1eee5590f6a1). Use **Click to see More** to see the calldata.
 
-The function selector is `0xa9059cbb`. There are several [known functions with this signature](https://www.4byte.directory/signatures/?bytes4\_signature=0xa9059cbb). In this case, [the contract source code](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48#code) has been uploaded to Etherscan, so we know the function is `transfer(address,uint256)`.
+The function selector is `0xa9059cbb`. There are several [known functions with this signature](https://www.4byte.directory/signatures/?bytes4_signature=0xa9059cbb). In this case, [the contract source code](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48#code) has been uploaded to Etherscan, so we know the function is `transfer(address,uint256)`.
 
 The rest of the data is:
 
@@ -132,7 +132,7 @@ According to the ABI specifications, integer values (such as addresses, which ar
 
 ### Go Beyond: Typed Transaction Envelope <a href="#typed-transaction-envelope" id="typed-transaction-envelope"></a>
 
-Flashback (forking Ethereum) originally had one format for transactions. Each transaction contained a nonce, gas price, gas limit, to address, value, data, v, r, and s. These fields are [RLP-encoded](https://ethereum.org/en/developers/docs/data-structures-and-encoding/rlp/), to look something like this:
+Nephele (forking Ethereum) originally had one format for transactions. Each transaction contained a nonce, gas price, gas limit, to address, value, data, v, r, and s. These fields are [RLP-encoded](https://ethereum.org/en/developers/docs/data-structures-and-encoding/rlp/), to look something like this:
 
 `RLP([nonce, gasPrice, gasLimit, to, value, data, v, r, s])`
 

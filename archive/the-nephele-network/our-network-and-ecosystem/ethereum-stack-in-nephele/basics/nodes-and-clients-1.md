@@ -1,6 +1,6 @@
 # Nodes
 
-A "node" is a computer connected to other computers, forming a peer-to-peer network. A node has to run two clients: a [consensus client](nodes-and-clients.md#consensus-clients) and an [execution client](nodes-and-clients.md#execution-clients).Different types of nodes consume data differently. Clients can run three different types of nodes: light, full, and archive. There are also options for different synchronization strategies, of nodes that consume data differently. Clients can run three different types of nodes: light, full, and archive. There are also options for different [synchronization strategies](nodes-and-clients.md) which enable faster synchronization time. Synchronization refers to how quickly it can get the most up-to-date information on the state of the network, such as Ethereum or Flashback.
+A "node" is a computer connected to other computers, forming a peer-to-peer network. A node has to run two clients: a [consensus client](nodes-and-clients.md#consensus-clients) and an [execution client](nodes-and-clients.md#execution-clients).Different types of nodes consume data differently. Clients can run three different types of nodes: light, full, and archive. There are also options for different synchronization strategies, of nodes that consume data differently. Clients can run three different types of nodes: light, full, and archive. There are also options for different [synchronization strategies](nodes-and-clients.md) which enable faster synchronization time. Synchronization refers to how quickly it can get the most up-to-date information on the state of the network, such as Ethereum or Nephele.
 
 ***
 
@@ -27,7 +27,7 @@ Overall, full nodes are foundational to the blockchain's function and security, 
 
 ## Archive node <a href="#archive-node" id="archive-node"></a>
 
-An archive node (see [full archive sync client](nodes-and-clients.md#full-archive)) is crucial for understanding the concept of "state" in Ethereum and Flashback, which functions as a transaction-based state machine. Here, the state encompasses all the global data, such as account balances, contract code and storage, and other consensus-related data, all stored within a trie database managed by the execution layer client.
+An archive node (see [full archive sync client](nodes-and-clients.md#full-archive)) is crucial for understanding the concept of "state" in Ethereum and Nephele, which functions as a transaction-based state machine. Here, the state encompasses all the global data, such as account balances, contract code and storage, and other consensus-related data, all stored within a trie database managed by the execution layer client.
 
 ### **Why Full Nodes and Archive Nodes Differ**
 
@@ -49,7 +49,7 @@ Given their extensive data needs, archive nodes require substantial disk space r
 
 ## Light node <a href="#light-node" id="light-node"></a>
 
-Light nodes are simply running a[ light sync client](nodes-and-clients.md#light). Light nodes enable users to participate in the network without the powerful hardware or high bandwidth required to run full nodes. Eventually, light nodes might run on mobile phones or embedded devices. They can access the blockchain with the same functionality and security guarantees as a full node. Potential routes to providing light client data over the [gossip network](https://www.ethportal.net/) in Ethereum and can have similar interests in Flashback.
+Light nodes are simply running a[ light sync client](nodes-and-clients.md#light). Light nodes enable users to participate in the network without the powerful hardware or high bandwidth required to run full nodes. Eventually, light nodes might run on mobile phones or embedded devices. They can access the blockchain with the same functionality and security guarantees as a full node. Potential routes to providing light client data over the [gossip network](https://www.ethportal.net/) in Ethereum and can have similar interests in Nephele.
 
 ### **Differences Between Light Nodes and Full Nodes Regarding Rewards:**
 

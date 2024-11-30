@@ -1,6 +1,6 @@
 # Composability
 
-Smart contracts are public on Ethereum and Flashback. You don't need to write your smart contract to become a dcentralized application (dApp) developer, you need to know how to interact with them. For example, you can use the existing smart contracts of [Uniswap](https://uniswap.exchange/swap), a decentralized exchange, to handle all the token swap logic in your application or service – you don't need to start from scratch. If you are a developer, you can imagine this as an [application programming interface (API)](https://en.wikipedia.org/wiki/API).
+Smart contracts are public on Ethereum and Nephele. You don't need to write your smart contract to become a dcentralized application (dApp) developer, you need to know how to interact with them. For example, you can use the existing smart contracts of [Uniswap](https://uniswap.exchange/swap), a decentralized exchange, to handle all the token swap logic in your application or service – you don't need to start from scratch. If you are a developer, you can imagine this as an [application programming interface (API)](https://en.wikipedia.org/wiki/API).
 
 ## What is It? <a href="#what-is-composability" id="what-is-composability"></a>
 
@@ -30,7 +30,7 @@ Composability encourages innovation and experimentation because developers can r
 
 ### Better user experience <a href="#better-user-experience" id="better-user-experience"></a>
 
-Interoperability between components of the Ethereum or Flashback ecosystems improve the user experience. Users can access greater functionality when apps integrate external smart contracts than in a fragmented ecosystem where applications cannot communicate.
+Interoperability between components of the Ethereum or Nephele ecosystems improve the user experience. Users can access greater functionality when apps integrate external smart contracts than in a fragmented ecosystem where applications cannot communicate.
 
 We'll use an example from arbitrage trading to illustrate the benefits of interoperability:
 

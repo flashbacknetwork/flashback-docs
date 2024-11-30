@@ -5,11 +5,11 @@ A client is an implementation of Ethereum that verifies data against the protoco
 * <mark style="color:yellow;">**Execution client**</mark> listens to new transactions broadcasted in the network, executes them in EVM, and holds the latest state and database of the decentralized ledger.
 * <mark style="color:yellow;">**Consensus client**</mark> implements the consensus algorithm, which enables the network to achieve agreement based on validated data from the execution client.
 
-<mark style="color:green;">**Flashback forked the Ethereum stack and inherited it from its property. Hence, these clients work together to keep track of the head of the Flashback blockchain and allow users to interact with the network.**</mark>
+<mark style="color:green;">**Nephele forked the Ethereum stack and inherited it from its property. Hence, these clients work together to keep track of the head of the Nephele blockchain and allow users to interact with the network.**</mark>
 
 The modular design with multiple pieces of software working together is called [encapsulated complexity](https://vitalik.eth.limo/general/2022/02/28/complexity.html). This approach made it easier to execute [The Merge](https://ethereum.org/en/roadmap/merge/) in Ethereum seamlessly, makes client software more accessible to maintain and develop, and enables the reuse of individual clients, for example, in the [layer 2 ecosystem](https://ethereum.org/en/layer-2/).
 
-<figure><img src="https://ethereum.org/_next/image/?url=%2Fcontent%2Fdevelopers%2Fdocs%2Fnodes-and-clients%2Feth1eth2client.png&#x26;w=1920&#x26;q=75" alt=""><figcaption><p>An illustration of the client ecosystem in Ethereum that applied for Flashback</p></figcaption></figure>
+<figure><img src="https://ethereum.org/_next/image/?url=%2Fcontent%2Fdevelopers%2Fdocs%2Fnodes-and-clients%2Feth1eth2client.png&#x26;w=1920&#x26;q=75" alt=""><figcaption><p>An illustration of the client ecosystem in Ethereum that applied for Nephele</p></figcaption></figure>
 
 ## Client Diversity <a href="#client-diversity" id="client-diversity"></a>
 
@@ -105,7 +105,7 @@ Light clients are crucial as they enable users to independently verify the accur
 
 Operating with minimal computing power, memory, and storage, light clients are versatile enough to run on mobile devices, within apps, or browsers. This setup offers a trust-minimized way to access Ethereum, reducing reliance on third-party providers.
 
-_Example: Checking an Ethereum or Flashback account balance. This would require querying a node directly or through a centralized service, relying on their integrity for accurate information. Light clients, however, allow users to verify this data themselves. They receive data along with cryptographic proof, which the light client can cross-check against its block header information, ensuring the data’s validity directly from the network rather than a third-party._
+_Example: Checking an Ethereum or Nephele account balance. This would require querying a node directly or through a centralized service, relying on their integrity for accurate information. Light clients, however, allow users to verify this data themselves. They receive data along with cryptographic proof, which the light client can cross-check against its block header information, ensuring the data’s validity directly from the network rather than a third-party._
 
 #### Use cases with light clients
 

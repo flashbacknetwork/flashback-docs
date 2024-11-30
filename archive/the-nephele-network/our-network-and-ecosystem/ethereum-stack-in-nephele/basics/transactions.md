@@ -8,11 +8,11 @@ Gas fees are essential for maintaining the health and efficiency of the network.
 
 The gas fee is **the amount used to do some operation multiplied by the cost per unit of gas**. The fee is paid regardless of whether a transaction succeeds or fails.
 
-![A diagram showing where gas is needed in EVM operations](../../../../learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/gas.png)
+![A diagram showing where gas is needed in EVM operations](../../../../../learn/our-network-and-ecosystem/blockchain-network/ethereum-stack-in-nephele/basics/gas.png)
 
-Gas fees have to be paid with the cryptocurrency of the blockchain network. Gas prices are usually quoted in gwei, a denomination of FLASH. Each gwei is equal to one-billionth of an FLASH (0.000000001 FLASH or 10-9 FLASH). Instead of saying that your gas costs 0.000000001 FLASH, you can say your gas costs 1 gwei.
+Gas fees have to be paid with the cryptocurrency of the blockchain network. Gas prices are usually quoted in gwei, a denomination of NEPH. Each gwei is equal to one-billionth of an NEPH(0.000000001 NEPHor 10-9 NEPH). Instead of saying that your gas costs 0.000000001 NEPH, you can say your gas costs 1 gwei.
 
-The word 'gwei' is a contraction of 'giga-wei', meaning 'billion wei'. One gwei is equal to one billion wei. Wei itself (named after [Wei Dai](https://wikipedia.org/wiki/Wei\_Dai), creator of [b-money](https://www.investopedia.com/terms/b/bmoney.asp)) is the smallest unit of FLASH.
+The word 'gwei' is a contraction of 'giga-wei', meaning 'billion wei'. One gwei is equal to one billion wei. Wei itself (named after [Wei Dai](https://wikipedia.org/wiki/Wei_Dai), creator of [b-money](https://www.investopedia.com/terms/b/bmoney.asp)) is the smallest unit of NEPH.
 
 ## What is a gas made of? <a href="#how-are-gas-fees-calculated" id="how-are-gas-fees-calculated"></a>
 
@@ -55,37 +55,37 @@ The priority fee (tip) incentivizes validators to include a transaction in the b
 
 ## How to calculating gas fees in practice <a href="#calculating-fees-in-practice" id="calculating-fees-in-practice"></a>
 
-Let's say Jordan has to pay Taylor 1 FLASH. A FLASH transfer requires 21,000 units of gas, and the base fee is 10 gwei. Jordan includes a tip of 2 gwei. The total fee would now be equal to:
+Let's say Jordan has to pay Taylor 1 NEPH. A NEPH transfer requires 21,000 units of gas, and the base fee is 10 gwei. Jordan includes a tip of 2 gwei. The total fee would now be equal to:
 
 `total_fee = units of gas used * (base fee + priority fee)`
 
-i.e. `21,000 * (10 + 2) = 252,000 gwei` (0.000252 FLASH).
+i.e. `21,000 * (10 + 2) = 252,000 gwei` (0.000252 NEPH).
 
-When Jordan sends the money, 1.000252 FLASH will be deducted from Jordan's account. Taylor will be credited 1.0000 FLASH. The validator receives the tip of 0.000042 FLASH. The `base fee` of 0.00021 FLASH is burned.
+When Jordan sends the money, 1.000252 NEPH will be deducted from Jordan's account. Taylor will be credited 1.0000 NEPH. The validator receives the tip of 0.000042 NEPH. The `base fee` of 0.00021 NEPH is burned.
 
 You can explicitly state how much you will pay in priority fee. However, most wallet providers will automatically set a recommended priority fee to reduce the amount of complexity burdened onto their users.
 
 ## What is the gas limit? <a href="#what-is-gas-limit" id="what-is-gas-limit"></a>
 
-The gas limit refers to the maximum amount of gas you are willing to consume on a transaction. More complicated transactions involving [smart contracts](smart-contracts.md) require more computational work, so they require a higher gas limit than a simple payment. <mark style="color:purple;">**A standard FLASH transfer requires a gas limit of 21,000 units of gas.**</mark>
+The gas limit refers to the maximum amount of gas you are willing to consume on a transaction. More complicated transactions involving [smart contracts](smart-contracts.md) require more computational work, so they require a higher gas limit than a simple payment. <mark style="color:purple;">**A standard**</mark>**&#x20;**<mark style="color:purple;">**NEPH t**</mark><mark style="color:purple;">**ransfer requires a gas limit of 21,000 units of gas.**</mark>
 
-For example, if you put a gas limit of 50,000 for a simple FLASH transfer, the EVM would consume 21,000, and you would return the remaining 29,000. However, if you specify too little gas, for example, a gas limit of 20,000 for a simple FLASH transfer, the EVM will consume your 20,000 gas units attempting to fulfill the transaction, but it will not complete. The EVM then reverts any changes, but since the validator has already done 20k gas units worth of work, that gas is consumed.
+For example, if you put a gas limit of 50,000 for a simple NEPH transfer, the EVM would consume 21,000, and you would return the remaining 29,000. However, if you specify too little gas, for example, a gas limit of 20,000 for a simple NEPH transfer, the EVM will consume your 20,000 gas units attempting to fulfill the transaction, but it will not complete. The EVM then reverts any changes, but since the validator has already done 20k gas units worth of work, that gas is consumed.
 
 Although a transaction includes a limit, any gas not used in a transaction is returned to the user (i.e. `max fee - (base fee + tip)` is returned)
 
 ## Why can gas fees get so high? <a href="#why-can-gas-fees-get-so-high" id="why-can-gas-fees-get-so-high"></a>
 
-High gas fees are due to the popularity of Ethereum and then, in Flashback. If there's too much demand, users must offer higher tip amounts to try and outbid other users' transactions. A higher tip can make it more likely that your transaction will get into the next block. Also, more complex smart contract apps might be doing lots of operations to support their functions, making them consume a lot of gas.
+High gas fees are due to the popularity of Ethereum and then, in Nephele. If there's too much demand, users must offer higher tip amounts to try and outbid other users' transactions. A higher tip can make your transaction more likely to get into the next block. Also, more complex smart contract apps might be doing lots of operations to support their functions, making them consume a lot of gas.
 
 ## Initiatives to reduce gas costs <a href="#initiatives-to-reduce-gas-costs" id="initiatives-to-reduce-gas-costs"></a>
 
-The Falshback [scalability upgrades](../../../../roadmap/) should ultimately address some of the gas fee issues, enabling the platform to process thousands of transactions per second and scale globally.
+The Falshback [scalability upgrades](../../../../../roadmap/) should ultimately address some of the gas fee issues, enabling the platform to process thousands of transactions per second and scale globally.
 
-Layer 2 scaling is a primary initiative to greatly improve gas costs, user experience and scalability. [More on layer 2 scaling](../../../../developers/docs/scaling/#layer-2-scaling).
+Layer 2 scaling is a primary initiative to greatly improve gas costs, user experience and scalability. [More on layer 2 scaling](../../../../../developers/docs/scaling/#layer-2-scaling).
 
 ## Monitoring gas fees <a href="#moitoring-gas-fees" id="moitoring-gas-fees"></a>
 
-If you want to monitor gas prices, so you can send your FLASH for less, you can use many different tools such as:
+If you want to monitor gas prices, so you can send your NEPHfor less, you can use many different tools such as:
 
 * TBD
 

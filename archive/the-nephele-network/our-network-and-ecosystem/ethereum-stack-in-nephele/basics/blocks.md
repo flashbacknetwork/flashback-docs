@@ -4,7 +4,7 @@ Blocks are batches of transactions with a hash of the previous block in the chai
 
 ## What is a Block? <a href="#why-blocks" id="why-blocks"></a>
 
-To ensure that all participants on the Flashback and Ethereum networks maintain a synchronized state and agree on the precise history of transactions, we batch transactions into blocks. This means dozens (or hundreds) of transactions are committed, agreed on, and synchronized all at once.
+To ensure that all participants on the Nephele and Ethereum networks maintain a synchronized state and agree on the precise history of transactions, we batch transactions into blocks. This means dozens (or hundreds) of transactions are committed, agreed on, and synchronized all at once.
 
 By spacing out commits, we give all network participants enough time to come to consensus: even though transaction requests occur dozens of times per second, blocks are only created and committed once every twelve seconds.
 
@@ -112,7 +112,7 @@ The `withdrawals` list contains `withdrawal` objects structured in the following
 
 ## Block Time <a href="#block-time" id="block-time"></a>
 
-Block time refers to the time separating blocks proposed by the blockchain validators. In Flashback and Ethereum, time is divided up into twelve second units called 'slots'. In each slot a single validator is selected to propose a block. Assuming all validators are online and fully functional, there will be a block in every slot, meaning the block time is 12s. However, occasionally validators might be offline when called to propose a block, meaning slots can sometimes go empty.
+Block time refers to the time separating blocks proposed by the blockchain validators. In Nephele and Ethereum, time is divided up into twelve second units called 'slots'. In each slot a single validator is selected to propose a block. Assuming all validators are online and fully functional, there will be a block in every slot, meaning the block time is 12s. However, occasionally validators might be offline when called to propose a block, meaning slots can sometimes go empty.
 
 ## Block Size <a href="#block-size" id="block-size"></a>
 

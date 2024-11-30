@@ -1,6 +1,6 @@
 # From Filecoin
 
-After understanding Ethereum and its functionalities as the blockchain layer of Flashback, this section presents the features of Filecoin and how the network works.
+After understanding Ethereum and its functionalities as the blockchain layer of Nephele, this section presents the features of Filecoin and how the network works.
 
 Filecoin, created in 2014, remains a network that needs to be more well-known by the public and is often not well-documented or has minimal explanations in its main documentation. We have decided to provide better explanations of the technology, a true pillar of decentralized data storage for being the archive of humanity's data.
 
