@@ -1,6 +1,6 @@
 # General Workflow
 
-This image represents a layered and interactive architecture for a decentralized platform for managing data services. Here's a breakdown of the layers and the interactions between blocks:
+The following image represents the general workflow of Flashback. Here's a breakdown of the layers and the interactions between blocks:
 
 <figure><img src="../../../.gitbook/assets/Overview_Logics.PNG" alt=""><figcaption><p>This diagram represents the </p></figcaption></figure>
 

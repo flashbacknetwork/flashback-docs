@@ -38,7 +38,7 @@
   * [Our Network](learn/why-nephele/our-network.md)
     * [High-Level Layers](learn/why-nephele/our-network/high-level-layers.md)
     * [General Workflow](learn/why-nephele/our-network/general-workflow.md)
-    * [Orchestrators](learn/why-nephele/our-network/orchestrators.md)
+    * [Orchestrator](learn/why-nephele/our-network/orchestrator.md)
   * [Token Utility](learn/why-nephele/neph-token.md)
   * [TGE Allocation](learn/why-nephele/tge-allocation.md)
 * [🔬 Development Phase](learn/development-phase.md)
