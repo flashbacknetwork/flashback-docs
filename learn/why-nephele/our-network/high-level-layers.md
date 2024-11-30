@@ -1,4 +1,4 @@
-# Layers
+# High-Level Layers
 
 Today, the development of web3 technologies has led to the emergence of new concepts that break with traditional technologies. Decentralized networks have made it possible to implement new technologies and concepts.
 
@@ -31,9 +31,9 @@ Both orchestrators communicate through the **Flashback platform**, ensuring that
 
 * **Register of Certified Storage Providers**:
   * A database within the Flashback platform that lists storage providers meeting certification requirements.
-  * Certification ensures providers meet quality-of-service (QoS) standards and comply with SLAs.
+  * Certification ensures providers meet quality-of-service (QoS) standards and can be trusted for SLAs.
 * **Register of Certified Service Providers**:
-  * Similar to the storage provider register, this registry certifies service providers offering auxiliary services (e.g., data migration, analytics, or compliance tools).
+  * Like the storage provider register, this registry certifies service providers offering auxiliary services (e.g., data migration, analytics, or compliance tools).
   * Supports a robust ecosystem by vetting reliable providers.
 * **Listing**:
   * Acts as a public interface where storage and service providers are listed for consumers to browse and choose from.
