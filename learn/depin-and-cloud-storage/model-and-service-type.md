@@ -1,4 +1,8 @@
-# Segmentation
+---
+hidden: true
+---
+
+# Model and Service Type
 
 ## **By Deployment Model**
 

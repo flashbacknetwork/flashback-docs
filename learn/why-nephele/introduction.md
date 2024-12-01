@@ -9,9 +9,9 @@ Due to a lack of trust in centralized cloud providers, **93% of organizations us
 2. **High Costs of Hybrid Cloud Management**:\
    While **82% of companies employ a hybrid cloud strategy** (Flexera), **30% of cloud spending is wasted** due to inefficiencies, mismanagement, and lack of optimization.
 3. **Barriers to DePin Adoption**:\
-   Decentralized storage (DePin) is seen as a viable alternative, with **62% of IT decision-makers** finding it as reliable or more reliable than traditional cloud solutions (The State of DeStor 2024). Yet, **72% are not using DePin solutions**, citing complexity, poor quality of service (QoS), compliance concerns, and slow retrieval speeds, making it suitable only for cold storage.
+   Decentralized storage (DePin) is a viable alternative, with **62% of IT decision-makers** finding it reliable or more reliable than traditional cloud solutions (The State of DeStor 2024). Yet, **72% are not using DePin solutions**, citing complexity, poor quality of service (QoS), compliance concerns, and slow retrieval speeds, making it suitable only for cold storage.
 
-## **The Solution: Flashback’s DePin-Based Multi-Cloud Platform**
+## **The Solution: Flashback, the Multi-Cloud Storage DePin**
 
 Flashback offers a revolutionary approach to solving these issues through **fast, transparent, and efficient decentralized solutions**. Our platform combines cutting-edge blockchain technology with optimized multi-cloud strategies to address the following core challenges:
 
@@ -25,12 +25,12 @@ Flashback offers a revolutionary approach to solving these issues through **fast
 
 * **Cost-Optimized Payments**: Flashback replaces traditional pay-as-you-go models with a **pay-as-you-need** system, allowing businesses to spend credits efficiently using tokens. This provides **modular cost management** that dynamically adapts to the organization’s requirements.
 * **Seamless Switching**: Companies can **easily switch between storage providers**, leveraging the flexibility to allocate resources optimally and avoid vendor lock-in.
-* **Transparent Usage Monitoring**: The token-based system tracks spending in real-time, ensuring better visibility into usage patterns and costs.
+* **Transparent Usage Monitoring**: The token-based system tracks real-time spending, ensuring better visibility into usage patterns and costs.
 
 ### **3. QoS Incentivizing**
 
 * **Guaranteed Quality**: QoS standards are enforced directly through SLAs, ensuring reliable performance from storage providers.
-* **Incentives for Excellence**: Flashback rewards top-performing storage providers and clients with **additional tokens**. This creates a competitive ecosystem in which providers strive for excellence and clients benefit from consistent, high-quality service.
+* **Incentives for Excellence**: Flashback rewards top-performing storage providers and clients with **additional tokens**. This creates a competitive ecosystem where providers strive for excellence and clients benefit from consistent, high-quality service.
 * **Enhanced Reputation System**: By tracking performance metrics, Flashback fosters a system in which storage providers with better QoS gain more visibility and trust.
 
 ## **Why Flashback?**
