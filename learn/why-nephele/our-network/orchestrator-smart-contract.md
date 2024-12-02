@@ -1,4 +1,4 @@
-# Orchestrator
+# Orchestrator Smart Contract
 
 The following image represents the principle logic integrating into the smart contracts acting as an on-chain and trustless orchestrator for our network.  The **Orchestrator Smart Contract** is the backbone of the ecosystem, ensuring transparency, compliance, and fair financial transactions through tokenomics. It is critical in maintaining trust and reliability between providers and consumers.&#x20;
 
@@ -34,7 +34,7 @@ Data Units Represent the storage resources (e.g., storage servers or systems) ma
 
 ## **Data Consumers**
 
-Individuals, businesses, or applications requiring storage services rely on the **Scoring** system to select providers based on reliability, performance, and cost. Scoring ensures providers are ranked fairly and transparently based on their SLA compliance and QoS metrics. Thisunique feature allows for a fair and clear understanding of providers' quality, a fundamental component of incentivizing the quality of services.
+Individuals, businesses, or applications requiring storage services rely on the **Scoring** system to select providers based on reliability, performance, and cost. Scoring ensures providers are ranked fairly and transparently based on their SLA compliance, QoS metrics, but also from the quality  report of consumers. This unique feature allows for a fair and clear understanding of providers' quality, a fundamental component of incentivizing the quality of services.
 
 Additionally, consumers can analyze the Flashback network and the performances of data providers with the QoS metrics and select what best fits them within the data units.
 

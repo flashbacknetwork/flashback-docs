@@ -2,43 +2,110 @@
 hidden: true
 ---
 
-# Token Utility
+# FLASH Token
 
-The Flashback token $FLASH is not just a concept but a practical asset that is the cornerstone of the network's utility. It stores files and data for various use cases, such as artificial intelligence, metaverse, Web3 gaming, browser-first, and more. Its blockchain design further enhances its practicality, allowing it to be used for blockchain applications and use cases, such as decentralized finance, smart contracts, or Layer-2 deployment.
+**Token Name:** FLASH
 
-Here’s a breakdown of the potential utility of such a token within a hybrid blockchain ecosystem:
+**Utility Purpose:**\
+FLASH powers the Flashback ecosystem, enabling financial transactions, incentivizing quality, enforcing compliance, and fostering governance in the decentralized storage network.
 
-## **SLA Fees**
+## **Core Functions of FLASH**
 
-* **Payment for Transactions**: As an Ethereum fork, FLASH can pay transaction fees on the network, covering the costs of transferring tokens, interacting with smart contracts, and other on-chain operations.
-* **Gas Fees**: FLASH is similar to Ether in Ethereum, where it's used as "gas" to execute smart contracts. This ensures that developers write efficient code and provides an economic mechanism to prevent network spam.
+### **1- File Storage Payments**
 
-## **Staking**
+FLASH is the native medium of exchange for transactions in the ecosystem. Consumers pay storage providers in FLASH to reserve and use storage services. The Flashback network platform will provide a marketplace that lists the offers and manages payments. The platform will offer additional functionalities to service providers. Auxiliary service providers (e.g., data migration or analytics) receive FLASH for their specialized offerings.
 
-* **Network Security via Staking**: Borrowing from proof-of-stake mechanisms (similar to Ethereum 2.0), FLASH could be staked by validators participating in the consensus process. Staking tokens would help secure the network by giving validators a financial stake in maintaining network integrity.
-* **Staking Rewards**: Validators and possibly delegators would receive staking rewards through newly minted tokens or transaction fees, incentivizing them to act honestly and efficiently.
+**Example:** A consumer wants to reserve 1TB of storage for one month with AWS and two other providers from our network. It will then select the offers and aggregate them in an SLA. Then, the consumer will pay X FLASH according to their pricing. The payment is locked into the SLA and ready to be consumed. During the contract duration, the storage provider receives payment from the locked amount in the SLA contract according to the agreements set in the contract.
 
-## **Storage Deals**
+The payment may vary depending on the data unit a storage provider proposes.&#x20;
 
-* **Paying for Storage**: Mirroring Filecoin’s utility, FLASH can be used to pay for storage within the network. Users who need to store data (e.g., documents, media files) can pay storage providers in FLASH.
-* **be paid as Storage Providers**: Storage providers will receive payments in FLASH from the submitted file storage contracts (deals) according to their services and [their quality](../../archive/the-nephele-network/our-network-and-ecosystem/quality-of-network-qon-optimizer.md), ensuring they win in reliably storing users’ data.
+## **2 - Staking**
 
-## **Governance**
+Staking ensures ecosystem stability and incentivizes quality contributions.
 
-* **Voting Rights**: FLASH holders could participate in governance decisions, voting on network upgrades, changes in protocol parameters, or community funding proposals. This can democratize control over the network’s development and future direction.
-* **Proposal Deposits**: To avoid spam and ensure seriousness, submitting proposals for network changes might require depositing tokens, which could be forfeited if the proposal is rejected or fails to gather sufficient support.
+* **For Providers:** Storage providers must stake FLASH to signal their SLA commitment.
+  * **Example:** A provider staking 500 FLASH gains higher visibility and trust in the ecosystem.
+* **For Oracles:** Oracles stake FLASH as collateral to ensure reliability in their off-chain data feeds.
+  * **Example:** An Oracle staking 1,000 FLASH validates high-value transactions and data streams.
 
-## **Incentives and Rewards**
+### **2 - Rewards**
 
-* **Developer Incentives**: FLASH could be used to fund grants or bounties for developers to build on the network, create dApps, or improve the core protocol.
-* **Ecosystem Rewards**: FLASH might be distributed to users who contribute positively to the ecosystem by providing liquidity, participating in testnets, or educating others about the network.
+Rewards incentivize storage providers and Oracles to ensure high performance and trustworthiness. Additionally to the payment, the storage providers will earn FLASH based on SLA compliance, uptime, and performance metrics. A provider maintaining 99.9% uptime receives a monthly reward of 10 FLASH per data unit.
 
-## **Token Burns**
+Consumers will earn rewards in the form of specific rebates by participating in the network and the scoring systems.&#x20;
 
-* **Deflationary Pressure**: To control inflation or adjust the circulating supply, penalties, and protection mechanisms are implemented where a portion of the FLASH used in transactions or storage payments is burned, potentially increasing the token's value over time.
 
-## **Interoperability and Token Swaps**
 
-* **Bridging with Other Chains**: Given the blockchain's hybrid nature, features might allow for interoperability with Ethereum, Filecoin, or other blockchains. This could involve wrapping FLASH to be used on other networks or creating swap mechanisms to exchange it with other cryptocurrencies seamlessly.
+**Example:** A provider maintaining 99.9% uptime receives a monthly reward of 10 FLASH per data unit.
 
-$FLASH is pivotal to both the economic and operational layers of the network, facilitating not just transactions and consensus but also providing a utility in decentralized storage markets, enhancing network governance, and supporting the broader ecosystem through various incentives. Such a versatile role could position $FLASH as a fundamental asset within and potentially beyond the network’s confines.
+* **Oracles:** Earn FLASH to validate data quality, SLA adherence, and other network parameters.
+  * **Example:** An Oracle verifying a data integrity check earns 5 FLASH per validation.
+
+***
+
+3. **Penalties (Slashing):**\
+   Slashing ensures compliance by penalizing bad actors within the ecosystem.
+   * **Storage Providers:** Lose a portion of their staked FLASH for failing SLA terms (e.g., downtime or data loss).
+     * **Example:** A provider with significant downtime loses 20 FLASH from their stake.
+   * **Consumers:** Consumers breaching terms (e.g., fraud or misuse) face penalties deducted from escrowed FLASH.
+
+***
+
+4. **Staking:**\
+   Staking ensures ecosystem stability and incentivizes quality contributions.
+   * **For Providers:** Storage providers must stake FLASH to signal their commitment to SLAs.
+     * **Example:** A provider staking 500 FLASH gains higher visibility and trust in the ecosystem.
+   * **For Oracles:** Oracles stake FLASH as collateral to ensure reliability in their off-chain data feeds.
+     * **Example:** An Oracle staking 1,000 FLASH validates high-value transactions and data streams.
+
+***
+
+5. **Governance:**\
+   FLASH holders influence ecosystem decisions, ensuring decentralized control.
+   * **Proposals:** FLASH holders vote on changes to SLA standards, pricing mechanisms, and more.
+     * **Example:** A vote on adjusting the penalty rate for SLA violations requires participation from staked FLASH holders.
+
+***
+
+#### **Token Flows**
+
+1. **Storage Transactions:**
+   * Consumers lock FLASH in escrow via the Orchestrator Smart Contract to reserve storage.
+   * Payments are released to providers upon successful SLA completion, verified by Oracles.
+   * **Example Flow:**
+     * **Consumer:** Locks 100 FLASH for a 1TB reservation.
+     * **Provider:** Receives 90 FLASH after SLA compliance.
+     * **Orchestrator Fee:** 5 FLASH is allocated to the Flashback treasury.
+     * **Oracle:** Earns 5 FLASH for validating SLA adherence.
+
+***
+
+2. **Rewards Distribution:**
+   * Providers and Oracles earn FLASH for contributing to ecosystem health.
+   * **Example Flow:**
+     * A provider maintaining 99.9% uptime earns 50 FLASH in monthly rewards.
+     * An Oracle verifying 100 SLAs earns 10 FLASH.
+   * Rewards are sourced from transaction fees and ecosystem incentives.
+
+***
+
+3. **Penalty and Slashing Mechanisms:**
+   * FLASH is slashed from providers or consumers failing to meet SLA terms.
+   * Slashed tokens are redistributed as rewards or burned to ensure token scarcity.
+   * **Example Flow:**
+     * A provider fails to meet uptime SLA, losing 10% of their staked 500 FLASH.
+     * 50% of the slashed tokens (25 FLASH) is redistributed to compliant providers, and the remaining 25 FLASH is burned.
+
+***
+
+4. **Ecosystem Fees:**
+   * A percentage of each transaction is allocated to the Flashback treasury for development, marketing, and governance activities.
+   * **Example Flow:**
+     * 5% of all storage payments go to the treasury. A consumer paying 200 FLASH contributes 10 FLASH to ecosystem development.
+
+***
+
+5. **Governance Token Flow:**
+   * FLASH holders stake tokens to participate in governance proposals and voting.
+   * **Example Flow:**
+     * A governance proposal to adjust SLA metrics is submitted. FLASH holders stake a combined 1,000,000 FLASH to vote, with rewards distributed to active participants.

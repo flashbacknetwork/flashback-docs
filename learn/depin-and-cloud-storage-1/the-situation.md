@@ -1,4 +1,4 @@
-# A Disappointment
+# The Situation
 
 ## **Too Slow Adoption**
 
@@ -18,7 +18,7 @@ Projects are pushing hard for lower costs, but the experience with these solutio
 
 ## Why is the adoption so slow?
 
-<mark style="background-color:orange;">**The file retrieval in existing solutions is too slow.**</mark>\
+<mark style="background-color:orange;">**The file retrieval in existing solutions is too slow, complex to integrate, or incompatible with market demands.**</mark>\
 \
 They struggle to offer a suitable economy model to support diverse infrastructure providers while ensuring the services have the best-quality hardware provided to the network.
 

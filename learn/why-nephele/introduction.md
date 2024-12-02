@@ -2,7 +2,7 @@
 
 ## **The Problem**
 
-Due to a lack of trust in centralized cloud providers, **93% of organizations use a multi-cloud strategy**, and **87% combine public and private clouds in hybrid environments**. However, these approaches still fail to address critical issues, including:
+Due to a lack of trust in centralized cloud providers, **93% of organizations use a multi-cloud strategy**, and **87% combine public and private clouds in hybrid environments**. Unfortunately,[the-situation.md](../depin-and-cloud-storage-1/the-situation.md "mention")shows a weak adoption where the network can't support the mass adoption. However, these approaches still fail to address critical issues, including:
 
 1. **Single Point of Failure in File Transfers**:\
    Multi-cloud solutions often rely on centralized coordination, leaving organizations vulnerable to downtime and breaches. According to Deloitte Insights, companies allocate **10.9% of their IT budgets to cybersecurity**, yet vulnerabilities persist.
@@ -27,11 +27,11 @@ Flashback offers a revolutionary approach to solving these issues through **fast
 * **Seamless Switching**: Companies can **easily switch between storage providers**, leveraging the flexibility to allocate resources optimally and avoid vendor lock-in.
 * **Transparent Usage Monitoring**: The token-based system tracks real-time spending, ensuring better visibility into usage patterns and costs.
 
-### **3. QoS Incentivizing**
+### **3. DePin Incentivizing QoS**
 
-* **Guaranteed Quality**: QoS standards are enforced directly through SLAs, ensuring reliable performance from storage providers.
+* **Guaranteed Quality**: QoS standards are enforced directly through SLAs, ensuring reliable performance from DePin storage providers.
 * **Incentives for Excellence**: Flashback rewards top-performing storage providers and clients with **additional tokens**. This creates a competitive ecosystem where providers strive for excellence and clients benefit from consistent, high-quality service.
-* **Enhanced Reputation System**: By tracking performance metrics, Flashback fosters a system in which storage providers with better QoS gain more visibility and trust.
+* **Enhanced Reputation System**: Flashback fosters a system where storage providers with better QoS gain more visibility and trust by tracking performance metrics.
 
 ## **Why Flashback?**
 

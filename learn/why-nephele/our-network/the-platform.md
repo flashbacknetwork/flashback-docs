@@ -1,6 +1,6 @@
-# OpenAPI of Flashback Platform
+# The Platform
 
-OpenAPI in the Flashback platform is built around an **Orchestrator Smart Contract**, supported by Oracles, Data Providers, an Open API, and Data Consumers.&#x20;
+The platform referred as OpenAPI is built around an **Orchestrator Smart Contract**, supported by Oracles, Data Providers, an Open API, and Data Consumers.&#x20;
 
 <figure><img src="../../../.gitbook/assets/OpenAPI.PNG" alt=""><figcaption><p>The Interactions with the OpenAPI module of the Flashback Platform</p></figcaption></figure>
 
