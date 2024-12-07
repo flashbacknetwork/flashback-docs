@@ -27,7 +27,7 @@
     * [Hybrid Cloud Environments](learn/depin-and-cloud-storage/market-trends/hybrid-cloud-environments.md)
     * [Public Multi-Cloud](learn/depin-and-cloud-storage/market-trends/public-multi-cloud.md)
     * [And Beyond](learn/depin-and-cloud-storage/market-trends/and-beyond.md)
-* [🌎 DePIN Storage Solutions](learn/depin-and-cloud-storage-1/README.md)
+* [🌎 DePIN Storage](learn/depin-and-cloud-storage-1/README.md)
   * [The Vision](learn/depin-and-cloud-storage-1/the-vision.md)
   * [The Perfect Match](learn/depin-and-cloud-storage-1/the-perfect-match.md)
   * [A Slow Adoption](learn/depin-and-cloud-storage-1/a-slow-adoption.md)
