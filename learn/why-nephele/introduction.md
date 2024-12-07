@@ -1,6 +1,6 @@
-# The Problem
+# 🚫 The Problem
 
-Due to a lack of trust in centralized cloud providers, **93% of organizations use a multi-cloud strategy**, and **87% combine public and private clouds in hybrid environments**. Unfortunately,[the-situation.md](../learn/depin-and-cloud-storage-1/the-situation.md "mention") shows a weak adoption where the network can't support the mass adoption. However, these approaches still fail to address critical issues. Here is the problem that Flashback will tend to solve:
+Due to a lack of trust in centralized cloud providers, **93% of organizations use a multi-cloud strategy**, and **87% combine public and private clouds in hybrid environments**. Unfortunately,[the-situation.md](../../learn-more/depin-and-cloud-storage-1/the-situation.md "mention") shows a weak adoption where the network can't support the mass adoption. However, these approaches still fail to address critical issues. Here is the problem that Flashback will tend to solve:
 
 1. **Security and Governance in File Transfers**:\
    Multi-cloud solutions often rely on centralized coordination, leaving organizations vulnerable to downtime and breaches. According to Deloitte Insights, companies allocate **10.9% of their IT budgets to cybersecurity**, yet vulnerabilities persist. These centralized processes make it challenging for companies to estimate the risk and weaken their governance.&#x20;

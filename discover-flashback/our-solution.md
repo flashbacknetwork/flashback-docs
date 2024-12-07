@@ -1,4 +1,4 @@
-# Our Solution
+# 💡 Our Solution
 
 ## **The Solution: Flashback, the Multi-Cloud Storage DePin**
 
