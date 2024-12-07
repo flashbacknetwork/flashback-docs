@@ -10,6 +10,18 @@
 * [🪙 Get FLASH Tokens](getting-started/get-neph-tokens.md)
 * [📊 Network Statistics](getting-started/network-statistics.md)
 
+## DISCOVER FLASHBACK
+
+* [The Problem](discover-flashback/the-problem.md)
+* [Our Solution](discover-flashback/our-solution.md)
+* [Our Product](discover-flashback/our-product/README.md)
+  * [Overview](discover-flashback/our-product/overview.md)
+  * [General Workflow](discover-flashback/our-product/general-workflow.md)
+  * [Orchestrator Smart Contract](discover-flashback/our-product/orchestrator-smart-contract.md)
+  * [The Platform](discover-flashback/our-product/the-platform.md)
+* [FLASH Token](discover-flashback/neph-token.md)
+* [Page 1](discover-flashback/page-1.md)
+
 ## LEARN
 
 * [🌐 What is the Web?](learn/what-is-the-web/README.md)
@@ -35,13 +47,6 @@
   * [Existing Solutions](learn/depin-and-cloud-storage-1/depin-based-cloud-storage.md)
   * [The Situation](learn/depin-and-cloud-storage-1/the-situation.md)
 * [🌟 Discover Flashback](learn/why-nephele/README.md)
-  * [Introduction](learn/why-nephele/introduction.md)
-  * [Our Network](learn/why-nephele/our-network.md)
-    * [High-Level Layers](learn/why-nephele/our-network/high-level-layers.md)
-    * [General Workflow](learn/why-nephele/our-network/general-workflow.md)
-    * [Orchestrator Smart Contract](learn/why-nephele/our-network/orchestrator-smart-contract.md)
-    * [The Platform](learn/why-nephele/our-network/the-platform.md)
-  * [FLASH Token](learn/why-nephele/neph-token.md)
   * [TGE Allocation](learn/why-nephele/tge-allocation.md)
 * [🔬 Development Phase](learn/development-phase.md)
 
