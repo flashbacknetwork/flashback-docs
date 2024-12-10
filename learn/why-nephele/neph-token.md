@@ -2,7 +2,23 @@
 hidden: true
 ---
 
-# FLASH Token
+# Economy Model
+
+<figure><img src="../../.gitbook/assets/Economy_model.png" alt=""><figcaption><p>A high-level representation of the Flashback ecosystem</p></figcaption></figure>
+
+## **Application Layer**
+
+### **SLA Payments**
+
+FLASH is the native medium of exchange for transactions in the ecosystem. Consumers pay storage providers in FLASH to reserve and use storage services in an SLA. The Flashback network platform will provide a marketplace that lists the offers and manages payments. The platform will offer additional functionalities to service providers, such as AI-driven recommendation tools for optimizing their storage according to their needs. Auxiliary service providers (e.g., data migration, interoperability, or analytics) receive FLASH for their specialized offerings.
+
+**Example:** A consumer wants to reserve 1TB of storage for one month with AWS and two other providers from our network. It will then select the offers and aggregate them in an SLA. Then, the consumer will pay X FLASH according to their pricing. The payment is locked into the SLA and ready to be consumed. During the contract duration, the storage provider receives payment from the locked amount in the SLA contract according to the agreements set in the contract.
+
+The storage&#x20;
+
+
+
+
 
 **Token Name:** FLASH
 
@@ -11,20 +27,20 @@ FLASH powers the Flashback ecosystem, enabling financial transactions, incentivi
 
 ## **Core Functions of FLASH**
 
-### **1- File Storage Payments**
+### **1- SLA Payments**
 
-FLASH is the native medium of exchange for transactions in the ecosystem. Consumers pay storage providers in FLASH to reserve and use storage services. The Flashback network platform will provide a marketplace that lists the offers and manages payments. The platform will offer additional functionalities to service providers. Auxiliary service providers (e.g., data migration or analytics) receive FLASH for their specialized offerings.
+FLASH is the native medium of exchange for transactions in the ecosystem. Consumers pay storage providers in FLASH to reserve and use storage services in a SLA. The Flashback network platform will provide a marketplace that lists the offers and manages payments. The platform will offer additional functionalities to service providers, such as AI-driven recommendation tools for optimizing their storage according to their needs. Auxiliary service providers (e.g., data migration, interoperability, or analytics) receive FLASH for their specialized offerings.
 
 **Example:** A consumer wants to reserve 1TB of storage for one month with AWS and two other providers from our network. It will then select the offers and aggregate them in an SLA. Then, the consumer will pay X FLASH according to their pricing. The payment is locked into the SLA and ready to be consumed. During the contract duration, the storage provider receives payment from the locked amount in the SLA contract according to the agreements set in the contract.
-
-The payment may vary depending on the data unit a storage provider proposes.&#x20;
 
 ## **2 - Staking**
 
 Staking ensures ecosystem stability and incentivizes quality contributions.
 
-* **For Providers:** Storage providers must stake FLASH to signal their SLA commitment.
-  * **Example:** A provider staking 500 FLASH gains higher visibility and trust in the ecosystem.
+**Providers:** Storage providers must stake FLASH to signal their SLA commitment.
+
+A provider must stake a minimum of 1,000 FLASH to be elligible staking 500 FLASH gains higher visibility and trust in the ecosystem.
+
 * **For Oracles:** Oracles stake FLASH as collateral to ensure reliability in their off-chain data feeds.
   * **Example:** An Oracle staking 1,000 FLASH validates high-value transactions and data streams.
 
