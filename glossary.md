@@ -82,6 +82,8 @@ This is our glossary. It will help you to have the major definitions to navigate
 
 **Service Gateway**: The service responsible for serving files to and from the network. Represented by the public key which sign, and executes the negotiation or execution of a contracts the contract on-chain, it can abstract the underlying signing and challenge creation from the end user, in exchange for a monetary incentive paid out at the contract end. It can be substituted by a technical user, who interacts natively with the contracts.
 
+**Service Level Agreements**: Formal contracts between a service provider and a customer that define the specific performance standards, availability, and quality metrics the provider must meet. They serve as a framework for accountability, outlining remedies, penalties, or compensations if agreed-upon service levels are not achieved.
+
 **Smart Contract**: It is a computer program that facilitates, verifies and executes the negotiation or execution of a contract, or renders a contractual clause useless. This computer program has a specific size, and every execution in the blockchain uses gas fees.
 
 **Smart Contract Fees**: These fees correspond to the costs of storing a file in the network. In the network, the standard data fees are equal to 100 gwei. It is independent of the time and size of the file on the network.

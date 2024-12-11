@@ -1,127 +1,61 @@
----
-hidden: true
----
-
 # Economy Model
 
 <figure><img src="../../.gitbook/assets/Economy_model.png" alt=""><figcaption><p>A high-level representation of the Flashback ecosystem</p></figcaption></figure>
 
 ## **Application Layer**
 
-### **SLA Payments**
+The Flashback platform and its marketplace are the native medium of exchange for transactions in the ecosystem. Consumers pay storage providers to reserve and use storage services in an SLA. The Flashback network platform will provide a marketplace that lists the offers and manages payments.&#x20;
 
-FLASH is the native medium of exchange for transactions in the ecosystem. Consumers pay storage providers in FLASH to reserve and use storage services in an SLA. The Flashback network platform will provide a marketplace that lists the offers and manages payments. The platform will offer additional functionalities to service providers, such as AI-driven recommendation tools for optimizing their storage according to their needs. Auxiliary service providers (e.g., data migration, interoperability, or analytics) receive FLASH for their specialized offerings.
+The SLA payments depend on the requested storage, the contract duration, the cloud providers, the redundancy, the QoS level, and other parameters that will be integrated into the SLA. Payment can be made in fiat currency or cryptocurrency.&#x20;
 
-**Example:** A consumer wants to reserve 1TB of storage for one month with AWS and two other providers from our network. It will then select the offers and aggregate them in an SLA. Then, the consumer will pay X FLASH according to their pricing. The payment is locked into the SLA and ready to be consumed. During the contract duration, the storage provider receives payment from the locked amount in the SLA contract according to the agreements set in the contract.
+Submitting the SLA requires paying the gas fees related to the smart contract, which will be included in the SLA fees. The SLA fees also include the general fees for the platform running costs and guarantee Flashback operations. Payment in FLASH tokens will enable you to pay reduced SLA fees compared with other currencies.&#x20;
 
-The storage&#x20;
+The solutions in the application layer can be subscribed to different tiered levels, which will be defined during the testnet phase. The first Tier is basic storage capacity without paying the SLA fees with minimal functionalities, such as a certain range of providers and solutions. Higher tiers will provide AI-driven tools or more functionalities. &#x20;
+
+The final values will be defined at a later stage of the platform. To resume, the different fees and payments (in fiat or cryptocurrency) from the application layer:
+
+* **SLA Payments for Storage Providers**: Consumers use FLASH to pay storage providers to reserve and utilize storage services under SLAs.  SLA payments vary based on storage amount, contract duration, provider, redundancy, QoS, and other parameters.
+* **Platform Operational Fees**: SLA fees, including the smart contract gas fees, also cover platform running costs to sustain Flashback’s operations, such as the marketplace and other advantages related to Flashback.
+* **Platform Options**: The platform will offer a unique list of AI-driven tools and solutions to optimize the marketplace for applications and the performance of different providers.
+* **Tiered-based plans**: Consumers can select different tiered plans with different options and advantages. The initial plan will offer limited access to the platform, such as a lower priority to commit to SLAs. At the same time, greater tiers will give more flexibility and possibilities with the platform, such as high-priority commitment SLAs and AI-driven tools for pricing and provider selections.&#x20;
+
+#### **Implementation Suggestions for the tokenomics:**
+
+* **Payments:** All payments can be made in tokens.
+* **Fees Benefits:** All the fees will receive a large discount if the payment is complete in tokens.
+* **Options Benefits:** All the options will receive a large discount if the payment is complete in tokens.
+* **Staking:** Consumers can stake tokens to participate in the platform governance and have the following advantages:
+  * **Tiered Fee Structure:** Lower fees as transaction volumes or usage milestones are reached (e.g., 1% fee for <100 SLA/month, 0.5% for > 100 transactions/month).
+  * **Token Incentives:** Reward transaction fees for active users.
+  * **Tiered Plans:** Offer tokens for active users as rewards in the tiered plans.&#x20;
+  * **Rewards for Achievements:** By reaching certain milestones and improving the quality of services (providing scoring, etc.), the consumer will receive rewards.
+* **Penalties:** Slash the stake or increase fees with the platform or penalties for the unused payment locked in the contract if the consumer does not provide adequate scoring and report with the platform and the smart contracts.
+
+## **Platform and Blockchain Layer**
+
+This layer mainly manages the operations of SLA submissions, arbitrages, and other subtilities. Suppose the application pays in tokens and uses centralized Cloud providers like Amazon (tokenization of Cloud credits). In that case, the platform will then allocate a part of the received funds to a community fund and for decentralized governance. The platform will also optimize the use of smart contracts and the selection fo infrastructure providers.
+
+## **Hardware/Cloud Server Layer**
+
+The platform will directly manage the centralized providers by paying them according to the consumers' needs. Naturally, these providers mainly accept fiat payments, and the platform will manage the payment transmission from the consumers to the provider.
+
+DePin providers like Filecoin, Arweave, or StorJ accept payment in fiat but in their native tokens. Hence, the platform will manage the payment transmission from the consumer to the provider according to the currency the consumer selects.
+
+The infrastructure providers directly connected to the Flashback platform will benefit from its design. According to the currency in the SLA, the platform may participate as an intermediary of payment. Nonetheless, with the proper configuration, the payment in the SLA can be streamed directly to the infrastructure storage provider's wallet. The infrastructure storage provider can pay a subscription to be listed on the platform or stake the platform's native tokens to be authorized for operations.&#x20;
+
+As consumers, storage providers pay the platform to have access to multiple AI-driven tools, which allow them to propose the best pricing according to their hardware and QoS and be competitive against other providers.
+
+Finally, the storage providers will have access to specific tools, such as the compliance system, to refer all the legal documents, geographical locations, eneral performances, etc.
+
+#### **Implementation Suggestions for the tokenomics:**
+
+* **SLA Fees Benefits:** All the fees will receive a large discount if the storage provider pays in tokens.
+* **Options Benefits:** All the options will receive a large discount if the payment is complete in tokens.
+* **Staking:** Storage providers can stake tokens to be authorized for operations. If the token is staked, then the storage provider can receive the following bonuses:
+  * **Risk Offset:** If no penalty is received, the storage provider can receive an offset for providing hardware to support maintenance costs for an initial period.
+  * **Token Incentives:** By respecting the QoS proposed in the marketplace, the storage providers may receive an additional bonus in tokens as a percentage of the payments received for SLAs
+  * **Rewards for Achievements:** By submitting legal information (registration to the compliance system) or reaching milestones, the storage provider will receive rewards.
+* **Penalties:** Slash the stake or increase fees with the platform or lock penalties from the contract's paymentif the provider does not provide an adequate report in the smart contract or does not respect the QoS terms in the SLA.&#x20;
 
 
 
-
-
-**Token Name:** FLASH
-
-**Utility Purpose:**\
-FLASH powers the Flashback ecosystem, enabling financial transactions, incentivizing quality, enforcing compliance, and fostering governance in the decentralized storage network.
-
-## **Core Functions of FLASH**
-
-### **1- SLA Payments**
-
-FLASH is the native medium of exchange for transactions in the ecosystem. Consumers pay storage providers in FLASH to reserve and use storage services in a SLA. The Flashback network platform will provide a marketplace that lists the offers and manages payments. The platform will offer additional functionalities to service providers, such as AI-driven recommendation tools for optimizing their storage according to their needs. Auxiliary service providers (e.g., data migration, interoperability, or analytics) receive FLASH for their specialized offerings.
-
-**Example:** A consumer wants to reserve 1TB of storage for one month with AWS and two other providers from our network. It will then select the offers and aggregate them in an SLA. Then, the consumer will pay X FLASH according to their pricing. The payment is locked into the SLA and ready to be consumed. During the contract duration, the storage provider receives payment from the locked amount in the SLA contract according to the agreements set in the contract.
-
-## **2 - Staking**
-
-Staking ensures ecosystem stability and incentivizes quality contributions.
-
-**Providers:** Storage providers must stake FLASH to signal their SLA commitment.
-
-A provider must stake a minimum of 1,000 FLASH to be elligible staking 500 FLASH gains higher visibility and trust in the ecosystem.
-
-* **For Oracles:** Oracles stake FLASH as collateral to ensure reliability in their off-chain data feeds.
-  * **Example:** An Oracle staking 1,000 FLASH validates high-value transactions and data streams.
-
-### **2 - Rewards**
-
-Rewards incentivize storage providers and Oracles to ensure high performance and trustworthiness. Additionally to the payment, the storage providers will earn FLASH based on SLA compliance, uptime, and performance metrics. A provider maintaining 99.9% uptime receives a monthly reward of 10 FLASH per data unit.
-
-Consumers will earn rewards in the form of specific rebates by participating in the network and the scoring systems.&#x20;
-
-
-
-**Example:** A provider maintaining 99.9% uptime receives a monthly reward of 10 FLASH per data unit.
-
-* **Oracles:** Earn FLASH to validate data quality, SLA adherence, and other network parameters.
-  * **Example:** An Oracle verifying a data integrity check earns 5 FLASH per validation.
-
-***
-
-3. **Penalties (Slashing):**\
-   Slashing ensures compliance by penalizing bad actors within the ecosystem.
-   * **Storage Providers:** Lose a portion of their staked FLASH for failing SLA terms (e.g., downtime or data loss).
-     * **Example:** A provider with significant downtime loses 20 FLASH from their stake.
-   * **Consumers:** Consumers breaching terms (e.g., fraud or misuse) face penalties deducted from escrowed FLASH.
-
-***
-
-4. **Staking:**\
-   Staking ensures ecosystem stability and incentivizes quality contributions.
-   * **For Providers:** Storage providers must stake FLASH to signal their commitment to SLAs.
-     * **Example:** A provider staking 500 FLASH gains higher visibility and trust in the ecosystem.
-   * **For Oracles:** Oracles stake FLASH as collateral to ensure reliability in their off-chain data feeds.
-     * **Example:** An Oracle staking 1,000 FLASH validates high-value transactions and data streams.
-
-***
-
-5. **Governance:**\
-   FLASH holders influence ecosystem decisions, ensuring decentralized control.
-   * **Proposals:** FLASH holders vote on changes to SLA standards, pricing mechanisms, and more.
-     * **Example:** A vote on adjusting the penalty rate for SLA violations requires participation from staked FLASH holders.
-
-***
-
-#### **Token Flows**
-
-1. **Storage Transactions:**
-   * Consumers lock FLASH in escrow via the Orchestrator Smart Contract to reserve storage.
-   * Payments are released to providers upon successful SLA completion, verified by Oracles.
-   * **Example Flow:**
-     * **Consumer:** Locks 100 FLASH for a 1TB reservation.
-     * **Provider:** Receives 90 FLASH after SLA compliance.
-     * **Orchestrator Fee:** 5 FLASH is allocated to the Flashback treasury.
-     * **Oracle:** Earns 5 FLASH for validating SLA adherence.
-
-***
-
-2. **Rewards Distribution:**
-   * Providers and Oracles earn FLASH for contributing to ecosystem health.
-   * **Example Flow:**
-     * A provider maintaining 99.9% uptime earns 50 FLASH in monthly rewards.
-     * An Oracle verifying 100 SLAs earns 10 FLASH.
-   * Rewards are sourced from transaction fees and ecosystem incentives.
-
-***
-
-3. **Penalty and Slashing Mechanisms:**
-   * FLASH is slashed from providers or consumers failing to meet SLA terms.
-   * Slashed tokens are redistributed as rewards or burned to ensure token scarcity.
-   * **Example Flow:**
-     * A provider fails to meet uptime SLA, losing 10% of their staked 500 FLASH.
-     * 50% of the slashed tokens (25 FLASH) is redistributed to compliant providers, and the remaining 25 FLASH is burned.
-
-***
-
-4. **Ecosystem Fees:**
-   * A percentage of each transaction is allocated to the Flashback treasury for development, marketing, and governance activities.
-   * **Example Flow:**
-     * 5% of all storage payments go to the treasury. A consumer paying 200 FLASH contributes 10 FLASH to ecosystem development.
-
-***
-
-5. **Governance Token Flow:**
-   * FLASH holders stake tokens to participate in governance proposals and voting.
-   * **Example Flow:**
-     * A governance proposal to adjust SLA metrics is submitted. FLASH holders stake a combined 1,000,000 FLASH to vote, with rewards distributed to active participants.
