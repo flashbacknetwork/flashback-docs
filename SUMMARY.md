@@ -19,7 +19,7 @@
   * [General Workflow](discover-flashback/our-technology/general-workflow.md)
   * [Orchestrator Smart Contract](discover-flashback/our-technology/orchestrator-smart-contract.md)
   * [The Platform](discover-flashback/our-technology/the-platform.md)
-* [Economy Model](learn/why-nephele/neph-token.md)
+* [Economy Model and Token Utility](learn/why-nephele/neph-token.md)
 * [Copy of Economy Model](discover-flashback/neph-token-1.md)
 * [TGE Allocation](discover-flashback/tge-allocation.md)
 * [🔬 Development Phase](discover-flashback/development-phase.md)
