@@ -6,7 +6,7 @@ Today, the development of web3 technologies has led to the emergence of new conc
 
 **Flashback** is designed as a decentralized, trust-enforced system that connects consumers and storage providers while maintaining transparency through smart contracts. **Storage Providers** and **Consumers** interact indirectly through **blockchain-based orchestrators**, which ensure compliance and streamline data and payment flows. The **Flashback Platform** registers and listings enhance discoverability, trust, and accountability, supporting a reliable decentralized storage ecosystem.
 
-## **Application Layer**
+## **Application Layer (Consumers)**
 
 The Flashback platform and its marketplace are the native medium of exchange for transactions in the ecosystem. Consumers pay storage providers to reserve and use storage services in an SLA. The Flashback network platform will provide a marketplace that lists the offers and manages payments.&#x20;
 
@@ -17,16 +17,15 @@ The Flashback platform and its marketplace are the native medium of exchange for
 
 The SLA payments depend on the requested storage, the contract duration, the cloud providers, the redundancy, the QoS level, and other parameters that will be integrated into the SLA. Payment can be made in fiat currency or cryptocurrency.&#x20;
 
-Submitting the SLA requires paying the gas fees related to the smart contract, which will be included in the SLA fees. The SLA fees also include the general fees for the platform running costs and guarantee Flashback operations.&#x20;
+### **Billing and Resource Allocation**
 
-The solutions in the application layer can be subscribed to different tiered levels, which will be defined during the testnet phase. The first Tier is basic storage capacity without paying the SLA fees with minimal functionalities, such as a certain range of providers and solutions. Higher tiers will provide AI-driven tools or more functionalities. &#x20;
+The platform will use billing processes by creating smart contract for automated resource allocation and payments. For example:
 
-The final values will be defined at a later stage of the platform. To resume, the different fees and payments (in fiat or cryptocurrency) from the application layer:
+* Consumers specify their storage requirements (e.g., data volume, duration).
+* Smart contracts dynamically calculate costs based on the selected provider’s pricing and allocate the required payment.
+* Payments are released to the provider upon service delivery confirmation, ensuring trust and transparency.
 
-* **SLA Payments for Storage Providers**: Consumers pay storage providers to reserve and utilize storage services under SLAs.  SLA payments vary based on storage amount, contract duration, provider, redundancy, QoS, and other parameters.
-* **Platform Operational Fees**: SLA fees, including the smart contract gas fees, also cover platform running costs to sustain Flashback’s operations, such as the marketplace and other advantages related to Flashback.
-* **Platform Options**: The platform will offer a unique list of AI-driven tools and solutions to optimize the marketplace for applications and the performance of different providers.
-* **Tiered-based plans**: Consumers can select different tiered plans with different options and advantages. The initial plan will offer limited access to the platform, such as a lower priority to commit to SLAs. At the same time, greater tiers will give more flexibility and possibilities with the platform, such as high-priority commitment SLAs and AI-driven tools for pricing and provider selections.&#x20;
+Hence, Flashback enhances operational efficiency, reduces friction for consumers, and introduces the advantages of blockchain-based payment systems.
 
 ## **Platform and Blockchain Layer**
 
