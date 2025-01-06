@@ -6,7 +6,7 @@
 
 ## GETTING STARTED
 
-* [⚡ Join Flashback](getting-started/get-wallets.md)
+* [⚡ Join Pre-Alpha](getting-started/get-wallets.md)
 * [🪙 Get FLASH Tokens](getting-started/get-neph-tokens.md)
 * [📊 Network Statistics](getting-started/network-statistics.md)
 
@@ -27,6 +27,10 @@
 * [Copy of Economy Model](discover-flashback/neph-token-1.md)
 * [TGE Allocation](discover-flashback/tge-allocation.md)
 * [🔬 Development Phase](discover-flashback/development-phase.md)
+
+## PARTICIPATE
+
+* [Page 1](participate/page-1.md)
 
 ## LEARN MORE
 
