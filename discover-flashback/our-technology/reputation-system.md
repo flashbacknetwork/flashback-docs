@@ -7,7 +7,7 @@ description: >-
 
 # Reputation system
 
-### Reputation System Overview
+## Reputation System Overview
 
 The reputation system is composed of two primary components:
 
@@ -15,8 +15,6 @@ The reputation system is composed of two primary components:
 2. **Community Reputation Score**: Based on feedback from data consumers who have used the provider's services.
 
 Each component contributes to the overall reputation score, which is used to rank providers in the system and is summarized in the Provider's record of the Smart Contract.
-
-***
 
 ### 1. Objective Reputation Score
 
@@ -40,8 +38,6 @@ The **Objective Reputation Score** reflects a provider's adherence to SLAs and p
 
 * To prevent older performance records from having undue influence, scores decay by **1 point per month** if no new QoS data is recorded.
 
-***
-
 ### 2. Community Reputation Score
 
 The **Community Reputation Score** reflects consumer satisfaction and trust. It is derived from user feedback and ratings.
@@ -61,9 +57,7 @@ The **Community Reputation Score** reflects consumer satisfaction and trust. It 
 * **Recent Feedback**: Ratings from the last 30 days are weighted more heavily than older ratings.
 * **Verified Consumers**: Feedback from verified consumers is weighted more heavily than unverified feedback.
 
-***
-
-### Combined Reputation Score
+### 3. Combined Reputation Score
 
 The overall reputation score is a weighted combination of the Objective and Community Reputation Scores:
 
@@ -74,9 +68,7 @@ Overall Score = (0.7 × Objective Score) + (0.3 × Community Score)
 * The Objective Score has a higher weight (70%) to ensure providers are primarily judged by measurable performance.
 * The Community Score (30%) adds a subjective element, reflecting consumer trust and satisfaction.
 
-***
-
-### Reporting and Transparency
+## Reporting and Transparency
 
 #### Provider Dashboard
 
@@ -92,9 +84,7 @@ Overall Score = (0.7 × Objective Score) + (0.3 × Community Score)
 
 * Providers can dispute inaccurate feedback or SLA violations through a formal process, which includes re-evaluating QoS records or reviewing consumer complaints.
 
-***
-
-### Incentives for High Reputation
+## Incentives for High Reputation
 
 * **Priority Listing**: High-reputation providers appear at the top of consumer search results.
 * **Performance Bonuses**: Providers with consistent high scores may receive reduced fees or other benefits.

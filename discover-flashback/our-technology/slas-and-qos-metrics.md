@@ -8,7 +8,7 @@ description: >-
 
 These metrics ensure a consistent and reliable experience for data consumers while providing transparency and accountability for storage providers.
 
-### SLA Definitions
+## SLA Definitions
 
 The following SLA parameters define the minimum standards storage providers must meet. They will be indicated by the providers when creating a Storage Unit in the smart contract.
 
@@ -37,7 +37,7 @@ The following SLA parameters define the minimum standards storage providers must
 * **Definition**: The proportion of failed operations (e.g., upload, download, or delete) compared to the total operations.
 * **SLA Requirement example**: Less than **0.01% failed operations** per month.
 
-### QoS Records
+## QoS Records
 
 The QoS records serve as the backbone for evaluating SLAs. These records are continuously generated through monitoring and probing mechanisms.
 
@@ -80,6 +80,6 @@ The summarized data includes:
 * Uptime percentage.
 * Error rate statistics.
 
-### Enforcement
+## Enforcement
 
 Failure to meet SLA requirements may result in penalties or reduced reputation scores (as detailed in the Reputation System documentation). Providers are encouraged to consistently monitor their performance and address any deficiencies proactively.
