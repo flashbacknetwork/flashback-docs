@@ -19,6 +19,8 @@
   * [General Workflow](discover-flashback/our-technology/general-workflow.md)
   * [Orchestrator Smart Contract](discover-flashback/our-technology/orchestrator-smart-contract.md)
   * [API Platform](discover-flashback/our-technology/api-platform.md)
+  * [SLAs and QoS metrics](discover-flashback/our-technology/slas-and-qos-metrics.md)
+  * [Reputation system](discover-flashback/our-technology/reputation-system.md)
 * [🏦 Economy Model](discover-flashback/neph-token/README.md)
   * [Apps and Services](discover-flashback/neph-token/apps-and-services.md)
   * [Storage Providers](discover-flashback/neph-token/storage-providers.md)
