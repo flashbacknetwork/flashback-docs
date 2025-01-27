@@ -18,9 +18,13 @@ This is our glossary. It will help you to have the major definitions to navigate
 
 **Casper Friendly Finality Gadget (Casper-FFG)**: The protocol with which Ethereum gives finality to transactions on-chain and serves as the basis for the Proof of Stake protocol.
 
+**Cold Data Storage**: Storing data that isn't frequently accessed or used. You're keeping them for safekeeping, but you don't need to access them often. This is different from "hot" data storage, which is for information that needs to be quickly and frequently accessed⁠. For example, old business records that need to be kept for compliance but aren't used day-to-day would be cold storage.
+
 **Content Service Layer**: An abstract layer that gathers all the service gateways and the content-related protocols developed and proposed by service gateways. This means there are no common standards, and every service gateway can execute its protocols.
 
 ### D
+
+**DePin:** "Decentralized Physical Infrastructure Networks" are a way to create networks where physical infrastructure (in Flashback's case, storage infrastructure) is distributed across many different locations and providers instead of being controlled by one central company⁠.
 
 ### E
 
@@ -37,6 +41,8 @@ This is our glossary. It will help you to have the major definitions to navigate
 **Gasper**: It is the combination of Casper-FFG and LMD-GHOST. It defines the finality rules and fork selection rules for the stability and security of the blockchain and the layer-1 blockchain infrastructure.
 
 ### H
+
+**Hot data storage:** The fast access and delivery of frequently used or actively processed data. Unlike cold storage (archived data), hot data requires immediate availability and quick response times for applications like gaming and AI training⁠. Hot data accounts for 99% of the serviceable addressable data storage market.
 
 ### I
 
@@ -83,6 +89,8 @@ This is our glossary. It will help you to have the major definitions to navigate
 **Service Gateway**: The service responsible for serving files to and from the network. Represented by the public key which sign, and executes the negotiation or execution of a contracts the contract on-chain, it can abstract the underlying signing and challenge creation from the end user, in exchange for a monetary incentive paid out at the contract end. It can be substituted by a technical user, who interacts natively with the contracts.
 
 **Service Level Agreements**: Formal contracts between a service provider and a customer that define the specific performance standards, availability, and quality metrics the provider must meet. They serve as a framework for accountability, outlining remedies, penalties, or compensations if agreed-upon service levels are not achieved.
+
+**Single points of failure**: A component in a system where, if it fails, the entire system stops working.
 
 **Smart Contract**: It is a computer program that facilitates, verifies and executes the negotiation or execution of a contract, or renders a contractual clause useless. This computer program has a specific size, and every execution in the blockchain uses gas fees.
 
