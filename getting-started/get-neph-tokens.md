@@ -2,9 +2,9 @@
 icon: '2'
 ---
 
-# Get FLASH Tokens
+# 🪙 Get FLASH Tokens
 
-FLASH is not listed yet.\
+FLASH is not listed yet. :cry:\
 \
 However, you can get FLASH tokens by:
 

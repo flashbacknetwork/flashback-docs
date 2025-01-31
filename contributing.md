@@ -5,9 +5,9 @@ description: It explains our documentation participation.
 
 # 🙌 Contribute to the Documentation
 
-## Introduction
-
 Flashback technology is rapidly evolving, and comprehensive documentation is crucial for its adoption and development. Whether you're an experienced developer or a newcomer, your contributions to blockchain documentation, tutorials, and how-to guides can significantly impact you and are rewarded. This guide will walk you through effectively contributing to blockchain knowledge resources.
+
+***
 
 ## Why Contribute?
 
@@ -15,15 +15,19 @@ Flashback technology is rapidly evolving, and comprehensive documentation is cru
 2. **Community Growth**: High-quality resources attract more developers and users, fostering a robust blockchain community. You, as a community member, are the foundation of Flashback and its emergence as a referral cloud solution.
 3. **Professional Development**: Contributing showcases your expertise and can be valuable to your portfolio as well as to a recognized ecosystem in the blockchain industry.
 
+***
+
 ## Types of Contributions
 
 1. **Documentation**: Improve existing documentation or create new content for blockchain projects. This can be a tutorial, an introductive video about a feature, or an overview of the technology.
 2. **Tutorials**: Write step-by-step guides to help others learn how to use blockchain tools and technologies. It is how we will have more users and builders in Flashback.
 3. **How-to Guides**: Develop detailed instructions for tasks such as setting up a blockchain node or creating a smart contract.
 
-## Getting Started
+***
 
-### 1. Understand the Contribution Guidelines
+## :star: Getting Started
+
+### Step 1: Understand the Contribution Guidelines
 
 Read contribution guidelines. Look for a `CONTRIBUTING.md` file in the repository. This document will provide information on:
 
@@ -32,7 +36,7 @@ Read contribution guidelines. Look for a `CONTRIBUTING.md` file in the repositor
 * Pull request (PR) procedures
 * Coding standards
 
-### 2. Set Up Your Environment
+### Step 2: Set Up Your Environment
 
 Ensure you have the necessary tools and dependencies installed. Common tools include:
 
@@ -41,7 +45,7 @@ Ensure you have the necessary tools and dependencies installed. Common tools inc
 * Blockchain-specific tools: Flashback is using different ecosystems like Starknetand Stellar. You can participate to these environments.
 * Software and Cloud tools: Flashback is doing storage (and computing in the future). We appreciate your participation to our open-source codes related to data storage.
 
-### 3. Identify Areas for Improvement
+### Step 3: Identify Areas for Improvement
 
 Start by reviewing our existing documentation to identify gaps or areas for improvement. Look for:
 
@@ -49,7 +53,9 @@ Start by reviewing our existing documentation to identify gaps or areas for impr
 * Missing tutorials (Possibilities with Flashback is infinite; you will be the contributor of our amazing journey)
 * Ambiguous instructions (Explaining is everything and the foundation of education which requires iterative implementation)
 
-## Making Your Contribution
+***
+
+## :test\_tube: Making Your Contribution
 
 ### 1. Fork and Clone the Repository
 
@@ -99,7 +105,9 @@ Navigate to the original repository and create a pull request. Provide a detaile
 
 Project maintainers may request changes. Please address their feedback as soon as possible to get your contribution merged. We recommend you to open a ticket in our [Discord](https://discord.gg/ssPHCsfH5q) to follow-up your contribution and to get rewarded.
 
-## Writing Tutorials and How-to Guides
+***
+
+## :track\_next: Writing Tutorials and How-to Guides
 
 ### Structure Your Content
 
@@ -141,6 +149,8 @@ Provide the contact information as an author.
 It is welcome and will help to improve your tutotial and yur contribution.
 ```
 
+***
+
 ## Best Practices
 
 * **Keep it Simple**: Avoid jargon and overly technical language.
@@ -148,7 +158,7 @@ It is welcome and will help to improve your tutotial and yur contribution.
 * **Update Regularly**: Technology evolves, and so should your content.
 * **Engage with the Community**: Participate in forums and discussions to understand common pain points and topics of interest.
 
-## Conclusion
+***
 
 Contributing to Flashback documentation, tutorials, and how-toes is a rewarding way to enhance your skills, support the community, and promote the adoption of blockchain technology. By following these guidelines, you can make meaningful contributions that benefit both newcomers and experienced developers.
 
