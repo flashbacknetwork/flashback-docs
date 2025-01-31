@@ -1,4 +1,8 @@
-# 📊 Market Analysis
+---
+hidden: true
+---
+
+# 📊 Copy of Market Analysis
 
 ## Prerequisites
 

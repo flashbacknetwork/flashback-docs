@@ -1,10 +1,12 @@
 # Overview
 
-<figure><img src="../../.gitbook/assets/Img_Arch.png" alt=""><figcaption><p>General and Current Architecture of our technology (WIP)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/modell_platform.png" alt=""><figcaption><p>General and Current Architecture of our technology</p></figcaption></figure>
 
 Today, the development of web3 technologies has led to the emergence of new concepts that break with traditional technologies. Decentralized networks have made it possible to implement new technologies and concepts.
 
 **Flashback** is designed as a decentralized, trust-enforced system that connects consumers and storage providers while maintaining transparency through smart contracts. **Storage Providers** and **Consumers** interact indirectly through **blockchain-based orchestrators**, which ensure compliance and streamline data and payment flows. The **Flashback Platform** registers and listings enhance discoverability, trust, and accountability, supporting a reliable decentralized storage ecosystem.
+
+***
 
 ## **Application Layer (Consumers)**
 

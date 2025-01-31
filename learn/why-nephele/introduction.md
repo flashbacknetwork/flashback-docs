@@ -8,4 +8,6 @@ Businesses have decided to develop hybrid and multi-cloud environments to reduce
 \
 Yet even Web3 companies are limiting their integration, citing the complexity of integrations, poor quality of service (QoS), compliance concerns, unprofitable storage operators, and slow retrieval speeds as reasons for making it suitable only for cold storage.&#x20;
 
-**The main challenges remain unprofitable storage operators and the slow retrieval speeds of existing storage DePin solutions**. Additionally, the mass adoption of Web3 technologies by traditional businesses will only be possible by balancing the innovation of storage DePin and the experience of existing public cloud providers.
+:rocket: **The main challenges remain unprofitable storage operators and the slow retrieval speeds of existing storage DePin solutions**.&#x20;
+
+Additionally, traditional businesses' mass adoption of Web3 technologieswill only be possible by balancing the innovation of storage DePin and the experience of existing public cloud providers.
