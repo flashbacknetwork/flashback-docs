@@ -27,7 +27,7 @@
   * [Tokenization](discover-flashback/neph-token/tokenization.md)
 * [📊 Market Analysis](discover-flashback/market-analysis/README.md)
   * [Statistics](discover-flashback/market-analysis/statistics.md)
-  * [Quick Cloud Review](discover-flashback/market-analysis/quick-cloud-review.md)
+  * [Landscape Review](discover-flashback/market-analysis/landscape-review.md)
   * [Positioning](discover-flashback/market-analysis/positioning.md)
 * [📊 Copy of Market Analysis](discover-flashback/copy-of-market-analysis.md)
 * [Copy of Economy Model](discover-flashback/neph-token-1.md)

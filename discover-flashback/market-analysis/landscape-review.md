@@ -1,23 +1,11 @@
----
-hidden: true
----
+# Landscape Review
 
-# Quick Cloud Review
+## Prerequisites
 
-## **Why Flashback Stands Out**
+I recommend that you read the sections:
 
-✅ **Decentralized & trustless:** Use the power of smart contract technologies to support a transparent and auditable storage.\
-✅ **Multi-cloud optimized:** Enables hybrid storage across centralized and decentralized clouds with a unique orchestration system developped for leveraging the best of both worlds.\
-✅ **Agentic AI:** Unique platform integrating Agentic AI to optimize the costs and resource allocation with the marketplace and tools of the platform.\
-✅ **Cost efficiency:** Balances **storage cost vs. retrieval speed** dynamically according to the providers or nodes' performances of DePin technologies;
-
-Unlike **AWS, Azure, and GCP**, it eliminates **vendor lock-in** and enables **provable storage**.
-
-Unlike **Akash, Filecoin, and Flux**, it integrates **multi-cloud orchestration**, ensuring **optimized performance** while maintaining decentralization.
-
-Unlike **Anthos, OpenShift, and Terraform**, it doesn’t rely only on centralized cloud providers but rather **balances between decentralized and centalized environments**.
-
-***
+* [Cloud Storage](../../learn-more/depin-and-cloud-storage/) presents the genesis and market of the Cloud, with an introduction to trends and future technologies integrated into data storage solutions,
+* [DePIN Storage](../../learn-more/depin-and-cloud-storage-1/) explores the world of decentralized data storage technologies, with a detailed analysis of the players in this emerging and exponentially growing segment.
 
 ***
 
