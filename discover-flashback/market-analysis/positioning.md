@@ -1,6 +1,6 @@
 # Positioning
 
-To better understand where **Flashback** fits in the cloud ecosystem, here’s a breakdown of the three major **cloud solution categories.**
+To better understand where **Flashback** fits in the cloud ecosystem, here’s a breakdown of the three major **cloud solution categories** that exist toda&#x79;**.**
 
 ***
 
@@ -8,7 +8,7 @@ To better understand where **Flashback** fits in the cloud ecosystem, here’s a
 
 Centralized cloud providers offer on-demand storage resources. They own and operate **massive data centers** worldwide, allowing businesses to deploy and scale applications globally.
 
-| ✅Pros                                     | ❌Cons                                                        |
+| ✅ Pros                                    | ❌ Cons                                                       |
 | ----------------------------------------- | ------------------------------------------------------------ |
 | High performance and reliability          | Vendor lock-in & high costs                                  |
 | Fully managed services with automation    | Data privacy concerns (government access, regulatory issues) |
@@ -20,7 +20,7 @@ Centralized cloud providers offer on-demand storage resources. They own and oper
 
 Decentralized cloud solutions operate **peer-to-peer**, using blockchain to **distribute storage tasks** across independent nodes. Instead of a single entity owning the infrastructure, individual participants rent out computing/storage resources.
 
-| ✅Pros                                         | ❌Cons                                         |
+| ✅ Pros                                        | ❌ Cons                                        |
 | --------------------------------------------- | --------------------------------------------- |
 | Privacy-first and censorship-resistant        | Typically slow and unreliable to scale        |
 | Lower costs due to marketplace-driven pricing | Less mature ecosystem than centralized clouds |
@@ -32,7 +32,7 @@ Decentralized cloud solutions operate **peer-to-peer**, using blockchain to **di
 
 Multi-cloud orchestrators **abstract cloud infrastructure** by allowing organizations to **deploy workloads across multiple cloud providers** (AWS, Azure, GCP, etc.). These tools optimize **cost, redundancy, and scalability** without vendor lock-in.
 
-| ✅Pros                                                        | ❌Cons                                                |
+| ✅ Pros                                                       | ❌Cons                                                |
 | ------------------------------------------------------------ | ---------------------------------------------------- |
 | Flexibility to run applications on different cloud providers | Still relies on centralized cloud providers          |
 | Avoid vendor lock-in and optimize cloud costs                | Can be complex to implement and manage               |
@@ -63,6 +63,8 @@ This table evaluates **Flashback** against leading **multi-cloud orchestrators**
 ***
 
 ## :rocket: **Why Flashback Stands Out**
+
+**Flashback is the world's first agentic cloud diversification platform.**
 
 ✅ **Decentralized & trustless:** Use the power of smart contract technologies to support transparent and auditable storage.\
 ✅ **Multi-cloud optimized:** Enables hybrid storage across centralized and decentralized clouds with a unique orchestration system developed for leveraging the best of both worlds.\
