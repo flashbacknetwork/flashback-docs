@@ -1,10 +1,10 @@
 # Positioning
 
-To better understand where **Flashback** fits in the cloud ecosystem, here’s a breakdown of major three **cloud solution categories.**
+To better understand where **Flashback** fits in the cloud ecosystem, here’s a breakdown of the three major **cloud solution categories.**
 
 ***
 
-## :control\_knobs: **Centralized Cloud Providers**&#x20;
+## :classical\_building: **Centralized Cloud Providers**&#x20;
 
 Centralized cloud providers offer on-demand storage resources. They own and operate **massive data centers** worldwide, allowing businesses to deploy and scale applications globally.
 
@@ -16,19 +16,19 @@ Centralized cloud providers offer on-demand storage resources. They own and oper
 
 ***
 
-## :desktop: **Decentralized Cloud Providers**
+## :spider\_web: **Decentralized Cloud Providers**
 
 Decentralized cloud solutions operate **peer-to-peer**, using blockchain to **distribute storage tasks** across independent nodes. Instead of a single entity owning the infrastructure, individual participants rent out computing/storage resources.
 
-| ✅Pros                                         | ❌Cons                                                       |
-| --------------------------------------------- | ----------------------------------------------------------- |
-| Privacy-first and censorship-resistant        | Performance and availability depend on network participants |
-| Lower costs due to marketplace-driven pricing | Less mature ecosystem than centralized clouds               |
-| No single point of failure                    | Limited enterprise adoption                                 |
+| ✅Pros                                         | ❌Cons                                         |
+| --------------------------------------------- | --------------------------------------------- |
+| Privacy-first and censorship-resistant        | Typically slow and unreliable to scale        |
+| Lower costs due to marketplace-driven pricing | Less mature ecosystem than centralized clouds |
+| No single point of failure                    | Limited enterprise adoption                   |
 
 ***
 
-## :musical\_score: **Multi-Cloud Orchestrators**
+## :partly\_sunny: **Multi-Cloud Orchestrators**
 
 Multi-cloud orchestrators **abstract cloud infrastructure** by allowing organizations to **deploy workloads across multiple cloud providers** (AWS, Azure, GCP, etc.). These tools optimize **cost, redundancy, and scalability** without vendor lock-in.
 
@@ -44,17 +44,15 @@ Multi-cloud orchestrators **abstract cloud infrastructure** by allowing organiza
 
 Flashback is a **decentralized multi-cloud platform** that orchestrates peer-to-peer bridge storage with centralized and decentralized Cloud providers.
 
-The following table presents the positioning of&#x20;
-
 #### **Comparative Table**
 
-<table data-full-width="true"><thead><tr><th>Feature</th><th width="203">Centralized Providers </th><th width="212">Decentralized Providers </th><th width="229">Multi-Cloud Orchestrators</th><th>Flashback</th></tr></thead><tbody><tr><td><strong>Infrastructure Ownership</strong></td><td>Fully owned by a single entity</td><td>Peer-to-peer network of independent providers</td><td>Uses resources from multiple centralized providers</td><td>Uses resources from multiple centralized and decentralized providers</td></tr><tr><td><strong>Decentralization</strong></td><td>❌ No – Fully centralized</td><td>✅ Yes – Peer-to-peer, no single authority</td><td>⚠️ Partial – Uses centralized providers but avoids lock-in</td><td>✅ Yes – Trustless &#x26; multi-ecosystem governance</td></tr><tr><td><strong>Scalability &#x26; Flexibility</strong></td><td>✅ High – Auto-scaling, global data centers</td><td>⚠️ Moderate – Limited by validator network</td><td>✅ High – Can run across major centralized providers</td><td>✅ High – Multi-cloud policies with seamless connection </td></tr><tr><td><strong>Data Control &#x26; Privacy</strong></td><td>❌ Limited – Data controlled by provider</td><td>✅ High – Users control encryption and storage</td><td>⚠️ Moderate – Depends on provider policies</td><td>✅ High – AI-driven recommendations and manual settings for full control over encryption and storage </td></tr><tr><td><strong>Cost &#x26; Pricing Model</strong></td><td>❌ Expensive – Fixed pricing &#x26; egress fees</td><td>✅ Competitive – Market-driven pricing</td><td>⚠️ Varies – Can optimize costs across clouds</td><td>✅ Dynamic pricing – Optimized based on user' need and usage, and marketplace pricing</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="154">Feature</th><th width="197">Centralized Providers </th><th width="212">Decentralized Providers </th><th width="230">Multi-Cloud Orchestrators</th><th>Flashback</th></tr></thead><tbody><tr><td><strong>Infrastructure Ownership</strong></td><td>Fully owned by a single entity</td><td>Peer-to-peer network of independent providers</td><td>Uses resources from multiple centralized providers</td><td>Uses resources from multiple centralized and decentralized providers</td></tr><tr><td><strong>Decentralization</strong></td><td>❌ No – Fully centralized</td><td>✅ Yes – Peer-to-peer, no single authority</td><td>⚠️ Partial – Uses centralized providers but avoids lock-in</td><td>✅ Yes – Trustless &#x26; multi-ecosystem governance</td></tr><tr><td><strong>Scalability &#x26; Flexibility</strong></td><td>✅ High – Auto-scaling, global data centers</td><td>⚠️ Moderate – Limited by validator network</td><td>✅ High – Can run across major centralized providers</td><td>✅ High – Multi-cloud policies with seamless connection </td></tr><tr><td><strong>Data Control &#x26; Privacy</strong></td><td>❌ Limited – Data controlled by provider</td><td>✅ High – Users control encryption and storage</td><td>⚠️ Moderate – Depends on provider policies</td><td>✅ High – AI-driven recommendations and manual settings for full control over encryption and storage </td></tr><tr><td><strong>Cost &#x26; Pricing Model</strong></td><td>❌ Expensive – Fixed pricing &#x26; egress fees</td><td>✅ Competitive – Market-driven pricing</td><td>⚠️ Varies – Can optimize costs across clouds</td><td>✅ Dynamic pricing – Optimized based on user' need and usage, and marketplace pricing</td></tr></tbody></table>
 
 ***
 
 ## **Comparison of Top Multi-Cloud Orchestrators with Flashback**
 
-This table evaluates **Flashback** against leading **multi-cloud orchestrators** and includes **Google Cloud** (as a centralized cloud provider) and **Filecoin** (as a decentralized storage provider) for reference as non multi-clud providers. It gives here the ositioning of Flashback as a major technological revolution in the Cloud landscape.
+This table evaluates **Flashback** against leading **multi-cloud orchestrators** and includes **Google Cloud** (as a centralized cloud provider) and **Filecoin** (as a decentralized storage provider) for reference as non-multi-cloud providers. It gives here the positioning of Flashback as a major technological revolution in the Cloud landscape.
 
 ***
 
@@ -66,8 +64,8 @@ This table evaluates **Flashback** against leading **multi-cloud orchestrators**
 
 ## :rocket: **Why Flashback Stands Out**
 
-✅ **Decentralized & trustless:** Use the power of smart contract technologies to support a transparent and auditable storage.\
-✅ **Multi-cloud optimized:** Enables hybrid storage across centralized and decentralized clouds with a unique orchestration system developped for leveraging the best of both worlds.\
+✅ **Decentralized & trustless:** Use the power of smart contract technologies to support transparent and auditable storage.\
+✅ **Multi-cloud optimized:** Enables hybrid storage across centralized and decentralized clouds with a unique orchestration system developed for leveraging the best of both worlds.\
 ✅ **Agentic AI:** Unique platform integrating Agentic AI to optimize the costs and resource allocation with the marketplace and tools of the platform.\
 ✅ **Cost efficiency:** Balances **storage cost vs. retrieval speed** dynamically according to the providers or nodes' performances of DePin technologies;
 
