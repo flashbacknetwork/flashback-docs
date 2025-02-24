@@ -2,11 +2,12 @@
 icon: '2'
 ---
 
-# 🪙 Get FLASH Tokens
+# 🪙 FLASH Tokens
 
-FLASH is not listed yet. :cry:\
-\
-However, you can get FLASH tokens by:
+Users can pay for Flashback's platform services using both fiat and cryptocurrency, but FLASH tokens will serve as a utility token and native currency within the Flashback ecosystem, facilitating key functions such as payments, staking, and participant incentivization.
 
-* Participating as a private investor (KYC). Flashback is currently in private token sale rounds.
-* Participating in the community and ambassador programs by joining our [Discord](https://discord.gg/yy8kyM5qFB) first.
+FLASH is not listed yet. However, you can potentially get FLASH tokens by:
+
+* Participating as a private investor (KYC).
+* Participating in our community and ambassador programs by joining our [Discord](https://discord.gg/yy8kyM5qFB).
+

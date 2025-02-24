@@ -7,7 +7,7 @@
 ## GETTING STARTED
 
 * [⚡ Join Pre-Alpha](getting-started/get-wallets.md)
-* [🪙 Get FLASH Tokens](getting-started/get-neph-tokens.md)
+* [🪙 FLASH Tokens](getting-started/get-neph-tokens.md)
 * [📊 Network Statistics](getting-started/network-statistics.md)
 
 ## DISCOVER FLASHBACK
