@@ -1,6 +1,6 @@
 # Overview
 
-<figure><img src="../../.gitbook/assets/Flashback Network Design.pptx.jpg" alt=""><figcaption><p>General and Current Architecture of our technology with our Stellar (XLM) Prototype</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Flashback Network Design.pptx (1).jpg" alt=""><figcaption><p>General and Current Architecture of our technology with our Stellar (XLM) Prototype</p></figcaption></figure>
 
 Today, the development of web3 technologies has led to the emergence of new concepts that break with traditional technologies. Decentralized networks have made it possible to implement new technologies and concepts.
 
@@ -8,20 +8,20 @@ Today, the development of web3 technologies has led to the emergence of new conc
 
 ***
 
-## **Application Layer (Consumers)**
+## **Consumers (Application Layer)**
 
 The Flashback platform and its marketplace are the native medium of exchange for transactions in the ecosystem. Consumers pay storage providers to reserve and use storage services in an SLA. The Flashback network platform will provide a marketplace that lists the offers and manages payments.&#x20;
 
-**Defintion of Consumers**:
+**Definition of Consumers**:
 
-* Represent individuals, organizations, or applications requiring storage solution.&#x20;
-* Consumers interact with storage providers via Falshaback platform and smart contract orchestrators to store, retrieve, or manage their data.
+* Represent individuals, organizations, or applications requiring storage solutions.&#x20;
+* Consumers interact with storage providers via the Flashback platform and smart contract orchestrators to store, retrieve, or manage their data.
 
 The SLA payments depend on the requested storage, the contract duration, the cloud providers, the redundancy, the QoS level, and other parameters that will be integrated into the SLA. Payment can be made in fiat currency or cryptocurrency.&#x20;
 
 ### **Billing and Resource Allocation**
 
-The platform will use billing processes by creating smart contract for automated resource allocation and payments. For example:
+The platform will use billing processes by creating smart contracts for automated resource allocation and payments. For example:
 
 * Consumers specify their storage requirements (e.g., data volume, duration).
 * Smart contracts dynamically calculate costs based on the selected provider’s pricing and allocate the required payment.
@@ -29,11 +29,11 @@ The platform will use billing processes by creating smart contract for automated
 
 Hence, Flashback enhances operational efficiency, reduces friction for consumers, and introduces the advantages of blockchain-based payment systems.
 
-## **Platform and Blockchain Layer**
+## **Flashback Platform (Platform and Blockchain Layer)**
 
-This layer mainly manages the operations of SLA submissions, arbitrages, and other subtilities. Suppose the application pays in tokens and uses centralized Cloud providers like Amazon (tokenization of Cloud credits). In that case, the platform will then allocate a part of the received funds to a community fund and for decentralized governance. The platform will also optimize the use of smart contracts and the selection fo infrastructure providers.
+This layer mainly manages the operations of SLA submissions, arbitrages, and other subtilities. Suppose the application pays in tokens and uses centralized Cloud providers like Amazon (tokenization of Cloud credits). In that case, the platform will allocate part of the received funds to a community fund and decentralized governance. The platform will also optimize the use of smart contracts and the selection of infrastructure providers.
 
-### **Blockchain Layer: Smart Contract Orchestrators**
+### **Smart Contract Orchestrators**
 
 Both orchestrators communicate through the **Flashback platform**, ensuring that SLAs, payments, and quality metrics are synchronized and enforced.
 
@@ -59,7 +59,7 @@ Both orchestrators communicate through the **Flashback platform**, ensuring that
   * Provide the user interface with a complete API and support a software development kit (SDK) for customizing and improving P2P streams.&#x20;
   * AI-driven tools and features to improve the users' experience with Flashback related to pricing management, quality-of-service designs, compliance, and more.
 
-## **Hardware/Cloud Server Layer**
+## **Data Providers (Hardware/Cloud Server Layer)**
 
 ### **Infrastructure Storage Provider network**
 
@@ -79,6 +79,6 @@ The definition of an infrastructure storage provider is:
 
 The platform will directly manage the centralized providers by paying them according to the consumers' needs. Naturally, these providers mainly accept fiat payments, and the platform will manage the payment transmission from the consumers to the provider. Flashback will make it possible to use the various services of these providers seamlessly to guarantee a complete user experience.&#x20;
 
-DePin providers like Filecoin, Arweave, or StorJ accept payment in fiat but in their native tokens. Hence, the platform will manage the payment transmission from the consumer to the provider according to the currency the consumer selects. The platform will enable efficient balance of payments and harmonization with DePin tools and technologies. As DePin is decentralized, we will work more specifically with the service providers using it, and Flashback will manage the selection of services.
+DePin providers like Filecoin, Arweave, or StorJ accept payment in fiat but in their native tokens. Hence, the platform will manage the payment transmission from the consumer to the provider according to the currency the consumer selects. The platform will enable an efficient balance of payments and harmonization with DePin tools and technologies. As DePin is decentralized, we will work more specifically with the service providers using it, and Flashback will manage the selection of services.
 
 \
