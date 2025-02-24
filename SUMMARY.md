@@ -1,7 +1,7 @@
 # Table of contents
 
 * [📄 Flashback Documentation (WIP)](README.md)
-* [🙌 Contribute to the Documentation](contributing.md)
+* [👐 Contribute to the Documentation](contributing.md)
 * [📔 Glossary](glossary.md)
 
 ## GETTING STARTED
