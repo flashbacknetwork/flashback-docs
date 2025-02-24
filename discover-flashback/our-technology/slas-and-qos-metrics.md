@@ -6,36 +6,15 @@ description: >-
 
 # SLAs and QoS metrics
 
-These metrics ensure a consistent and reliable experience for data consumers while providing transparency and accountability for storage providers.
+These metrics ensure a consistent and reliable experience for users while providing transparency and accountability for storage providers.
 
 ## SLA Definitions
 
-The following SLA parameters define the minimum standards storage providers must meet. They will be indicated by the providers when creating a Storage Unit in the smart contract.
+The following SLA parameters define the minimum standards storage providers must meet. The Flashback platform will demand the users of the platform to specify the value of the different key metrics to the providers when creating a Storage Unit in the smart contract. Hence, if the storage provider can meet the conditions, He will accept it and if not, He will decline the storage request.
 
-#### **1. Latency**
+<table><thead><tr><th>Key Metrics</th><th width="499">Definitions</th></tr></thead><tbody><tr><td><strong>Latency</strong></td><td><p>The time it takes to complete a read or write operation.</p><p><strong>Example</strong>: Maximum average latency of <strong>50ms</strong> for read/write operations</p></td></tr><tr><td><strong>Upload Speed</strong></td><td><p>The speed at which data can be uploaded to the storage service.</p><p><strong>Example</strong>: Minimum speed of <strong>10 MB/s</strong> for uploads of files <strong>1 GB or smaller</strong>.</p></td></tr><tr><td><strong>Download Speed</strong></td><td><p>The speed at which data can be downloaded from the storage service.</p><p><strong>Example</strong>: Minimum speed of <strong>20 MB/s</strong> for downloads of files <strong>1 GB or smaller</strong>.</p></td></tr><tr><td><strong>Uptime</strong></td><td><p>The percentage of time the storage service is operational and accessible.</p><p><strong>Example</strong>: <strong>99.95% uptime</strong> over a rolling 30-day period.</p></td></tr><tr><td><strong>Error Rate</strong></td><td><p>The proportion of failed operations (e.g., upload, download, or delete) compared to the total operations.</p><p><strong>Example</strong>: Less than <strong>0.01% failed operations</strong> per month.</p></td></tr></tbody></table>
 
-* **Definition**: The time it takes to complete a read or write operation.
-* **SLA Requirement example**: Maximum average latency of **50ms** for read/write operations.
-
-#### **2. Upload Speed**
-
-* **Definition**: The speed at which data can be uploaded to the storage service.
-* **SLA Requirement example**: Minimum speed of **10 MB/s** for uploads of files **1 GB or smaller**.
-
-#### **3. Download Speed**
-
-* **Definition**: The speed at which data can be downloaded from the storage service.
-* **SLA Requirement example**: Minimum speed of **20 MB/s** for downloads of files **1 GB or smaller**.
-
-#### **4. Uptime**
-
-* **Definition**: The percentage of time the storage service is operational and accessible.
-* **SLA Requirement example**: **99.95% uptime** over a rolling 30-day period.
-
-#### **5. Error Rate**
-
-* **Definition**: The proportion of failed operations (e.g., upload, download, or delete) compared to the total operations.
-* **SLA Requirement example**: Less than **0.01% failed operations** per month.
+***
 
 ## QoS Records
 
@@ -79,6 +58,8 @@ The summarized data includes:
 * Average latency, upload speed, and download speed over the reporting period.
 * Uptime percentage.
 * Error rate statistics.
+
+***
 
 ## Enforcement
 

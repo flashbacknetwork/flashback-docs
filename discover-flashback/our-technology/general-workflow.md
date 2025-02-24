@@ -1,59 +1,49 @@
 # General Workflow
 
-The following image represents the general workflow of Flashback. Here's a breakdown of the layers and the interactions between blocks:
+<figure><img src="../../.gitbook/assets/Flashback Ecosystem Diagrams (2).jpg" alt=""><figcaption><p>This diagram represents the simplifed general workflow</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Overview_Logics.PNG" alt=""><figcaption><p>This diagram represents the </p></figcaption></figure>
+## **Orchestrator Smart Contract**
 
-## **Core Component: Orchestrator Smart Contract**
+It acts as the central coordinating unit for managing storage providers, users, and their interactions. The role of the smart contract is to guarantee the commitments of the service-level agreements (SLA) and their assessment over time. The smart contract will hold the payment balance specifically for the providers bringing their storage infrastructure into the platform. See more [here](smart-contract.md).
 
-It acts as the central coordinating unit for managing data providers, consumers, and their interactions.
+***
 
-* **Functions**:
-  * **SLAs (Service Level Agreements)**: Defines and enforces the quality of service between providers and consumers.
-  * **QoS (Quality of Service)**: Tracks and ensures storage providers meet performance and reliability standards.
-  * **Tokenomics**: Manages the economic incentives, including payments, rewards, and penalties in the ecosystem.
-  * **Scoring**: Rates data providers based on performance, reliability, and SLA compliance.
-  * **Stats**: Collects and provides usage data for transparency and optimization.
+## **Storage Providers**
 
-## **Data Providers**
+Each provider has specific "Data Units," representing discrete storage capacities or services (e.g., AWS S3 buckets, Azure Blob Storage, or Custom Functions). This elementary reservation is to build a system where the user controls their expenses and their needs. At the same time, it ensures the storage providers monitor more efficiently the security and the distribution of data in its infrastructure.
 
-They represent storage services or infrastructure providers like AWS, Azure, Google Cloud Platform (GCP), or a physical infrastructure providers (smaller entities).
+Providers register their data units with the Orchestrator Smart Contract to make their services available for reservation. The data unit is not only a storage capacity offered by the provider but provides additional information such as the quality of services, the geographical location, and more. Each data unit supports multiple reservations (e.g., Reservation 1, Reservation 2, Reservation 3), which represent allocations made by consumers for specific data storage needs. The **Orchestrator tracks these reservations** and ensures they align with SLA terms.
 
-* **Data Units**:
-  * Each provider has specific "Data Units," representing discrete storage capacities or services (e.g., AWS S3 buckets, Azure Blob Storage, or Custom Functions).
-* **Interaction with Orchestrator**:
-  * Providers register their data units with the Orchestrator Smart Contract to make their services available for reservation.
+***
 
-## **Data Reservations**
+## **API in Flashback Platform**
 
-* Each data unit supports multiple reservations (e.g., Reservation 1, Reservation 2, Reservation 3), which represent allocations made by consumers for specific data storage needs.
-* The **Orchestrator tracks these reservations** and ensures they align with SLA terms.
+The API serves as the interface for communication between the smart contract, the storage provider, and the users. It allows consumers to query available data units, reserve storage, and interact with providers directly and provides a standardized way for applications and services to interact with the platform. See more [here](api-service.md).
 
-## **Open API in Flashback Platform**
+***
 
-* **Role**: Serves as the interface for communication between the Orchestrator Smart Contract, Data Providers, and Consumers.
-* **Features**:
-  * Allows consumers to query available data units, reserve storage, and interact with providers directly.
-  * Provides a standardized way for external applications (Consumer Apps) to interact with the platform.
+## The Users
 
-## &#x20;**Data Consumers**
+Individuals, businesses, or applications requiring storage services rely on the **Scoring** system to select providers based on reliability, performance, and cost. Scoring ensures providers are ranked fairly and transparently based on their SLA compliance, and QoS metrics, but also from the quality report of users. This unique feature allows for a fair and clear understanding of providers' quality, a fundamental component of incentivizing the quality of services.
 
-They represent entities (businesses or users) utilizing the storage services provided by the platform.
+Additionally, consumers can analyze the Flashback network and the performances of storage providers with the QoS metrics and select what best fits them within the data units. They represent entities (businesses or users) utilizing the storage services provided by the platform.
 
-* **Consumer Applications**:
-  * Applications connect to the Open API to manage their storage needs.
+* **Applications**:
+  * Applications connect to the API to manage their storage needs.
   * Apps can reserve data units and interact with multiple providers through the API.
 * **Interaction with Orchestrator**:
-  * Consumers rely on the Orchestrator to ensure service quality, track payments, and manage disputes.
+  * Users rely on the Orchestrator to ensure service quality, track payments, and manage disputes.
+
+***
 
 ## **Interactions Between Elements**
 
 1. **Providers ↔ Orchestrator**:
    * Providers register data units and agree to SLAs managed by the Orchestrator. Based on performance, they receive scoring and incentives.
-2. **Consumers ↔ Orchestrator**:
+2. **Users ↔ Orchestrator**:
    * Consumers reserve storage and make payments via the Orchestrator, which ensures QoS and compliance with SLAs.
-3. **Consumers ↔ Open API ↔ Providers**:
-   * Through the Open API, consumers directly interact with data units for file transfers and storage access.
+3. **Consumers ↔ API ↔ Providers**:
+   * Through the API, consumers directly interact with data units for file transfers and storage access.
 4. **Tokenomics Layer**:
-   * Integrated into the Orchestrator, it manages payments from consumers, rewards for providers, and penalties for non-compliance.
+   * Integrated into the Orchestrator, it manages payments from consumers, rewards for providers, and penalties for non-compliance. This is a long-term feature that we are improving currently in our development iterations.
 
