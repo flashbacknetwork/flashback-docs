@@ -4,8 +4,6 @@ icon: '1'
 
 # ⚡ Join Pre-Alpha
 
-More information incoming.&#x20;
+Be among the first to experience Flashback. Sign up for our pre-alpha waitlist to test our technology and stay informed about early access opportunities and upcoming product releases: [https://docs.google.com/forms/d/e/1FAIpQLSdbJqcexrvjB7Oz3gf-8UR8XbV80LXoslCy8IIkcS\_kBANvPw/viewform](https://docs.google.com/forms/d/e/1FAIpQLSdbJqcexrvjB7Oz3gf-8UR8XbV80LXoslCy8IIkcS_kBANvPw/viewform)
 
-:registered: By waiting for it, register to our whitelist: [https://docs.google.com/forms/d/e/1FAIpQLSdbJqcexrvjB7Oz3gf-8UR8XbV80LXoslCy8IIkcS\_kBANvPw/viewform](https://docs.google.com/forms/d/e/1FAIpQLSdbJqcexrvjB7Oz3gf-8UR8XbV80LXoslCy8IIkcS_kBANvPw/viewform)
-
-Help grow and enhance the Flashback ecosystem through our ambassador programs designed for every level of developers and contributors: [https://www.flashback.tech/flash-community#Ambassador-Programs](https://www.flashback.tech/flash-community#Ambassador-Programs)
+Looking to do more than just wait? Help shape the Flashback ecosystem by joining our ambassador programs, open to developers and contributors of all skill levels. Share ideas, collaborate with peers, and earn rewards as you grow alongside our community. [https://www.flashback.tech/flash-community#Ambassador-Programs](https://www.flashback.tech/flash-community#Ambassador-Programs)
