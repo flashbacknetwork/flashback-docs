@@ -1,6 +1,6 @@
 # Overview
 
-<figure><img src="../../.gitbook/assets/modell_platform.png" alt=""><figcaption><p>General and Current Architecture of our technology</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Flashback Network Design.pptx.jpg" alt=""><figcaption><p>General and Current Architecture of our technology with our Stellar (XLM) Prototype</p></figcaption></figure>
 
 Today, the development of web3 technologies has led to the emergence of new concepts that break with traditional technologies. Decentralized networks have made it possible to implement new technologies and concepts.
 
@@ -25,7 +25,7 @@ The platform will use billing processes by creating smart contract for automated
 
 * Consumers specify their storage requirements (e.g., data volume, duration).
 * Smart contracts dynamically calculate costs based on the selected provider’s pricing and allocate the required payment.
-* Payments are released to the provider upon service delivery confirmation, ensuring trust and transparency.
+* Upon service delivery confirmation, payments are released to the provider, ensuring trust and transparency.
 
 Hence, Flashback enhances operational efficiency, reduces friction for consumers, and introduces the advantages of blockchain-based payment systems.
 
