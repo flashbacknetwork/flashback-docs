@@ -1,6 +1,6 @@
 # 📔 Glossary
 
-This is our glossary. It will help you to have the major definitions to navigate seamlessly in the documentation and enjoy the Flashback experience.
+Welcome to our Glossary,  a curated collection of key terms and definitions designed to help you navigate our documentation with ease and get the most out of your Flashback experience.
 
 [A](glossary.md#a) | [B](glossary.md#b) | [C](glossary.md#c) | [D](glossary.md#d) | [E](glossary.md#d) | [F](glossary.md#f) | [G](glossary.md#g) | [H](glossary.md#h) | [I](glossary.md#i) | [J](glossary.md#j) | [K](glossary.md#k) | [L](glossary.md#l) | [M](glossary.md#m) | [N](glossary.md#n) | [O](glossary.md#o) | [P](glossary.md#p) | [Q](glossary.md#q) | [R](glossary.md#r) | [S](glossary.md#s) | [T](glossary.md#t) | [U](glossary.md#u) | [V](glossary.md#v) | [W](glossary.md#w) | [X](glossary.md#x) | [Y](glossary.md#y) | [Z](glossary.md#z)
 
