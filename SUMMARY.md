@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📄 Flashback Documentation (WIP)](README.md)
+* [📄 Flashback Documentation](README.md)
 * [👐 Contribute to the Documentation](contributing.md)
 * [📔 Glossary](glossary.md)
 
