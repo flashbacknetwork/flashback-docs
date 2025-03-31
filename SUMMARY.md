@@ -7,12 +7,12 @@
 ## GETTING STARTED
 
 * [⚡ Flashback 101](getting-started/flashback-101.md)
+* [🚫 The Problem](getting-started/the-problem.md)
+* [💡 The Solution](getting-started/the-solution.md)
 * [📊 Network Statistics](getting-started/network-statistics.md)
 
 ## DISCOVER FLASHBACK
 
-* [🚫 The Problem](learn/why-nephele/introduction.md)
-* [💡 The Solution](discover-flashback/the-solution.md)
 * [🛡️ Our Technology](discover-flashback/our-technology/README.md)
   * [Overview](discover-flashback/our-technology/overview.md)
   * [General Workflow](discover-flashback/our-technology/general-workflow.md)
