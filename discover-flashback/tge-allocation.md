@@ -1,5 +1,4 @@
 ---
-icon: rocket-launch
 hidden: true
 ---
 

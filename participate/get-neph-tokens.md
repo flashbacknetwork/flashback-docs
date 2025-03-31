@@ -1,7 +1,3 @@
----
-icon: '2'
----
-
 # 🪙 FLASH Tokens
 
 Users can pay for Flashback's platform services using both fiat and cryptocurrency, but FLASH tokens will serve as a utility token and native currency within the Flashback ecosystem, facilitating key functions such as payments, staking, and participant incentivization.

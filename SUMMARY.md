@@ -6,8 +6,6 @@
 
 ## GETTING STARTED
 
-* [⚡ Join Pre-Alpha](getting-started/get-wallets.md)
-* [🪙 FLASH Tokens](getting-started/get-neph-tokens.md)
 * [📊 Network Statistics](getting-started/network-statistics.md)
 
 ## DISCOVER FLASHBACK
@@ -36,7 +34,8 @@
 
 ## PARTICIPATE
 
-* [Page 1](participate/page-1.md)
+* [⚡ Join Pre-Alpha](participate/get-wallets.md)
+* [🪙 FLASH Tokens](participate/get-neph-tokens.md)
 
 ## LEARN MORE
 
