@@ -6,9 +6,9 @@ This is because centralized solutions offer proven reliability, scalability, and
 
 Here comes Flashback.&#x20;
 
-We are the <mark style="color:blue;">**first decentralized multi-cloud orchestration solution to enable companies to diversify accross both centralized and centralized Cloud providers for an unmantched flexibility and control.**</mark>
+We are the <mark style="color:blue;">**first decentralized multi-cloud orchestration solution to enable companies to diversify accross both centralized and centralized cloud providers for unmatched flexibility and control.**</mark>
 
-<mark style="color:blue;">**Primarly focusing on storage**</mark>, we are designed to be the solution of choice for companies demanding dynamic and frequent data access while reducing storage, staffing, and development costswith different providers, focusing on Web3 gaming, DeFi applications, and AI technologies.
+<mark style="color:blue;">**Primarily focusing on storage**</mark>, we are designed to be the solution of choice for companies demanding dynamic and frequent data access while reducing storage, staffing, and development costswith different providers, focusing on Web3 gaming, DeFi applications, and AI technologies.
 
 ***
 
