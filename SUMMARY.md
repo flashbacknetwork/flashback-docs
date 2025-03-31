@@ -1,14 +1,12 @@
 # Table of contents
 
 * [📄 Flashback Documentation](README.md)
-* [👐 Contribute to the Documentation](contributing.md)
-* [📔 Glossary](glossary.md)
 
 ## GETTING STARTED
 
 * [⚡ Flashback 101](getting-started/flashback-101.md)
-* [🚫 The Problem](getting-started/the-problem.md)
-* [💡 The Solution](getting-started/the-solution.md)
+* [🚫 The Problem](learn/why-nephele/introduction.md)
+* [💡 The Solution](discover-flashback/the-solution.md)
 * [📊 Network Statistics](getting-started/network-statistics.md)
 
 ## DISCOVER FLASHBACK
@@ -37,6 +35,7 @@
 
 * [⚡ Join Pre-Alpha](participate/get-wallets.md)
 * [🪙 FLASH Tokens](participate/get-neph-tokens.md)
+* [👐 Contribute to the Documentation](participate/contributing.md)
 
 ## LEARN MORE
 
@@ -60,6 +59,7 @@
   * [Understanding Guide](learn-more/depin-and-cloud-storage-1/navigate-in-depin-projects.md)
   * [Existing Solutions](learn-more/depin-and-cloud-storage-1/depin-based-cloud-storage.md)
   * [The Situation](learn-more/depin-and-cloud-storage-1/the-situation.md)
+* [📔 Glossary](learn-more/glossary.md)
 
 ## RESEARCH
 
