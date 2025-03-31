@@ -6,7 +6,7 @@
 
 ## GETTING STARTED
 
-* [⚡ What is Flashback?](getting-started/what-is-flashback.md)
+* [⚡ Flashback 101](getting-started/flashback-101.md)
 * [📊 Network Statistics](getting-started/network-statistics.md)
 
 ## DISCOVER FLASHBACK
