@@ -24,46 +24,45 @@ Tokenizing the interactions between centralized and decentralized providers offe
 ### **Consumers (Apps and Services)**
 
 * **Payments:** All payments in the platform can be made in FLASH.
-* **Fees Benefits:** All the fees will receive a large discount if the payment is complete in FLASH.
-* **Options Benefits:** All the options will receive a large discount if the payment is complete in FLASH.
-* **Staking:** Consumers can stake FLASH to participate in the platform governance and have the following advantages:
-  * **Tiered Fee Structure:** Lower fees as transaction volumes or usage milestones are reached (e.g., 1% fee for <100 SLA/month, 0.5% for > 100 transactions/month).
-  * **Token Incentives:** Reward transaction fees for active users.
-  * **Tiered Plans:** Offer tokens for active users as rewards in the tiered plans.&#x20;
-  * **Rewards for Achievements:** The consumer will receive rewards for reaching certain milestones and improving the quality of services (e.g., providing scoring).
-* **Penalties:** Slash the stake or increase fees with the platform or penalties for the unused payment locked in the contract if the consumer does not provide adequate scoring and interactions with the platform and the smart contracts.
+* **Fee Benefits:** Users get significant discounts on fees when paying with FLASH.
+* **Options Benefits:** Discounts apply to all optional features when paid for in FLASH.
+* **Staking:** Consumers can stake FLASH to participate in platform governance and unlock benefits, including:
+  * **Tiered Fee Structure:** Lower fees as transaction volumes or usage milestones are reached (e.g. 1% fee for fewer than 100 SLAs/month, 0.5% for more than 100 transactions/month).
+  * **Token Incentives:** Active users receive benefits and rewards.
+  * **Achievement Rewards:** Consumers are rewarded for hitting milestones and improving service quality (e.g. contributing to scoring).
+* **Penalties:** If a consumer fails to meet scoring or platform engagement requirements, their stake may be slashed, fees may increase, or locked payments in the contract could incur penalties.
 
 ### **Hardware Storage Providers**
 
-* **SLA Fees Benefits:** All the fees will receive a large discount if the storage provider stakes FLASH. Additionally, if the consumers uses FLASH, the payment can be directly streamed to the storage providers in the scenario removing the platform between the consumer and the storage provider.
-* **Free marketplace Referral**: Staking FLASH will allow the storage provider to be directly referred to the marketplace without paying any fees or subscription plan. However, the "trust" label will still require to subscribe to the platform for compliance reasons.
-* **Options Benefits:** All the options will receive a large discount if the payment is complete in FLASH in the platform for the AI-driven tools and other features.
-* **Staking:** Storage providers can stake FLASH to be authorized for operations. If the token is staked, then the storage provider can receive the following bonuses:
-  * **Risk Offset:** If no penalty is received, the storage provider can receive a more generous offset for providing hardware to support maintenance costs for an initial period.
-  * **Token Incentives:** By respecting the QoS proposed in the marketplace, the storage providers may receive an additional bonus in tokens as a percentage of the payments received for SLAs
-  * **Rewards for Achievements:** By submitting legal information (registration to the compliance system) or reaching milestones, the storage provider will receive rewards.
-* **Penalties:** Slash the stake or increase fees with the platform or lock penalties from the contract's paymentif the provider does not provide an adequate report in the smart contract or does not respect the QoS terms in the SLA.&#x20;
+* **SLA Fee Benefits:** Storage providers who stake FLASH receive significant discounts on fees. Additionally, if consumers pay in FLASH, payments can be streamed directly to storage providers, bypassing the platform.
+* **Free Marketplace Referral Access**: Staking FLASH grants direct marketplace referrals without fees or subscription costs. However, obtaining the "trust" label still requires platform subscription for compliance.
+* **Option Benefits:** Discounts apply to AI-driven tools and other platform features when paid for in FLASH.
+* **Staking:** Storage providers can stake FLASH to be authorized to operate on the platform. Staking unlocks additional benefits, including:
+  * **Risk Offset:** Providers without penalties receive extra compensation to help cover hardware maintenance costs during an initial onboarding period.
+  * **Token Incentives:** Providers who meet the marketplace’s quality of service (QoS) standards may earn bonus tokens as a percentage of SLA payments.
+  * **Achievement Rewards:** Providers receive rewards for submitting legal registration details or reaching performance milestones.
+* **Penalties:** If a provider fails to submit required reports in the smart contract or does not meet QoS terms in the SLA, their stake will be slashed, fees may increase, or payments may be locked as penalties.
 
 ## **Summary of FLASH Token Flow**
 
-The FLASH token will serve as the backbone of the Flashback ecosystem, facilitating transactions, incentives, and governance. Below is a high-level overview of the token flow:
+The FLASH token will serve as the backbone of the Flashback ecosystem, facilitating The FLASH token is the foundation of the Flashback ecosystem, facilitating transactions, incentives, and governance. Here is a high-level overview of the token flow through the ecosystem:
 
 **1. Consumer Payments**
 
-* Consumers purchase FLASH tokens via exchanges or directly on the platform using fiat or other cryptocurrencies.
-* Consumers use FLASH tokens to pay for storage services, unlocking discounts and additional features.
+* Consumers acquire FLASH tokens via exchanges or directly on the platform using fiat or other cryptocurrencies.
+* FLASH is used to pay for storage services, unlocking discounts and additional features.
 
 **2. Provider Incentives**
 
-* Providers earn FLASH tokens as performance rewards, staking rewards, or SLA bonuses.
-* Providers can use FLASH tokens for governance participation or convert them into fiat/native tokens for operational expenses.
+* Storage providers earn FLASH through performance rewards, staking incentives, and SLA bonuses.
+* Providers can stake FLASH to participate in governance or convert it into fiat/native tokens to cover operational expenses.
 
 **3. Platform Operations**
 
-* Flashback collects a small transaction fee for managing payments and services, creating a sustainable revenue stream.
-* A portion of the fees is redistributed to token holders or reinvested in platform development and community initiatives.
+* Flashback collects a small transaction fee for managing payments and services, ensuring a sustainable revenue stream.
+* A portion of these fees is redistributed to token holders or reinvested in platform development and community growth.
 
 **4. Governance and Community Engagement**
 
 * FLASH token holders participate in platform governance, voting on feature updates, policy changes, and fund allocations.
-* Community members contribute to open-source projects, documentation, or marketing efforts and receive FLASH tokens as rewards.
+* Community members contribute to open-source projects, documentation, or marketing efforts and earn FLASH tokens as rewards.
