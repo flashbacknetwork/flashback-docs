@@ -38,7 +38,7 @@ The token-based system tracks real-time usage, ensuring better visibility into s
 
 ***
 
-## :pager: Incentivizing Quality of Services
+## :medal: Incentivizing Quality of Services
 
 :one: **Guaranteed Performance**
 

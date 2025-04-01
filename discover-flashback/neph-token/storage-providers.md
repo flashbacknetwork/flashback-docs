@@ -2,7 +2,7 @@
 
 The Flashback platform aims to revolutionize the data storage ecosystem by proposing a network of storage providers incentivized by the quality-of-services and the results performed in the Flashback platform.
 
-## **How are Centralized and DePin Providers paid?**
+## **How are Centralized and DePIN Providers paid?**
 
 **Centralized providers**, such as AWS, Google Cloud, and Azure, primarily operate on fiat-based payment systems (credits system). To integrate these providers into the Flashback ecosystem, tokenization will serve as an intermediary mechanism, ensuring that consumers can interact seamlessly with centralized storage services. Consumers on the Flashback platform will pay for services using either fiat, cryptocurrencies, or FLASH tokens. The platform will manage the following:
 

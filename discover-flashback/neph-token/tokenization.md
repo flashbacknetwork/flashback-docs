@@ -1,6 +1,6 @@
 # Tokenization
 
-Tokenization involves the creation and use of a digital asset—a native token—that serves as the primary medium for transactions, governance, and incentives within the platform. By leveraging tokenization, Flashback will:
+Tokenization involves the creation and use of a digital asset, a native token, that serves as the primary medium for transactions, governance, and incentives within the platform. By leveraging tokenization, Flashback will:
 
 * Simplify interactions between consumers and providers.
 * Enable seamless payments across fiat and cryptocurrency ecosystems.
