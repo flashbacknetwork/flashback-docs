@@ -2,16 +2,19 @@
 
 <figure><img src="../../.gitbook/assets/Flashback Network Design.pptx (3).jpg" alt=""><figcaption><p>General and Current Architecture of our technology with our Stellar (XLM) Prototype</p></figcaption></figure>
 
-Today, the development of web3 technologies has led to the emergence of new concepts that break with traditional technologies. Decentralized networks have made it possible to implement new technologies and concepts.
+The rise of Web3 technologies has led to the emergence of innovative concepts that challenge traditional models. Decentralized networks have paved the way for new solutions, offering greater transparency, security, and efficiency.
 
-**Flashback** is designed as a decentralized, trust-enforced system that connects users and storage providers while maintaining transparency through smart contracts. **Storage Providers (Cloud and Infrastructure)** and **Users (Applications and Services)** interact with the **Flashback Platform** and the **Smart Contract.** The smart contract ensures compliance and streamlines data and payment flows. The **Flashback platform** registers and listings enhance discoverability, trust, and accountability, supporting a reliable decentralized storage ecosystem.
+**Flashback** is designed as a decentralized, trust-enforced system that connects users and storage providers while maintaining transparency through smart contracts. **Storage Providers (cloud and infrastructure)** and **users (applications and services)** interact with the **Flashback Platform** and **Smart Contract.** The smart contract ensures compliance, streamlines data and payment flows, while the **Flashback platform** enhances discoverability, trust, and accountability, supporting a reliable decentralized storage ecosystem.
 
 ***
 
 ## **Flashback Platform**
 
-This layer mainly manages the operations of service-level agreements (SLA) submissions, arbitrages, and other tools such as a recommendation system and resource allocation optimizer. The platform will initially fiat and cryptocurrency payments (BTC, XLM, STRK, and some others) to pay for the services running on the top. The platform offers the users the freedom of choice: Multiple chains will support our smart contract. For instance, if the user is part of the Stellar ecosystem, he will be able to connect his Stellar wallet and pay in Stellar tokens. Otherwise, the platform will manage the payment and the currency conversion until the integration of decentralized swap functions.\
-Flashback uses centralized Cloud providers like Amazon Web Services or Google Cloud and allows to diversify on different centralized Cloud providers. The platform will propose a large panel of tools and services to the users for optimizing and experiencing the best storage with Flashback.
+The Flashback platform manages key operations, including service-level agreement (SLA) submissions, arbitration, and other advanced tools like a recommendation system and resource allocation optimizer.
+
+To ensure flexibility, the platform supports both fiat and cryptocurrency payments (BTC, XLM, STRK, and others) for services. The platform also offers users the freedom to choose from multiple blockchain networks that will support our smart contract. For instance, if the user is part of the Stellar ecosystem, they will be able to connect their Stellar wallet and pay in Stellar tokens. Meanwhile, the platform will handle payments and currency conversion until decentralized swap functions are integrated.
+
+Flashback integrates centralized cloud providers such as Amazon Web Services and Google Cloud, allowing diversification across different cloud solutions. The platform offers a range of tools and services to help users optimize and enhance their storage experience with Flashback.
 
 **Smart Contract Orchestrators**
 
