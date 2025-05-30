@@ -1,10 +1,14 @@
 # 🛡️ Our Technology
 
-This section explains how (storage) providers and consumers connect seamlessly through blockchain-based orchestrators. By leveraging decentralized smart contracts, Flashback ensures transparency, trust, and efficiency in all transactions.
+{% hint style="success" %}
+**With a primary focus on storage**, we are designed to be the solution of choice for companies demanding higher controlbaility while higher spectrum of decentralized offers. Flashback helps reduce investigation time across different providers while offering to providers an easy marketplace to propose their resources.
+{% endhint %}
 
-Providers offer their capacity, registered and certified on the Flashback DePin solution, to meet predefined quality standards. Consumers, including businesses and individuals, interact with these providers through orchestrators that manage storage allocation, service-level agreements (SLAs), and payments. This decentralized approach enhances discoverability, trust, and accountability, creating a reliable and efficient storage ecosystem.
+This section explains how providers and consumers connect seamlessly through blockchain-based orchestrators. By leveraging decentralized smart contracts, Flashback ensures transparency, trust, and efficiency in all transactions.
 
-At the network's core lies the **Orchestrator Smart Contract**, which acts as the trustless coordinator for the solution. It ensures SLA compliance, tracks quality-of-service (QoS) metrics, manages payments, and enforces penalties for non-compliance. The platform also integrates advanced tokenomics through its native token, FLASH, facilitating payments, staking, and governance. Supported by oracles, the network bridges on-chain and off-chain data for real-time insights, while the API module connects consumers and providers, enabling seamless interactions. Together, these components create a scalable and transparent infrastructure optimized for modern decentralized needs.
+Providers offer their capacity, registered and certified on Flashback DePin, to meet predefined quality standards. Consumers, including businesses and individuals, interact with these providers through orchestrators that manage storage allocation, service-level agreements (SLAs), and payments. This decentralized approach enhances discoverability, trust, and accountability, creating a reliable and efficient storage ecosystem.
+
+At the network's core lies the **Orchestrator Smart Contract**, which acts as the trustless coordinator for the decentralized platform. It ensures SLA compliance, tracks quality-of-service (QoS) metrics, manages payments, and enforces penalties for non-compliance. The platform also integrates advanced tokenomics through its native token, FLASH, facilitating payments, staking, and governance. Supported by oracles, the network bridges on-chain and off-chain data for real-time insights, while the API module connects consumers and providers, enabling seamless interactions. Together, these components create a scalable and transparent infrastructure optimized for modern decentralized needs.
 
 ## Section Table
 

@@ -20,7 +20,7 @@ layout:
 
 # 📄 Welcome
 
-Welcome! Here, you’ll find everything you need to understand our Flashback Depin solution, bridging decentralized storage (DePIN) with its storage and compute consumers.
+Welcome! Here, you’ll find everything you need to understand our Flashback DePin platform, bridging decentralized physical infrastructure networks (DePIN) with its storage and compute consumers.
 
 The following documentation is to help you get started, learn about our technology, and see how Flashback can transform the way you store and manage data.
 
