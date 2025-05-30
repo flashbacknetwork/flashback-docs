@@ -4,15 +4,15 @@
 
 ## **Orchestrator Smart Contract**
 
-It acts as the central coordinating unit for managing storage providers, users, and their interactions. The role of the smart contract is to guarantee the commitments of the service-level agreements (SLA) and their assessment over time. The smart contract will hold the payment balance specifically for the providers bringing their storage infrastructure into the platform. See more [here](smart-contract.md).
+It acts as the central coordinating unit for managing providers, users, and their interactions. The role of the smart contract is to guarantee the commitments of the service-level agreements (SLA) and their assessment over time. The smart contract will hold the payment balance specifically for the providers bringing their storage infrastructure into the platform. See more [here](smart-contract.md).
 
 ***
 
-## **Storage Providers**
+## **Providers**
 
-Each provider has specific "Data Units," representing discrete storage capacities or services (e.g., AWS S3 buckets, Azure Blob Storage, or Custom Functions). This elementary reservation is to build a system where the user controls their expenses and their needs. At the same time, it ensures the storage providers monitor more efficiently the security and the distribution of data in its infrastructure.
+Each provider has specific "Data Units," representing discrete storage capacities or compute services (e.g., AWS S3 buckets, Azure Blob Storage, or Custom Functions). This elementary reservation is to build a system where the user controls their expenses and their needs. At the same time, it ensures the providers monitor more efficiently the security and the distribution of data in its infrastructure.
 
-Providers register their data units with the Orchestrator Smart Contract to make their services available for reservation. The data unit is not only a storage capacity offered by the provider but provides additional information such as the quality of services, the geographical location, and more. Each data unit supports multiple reservations (e.g., Reservation 1, Reservation 2, Reservation 3), which represent allocations made by consumers for specific data storage needs. The **Orchestrator tracks these reservations** and ensures they align with SLA terms.
+Providers register their data units with the Orchestrator Smart Contract to make their services available for reservation. The data unit is not only a storage capacity or compute service offered by the provider but provides additional information such as the quality of services, the geographical location, and more. Each data unit supports multiple reservations (e.g., Reservation 1, Reservation 2, Reservation 3), which represent allocations made by consumers for specific data storage needs. The **Orchestrator tracks these reservations** and ensures they align with SLA terms.
 
 ***
 
