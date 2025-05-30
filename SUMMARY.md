@@ -1,11 +1,13 @@
 # Table of contents
 
-* [📄 Flashback Documentation](README.md)
+* [📄 Welcome](README.md)
 
 ## GETTING STARTED
 
 * [⚡ Flashback 101](getting-started/flashback-101.md)
+* [⚡ Copy of Flashback 101](getting-started/copy-of-flashback-101.md)
 * [🚫 The Problem](learn/why-nephele/introduction.md)
+* [🚫 Copy of The Problem](getting-started/copy-of-the-problem.md)
 * [💡 The Solution](discover-flashback/the-solution.md)
 * [📊 Network Statistics](getting-started/network-statistics.md)
 
