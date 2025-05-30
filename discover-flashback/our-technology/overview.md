@@ -4,7 +4,7 @@
 
 The rise of Web3 technologies has led to the emergence of innovative concepts that challenge traditional models. Decentralized networks have paved the way for new solutions, offering greater transparency, security, and efficiency.
 
-**Flashback** is designed as a decentralized, trust-enforced system that connects users and storage providers while maintaining transparency through smart contracts. **Storage Providers (cloud and infrastructure)** and **users (applications and services)** interact with the **Flashback Platform** and **Smart Contract.** The smart contract ensures compliance, streamlines data and payment flows, while the **Flashback platform** enhances discoverability, trust, and accountability, supporting a reliable decentralized storage ecosystem.
+**Flashback** is designed as a decentralized, trust-enforced system that connects consumers and providers while maintaining transparency through smart contracts. **Providers** and **users (applications and services)** interact with the **Flashback DePin solution** and **Smart Contract.** The smart contract ensures compliance, streamlines data and payment flows, while the **Flashback platform** enhances discoverability, trust, and accountability, supporting a reliable decentralized storage ecosystem.
 
 ***
 
