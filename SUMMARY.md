@@ -9,7 +9,7 @@
 * [🚫 The Problem](learn/why-nephele/introduction.md)
 * [🚫 Copy of The Problem](getting-started/copy-of-the-problem.md)
 * [💡 The Solution](discover-flashback/the-solution.md)
-* [📊 Network Statistics](getting-started/network-statistics.md)
+* [💡 Copy of The Solution](getting-started/copy-of-the-solution.md)
 
 ## DISCOVER FLASHBACK
 
@@ -28,6 +28,7 @@
   * [Statistics](discover-flashback/market-analysis/statistics.md)
   * [Landscape Review](discover-flashback/market-analysis/landscape-review.md)
   * [Positioning](discover-flashback/market-analysis/positioning.md)
+* [📊 Network Statistics](discover-flashback/network-statistics.md)
 * [📊 Copy of Market Analysis](discover-flashback/copy-of-market-analysis.md)
 * [Copy of Economy Model](discover-flashback/neph-token-1.md)
 * [TGE Allocation](discover-flashback/tge-allocation.md)

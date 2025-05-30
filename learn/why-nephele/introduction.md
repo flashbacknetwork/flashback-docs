@@ -4,7 +4,7 @@ AI, Web3, and other data-heavy applications are fueling a surge in demand for gl
 
 While the current market is dominated by major centralized players, they are expensive and result in AI and Web3 companies having high cybersecurity expenses to manage single points of failure. This leaves companies [open to hacking](https://protos.com/users-of-hacked-mixin-network-question-projects-decentralized-nature/), limits users' control over the data ecosystems they contribute to, and highlights millions of businesses' dependency on just a few providers.
 
-To mitigate risk, companies adopts multi-cloud strategies using platforms like Flashback. While Flashback offers a proper diversification to +100 cloud providers, the most demanding users do not have access to the physical storage and computing resources offered by Decentralized physical infrastructure networks (DePIN) solutions.
+To mitigate risk, companies or developers (known as **consumers**) can adopt multi-cloud strategies using platforms such as [Flashback](https://platform.flashback.tech). However, this requires trust in centralized processes, management of cloud accounts and their costs, as well as a lack of controllability and less respect for data confidentiality than direct access to physical infrastructure.
 
 Indeed, DePin are emerging as a more affordable alternative, offering superior geographic distribution, security, and privacy for certain use cases. Solutions like Filecoin, Arweave, Züs and Hivenet show promise, most businesses remain tied to centralized cloud providers like AWS, Azure, and Google Cloud as accessibility and the ability to use the DePin resources remain highly complex to overcome and adapt to.
 
