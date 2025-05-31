@@ -4,7 +4,7 @@
 
 ## **Orchestrator Smart Contract**
 
-It acts as the central coordinating unit for managing providers, consumers, and their interactions. The role of the smart contract is to guarantee the commitments of the service-level agreements (SLA) and their assessment over time. The smart contract will hold the payment balance specifically for the providers bringing their storage infrastructure into the platform. See more [here](smart-contract.md).
+It acts as the central coordinating unit for managing providers, consumers, and their interactions. The role of the smart contract is to guarantee the commitments of the service-level agreements (SLA) and their assessment over time. The smart contract will hold the payment balance specifically for the providers bringing their storage infrastructure into the platform. See more [here](orchestrator.md).
 
 ***
 

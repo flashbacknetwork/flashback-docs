@@ -1,6 +1,6 @@
 # API Service
 
-<figure><img src="../../.gitbook/assets/Flashback Ecosystem Diagrams (3).jpg" alt=""><figcaption><p>The Interactions with the Standard API module of the Flashback Platform</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Flashback Ecosystem Diagrams (7).jpg" alt=""><figcaption><p>The Interactions with the Standard API module of the Flashback Platform</p></figcaption></figure>
 
 ## **Oracles**
 
@@ -8,7 +8,7 @@ The oracles bridge on-chain and off-chain data that provides real-time informati
 
 ***
 
-## **Standard API Module**
+## **Standard API**
 
 A gateway facilitating communication between data providers, consumers, and the Orchestrator.
 
@@ -29,10 +29,10 @@ A gateway facilitating communication between data providers, consumers, and the 
 
 ## **Interactions Between Layers**
 
-1. **Data Providers ↔ API ↔ Orchestrator**:
+1. **Providers ↔ API ↔ Orchestrator**:
    * Providers register their data units via Server Libraries in the Open API.
    * The Orchestrator ensures services' availability, compliance, and quality, with Oracles feeding real-time data.
-2. **Data Consumers ↔ API ↔ Orchestrator**:
+2. **Consumers ↔ API ↔ Orchestrator**:
    * Consumers interact with the Open API via Client Libraries to select and use storage services.
    * The Orchestrator manages payments, QoS enforcement, and disputes.
 3. **Oracles ↔ Orchestrator ↔ API**:

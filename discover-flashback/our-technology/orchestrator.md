@@ -1,10 +1,10 @@
-# Smart Contract
+# Orchestrator
 
-<figure><img src="../../.gitbook/assets/Flashback Ecosystem Diagrams (1).jpg" alt=""><figcaption><p>A logic scheme of our orchestrator within the Flashback network</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Flashback Ecosystem Diagrams (6).jpg" alt=""><figcaption><p>A logic scheme of our orchestrator within the Flashback DePin platform</p></figcaption></figure>
 
-The image represents the principle logic integrating into the smart contracts acting as an on-chain and trustless orchestrator for our network. The **Orchestrator Smart Contract** is the backbone of the ecosystem, ensuring transparency, compliance, and fair financial transactions through tokenomics. It is critical in maintaining trust and reliability between providers and consumers.&#x20;
+The image represents the principle logic integrating into the smart contracts acting as an on-chain and trustless orchestrator of our decentralized platform for our consumers and proivders network. The **Orchestrator** is a smart contract. It is the backbone of the ecosystem, ensuring transparency, compliance, and fair financial transactions through tokenomics. It is critical in maintaining trust and reliability between providers and consumers.&#x20;
 
-The orchestrator will be deployed on other blockchains and other promising ecosystems. This multi-chain approach allows storage providers and clients to select the ecosystem they prefer and to optimize their costs and performances by balancing with the networks' load.
+The orchestrator will be deployed on other blockchains and other promising ecosystems. This multi-chain approach allows providers and clients to select the ecosystem they prefer and to optimize their costs and performances by balancing with the networks' load.
 
 Here is the list of supported ecosystems:
 
@@ -25,10 +25,10 @@ The smart contract is the best decentralized technology to support payments and 
 
 ## **More About Data Units**
 
-Data units represent the storage resources (e.g., storage servers or systems) managed by the data providers. Like the sectors in Filecoin, the providers will commit their available spaces with the QoS specifications attached to every data unit. Data units are tracked and managed via reservations, ensuring efficient allocation and availability. There are 4 different states for a data unit:
+Data units represent the storage resources (e.g., storage servers or systems) or compute resources (in future releases) managed by the data providers. Like the sectors in Filecoin, the providers will commit their available spaces with the QoS specifications attached to every data unit. Data units are tracked and managed via reservations, ensuring efficient allocation and availability. There are 4 different states for a data unit:
 
-* **Reserved**: Data sector allocated but not yet in use. It allows the storage providers to allocate and support the best quality of services. The storage providers may still decide on the allocation for a user, and then, have the freedom of doing the best business.
-* **In Use**: This state means it is actively storing data for users.
+* **Reserved**: Data sector allocated but not yet in use. It allows the providers to allocate and support the best quality of services. The providers may still decide on the allocation for a user, and then, have the freedom of doing the best business.
+* **In Use**: This state means it is actively storing data for consumers.
 * **Maintenance**: Undergoing updates or repairs of the data unit which is fundamental to ensure a good quality of services.
 * **Decommissioning**: Being removed from the active pool of resources. This state is mainly because the smart contract is memorizing all the data units and then, the decommissioning is needed to not use the data unit again.
 
@@ -36,12 +36,12 @@ Data units represent the storage resources (e.g., storage servers or systems) ma
 
 ## **Interactions**
 
-1. **Storage Providers ↔ SLAs ↔ Orchestrator**:
+1. **Providers ↔ SLAs ↔ Orchestrator**:
    * Providers register their resources and agree to SLAs enforced by the orchestrator.
    * QoS metrics are monitored to ensure compliance and penalties (slashing) are applied for breaches.
-2. **Users ↔ Scoring ↔ Orchestrator**:
-   * Users use the scoring system to select reliable providers.
+2. **Consumers ↔ Scoring ↔ Orchestrator**:
+   * Consumers use the scoring system to select reliable providers.
    * Payments are handled via the payment module (escrow ensures funds are secure until SLAs are fulfilled).
 3. **Orchestrator ↔ Data Units**:
    * The orchestrator tracks and manages data units through their lifecycle (reserved, in use, maintenance, decommissioning).
-   * Ensures optimal resource utilization and availability for users.
+   * Ensures optimal resource utilization and availability for consumers.
