@@ -34,7 +34,7 @@ The core of the platform is where Flashback Inc. will run its main operations. I
 
 ***
 
-## **Consumers**
+## **Consumers (or Unit Consumers)**
 
 The Flashback DePin solution integrates a marketplace are the native medium of exchange for transactions in the ecosystem. Consumers subscribe to the platform or connect with their wallet, and pay providers to reserve and use services in an SLA. The Flashback network platform will provide a marketplace that lists the offers and manages payments.&#x20;
 
@@ -57,7 +57,7 @@ Hence, Flashback enhances operational efficiency, reduces friction for consumers
 
 ***
 
-## **Providers**
+## **Providers (or Unit Providers)**
 
 The providers with storage and/or compute infrastructure directly connected to the platform will benefit from its design. COncerning the payment, it can be streamed directly to the provider's wallet but the platform may play a key role as an oracle to measure the performances of the provider with the consumers. The provider can pay a subscription to be listed on the platform and to stake the native tokens to be authorized for operations.&#x20;
 
