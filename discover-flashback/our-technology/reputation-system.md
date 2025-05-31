@@ -12,7 +12,7 @@ description: >-
 The reputation system is composed of two primary components:
 
 1. **Objective Reputation Score**: Derived from the provider's compliance with SLA requirements specified in the Smart Contract and QoS records.
-2. **Community Reputation Score**: Based on feedback from users (services) who have used the provider's services.
+2. **Community Reputation Score**: Based on feedback from consumers (services) who have used the provider's services.
 
 Each component contributes to the overall reputation score, which is used to rank providers in the system and is summarized in the Provider's record of the Smart Contract.
 
@@ -40,12 +40,12 @@ The **Objective Reputation Score** reflects a provider's adherence to SLAs and p
 
 ### 2. Community Reputation Score
 
-The **Community Reputation Score** reflects consumer satisfaction and trust. It is derived from user feedback and ratings.
+The **Community Reputation Score** reflects consumer satisfaction and trust. It is derived from consumer feedback and ratings.
 
 #### Feedback Collection
 
-* Users can rate providers on a scale of **1 to 5 stars** after using their services.
-* Optional comments allow users to provide additional context or report specific issues.
+* Consumers can rate providers on a scale of **1 to 5 stars** after using their services.
+* Optional comments allow consumers to provide additional context or report specific issues.
 
 #### Scoring Mechanism
 
@@ -55,7 +55,7 @@ The **Community Reputation Score** reflects consumer satisfaction and trust. It 
 #### Weighting Feedback
 
 * **Recent Feedback**: Ratings from the last 30 days are weighted more heavily than older ratings.
-* **Verified Users**: Feedback from verified users (services) is weighted more heavily than unverified feedback.
+* **Verified Consumers**: Feedback from verified consumers (services) is weighted more heavily than unverified feedback.
 
 ### 3. Combined Reputation Score
 
@@ -66,7 +66,7 @@ Overall Score = (0.7 × Objective Score) + (0.3 × Community Score)
 #### Rationale for Weighting
 
 * The Objective Score has a higher weight (70%) to ensure providers are primarily judged by measurable performance.
-* The Community Score (30%) adds a subjective element, reflecting users trust and satisfaction.
+* The Community Score (30%) adds a subjective element, reflecting consumers trust and satisfaction.
 
 ***
 
@@ -80,18 +80,18 @@ Overall Score = (0.7 × Objective Score) + (0.3 × Community Score)
 
 #### Public Visibility
 
-* Users can view a provider's Overall Reputation Score, along with badges for exceptional performance (e.g., "100% SLA Compliance for 6 Months").
+* Consumers can view a provider's Overall Reputation Score, along with badges for exceptional performance (e.g., "100% SLA Compliance for 6 Months").
 
 #### Dispute Resolution
 
-* Providers can dispute inaccurate feedback or SLA violations through a formal process, which includes re-evaluating QoS records or reviewing user complaints.
+* Providers can dispute inaccurate feedback or SLA violations through a formal process, which includes re-evaluating QoS records or reviewing consumers complaints.
 
 ***
 
 ## Incentives for High Reputation
 
-* **Priority Listing**: High-reputation providers appear at the top of user search results.
+* **Priority Listing**: High-reputation providers appear at the top of consumer search results.
 * **Performance Bonuses**: Providers with consistently high scores may receive reduced fees or other benefits.
 * **Trust Badges**: Visible indicators of reliability (e.g., "Top Performer").
 
-This system ensures a balanced approach to evaluating providers, combining hard metrics with user trust to create a fair and transparent ecosystem.
+This system ensures a balanced approach to evaluating providers, combining hard metrics with consumer trust to create a fair and transparent ecosystem.
