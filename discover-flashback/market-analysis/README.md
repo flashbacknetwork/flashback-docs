@@ -1,2 +1,2 @@
-# 📊 Market Analysis
+# 💹 Market Analysis
 

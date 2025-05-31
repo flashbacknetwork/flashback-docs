@@ -1,4 +1,4 @@
-# Storage Providers
+# Unit Providers
 
 The Flashback platform aims to revolutionize the data storage ecosystem by proposing a network of storage providers incentivized by the quality-of-services and the results performed in the Flashback platform.
 
