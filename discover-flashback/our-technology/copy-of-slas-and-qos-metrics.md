@@ -2,9 +2,10 @@
 description: >-
   The Service Level Agreements (SLAs) and Quality of Service (QoS) metrics are
   used to evaluate and monitor providers.
+hidden: true
 ---
 
-# SLAs and QoS metrics
+# Copy of SLAs and QoS metrics
 
 {% hint style="success" %}
 With **a primary focus on storage**, we are designed to be the solution of choice for companies demanding higher controlbaility while higher spectrum of decentralized offers. Flashback helps reduce investigation time across different providers while offering to providers an easy marketplace to propose their resources.
@@ -41,13 +42,13 @@ Each QoS record consists of the following fields:
 
 QoS data is collected through a combination of:
 
-1. **Probing Operations**: Automated test operations reported to the platform where the consumers and providers must report their QoS records. The report will support custom period of reports but it must be equal of lower than 24 hours between reports.
+1. **Probing Operations**: Automated test operations reported to the platform from consumers and porviders (e.g., uploading and downloading test files) to measure latency, throughput, and error rates.
 2. **System Metrics**: Real-time monitoring of uptime and operational logs.
 
 #### **High-Level Workflow**
 
-1. **Probing**: Scheduled reports that contains metrics such as read, write, upload, and download operations at regular intervals.&#x20;
-2. **Measurement**: Each operation records its latency, throughput, and success status from the consumer and providers.
+1. **Probing**: Scheduled probes perform read, write, upload, and download operations at regular intervals.&#x20;
+2. **Measurement**: Each operation records its latency, throughput, and success status.
 3. **Aggregation**: QoS records are aggregated over time to calculate averages, percentages, and trends.
 4. **Validation**: Aggregated data is validated against SLA requirements found in the smart contract to determine compliance.
 5. **Storage**: All QoS records are securely stored in a time-series database for long-term analysis.
@@ -64,6 +65,8 @@ The summarized data includes:
 * Uptime percentage.
 * Error rate statistics.
 
+***
+
 ## Enforcement
 
-Failure to meet SLA requirements may result in penalties or reduced [reputation scores](reputation-scores.md). Consumers and providers are encouraged to consistently monitor their performance and address any deficiencies proactively.
+Failure to meet SLA requirements may result in penalties or reduced reputation scores (as detailed in the Reputation System documentation). Providers are encouraged to consistently monitor their performance and address any deficiencies proactively.

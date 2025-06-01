@@ -3,9 +3,10 @@ description: >-
   The reputation system ranks providers based on objective performance metrics
   and community feedback. The system ensures transparency and incentivizes
   providers to maintain high-quality service.
+hidden: true
 ---
 
-# Reputation system
+# Copy of Reputation scores
 
 ## Reputation System Overview
 
