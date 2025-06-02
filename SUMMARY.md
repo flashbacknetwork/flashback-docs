@@ -23,8 +23,6 @@
   * [Reputation Scores](discover-flashback/our-technology/reputation-scores.md)
   * [Copy of Reputation scores](discover-flashback/our-technology/copy-of-reputation-scores.md)
 * [🏦 Economy Model](discover-flashback/neph-token/README.md)
-  * [Consumers](discover-flashback/neph-token/consumers.md)
-  * [Unit Providers](discover-flashback/neph-token/storage-providers.md)
   * [Tokenization](discover-flashback/neph-token/tokenization.md)
 * [💹 Market Analysis](discover-flashback/market-analysis/README.md)
   * [Statistics](discover-flashback/market-analysis/statistics.md)

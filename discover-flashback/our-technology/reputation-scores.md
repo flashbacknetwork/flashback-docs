@@ -64,7 +64,7 @@ Overall Score = (0.7 × Objective Score) + (0.3 × Community Score)
 
 ### :chart\_with\_downwards\_trend: Decay Mechanism
 
-To prevent older performance records from having undue influence, scores decay by **1 point per month** if no new QoS data is recorded **until reaching the score of 50 points**.&#x20;
+To prevent older performance records from having undue influence, scores decay by **10 point per month** if no new QoS data is recorded **until reaching the score of 50 points**.&#x20;
 
 ***
 
