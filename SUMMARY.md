@@ -22,7 +22,7 @@
   * [Copy of SLAs and QoS metrics](discover-flashback/our-technology/copy-of-slas-and-qos-metrics.md)
   * [Reputation Scores](discover-flashback/our-technology/reputation-scores.md)
   * [Copy of Reputation scores](discover-flashback/our-technology/copy-of-reputation-scores.md)
-* [🏦 Economy Model](discover-flashback/neph-token.md)
+* [🏦 Tokenomics](discover-flashback/neph-token.md)
 * [💹 Market Analysis](discover-flashback/market-analysis/README.md)
   * [Statistics](discover-flashback/market-analysis/statistics.md)
   * [Landscape Review](discover-flashback/market-analysis/landscape-review.md)
