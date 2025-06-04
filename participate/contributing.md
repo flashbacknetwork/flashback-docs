@@ -11,8 +11,8 @@ Comprehensive documentation plays a vital role in the adoption and development o
 
 ## Why Contribute?
 
-1. **Enhance Your Skills:** Writing and refining documentation deepens your understanding of Flashback’s concepts. Become an expert in Flashback, and you'll have the chance to become an ambassador or ecosystem mentor to newcomers.
-2. **Grow the Community**: Clear, high-quality resources attract more developers and users, fostering a stronger blockchain community. By sharing knowledge, you, as a community member, play a key role in Flashback and its emergence as a next-generation cloud solution.
+1. **Enhance Your Skills:** Writing and refining documentation deepens your understanding of Flashback DePin’s concepts. Become an expert in Flashback, and you'll have the chance to become an ambassador or ecosystem mentor to newcomers.
+2. **Grow the Community**: Clear, high-quality resources attract more developers and users, fostering a stronger blockchain community. By sharing knowledge, you, as a community member, play a key role in Flashback DePin and its emergence as a next-generation cloud solution.
 3. **Boost Your Portfolio:** Being an active contributor showcases your expertise and commitment, which can set you apart in the blockchain industry from a professional development perspective.
 
 ***
@@ -20,7 +20,7 @@ Comprehensive documentation plays a vital role in the adoption and development o
 ## Types of Contributions
 
 1. **Documentation**: Improve existing docs or create new content. This could include tutorials, an introductory video about a feature, architectural explanations, or an overview of the technology.
-2. **Tutorials**: Write step-by-step guides to help others learn how to use Flashback tools and services. The easier we make it to learn, the more users and builders will join us.
+2. **Tutorials**: Write step-by-step guides to help others learn how to use Flashback DePin tools and services. The easier we make it to learn, the more users and builders will join us.
 3. **How-to Guides**: Develop detailed instructions on tasks like deploying a blockchain node or creating a smart contract.
 
 ***
@@ -42,15 +42,15 @@ Ensure you have the necessary tools and dependencies installed. Common tools inc
 
 * Git: For version control
 * Markdown editors: For writing documentation (e.g. Visual Studio Code, Typora)
-* Blockchain-specific tools: Flashback currently leverages ecosystems like Starknet and Stellar. You can participate in these environments.
-* Software and Cloud tools: Flashback is doing storage (and computing in the future). Contribute to Flashback’s open-source codes related to data storage integrations.
+* Blockchain-specific tools: Flashback DePin currently leverages ecosystems like Starknet and Stellar. You can participate in these environments.
+* Software and Cloud tools: Flashback DePin is doing storage (and computing in the future). Contribute to Flashback DePin's open-source codes related to data storage integrations.
 
 ### Step 3: Identify Areas for Improvement
 
 Start by reviewing our existing documentation to identify gaps or areas for improvement. Look for:
 
-* Outdated information (the blockchain world moves fast... help us to keep Flashback at the cutting edge of new technologies)
-* Missing tutorials (Flashback has endless possibilities; your how-to guide might be just what others need)
+* Outdated information (the blockchain world moves fast... help us to keep Flashback DePin at the cutting edge of new technologies)
+* Missing tutorials (Flashback DePin has endless possibilities; your how-to guide might be just what others need)
 * Ambiguous instructions (clear explanations encourage broader adoption)
 
 ***

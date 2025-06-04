@@ -4,15 +4,15 @@
 
 ## GETTING STARTED
 
-* [⚡ Flashback 101](getting-started/flashback-101.md)
+* [⚡ Join Testnet](getting-started/get-wallets.md)
+* [🪙 FLASH Tokens](getting-started/get-neph-tokens.md)
 * [⚡ Copy of Flashback 101](getting-started/copy-of-flashback-101.md)
-* [🚫 The Problem](learn/why-nephele/introduction.md)
 * [🚫 Copy of The Problem](getting-started/copy-of-the-problem.md)
-* [💡 The Solution](discover-flashback/the-solution.md)
 * [💡 Copy of The Solution](getting-started/copy-of-the-solution.md)
 
 ## DISCOVER FLASHBACK
 
+* [⚡ Introduction](discover-flashback/introduction.md)
 * [🛡️ Our Technology](discover-flashback/our-technology/README.md)
   * [Overview](discover-flashback/our-technology/overview.md)
   * [General Workflow](discover-flashback/our-technology/general-workflow.md)
@@ -35,8 +35,6 @@
 
 ## PARTICIPATE
 
-* [⚡ Join Pre-Alpha](participate/get-wallets.md)
-* [🪙 FLASH Tokens](participate/get-neph-tokens.md)
 * [👐 Contribute to the Documentation](participate/contributing.md)
 
 ## LEARN MORE

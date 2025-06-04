@@ -1,10 +1,26 @@
-# 💡 The Solution
+# ⚡ Introduction
 
-{% hint style="success" %}
-**With a primary focus on storage**, we are designed to be the decentralized platform of choice for companies demanding higher controlbaility while higher spectrum of decentralized offers. Flashback helps reduce investigation time across different providers while offering to providers an easy marketplace to propose their resources.
-{% endhint %}
+[**Flashback**](https://platform.flashback.tech) is the first agentic AI cloud diversification platform. Serving as an aggregation layer, it enables companies to diversify their data across both centralized and decentralized cloud providers. Leveraging agentic AI and blockchain, we make it cheaper, simpler, and more flexible for companies to store data.
 
-## :page\_with\_curl: **Deploy On-Chain** SLAs **in a Multi-Chain Ecosystem**
+**Flashback DePin** is a decentralized platform that extends Flashback to simplify access to and use of DePin solutions for data storage and calculation. Our goal is simple: to make DePin solutions an acceptable choice for even the most demanding companies when it comes to confidentiality or more controlled management of costs and operations in the Cloud.
+
+## :warning: The Problem
+
+AI, Web3, and other data-heavy applications are fueling a surge in demand for global cloud computing, a $780B market projected to reach +$2,200B by 2032 according to [Fortune Business Insights](https://www.fortunebusinessinsights.com/cloud-computing-market-102697).&#x20;
+
+While the current market is dominated by major centralized players, they are expensive and result in AI and Web3 companies having high cybersecurity expenses to manage single points of failure. This leaves companies [open to hacking](https://protos.com/users-of-hacked-mixin-network-question-projects-decentralized-nature/), limits users' control over the data ecosystems they contribute to, and highlights millions of businesses' dependency on just a few providers.
+
+To mitigate risk, companies or developers (known as **consumers**) can adopt multi-cloud strategies using platforms such as [Flashback](https://platform.flashback.tech). However, this requires trust in centralized processes, management of cloud accounts and their costs, as well as a lack of controllability and less respect for data confidentiality than direct access to physical infrastructure.
+
+It is why we have Falshback DePin: a more affordable alternative, offering superior geographic distribution, security, and privacy for the most demanded use cases. Solutions like Filecoin, Arweave, Züs and Hivenet show promise, most businesses remain tied to centralized cloud providers like AWS, Azure, and Google Cloud. Why?\
+\
+The simple reason for this is that decentralized solutions are very complex, and don't allow clarity over the physical providers of data storage space. Flashback DePin will simplify this accessibility, the privacy, and the controllability, and enable these suppliers to offer their services with a simplified API and decentralized agreements that guarantee the quality of service needed to provide the hot storage that is sorely lacking in this sector.
+
+## :eight\_spoked\_asterisk: The Solution
+
+
+
+### :page\_with\_curl: **Deploy On-Chain** SLAs **in a Multi-Chain Ecosystem**
 
 :one: **Transparent & Flexible Agreements**
 
@@ -20,7 +36,7 @@ On-chain SLAs enhance auditability, ensuring compliance with industry regulation
 
 ***
 
-## :moneybag: **Pay-as-You-Need**
+### :moneybag: **Pay-as-You-Need**
 
 :one: **Smarter Payments**
 
@@ -36,7 +52,7 @@ The system tracks real-time usage, ensuring better visibility into spending patt
 
 ***
 
-## :medal: Incentivizing Quality of Services
+### :medal: Incentivizing Quality of Services
 
 :one: **Guaranteed Performance**
 
@@ -52,7 +68,7 @@ Flashback tracks provider performance metrics, giving higher visibility and trus
 
 ***
 
-## :chart: **Leverage a Decentralized** Marketplace
+### :chart: **Leverage a Decentralized** Marketplace
 
 :one: **Unified Provider Ecosystem**
 
@@ -68,7 +84,7 @@ Flashback bridges the gap between decentralized and centralized experience, allo
 
 ***
 
-## :robot: **Customization with Agentic AI**
+### :robot: **Customization with Agentic AI**
 
 :one: **Intelligent & Adaptive Optimization**
 
@@ -81,4 +97,3 @@ AI-driven decision-making allows users to fine-tune cloud parameters, balancing 
 :three: **Automated Workflows & Smart Contracts**
 
 Agentic AI seamlessly integrates with **smart contracts and automated workflows**, enabling **self-adjusting strategies** based on predefined rules, compliance requirements, and application demands. This enhances **autonomy, security, and reliability**, making cloud management effortless and intelligent.
-
