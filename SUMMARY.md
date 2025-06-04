@@ -4,15 +4,15 @@
 
 ## GETTING STARTED
 
-* [⚡ Join Testnet](getting-started/get-wallets.md)
-* [🪙 FLASH Tokens](getting-started/get-neph-tokens.md)
+* [⚡ Join Testnet](participate/get-wallets.md)
+* [🪙 FLASH Tokens](participate/get-neph-tokens.md)
 * [⚡ Copy of Flashback 101](getting-started/copy-of-flashback-101.md)
 * [🚫 Copy of The Problem](getting-started/copy-of-the-problem.md)
 * [💡 Copy of The Solution](getting-started/copy-of-the-solution.md)
 
 ## DISCOVER FLASHBACK
 
-* [⚡ Introduction](discover-flashback/introduction.md)
+* [⚡ Introduction](getting-started/flashback-101.md)
 * [🛡️ Our Technology](discover-flashback/our-technology/README.md)
   * [Overview](discover-flashback/our-technology/overview.md)
   * [General Workflow](discover-flashback/our-technology/general-workflow.md)

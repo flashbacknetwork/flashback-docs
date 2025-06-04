@@ -17,7 +17,7 @@ Due to a lack of trust in centralized cloud providers, **93% of organizations us
 
 This approach has [advantages and challenges](../../learn-more/depin-and-cloud-storage/market-trends/). A Flexera report says around 30% of cloud spending is wasted due to inefficiencies in cost management with the pay-as-you-go approach, mismanagement of different providers, and lack of optimization affecting businesses' privacy and governance.
 
-[DeStor](https://destor.com/the-state-of-destor-2024) says decentralized storage (DePin) is increasingly being evaluated for hybrid and multi-cloud implementation as a viable alternative solution for 62% of IT decision-makers. The jointly developed [solution between Google and Filecoin](../../getting-started/get-wallets.md) proves this trend.
+[DeStor](https://destor.com/the-state-of-destor-2024) says decentralized storage (DePin) is increasingly being evaluated for hybrid and multi-cloud implementation as a viable alternative solution for 62% of IT decision-makers. The jointly developed [solution between Google and Filecoin](../../participate/get-wallets.md) proves this trend.
 
 Yet **72% are not using DePin solutions**, citing the complexity of integrations, poor quality of service (QoS), compliance concerns, unprofitable storage operators, and slow retrieval speeds, making it suitable only for cold storage.&#x20;
 
