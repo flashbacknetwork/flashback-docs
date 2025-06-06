@@ -14,7 +14,7 @@ Here is the breakdown of the different economic flow from the Consumers:
 
 <table><thead><tr><th width="188.99993896484375">Type</th><th width="283.2000732421875">Description</th><th>Value</th></tr></thead><tbody><tr><td><mark style="color:red;"><strong>Unit Deal Submission</strong></mark></td><td>Deal submission fee paid only if Provider accepts the unit's SLA submitted by the Consumer.</td><td>0.5% of Unit Payment.<br>0.1% of Unit Payment if FLASH.<br>Proposed unit payment must be above 50 USD.</td></tr><tr><td><mark style="color:red;"><strong>Unit Payment</strong></mark></td><td>This corresponds to consumer payments. Depending on the blockchain used, this payment will be blocked in the smart contract.</td><td>Defined by the SLA between Consumer and Provider in FLASH or cryptocurrency agreed with the provider.</td></tr><tr><td><mark style="color:red;"><strong>Unit Priority Fees</strong></mark></td><td>It is an additional fee the Consumer may pay to be selected by providers in priority.</td><td>Minimum of 0.01 USD.</td></tr><tr><td><mark style="color:red;"><strong>Unit Standard Fees</strong></mark></td><td>A fee incurs costs for submitting the payment in the smart contract and for making the daily payment for the period indicated.</td><td>Cryptocurrency of the smart contract. Minimum depends on the chain.</td></tr><tr><td><mark style="color:purple;"><strong>Unit Quality Collateral</strong></mark></td><td>A collateral that is used for the transaction operations. 50% of the remaining is returned if the unit's reputation score is above 50. The remaining is burnt.</td><td>0.5% of the Unit Payment.</td></tr><tr><td><mark style="color:red;"><strong>Platform Operational Fees</strong></mark></td><td>Running costs to sustain Flashback’s operations, such as the marketplace and other advantages related to Flashback DePin.</td><td>5% of Unit Payment. <br>1% if paid in FLASH.</td></tr><tr><td><mark style="color:purple;"><strong>Staking Collateral</strong></mark></td><td>Lock system of FLASH to be able to interact with the platform.</td><td>A minimum of 10 USD with 30-day <a href="https://help.coinbase.com/en/prime/staking/unbonding">unbonding period</a> for unstaking.<br>Supported cryptocurrency of smart contracts or FLASH.</td></tr><tr><td><mark style="color:green;"><strong>Reputation Reward</strong></mark></td><td>A daily reward based on their Reputation Score.</td><td>Score from 60 to 79:<br>+1% APY of Token Allocation<br>Score +80:<br>+3% APY of Token Allocation</td></tr><tr><td><mark style="color:red;"><strong>Reputation Slashing</strong></mark></td><td>A daily penalty based on their Reputation Score.</td><td>Score from 20 to 39:<br>-1% APY of Token Allocation<br>Score -19:<br>-3% APY of Token Allocation</td></tr></tbody></table>
 
-## :factory: Providers
+## :robot: Providers
 
 Here is the breakdown of the different economic flow from the Providers:
 
@@ -22,7 +22,7 @@ Here is the breakdown of the different economic flow from the Providers:
 
 ***
 
-## :pizza: **FLASH Token**
+## :coin: **FLASH Token**
 
 The FLASH token will serve as the backbone of the Flashback ecosystem, facilitating The FLASH token is the foundation of the Flashback ecosystem, facilitating transactions, incentives, and governance. Here is a high-level overview of the token flow through the ecosystem:
 
