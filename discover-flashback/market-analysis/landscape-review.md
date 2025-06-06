@@ -121,7 +121,7 @@ Hybrid computing + storage providers combine decentralized compute and storage t
 
 ***
 
-## :nine: Multi-Cloud Platforms
+## :nine: "Multi-Cloud" Platforms
 
 Multi-cloud paltforms enable workload deployment, management, and optimization across multiple cloud providers (AWS, Azure, Google Cloud, and decentralized networks). These platforms help businesses avoid vendor lock-in, balance costs, and improve resilience by dynamically allocating resources based on real-time needs.
 
