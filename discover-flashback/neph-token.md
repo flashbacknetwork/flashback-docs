@@ -6,7 +6,7 @@ Providers are incentivized to maintain high-quality services through performance
 
 <mark style="color:red;">**Red**</mark>: Economic flow going out from the user.\
 <mark style="color:green;">**Green**</mark>: Economic flow going in the user.\
-<mark style="color:blue;">**Blue**</mark>: Economic flow going in or out from the user depending on the scenario.
+<mark style="color:purple;">**Purple**</mark>: Economic flow going in or out from the user depending on the scenario.
 
 ## :office: Consumers
 
