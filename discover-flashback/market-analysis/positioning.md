@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Positioning
 
 To better understand where **Flashback** fits in the cloud ecosystem, here’s a breakdown of the three major **cloud solution categories** that exist toda&#x79;**.**
