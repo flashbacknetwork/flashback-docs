@@ -15,9 +15,9 @@ According to [Deloitte Insights](https://www2.deloitte.com/us/en/insights/indust
 
 Due to a lack of trust in centralized cloud providers, **93% of organizations use a multi-cloud strategy**, and **87% combine public and private clouds in hybrid environments**.&#x20;
 
-This approach has [advantages and challenges](../../learn-more/depin-and-cloud-storage/market-trends/). A Flexera report says around 30% of cloud spending is wasted due to inefficiencies in cost management with the pay-as-you-go approach, mismanagement of different providers, and lack of optimization affecting businesses' privacy and governance.
+This approach has advantages and challenges. A [Flexera report](https://www.cloudzero.com/blog/cloud-computing-statistics/) says more than 30% of cloud spending is wasted due to inefficiencies in cost management with the pay-as-you-go approach, mismanagement of different providers, and lack of optimization affecting businesses' privacy and governance.
 
-[DeStor](https://destor.com/the-state-of-destor-2024) says decentralized storage (DePin) is increasingly being evaluated for hybrid and multi-cloud implementation as a viable alternative solution for 62% of IT decision-makers. The jointly developed [solution between Google and Filecoin](../../participate/get-wallets.md) proves this trend.
+[DeStor](https://destor.com/the-state-of-destor-2024) says decentralized storage (DePin) is increasingly being evaluated for hybrid and multi-cloud implementation as a viable alternative solution for 62% of IT decision-makers and this number is growing every year because of the risks of vendor lock-in or governance issues.
 
 Yet **72% are not using DePin solutions**, citing the complexity of integrations, poor quality of service (QoS), compliance concerns, unprofitable storage operators, and slow retrieval speeds, making it suitable only for cold storage.&#x20;
 
