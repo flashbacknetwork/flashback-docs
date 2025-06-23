@@ -4,7 +4,7 @@ description: >-
   used to evaluate and monitor providers.
 ---
 
-# SLAs and QoS metrics
+# SLAs and QoS Metrics
 
 {% hint style="success" %}
 With **a primary focus on storage**, we are designed to be the solution of choice for companies demanding higher controlbaility while higher spectrum of decentralized offers. Flashback helps reduce investigation time across different providers while offering to providers an easy marketplace to propose their resources.
@@ -30,7 +30,7 @@ The QoS records serve as the backbone for evaluating SLAs. These records are con
 Each QoS record consists of the following fields:
 
 * **Timestamp**: The exact time when the record was created.
-* **Provider ID**: A unique identifier for the provider.
+* **ID**: A unique identifier for the provider or the consumer.
 * **Operation Type**: The type of operation being measured (e.g., read, write, upload, download).
 * **Latency**: Measured latency for the operation.
 * **Throughput**: Upload or download speed, depending on the operation type.
