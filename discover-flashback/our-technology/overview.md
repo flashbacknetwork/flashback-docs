@@ -1,6 +1,6 @@
 # Overview
 
-<figure><img src="../../.gitbook/assets/Flashback Network Design.pptx (2).jpg" alt=""><figcaption><p>Quick Overview of the interactions between Flashback DePin, providers, and consumers</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Flashback Ecosystem Diagrams (11).jpg" alt=""><figcaption><p>Quick Overview of the interactions between Flashback DePin, providers, and consumers</p></figcaption></figure>
 
 The rise of Web3 technologies has led to the emergence of innovative concepts that challenge traditional models. Decentralized networks have paved the way for new solutions, offering greater transparency, security, and efficiency.
 
@@ -45,21 +45,11 @@ The Flashback DePin solution integrates a marketplace are the native medium of e
 
 The SLA payments depend on the requested storage and/or compute, the contract duration, the providers, the redundancy, the QoS level, and other parameters that will be integrated into the SLA. Payment can be made in fiat currency or cryptocurrency.&#x20;
 
-**Billing and Resource Allocation**
-
-The platform will use billing processes by creating smart contracts for automated resource allocation and payments. For example:
-
-* Consumers specify their storage and/or compute requirements (e.g., data volume, duration).
-* Smart contracts dynamically calculate costs based on the selected provider’s pricing and allocate the required payment.
-* Upon service delivery confirmation, payments are released to the provider, ensuring trust and transparency.
-
-Hence, Flashback enhances operational efficiency, reduces friction for consumers, and introduces the advantages of blockchain-based payment systems.
-
 ***
 
 ## **Providers (or Unit Providers)**
 
-The providers with storage and/or compute infrastructure directly connected to the platform will benefit from its design. COncerning the payment, it can be streamed directly to the provider's wallet but the platform may play a key role as an oracle to measure the performances of the provider with the consumers. The provider can pay a subscription to be listed on the platform and to stake the native tokens to be authorized for operations.&#x20;
+The providers with storage and/or compute infrastructure directly connected to the platform will benefit from its design. Concerning the payment, it can be streamed directly to the provider's wallet but the platform may play a key role as an oracle to measure the performances of the provider with the consumers. The provider can pay a subscription to be listed on the platform and to stake the native tokens to be authorized for operations.&#x20;
 
 As consumers, providers pay the platform to access multiple AI-driven tools, allowing them to propose the best pricing according to their hardware and QoS and be competitive against other providers.
 
@@ -69,7 +59,7 @@ Finally, the storage providers will have access to specific tools, such as the c
 
 The definition of a provider is:
 
-* Entities offering storage and/or compute infrastructure by submitting storage or compute units in the marketplace or to accept a storage or compute requests from consumers. The provider is responsible for the infrastructure, the data protocol (IPFS, HTTPS, etc.), and all the software needed to interact with its infrastructure.
+* Entities offering storage and/or compute infrastructure by submitting storage or compute units in the marketplace or to accept a storage or compute requests from consumers.&#x20;
 * Responsible for offering storage capacity to consumers and must meet the platform’s quality standards or consumers' requirements.&#x20;
 * Registered and certified within the platform for trust and compliance.
 
