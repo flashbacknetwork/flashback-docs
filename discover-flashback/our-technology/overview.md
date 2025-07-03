@@ -60,6 +60,8 @@ After installing the Bridge Node in its infrastructure via the Flashback DePin p
 
 The procedure for installing a Bridge Node is as follows:
 
-*
+* The Provider installs locally the Bridge Node. Once installed, a notification is sent to the Flashback DePin Platform to be actively listed there and it generates a secret key sent to the Provider in the console.
+* The Provider connects its wallet the platform and search the Bridge Node. Hence, the Provider claims the Bridge Node which provides a code to give to the Bridge Node locally. This operation will authorize the wallet to send the collateral.&#x20;
+* On the platform, you can find the Bridge Node in your personal list related to your wallet, you can then send the collateral and start to create your Data Units.&#x20;
 
 \

@@ -24,23 +24,22 @@ The submission of a deal requires the payment of [Unit Deal Submission Fees](../
 
 Consumer allocation is a two-step process:
 
-* **Selection**: Cela consiste à choisir dans la liste des Data Units possibles dans la Marketplace&#x20;
+* **Selection**: This involves choosing from a list of possible Data Units in the Marketplace.
+* **Payment**: Once a Data Unit has been selected, the Consumer can pay for the Data Unit and start storing using the Bridge Node information that will appear in his interface.
+{% endstep %}
+
+{% step %}
+### Consumption of the Data Unit
+
+Using the Data Unit simply means using the information returned by the Bridge Node on the interface or via API calls. During use, the Bridge Node returns performance information to the smart contracts to determine the Reputation Score.
+{% endstep %}
+
+{% step %}
+### Data Unit Closing
+
+The end of a Data Unit occurs when the period of use comes to an end, or following voluntary termination by the Consumer or Provider. The payment is executed and [tokenomics](../tokenomics.md) is applied.
 {% endstep %}
 {% endstepper %}
-
-### **Actions from Providers**
-
-**Each provider has specific "Data Units,"** representing discrete storage capacities or compute services (e.g., S3-compatible, GCS-compatible, or other certified protocols). This elementary reservation is to build a system where the user controls their expenses and their needs. At the same time, it ensures the providers monitor more efficiently the security and the distribution of data in its infrastructure. \
-\
-**Providers submits their Data Units with the API of the Flashback DePin Platform** to make their services available for reservation. This offer will then be submitted in the smart contracts by waiting for the allocation by a Consumer.
-
-Once the Data Unit has been reserved by a Consumer&#x20;
-
-### **Actions from Consumers**
-
-Individuals, businesses, or applications requiring storage services rely on the **Scoring** system to select providers based on reliability, performance, and cost. Scoring ensures providers are ranked fairly and transparently based on their SLA compliance, and QoS metrics, but also from the quality report of consumers.&#x20;
-
-Consumers can analyze the performances of providers with the QoS metrics and select what best fits them within the data units. They represent entities (businesses or users) utilizing the storage services provided by the platform.&#x20;
 
 ***
 
