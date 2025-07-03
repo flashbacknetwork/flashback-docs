@@ -31,7 +31,7 @@ Consumer allocation is a two-step process:
 {% step %}
 ### Consumption of the Data Unit
 
-Using the Data Unit simply means using the information returned by the Bridge Node on the interface or via API calls. During use, the Bridge Node returns performance information to the smart contracts to determine the Reputation Score.
+Using the Data Unit simply means using the information returned by the Bridge Node on the interface or via API calls. During use, the Bridge Node returns performance information to the Oracles that adds to the smart contracts to determine the Reputation Score.
 {% endstep %}
 
 {% step %}
