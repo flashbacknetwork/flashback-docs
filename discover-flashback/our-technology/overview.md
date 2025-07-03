@@ -25,7 +25,7 @@ Orchestrators communicate through **Flashback DePin**, ensuring that SLAs, payme
 
 The core of the platform is where Flashback Inc. will run its main operations. It will integrate different layers of stacks and tools to guarantee a seamless and user-friendly integration into the applications and services of the consumers.
 
-* **Monitor:** The platform will have a monitoring function that will monitor the performance of the Providers. Hence, it will be possible to discover the peformances for all the data units since the launch of the platform.
+* **Monitor:** The platform will have a monitoring function that will monitor the performance of the Providers and Data Units.&#x20;
 * **Register:** A database within the Flashback DePin platform that lists Providers and Consumers meeting certification requirements. Certification ensures Providers meet quality-of-service (QoS) standards and can be trusted for SLAs and vice versa with certified Consumers.&#x20;
 * **Marketplace**: Acts as a public interface where Providers are listed for Consumers to browse and choose from. Facilitates discovery and selection while maintaining transparency about certifications and performance ratings.
 * **Oracles**: A decentralized network of SLA validators to support the reports from Consumers and Providers. While the first iterations of the Flashback DePin platform will support this assessment internally, the platform will offer to certified validators the capacity to report the SLAs and QoS Metrics to the smart contracts.&#x20;
