@@ -1,99 +1,129 @@
-# 🏦 Tokenomics
+---
+hidden: true
+---
 
-The Flashback platform introduces a decentralized economic model that seamlessly connects consumers with sotrage and/or compute providers.&#x20;
+# Copy of Economy Model
 
-Providers are incentivized to maintain high-quality services through performance rewards and penalties for SLA non-compliance.  Consumers will play a key role in the reputation system and Providers in the trust of offering resources.
+<figure><img src="../.gitbook/assets/Economy_model.png" alt=""><figcaption><p>A high-level representation of the Flashback ecosystem</p></figcaption></figure>
 
-<mark style="color:red;">**Red**</mark>: Economic flow going out from the user.\
-<mark style="color:green;">**Green**</mark>: Economic flow going in the user.\
-<mark style="color:purple;">**Purple**</mark>: Economic flow going in or out from the user depending on the scenario.
+## **Application Layer**
 
-## :office: Consumers
+### **SLA Payments**
 
-Here is the breakdown of the different economic flow from the Consumers:
+FLASH is the native medium of exchange for transactions in the ecosystem. Consumers pay storage providers in FLASH to reserve and use storage services in an SLA. The Flashback network platform will provide a marketplace that lists the offers and manages payments. The platform will offer additional functionalities to service providers, such as AI-driven recommendation tools for optimizing their storage according to their needs. Auxiliary service providers (e.g., data migration, interoperability, or analytics) receive FLASH for their specialized offerings.
 
-<table><thead><tr><th width="188.99993896484375">Type</th><th width="283.2000732421875">Description</th><th>Value</th></tr></thead><tbody><tr><td><mark style="color:red;"><strong>Unit Deal Submission</strong></mark></td><td>Deal submission fee paid only if Provider accepts the unit's SLA submitted by the Consumer.</td><td>0.5% of Unit Payment.<br>0.1% of Unit Payment if FLASH.<br>Proposed unit payment must be above 50 USD.</td></tr><tr><td><mark style="color:red;"><strong>Unit Payment</strong></mark></td><td>This corresponds to consumer payments. Depending on the blockchain used, this payment will be blocked in the smart contract.</td><td>Defined by the SLA between Consumer and Provider in FLASH or cryptocurrency agreed with the provider.</td></tr><tr><td><mark style="color:red;"><strong>Unit Priority Fees</strong></mark></td><td>It is an additional fee the Consumer may pay to be selected by providers in priority.</td><td>Minimum of 0.01 USD.</td></tr><tr><td><mark style="color:red;"><strong>Unit Standard Fees</strong></mark></td><td>A fee incurs costs for submitting the payment in the smart contract and for making the daily payment for the period indicated.</td><td>Cryptocurrency of the smart contract. Minimum depends on the chain.</td></tr><tr><td><mark style="color:purple;"><strong>Unit Quality Collateral</strong></mark></td><td>A collateral that is used for the transaction operations. 50% of the remaining is returned if the unit's reputation score is above 50. The remaining is burnt.</td><td>0.5% of the Unit Payment.</td></tr><tr><td><mark style="color:red;"><strong>Platform Operational Fees</strong></mark></td><td>Running costs to sustain Flashback’s operations, such as the marketplace and other advantages related to Flashback DePin.</td><td>5% of Unit Payment. <br>1% if paid in FLASH.</td></tr><tr><td><mark style="color:purple;"><strong>Staking Collateral</strong></mark></td><td>Lock system of FLASH to be able to interact with the platform.</td><td>A minimum of 10 USD with 30-day <a href="https://help.coinbase.com/en/prime/staking/unbonding">unbonding period</a> for unstaking.<br>Supported cryptocurrency of smart contracts or FLASH.</td></tr><tr><td><mark style="color:green;"><strong>Reputation Reward</strong></mark></td><td>A daily reward based on their Reputation Score.</td><td>Score from 60 to 79:<br>+1% APY of Token Allocation<br>Score +80:<br>+3% APY of Token Allocation</td></tr><tr><td><mark style="color:red;"><strong>Reputation Slashing</strong></mark></td><td>A daily penalty based on their Reputation Score.</td><td>Score from 20 to 39:<br>-1% APY of Token Allocation<br>Score -19:<br>-3% APY of Token Allocation</td></tr></tbody></table>
+**Example:** A consumer wants to reserve 1TB of storage for one month with AWS and two other providers from our network. It will then select the offers and aggregate them in an SLA. Then, the consumer will pay X FLASH according to their pricing. The payment is locked into the SLA and ready to be consumed. During the contract duration, the storage provider receives payment from the locked amount in the SLA contract according to the agreements set in the contract.
 
-## :robot: Providers
+The SLA payments depend on the requested storage, the duration of the contract, the cloud providers, the redundancy, the QoS level, and other parameters that will be integrated into the SLA.&#x20;
 
-Here is the breakdown of the different economic flow from the Providers:
 
-<table><thead><tr><th width="188.99993896484375">Type</th><th width="283.2000732421875">Description</th><th>Value</th></tr></thead><tbody><tr><td><mark style="color:red;"><strong>Unit Deal Submission</strong></mark></td><td>Deal submission fee paid only if Comsumer accepts the unit's SLA submitted by the Consumer.</td><td>0.5% of Unit Payment.<br>0.1% of Unit Payment if FLASH.<br>Proposed unit payment must be above 50 USD.</td></tr><tr><td><mark style="color:red;"><strong>Unit Priority Fees</strong></mark></td><td>It is an additional fee the Provider may pay to be selected by providers in priority.</td><td>Minimum of 0.01 USD.</td></tr><tr><td><mark style="color:red;"><strong>Unit Standard Fees</strong></mark></td><td>A fee incurs costs for submitting the payment in the smart contract and for making the daily payment for the period indicated.</td><td>Cryptocurrency of the smart contract. Minimum depends on the chain.</td></tr><tr><td><mark style="color:green;"><strong>Unit SLA Bonus</strong></mark></td><td>The unit reaches a reputation score above 80.</td><td>back 90% of the remaining of your unit quality collateral.</td></tr><tr><td><mark style="color:red;"><strong>Unit Slashing</strong></mark></td><td>Burnt unit payment if the Provider does not meet the SLA.</td><td>10% of the Unit Payment.</td></tr><tr><td><mark style="color:purple;"><strong>Staking Collateral</strong></mark></td><td>Lock system of FLASH to be able to interact with the platform.</td><td>A minimum of 1,000 USD with 30-day <a href="https://help.coinbase.com/en/prime/staking/unbonding">unbonding period</a> for unstaking.<br>Supported cryptocurrency of smart contracts or FLASH.</td></tr><tr><td><mark style="color:green;"><strong>Reputation Reward</strong></mark></td><td>A daily reward based on their Reputation Score.</td><td>Score from 60 to 79:<br>+5% APY of Token Allocation<br>Score +80:<br>+12% APY of Token Allocation</td></tr><tr><td><mark style="color:red;"><strong>Reputation Slashing</strong></mark></td><td>A daily penalty based on their Reputation Score.</td><td>Score from 20 to 39:<br>-5% APY of Token Allocation<br>Score -19:<br>-12% APY of Token Allocation</td></tr><tr><td><mark style="color:green;"><strong>Storage Resource Reward</strong></mark></td><td>A reward dedicated to the data storage resources allocated through its node.</td><td>XYZ is the resource in TB.<br><br>If +1 TB: <br>+0.0005%*XYZ APY of Token Allocation<br>If +1,000 TB:<br>+0.001%*XYZ APY of Token Allocation<br><br>Max.: 12% APY of Token Allocation</td></tr></tbody></table>
 
-***
 
-## :coin: **FLASH Token**
 
-The FLASH token will serve as the backbone of the Flashback ecosystem, facilitating The FLASH token is the foundation of the Flashback ecosystem, facilitating transactions, incentives, and governance. Here is a high-level overview of the token flow through the ecosystem:
 
-**1. Consumer Payments**
 
-* Consumers acquire FLASH tokens via exchanges or directly on the platform using fiat or other cryptocurrencies.
-* FLASH is used to pay for storage services, unlocking discounts and additional features.
+**Token Name:** FLASH
 
-**2. Provider Incentives**
+**Utility Purpose:**\
+FLASH powers the Flashback ecosystem, enabling financial transactions, incentivizing quality, enforcing compliance, and fostering governance in the decentralized storage network.
 
-* Providers earn FLASH through performance rewards, staking incentives, and SLA bonuses.
-* Providers can stake FLASH to participate in governance or convert it into fiat/native tokens to cover operational expenses.
+## **Core Functions of FLASH**
 
-**3. Platform Operations**
+### **1- SLA Payments**
 
-* Flashback collects a small transaction fee for managing payments and services, ensuring a sustainable revenue stream.
-* A portion of these fees is redistributed to token holders or reinvested in platform development and community growth.
+FLASH is the native medium of exchange for transactions in the ecosystem. Consumers pay storage providers in FLASH to reserve and use storage services in a SLA. The Flashback network platform will provide a marketplace that lists the offers and manages payments. The platform will offer additional functionalities to service providers, such as AI-driven recommendation tools for optimizing their storage according to their needs. Auxiliary service providers (e.g., data migration, interoperability, or analytics) receive FLASH for their specialized offerings.
 
-**4. Governance and Community Engagement**
+**Example:** A consumer wants to reserve 1TB of storage for one month with AWS and two other providers from our network. It will then select the offers and aggregate them in an SLA. Then, the consumer will pay X FLASH according to their pricing. The payment is locked into the SLA and ready to be consumed. During the contract duration, the storage provider receives payment from the locked amount in the SLA contract according to the agreements set in the contract.
 
-* FLASH token holders participate in platform governance, voting on feature updates, policy changes, and fund allocations.
-* Community members contribute to open-source projects, documentation, or marketing efforts and earn FLASH tokens as rewards.
+## **2 - Staking**
 
-***
+Staking ensures ecosystem stability and incentivizes quality contributions.
 
-## :zap:Extension to Flashback Platform
+**Providers:** Storage providers must stake FLASH to signal their SLA commitment.
 
-To align the existing tier-based and transaction-fee business model with the FLASH token, we can layer in token-centric incentives, discounts, and governance mechanisms. Below is a proposal for how FLASH could be integrated at each stage of revenue and cost flows.
+A provider must stake a minimum of 1,000 FLASH to be elligible staking 500 FLASH gains higher visibility and trust in the ecosystem.
 
-### :books:Tier-Based Subscriptions with FLASH Integration
+* **For Oracles:** Oracles stake FLASH as collateral to ensure reliability in their off-chain data feeds.
+  * **Example:** An Oracle staking 1,000 FLASH validates high-value transactions and data streams.
 
-We will allow customers to pay in FLASH tokens and "lock in” a 20% discount by prepaying for their tier in FLASH tokens instead of fiat.
+### **2 - Rewards**
 
-If the user is a consumer of the Flashback DePin platform (having a staking collateral):
+Rewards incentivize storage providers and Oracles to ensure high performance and trustworthiness. Additionally to the payment, the storage providers will earn FLASH based on SLA compliance, uptime, and performance metrics. A provider maintaining 99.9% uptime receives a monthly reward of 10 FLASH per data unit.
 
-* Users can get tiers access for one year by adding FLASH tokens worth at least three times the annual plan cost in its staking collateral. As long as the tokens remain staked, they keep Pro Tier; if they withdraw them, they revert to their previous tier at the next billing cycle.\
-  Example: _The user of Flashback DePin is a consumer with a staking collateral of 100 FLASH. He is adding 300 FLASH in the collateral that corresponds to 3x the annual costs of Pro Tier. He receives 1 year free to his Flashback Platform account._
-* At the time of tier billing, we convert 1% of your payment back into FLASH for loyalty.
-* Because FLASH can be liquid and subject to market fluctuations, you can peg the FLASH-price of each plan to a moving 7-day average of the USD/FLASH rate. That way, consumers see a roughly stable FLASH price and avoid sudden token volatility.
-* Pay any add-ons in the paid tiers in FLASH with a discount of 20%.
+Consumers will earn rewards in the form of specific rebates by participating in the network and the scoring systems.&#x20;
 
-### :sparkler: “Data-Traffic Allowance” Overage with FLASH Integration
 
-If a consumer opts to pay overage in FLASH, they receive a sliding-scale discount:
 
-* 2% discount if they pay overage up to 1,000 GB in FLASH.
-* 5% discount for 1 TB – 100 TB in FLASH.
-* 10% discount for > 100 TB overage in FLASH.
+**Example:** A provider maintaining 99.9% uptime receives a monthly reward of 10 FLASH per data unit.
+
+* **Oracles:** Earn FLASH to validate data quality, SLA adherence, and other network parameters.
+  * **Example:** An Oracle verifying a data integrity check earns 5 FLASH per validation.
 
 ***
 
-## :ballot\_box: Utility & Governance Synergies
+3. **Penalties (Slashing):**\
+   Slashing ensures compliance by penalizing bad actors within the ecosystem.
+   * **Storage Providers:** Lose a portion of their staked FLASH for failing SLA terms (e.g., downtime or data loss).
+     * **Example:** A provider with significant downtime loses 20 FLASH from their stake.
+   * **Consumers:** Consumers breaching terms (e.g., fraud or misuse) face penalties deducted from escrowed FLASH.
 
-#### 4.1. Governance Participation & Voting Weight
+***
 
-* **FLASH-Weighted Voting:**\
-  • On protocol governance proposals (e.g., changing overage rates, adding new providers, adjusting weighting in the reputation formula), each holder’s vote is weighted by their staked FLASH amount.\
-  • To prevent concentration, introduce a quadratic-voting option for major changes: cost in FLASH ∝ (votes)², tempering whale dominance.
-* **Locked vs. Liquid Voting:**\
-  • Users who lock FLASH for 6–12 months earn “Voting Boosters” (×1.5 weight) but cannot unstake until their lock period ends. This encourages long-term alignment.
+4. **Staking:**\
+   Staking ensures ecosystem stability and incentivizes quality contributions.
+   * **For Providers:** Storage providers must stake FLASH to signal their commitment to SLAs.
+     * **Example:** A provider staking 500 FLASH gains higher visibility and trust in the ecosystem.
+   * **For Oracles:** Oracles stake FLASH as collateral to ensure reliability in their off-chain data feeds.
+     * **Example:** An Oracle staking 1,000 FLASH validates high-value transactions and data streams.
 
-#### 4.2. Community-Reward Pool & Bounties
+***
 
-* **Continuous Liquidity Mining for QoS Reporters:**\
-  • Dedicate a percentage of slashed tokens and transaction fees into a “Reporter Reward Pool.”\
-  • Consumers (and providers) who submit high-quality, timestamped, and verified QoS/SLA measurements can claim a small FLASH reward from this pool.\
-  • Helps seed early telemetry, builds trust in measurement integrity, and distributes tokens to active participants.
-* **Development Bounties & Open-Source Contributions:**\
-  • Fund flashback-related community efforts (e.g., writing SDKs, building monitoring dashboards) using a portion of staked tokens. Contributors receive FLASH for accepted PRs, documentation efforts, or bug fixes.
+5. **Governance:**\
+   FLASH holders influence ecosystem decisions, ensuring decentralized control.
+   * **Proposals:** FLASH holders vote on changes to SLA standards, pricing mechanisms, and more.
+     * **Example:** A vote on adjusting the penalty rate for SLA violations requires participation from staked FLASH holders.
 
-By weaving FLASH into both the tiered subscription logic and the per-GB transaction fees, Flashback can turn token usage into a core lever for both revenue optimization and network effects—driving consistent token demand, rewarding honest behavior, and fostering long-term alignment between consumers, providers, and the platform itself.
+***
 
+#### **Token Flows**
 
+1. **Storage Transactions:**
+   * Consumers lock FLASH in escrow via the Orchestrator Smart Contract to reserve storage.
+   * Payments are released to providers upon successful SLA completion, verified by Oracles.
+   * **Example Flow:**
+     * **Consumer:** Locks 100 FLASH for a 1TB reservation.
+     * **Provider:** Receives 90 FLASH after SLA compliance.
+     * **Orchestrator Fee:** 5 FLASH is allocated to the Flashback treasury.
+     * **Oracle:** Earns 5 FLASH for validating SLA adherence.
 
+***
+
+2. **Rewards Distribution:**
+   * Providers and Oracles earn FLASH for contributing to ecosystem health.
+   * **Example Flow:**
+     * A provider maintaining 99.9% uptime earns 50 FLASH in monthly rewards.
+     * An Oracle verifying 100 SLAs earns 10 FLASH.
+   * Rewards are sourced from transaction fees and ecosystem incentives.
+
+***
+
+3. **Penalty and Slashing Mechanisms:**
+   * FLASH is slashed from providers or consumers failing to meet SLA terms.
+   * Slashed tokens are redistributed as rewards or burned to ensure token scarcity.
+   * **Example Flow:**
+     * A provider fails to meet uptime SLA, losing 10% of their staked 500 FLASH.
+     * 50% of the slashed tokens (25 FLASH) is redistributed to compliant providers, and the remaining 25 FLASH is burned.
+
+***
+
+4. **Ecosystem Fees:**
+   * A percentage of each transaction is allocated to the Flashback treasury for development, marketing, and governance activities.
+   * **Example Flow:**
+     * 5% of all storage payments go to the treasury. A consumer paying 200 FLASH contributes 10 FLASH to ecosystem development.
+
+***
+
+5. **Governance Token Flow:**
+   * FLASH holders stake tokens to participate in governance proposals and voting.
+   * **Example Flow:**
+     * A governance proposal to adjust SLA metrics is submitted. FLASH holders stake a combined 1,000,000 FLASH to vote, with rewards distributed to active participants.

@@ -1,6 +1,6 @@
 # Data Unit
 
-<figure><img src="../../.gitbook/assets/Flashback Ecosystem Diagrams (20).jpg" alt=""><figcaption><p>This diagram represents the simplifed data unit submission workflow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Flashback Ecosystem Diagrams (20).jpg" alt=""><figcaption><p>This diagram represents the simplifed data unit submission workflow.</p></figcaption></figure>
 
 ## **Data Unit: What is it?**
 
@@ -8,17 +8,39 @@ The data unit is not only a storage capacity or compute service offered by the p
 
 This elementary reservation is to build a system where the user controls their expenses and their needs. At the same time, it ensures the Providers monitor more efficiently the security and the distribution of data in its infrastructure. By extension, this can enable Providers to supply unused capacity from their infrastructure.
 
+## Steps of the Data Unit Allocation
+
+{% stepper %}
+{% step %}
+### Initial Submission
+
+**Each provider has specific "Data Units,"** representing discrete storage capacities or compute services (e.g., S3-compatible, GCS-compatible, or other certified protocols). **Providers submits their Data Units with the API of the Flashback DePin Platform** to make their services available for reservation. This offer will then be submitted in the smart contracts by waiting for the allocation by a Consumer.
+
+The submission of a deal requires the payment of [Unit Deal Submission Fees](../tokenomics.md). The Provider may choose to pay additional fees called [Unit Priority Fees](../tokenomics.md).&#x20;
+{% endstep %}
+
+{% step %}
+### Allocation by Consumer
+
+Consumer allocation is a two-step process:
+
+* **Selection**: Cela consiste à choisir dans la liste des Data Units possibles dans la Marketplace&#x20;
+{% endstep %}
+{% endstepper %}
+
 ### **Actions from Providers**
 
-**Each provider has specific "Data Units,"** representing discrete storage capacities or compute services (e.g., S3-compatible, GCS-compatible, or other certified protocols). This elementary reservation is to build a system where the user controls their expenses and their needs. At the same time, it ensures the providers monitor more efficiently the security and the distribution of data in its infrastructure. **Providers submits their Data Units with the API of the Flashback DePin Platform** to make their services available for reservation. This offer will then be submitted in the smart contracts by waiting for the allocation by a Consumer.
+**Each provider has specific "Data Units,"** representing discrete storage capacities or compute services (e.g., S3-compatible, GCS-compatible, or other certified protocols). This elementary reservation is to build a system where the user controls their expenses and their needs. At the same time, it ensures the providers monitor more efficiently the security and the distribution of data in its infrastructure. \
+\
+**Providers submits their Data Units with the API of the Flashback DePin Platform** to make their services available for reservation. This offer will then be submitted in the smart contracts by waiting for the allocation by a Consumer.
 
-## Consumers
+Once the Data Unit has been reserved by a Consumer&#x20;
+
+### **Actions from Consumers**
 
 Individuals, businesses, or applications requiring storage services rely on the **Scoring** system to select providers based on reliability, performance, and cost. Scoring ensures providers are ranked fairly and transparently based on their SLA compliance, and QoS metrics, but also from the quality report of consumers.&#x20;
 
-Consumers can analyze the performances of providers with the QoS metrics and select what best fits them within the data units. They represent entities (businesses or users) utilizing the storage services provided by the platform.
-
-A Light Node is installed on the consumer side to support the interactions with the platform.
+Consumers can analyze the performances of providers with the QoS metrics and select what best fits them within the data units. They represent entities (businesses or users) utilizing the storage services provided by the platform.&#x20;
 
 ***
 
