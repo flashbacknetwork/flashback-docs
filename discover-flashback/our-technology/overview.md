@@ -1,6 +1,6 @@
 # Overview
 
-<figure><img src="../../.gitbook/assets/Flashback Ecosystem Diagrams (22).jpg" alt=""><figcaption><p>Quick Overview of the interactions between Flashback DePin, providers, and consumers</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Flashback Ecosystem Diagrams (23).jpg" alt=""><figcaption><p>Quick Overview of the interactions between Flashback DePin, providers, and consumers</p></figcaption></figure>
 
 The rise of Web3 technologies has led to the emergence of innovative concepts that challenge traditional models. Decentralized networks have paved the way for new solutions, offering greater transparency, security, and efficiency.
 
