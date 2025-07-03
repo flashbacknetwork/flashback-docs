@@ -58,4 +58,8 @@ The Bridge Node will play an essential role in our infrastructure. Indeed, this 
 
 After installing the Bridge Node in its infrastructure via the Flashback DePin platform, the Provider can reference its Bridge Node by submitting the necessary information to the smart contracts via the APIs or the platform interface. The Provider can then submit its Data Units.
 
+The procedure for installing a Bridge Node is as follows:
+
+*
+
 \
