@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📄 Welcome](README.md)
+* [📄 DePin Solution Documentation](README.md)
 
 ## GETTING STARTED
 
